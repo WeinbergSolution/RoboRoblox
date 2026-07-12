@@ -9,6 +9,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"339918618"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{0.439, 0.898}},
     },
     [2] = {
         NodeId = 3178,
@@ -20,5 +21,6 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"339918618"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.439, -0.898}, {0.437, 0.9}},
     },
 }

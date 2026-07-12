@@ -197,8 +197,6 @@ def export_junctions(origin):
         coords = feature["geometry"]["coordinates"]
         
         if geom_type == "LineString":
-            # For each point in the line (we only care about endpoints or actually ALL points for intersections? The prompt says "Pro Straßenendpunkt bzw. OSM-Node")
-            # Usually intersections happen at the ends of segments or shared points in the middle. We'll check all points.
             for i, c in enumerate(coords):
                 cx = round(c[0] - origin[0], 2)
                 cy = round(c[1] - origin[1], 2)
@@ -208,6 +206,7 @@ def export_junctions(origin):
                     nodes[key] = {
                         "LocalPositionMeters": [cx, cy],
                         "ConnectedRoadIds": set(),
+                        "Vectors": [],
                         "RoadClasses": set(),
                         "Widths": [],
                         "Layer": layer,
@@ -220,11 +219,21 @@ def export_junctions(origin):
                 nodes[key]["RoadClasses"].add(rc)
                 nodes[key]["Widths"].append(width)
                 
-    # Filter only nodes with Degree >= 3 OR Degree >= 1 (we need dead ends too? Prompt says Degree 1 = DeadEnd, 3 = TJunction etc)
-    # Actually, if we only take endpoints, degree is count of unique roads. But a continuous road might have multiple segments.
-    # To keep it simple, we just export all nodes that have Degree >= 1.
-    # We will chunk them by 250m tiles
-    
+                # Calculate outgoing vectors
+                if i > 0:
+                    dx = coords[i-1][0] - c[0]
+                    dy = coords[i-1][1] - c[1]
+                    mag = math.sqrt(dx*dx + dy*dy)
+                    if mag > 0:
+                        nodes[key]["Vectors"].append([round(dx/mag, 3), round(dy/mag, 3)])
+                
+                if i < len(coords) - 1:
+                    dx = coords[i+1][0] - c[0]
+                    dy = coords[i+1][1] - c[1]
+                    mag = math.sqrt(dx*dx + dy*dy)
+                    if mag > 0:
+                        nodes[key]["Vectors"].append([round(dx/mag, 3), round(dy/mag, 3)])
+                
     chunks = {}
     junction_id = 1
     
@@ -273,7 +282,11 @@ def export_junctions(origin):
             lua_content += f"        ConnectedRoadIds = {{{roads_str}}},\n"
             
             widths_str = ", ".join([str(w) for w in node["Widths"]])
-            lua_content += f"        WidthsStuds = {{{widths_str}}},\n" # Width is in meters, will be scaled in Lua
+            lua_content += f"        WidthsStuds = {{{widths_str}}},\n"
+            
+            vecs = node.get("Vectors", [])
+            vecs_str = ", ".join([f"{{{v[0]}, {v[1]}}}" for v in vecs])
+            lua_content += f"        Vectors = {{{vecs_str}}},\n"
             
             lua_content += "    },\n"
         lua_content += "}\n"

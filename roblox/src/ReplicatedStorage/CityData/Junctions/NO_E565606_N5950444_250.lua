@@ -9,6 +9,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"375553007"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{-0.047, 0.999}, {0.118, -0.993}},
     },
     [2] = {
         NodeId = 3419,
@@ -20,6 +21,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"375553007"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{-0.118, 0.993}, {0.118, -0.993}},
     },
     [3] = {
         NodeId = 3420,
@@ -31,6 +33,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"375553007"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{-0.118, 0.993}},
     },
     [4] = {
         NodeId = 3421,
@@ -42,6 +45,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"375553757"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{-0.068, 0.998}},
     },
     [5] = {
         NodeId = 3422,
@@ -53,6 +57,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"375553757"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{0.068, -0.998}, {-0.1, 0.995}},
     },
     [6] = {
         NodeId = 3423,
@@ -64,6 +69,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"375553757"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{0.1, -0.995}, {-0.111, 0.994}},
     },
     [7] = {
         NodeId = 3839,
@@ -75,6 +81,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"730886506"},
         WidthsStuds = {14.0},
+        Vectors = {{-0.041, 0.999}},
     },
     [8] = {
         NodeId = 3840,
@@ -86,6 +93,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"730886506"},
         WidthsStuds = {14.0},
+        Vectors = {{0.041, -0.999}, {-0.111, 0.994}},
     },
     [9] = {
         NodeId = 3841,
@@ -97,6 +105,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"730886506"},
         WidthsStuds = {14.0},
+        Vectors = {{0.111, -0.994}, {-0.074, 0.997}},
     },
     [10] = {
         NodeId = 3842,
@@ -108,5 +117,6 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"730886506"},
         WidthsStuds = {14.0},
+        Vectors = {{0.074, -0.997}, {-0.09, 0.996}},
     },
 }

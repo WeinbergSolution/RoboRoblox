@@ -9,6 +9,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"832302745", "31860411", "26926847"},
         WidthsStuds = {7.8400012544002005, 7.8400012544002005, 7.8400012544002005},
+        Vectors = {{0.947, -0.321}, {0.37, 0.929}, {-0.973, 0.232}},
     },
     [2] = {
         NodeId = 144,
@@ -20,6 +21,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926849", "832302745", "31891187"},
         WidthsStuds = {7.8400012544002005, 5.999999999999999, 7.8400012544002005},
+        Vectors = {{-0.173, -0.985}, {-0.496, 0.868}, {0.732, -0.681}},
     },
     [3] = {
         NodeId = 145,
@@ -31,6 +33,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926849"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{0.173, 0.985}, {0.014, -1.0}},
     },
     [4] = {
         NodeId = 146,
@@ -42,6 +45,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926849"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.014, 1.0}, {0.046, -0.999}},
     },
     [5] = {
         NodeId = 147,
@@ -53,6 +57,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926849"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.046, 0.999}, {0.099, -0.995}},
     },
     [6] = {
         NodeId = 185,
@@ -64,6 +69,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926858", "31891187"},
         WidthsStuds = {7.8400012544002005, 5.999999999999999},
+        Vectors = {{-0.791, -0.612}, {0.632, -0.775}, {-0.652, 0.758}},
     },
     [7] = {
         NodeId = 188,
@@ -75,6 +81,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859", "31891187"},
         WidthsStuds = {7.8400012544002005, 5.999999999999999},
+        Vectors = {{0.999, -0.046}, {0.268, -0.963}, {-0.261, 0.965}},
     },
     [8] = {
         NodeId = 189,
@@ -86,6 +93,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859", "26926861"},
         WidthsStuds = {7.8400012544002005, 7.8400012544002005},
+        Vectors = {{-0.999, 0.046}, {0.999, -0.048}, {-0.028, -1.0}},
     },
     [9] = {
         NodeId = 190,
@@ -97,6 +105,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.999, 0.048}, {1.0, 0.014}},
     },
     [10] = {
         NodeId = 191,
@@ -108,6 +117,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-1.0, -0.014}, {0.989, 0.145}},
     },
     [11] = {
         NodeId = 192,
@@ -119,6 +129,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.989, -0.145}, {0.977, 0.214}},
     },
     [12] = {
         NodeId = 193,
@@ -130,6 +141,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.977, -0.214}, {0.983, 0.185}},
     },
     [13] = {
         NodeId = 194,
@@ -141,6 +153,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.983, -0.185}, {0.993, 0.115}},
     },
     [14] = {
         NodeId = 195,
@@ -152,6 +165,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.993, -0.115}, {0.999, 0.054}},
     },
     [15] = {
         NodeId = 196,
@@ -163,6 +177,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.999, -0.054}, {1.0, -0.014}},
     },
     [16] = {
         NodeId = 197,
@@ -174,6 +189,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-1.0, 0.014}, {0.999, -0.046}},
     },
     [17] = {
         NodeId = 198,
@@ -185,6 +201,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.999, 0.046}, {1.0, -0.006}},
     },
     [18] = {
         NodeId = 199,
@@ -196,6 +213,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-1.0, 0.006}, {0.997, 0.079}},
     },
     [19] = {
         NodeId = 200,
@@ -207,6 +225,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.997, -0.079}, {0.987, 0.164}},
     },
     [20] = {
         NodeId = 201,
@@ -218,6 +237,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.987, -0.164}, {0.969, 0.249}},
     },
     [21] = {
         NodeId = 202,
@@ -229,6 +249,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.969, -0.249}, {0.943, 0.333}},
     },
     [22] = {
         NodeId = 203,
@@ -240,6 +261,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.943, -0.333}, {0.914, 0.405}},
     },
     [23] = {
         NodeId = 204,
@@ -251,6 +273,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.914, -0.405}, {0.875, 0.483}},
     },
     [24] = {
         NodeId = 205,
@@ -262,6 +285,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859", "26926860"},
         WidthsStuds = {7.8400012544002005, 7.8400012544002005},
+        Vectors = {{-0.875, -0.483}, {0.872, 0.49}, {-0.047, -0.999}},
     },
     [25] = {
         NodeId = 206,
@@ -273,6 +297,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.872, -0.49}, {0.832, 0.555}},
     },
     [26] = {
         NodeId = 207,
@@ -284,6 +309,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.832, -0.555}, {0.806, 0.592}},
     },
     [27] = {
         NodeId = 208,
@@ -295,6 +321,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.806, -0.592}, {0.833, 0.554}},
     },
     [28] = {
         NodeId = 209,
@@ -306,6 +333,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.833, -0.554}, {0.882, 0.471}},
     },
     [29] = {
         NodeId = 210,
@@ -317,6 +345,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.882, -0.471}, {0.927, 0.375}},
     },
     [30] = {
         NodeId = 211,
@@ -328,6 +357,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.927, -0.375}, {0.957, 0.29}},
     },
     [31] = {
         NodeId = 212,
@@ -339,6 +369,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.957, -0.29}, {0.981, 0.194}},
     },
     [32] = {
         NodeId = 213,
@@ -350,6 +381,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.981, -0.194}, {0.995, 0.1}},
     },
     [33] = {
         NodeId = 214,
@@ -361,6 +393,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.995, -0.1}, {1.0, 0.004}},
     },
     [34] = {
         NodeId = 215,
@@ -372,6 +405,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-1.0, -0.004}, {0.999, -0.047}},
     },
     [35] = {
         NodeId = 216,
@@ -383,6 +417,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859", "1320432756"},
         WidthsStuds = {7.8400012544002005, 7.8400012544002005},
+        Vectors = {{-0.999, 0.047}, {0.999, -0.047}, {-0.047, -0.999}},
     },
     [36] = {
         NodeId = 217,
@@ -394,6 +429,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926859", "928859284"},
         WidthsStuds = {7.8400012544002005, 1.680000268800043},
+        Vectors = {{-0.999, 0.047}, {0.999, -0.046}, {0.071, -0.997}},
     },
     [37] = {
         NodeId = 218,
@@ -405,6 +441,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"161919795", "26926859"},
         WidthsStuds = {7.8400012544002005, 2.0},
+        Vectors = {{-0.999, 0.046}, {0.991, 0.131}},
     },
     [38] = {
         NodeId = 219,
@@ -416,6 +453,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{0.047, 0.999}, {0.018, -1.0}},
     },
     [39] = {
         NodeId = 220,
@@ -427,6 +465,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.018, 1.0}, {0.152, -0.988}},
     },
     [40] = {
         NodeId = 221,
@@ -438,6 +477,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.152, 0.988}, {0.275, -0.962}},
     },
     [41] = {
         NodeId = 222,
@@ -449,6 +489,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.275, 0.962}, {0.4, -0.917}},
     },
     [42] = {
         NodeId = 223,
@@ -460,6 +501,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.4, 0.917}, {0.46, -0.888}},
     },
     [43] = {
         NodeId = 224,
@@ -471,6 +513,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"1320407931", "26926860"},
         WidthsStuds = {7.8400012544002005, 7.8400012544002005},
+        Vectors = {{-0.46, 0.888}, {0.46, -0.888}, {-0.896, -0.443}},
     },
     [44] = {
         NodeId = 225,
@@ -482,6 +525,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.46, 0.888}, {0.519, -0.855}},
     },
     [45] = {
         NodeId = 226,
@@ -493,6 +537,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.519, 0.855}, {0.623, -0.782}},
     },
     [46] = {
         NodeId = 227,
@@ -504,6 +549,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.623, 0.782}, {0.721, -0.693}},
     },
     [47] = {
         NodeId = 228,
@@ -515,6 +561,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.721, 0.693}, {0.802, -0.597}},
     },
     [48] = {
         NodeId = 229,
@@ -526,6 +573,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.802, 0.597}, {0.879, -0.478}},
     },
     [49] = {
         NodeId = 230,
@@ -537,6 +585,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.879, 0.478}, {0.93, -0.368}},
     },
     [50] = {
         NodeId = 231,
@@ -548,6 +597,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.93, 0.368}, {0.97, -0.242}},
     },
     [51] = {
         NodeId = 232,
@@ -559,6 +609,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.97, 0.242}, {0.994, -0.106}},
     },
     [52] = {
         NodeId = 233,
@@ -570,6 +621,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.994, 0.106}, {0.999, -0.047}},
     },
     [53] = {
         NodeId = 234,
@@ -581,6 +633,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.999, 0.047}, {0.995, -0.102}},
     },
     [54] = {
         NodeId = 235,
@@ -592,6 +645,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.995, 0.102}, {0.976, -0.217}},
     },
     [55] = {
         NodeId = 236,
@@ -603,6 +657,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.976, 0.217}, {0.948, -0.318}},
     },
     [56] = {
         NodeId = 237,
@@ -614,6 +669,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.948, 0.318}, {0.904, -0.427}},
     },
     [57] = {
         NodeId = 238,
@@ -625,6 +681,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"928859284", "26926860"},
         WidthsStuds = {7.8400012544002005, 1.680000268800043},
+        Vectors = {{-0.904, 0.427}, {0.908, -0.418}, {-0.266, 0.964}},
     },
     [58] = {
         NodeId = 239,
@@ -636,6 +693,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.908, 0.418}, {0.852, -0.523}},
     },
     [59] = {
         NodeId = 240,
@@ -647,6 +705,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.852, 0.523}, {0.787, -0.616}},
     },
     [60] = {
         NodeId = 241,
@@ -658,6 +717,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.787, 0.616}, {0.712, -0.702}},
     },
     [61] = {
         NodeId = 242,
@@ -669,6 +729,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.712, 0.702}, {0.674, -0.738}},
     },
     [62] = {
         NodeId = 243,
@@ -680,6 +741,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.674, 0.738}, {0.63, -0.776}},
     },
     [63] = {
         NodeId = 244,
@@ -691,6 +753,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.63, 0.776}, {0.536, -0.844}},
     },
     [64] = {
         NodeId = 245,
@@ -702,6 +765,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.536, 0.844}, {0.427, -0.904}},
     },
     [65] = {
         NodeId = 246,
@@ -713,6 +777,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.427, 0.904}, {0.321, -0.947}},
     },
     [66] = {
         NodeId = 247,
@@ -724,6 +789,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926860"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.321, 0.947}, {0.264, -0.964}},
     },
     [67] = {
         NodeId = 248,
@@ -735,6 +801,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31860411", "26926860"},
         WidthsStuds = {7.8400012544002005, 7.8400012544002005},
+        Vectors = {{-0.264, 0.964}, {0.264, -0.964}},
     },
     [68] = {
         NodeId = 249,
@@ -746,6 +813,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926861"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{0.028, 1.0}, {0.086, -0.996}},
     },
     [69] = {
         NodeId = 250,
@@ -757,6 +825,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926861"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.086, 0.996}, {0.289, -0.957}},
     },
     [70] = {
         NodeId = 251,
@@ -768,6 +837,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926861"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.289, 0.957}, {0.442, -0.897}},
     },
     [71] = {
         NodeId = 252,
@@ -779,6 +849,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926861", "178872374"},
         WidthsStuds = {7.8400012544002005, 2.0},
+        Vectors = {{-0.442, 0.897}, {0.441, -0.897}, {-0.894, -0.447}},
     },
     [72] = {
         NodeId = 253,
@@ -790,6 +861,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"1320407931", "26926861"},
         WidthsStuds = {7.8400012544002005, 7.8400012544002005},
+        Vectors = {{-0.441, 0.897}, {0.442, -0.897}, {0.896, 0.443}},
     },
     [73] = {
         NodeId = 254,
@@ -801,6 +873,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926861"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.442, 0.897}},
     },
     [74] = {
         NodeId = 286,
@@ -812,6 +885,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926870"},
         WidthsStuds = {2.0},
+        Vectors = {{-0.994, -0.113}, {0.929, -0.371}},
     },
     [75] = {
         NodeId = 287,
@@ -823,6 +897,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"26926870"},
         WidthsStuds = {2.0},
+        Vectors = {{-0.929, 0.371}, {0.303, -0.953}},
     },
     [76] = {
         NodeId = 902,
@@ -834,6 +909,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"832302746", "31860411"},
         WidthsStuds = {7.8400012544002005, 2.0},
+        Vectors = {{0.37, 0.929}, {-0.37, -0.929}, {0.964, -0.266}},
     },
     [77] = {
         NodeId = 1257,
@@ -845,6 +921,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.496, -0.868}, {-0.45, 0.893}},
     },
     [78] = {
         NodeId = 1258,
@@ -856,6 +933,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.45, -0.893}, {-0.459, 0.888}},
     },
     [79] = {
         NodeId = 1259,
@@ -867,6 +945,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.459, -0.888}, {-0.417, 0.909}},
     },
     [80] = {
         NodeId = 1260,
@@ -878,6 +957,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187", "178872374"},
         WidthsStuds = {5.999999999999999, 2.0},
+        Vectors = {{0.417, -0.909}, {-0.361, 0.933}, {0.894, 0.447}},
     },
     [81] = {
         NodeId = 1261,
@@ -889,6 +969,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.361, -0.933}, {-0.324, 0.946}},
     },
     [82] = {
         NodeId = 1262,
@@ -900,6 +981,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.324, -0.946}, {-0.255, 0.967}},
     },
     [83] = {
         NodeId = 1263,
@@ -911,6 +993,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.255, -0.967}, {-0.108, 0.994}},
     },
     [84] = {
         NodeId = 1264,
@@ -922,6 +1005,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.108, -0.994}, {0.022, 1.0}},
     },
     [85] = {
         NodeId = 1265,
@@ -933,6 +1017,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{-0.022, -1.0}, {0.051, 0.999}},
     },
     [86] = {
         NodeId = 1266,
@@ -944,6 +1029,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{-0.051, -0.999}, {-0.027, 1.0}},
     },
     [87] = {
         NodeId = 1267,
@@ -955,6 +1041,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.027, -1.0}, {-0.145, 0.989}},
     },
     [88] = {
         NodeId = 1268,
@@ -966,6 +1053,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.145, -0.989}, {-0.268, 0.963}},
     },
     [89] = {
         NodeId = 1269,
@@ -977,6 +1065,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.261, -0.965}, {-0.337, 0.941}},
     },
     [90] = {
         NodeId = 1270,
@@ -988,6 +1077,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.337, -0.941}, {-0.48, 0.878}},
     },
     [91] = {
         NodeId = 1271,
@@ -999,6 +1089,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.48, -0.878}, {-0.479, 0.878}},
     },
     [92] = {
         NodeId = 1272,
@@ -1010,6 +1101,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.479, -0.878}, {-0.56, 0.829}},
     },
     [93] = {
         NodeId = 1273,
@@ -1021,6 +1113,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"31891187"},
         WidthsStuds = {5.999999999999999},
+        Vectors = {{0.56, -0.829}, {-0.632, 0.775}},
     },
     [94] = {
         NodeId = 1274,
@@ -1032,6 +1125,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"974585147", "31891187"},
         WidthsStuds = {5.999999999999999, 7.8400012544002005},
+        Vectors = {{0.632, -0.775}, {-0.632, 0.775}, {0.858, 0.514}},
     },
     [95] = {
         NodeId = 2455,
@@ -1043,6 +1137,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"161919795"},
         WidthsStuds = {2.0},
+        Vectors = {{0.823, 0.569}, {-0.991, -0.131}},
     },
     [96] = {
         NodeId = 3086,
@@ -1054,6 +1149,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"246993516"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.91, 0.415}, {0.528, -0.849}},
     },
     [97] = {
         NodeId = 3087,
@@ -1065,6 +1161,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"246993516"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.528, 0.849}, {0.155, -0.988}},
     },
     [98] = {
         NodeId = 3088,
@@ -1076,6 +1173,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"246993516"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.155, 0.988}, {-0.378, -0.926}},
     },
     [99] = {
         NodeId = 3978,
@@ -1087,6 +1185,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"832302745"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.732, 0.681}, {0.851, -0.525}},
     },
     [100] = {
         NodeId = 3979,
@@ -1098,6 +1197,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"832302745"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.851, 0.525}, {0.934, -0.359}},
     },
     [101] = {
         NodeId = 3980,
@@ -1109,6 +1209,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"832302745"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.934, 0.359}, {0.973, -0.232}},
     },
     [102] = {
         NodeId = 4093,
@@ -1120,6 +1221,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"928859284", "1320432758"},
         WidthsStuds = {1.680000268800043, 1.680000268800043},
+        Vectors = {{0.266, -0.964}, {-0.266, 0.964}, {0.994, -0.113}},
     },
     [103] = {
         NodeId = 4094,
@@ -1131,6 +1233,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"928859284"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{0.266, -0.964}, {-0.584, 0.811}},
     },
     [104] = {
         NodeId = 4095,
@@ -1142,6 +1245,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"928859284", "1424597135"},
         WidthsStuds = {1.680000268800043, 1.680000268800043},
+        Vectors = {{0.584, -0.811}, {-0.174, 0.985}, {-0.891, 0.454}},
     },
     [105] = {
         NodeId = 4096,
@@ -1153,6 +1257,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"928859284"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{0.174, -0.985}, {-0.037, 0.999}},
     },
     [106] = {
         NodeId = 4097,
@@ -1164,6 +1269,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"928859284"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{0.037, -0.999}, {0.314, 0.949}},
     },
     [107] = {
         NodeId = 4098,
@@ -1175,6 +1281,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"928859284"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{-0.314, -0.949}, {0.457, 0.89}},
     },
     [108] = {
         NodeId = 4099,
@@ -1186,6 +1293,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"928859284"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{-0.457, -0.89}, {0.211, 0.977}},
     },
     [109] = {
         NodeId = 4100,
@@ -1197,6 +1305,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"928859284"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{-0.211, -0.977}, {-0.071, 0.997}},
     },
     [110] = {
         NodeId = 4123,
@@ -1208,6 +1317,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"974585147"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.999, 0.051}},
     },
     [111] = {
         NodeId = 4124,
@@ -1219,6 +1329,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"974585147"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{0.999, -0.051}, {-0.999, -0.041}},
     },
     [112] = {
         NodeId = 4125,
@@ -1230,6 +1341,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"974585147"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{0.999, 0.041}, {-0.933, -0.361}},
     },
     [113] = {
         NodeId = 4126,
@@ -1241,6 +1353,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"974585147"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{0.933, 0.361}, {-0.858, -0.514}},
     },
     [114] = {
         NodeId = 4538,
@@ -1252,6 +1365,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"1320432756"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{0.047, 0.999}, {0.46, -0.888}},
     },
     [115] = {
         NodeId = 4539,
@@ -1263,6 +1377,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"1320432756"},
         WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.46, 0.888}, {0.999, -0.047}},
     },
     [116] = {
         NodeId = 4540,
@@ -1274,6 +1389,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"1320432756", "1424597135"},
         WidthsStuds = {7.8400012544002005, 1.680000268800043},
+        Vectors = {{-0.999, 0.047}, {0.982, -0.19}},
     },
     [117] = {
         NodeId = 4843,
@@ -1285,6 +1401,7 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"1424597135"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{0.891, -0.454}, {-0.963, 0.269}},
     },
     [118] = {
         NodeId = 4844,
@@ -1296,5 +1413,6 @@ return {
         Layer = "0",
         ConnectedRoadIds = {"1424597135"},
         WidthsStuds = {1.680000268800043},
+        Vectors = {{0.963, -0.269}, {-0.982, 0.19}},
     },
 }
