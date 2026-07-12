@@ -90,60 +90,7 @@ local flyButton: TextButton
 local toggleFly
 
 -- Noclip state management
-local function setNoclip(enabled)
-    local char = player.Character
-    if not char then return end
-    
-    if enabled then
-        for _, part in ipairs(char:GetDescendants()) do
-            if part:IsA("BasePart") and part.Name ~= "HumanoidRootPart" then
-                noclipOriginals[part] = part.CanCollide
-                part.CanCollide = false
-            end
-        end
-    else
-        for part, state in pairs(noclipOriginals) do
-            if part and part.Parent then
-                part.CanCollide = state
-            end
-        end
-        table.clear(noclipOriginals)
-    end
-end
-
--- Fly logic
-toggleFly = function()
-    local char = player.Character
-    if not char then return end
-    local hrp = char:FindFirstChild("HumanoidRootPart")
-    local hum = char:FindFirstChild("Humanoid")
-    if not hrp or not hum then return end
-    
-    isFlying = not isFlying
-    
-    if isFlying then
-        print("[RoboRoblox QA] Fly enabled")
-        oldAutoRotate = hum.AutoRotate
-        hum.AutoRotate = false
-        hum:ChangeState(Enum.HumanoidStateType.Physics)
-        setNoclip(true)
-        hrp.Velocity = Vector3.new(0, 0, 0)
-        flyStatusLabel.Text = "Fly: ON (Speed: 100)"
-        if flyButton then
-            flyButton.Text = "[FLY: ON]"
-        end
-    else
-        print("[RoboRoblox QA] Fly disabled")
-        hum.AutoRotate = oldAutoRotate
-        hum:ChangeState(Enum.HumanoidStateType.GettingUp)
-        setNoclip(false)
-        hrp.Velocity = Vector3.new(0, 0, 0)
-        flyStatusLabel.Text = "Fly: OFF"
-        if flyButton then
-            flyButton.Text = "[FLY: OFF]"
-        end
-    end
-end
+-- (Moved to FlyMode.local.lua)
 
 -- Teleports
 local function teleportToAbsolute(x, y, z)
@@ -151,7 +98,7 @@ local function teleportToAbsolute(x, y, z)
     if char and char:FindFirstChild("HumanoidRootPart") then
         local hrp = char.HumanoidRootPart
         hrp.CFrame = CFrame.new(x, y, z)
-        hrp.Velocity = Vector3.new(0, 0, 0)
+        hrp.AssemblyLinearVelocity = Vector3.zero
     end
 end
 
@@ -188,10 +135,6 @@ local function tpToDirection(offset)
 end
 
 -- Buttons
-flyButton = createButton("[FLY: OFF]", function()
-    toggleFly()
-end)
-
 createButton("[OVERVIEW]", overview)
 createButton("[CENTER]", function() tpToDirection(Vector3.new(0, 0, 0)) end)
 createButton("[NORTH]", function() tpToDirection(Vector3.new(0, 0, -1)) end)
@@ -200,56 +143,22 @@ createButton("[EAST]", function() tpToDirection(Vector3.new(1, 0, 0)) end)
 createButton("[WEST]", function() tpToDirection(Vector3.new(-1, 0, 0)) end)
 
 -- Input Bindings
-local function onFlyAction(actionName, state, input)
+local function onOverviewAction(actionName, state, input)
     if state == Enum.UserInputState.Begin then
-        if actionName == "QA_ToggleFly" then
-            toggleFly()
-        elseif actionName == "QA_Overview" then
+        if actionName == "QA_Overview" then
             overview()
         end
     end
     return Enum.ContextActionResult.Pass
 end
 
-ContextActionService:BindActionAtPriority("QA_ToggleFly", onFlyAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.F)
-ContextActionService:BindActionAtPriority("QA_Overview", onFlyAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.O)
-
-local function onMoveAction(actionName, state, input)
-    local isDown = (state == Enum.UserInputState.Begin or state == Enum.UserInputState.Change)
-    if state == Enum.UserInputState.End then isDown = false end
-    
-    if actionName == "QA_Forward" then flyKeys.W = isDown
-    elseif actionName == "QA_Backward" then flyKeys.S = isDown
-    elseif actionName == "QA_Left" then flyKeys.A = isDown
-    elseif actionName == "QA_Right" then flyKeys.D = isDown
-    elseif actionName == "QA_Up" then flyKeys.E = isDown
-    elseif actionName == "QA_Down" then flyKeys.Q = isDown
-    elseif actionName == "QA_Fast" then 
-        flyKeys.Shift = isDown
-        if isFlying then 
-            flyStatusLabel.Text = isDown and "Fly: ON (Speed: 350)" or "Fly: ON (Speed: 100)" 
-        end
-    end
-    return Enum.ContextActionResult.Pass
-end
-
-ContextActionService:BindActionAtPriority("QA_Forward", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.W)
-ContextActionService:BindActionAtPriority("QA_Backward", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.S)
-ContextActionService:BindActionAtPriority("QA_Left", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.A)
-ContextActionService:BindActionAtPriority("QA_Right", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.D)
-ContextActionService:BindActionAtPriority("QA_Up", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.E)
-ContextActionService:BindActionAtPriority("QA_Down", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Q)
-ContextActionService:BindActionAtPriority("QA_Fast", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.LeftShift)
+ContextActionService:BindActionAtPriority("QA_Overview", onOverviewAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.O)
 
 print("[RoboRoblox QA] Input actions bound")
 logLabel.Text = "Log: Input actions bound"
 
 -- Player / Character State
 player.CharacterAdded:Connect(function(char)
-    isFlying = false
-    table.clear(noclipOriginals)
-    if flyButton then flyButton.Text = "[FLY: OFF]" end
-    flyStatusLabel.Text = "Fly: OFF"
 end)
 
 local frames = 0
@@ -269,29 +178,6 @@ RunService.RenderStepped:Connect(function(dt)
     if char and char:FindFirstChild("HumanoidRootPart") then
         local hrp = char.HumanoidRootPart
         posLabel.Text = string.format(" Position: %.1f, %.1f, %.1f", hrp.Position.X, hrp.Position.Y, hrp.Position.Z)
-        
-        -- Fly logic override
-        if isFlying then
-            local camCFrame = camera.CFrame
-            local speed = flyKeys.Shift and 350 or 100
-            local moveDir = Vector3.new()
-            
-            if flyKeys.W then moveDir += camCFrame.LookVector end
-            if flyKeys.S then moveDir -= camCFrame.LookVector end
-            if flyKeys.D then moveDir += camCFrame.RightVector end
-            if flyKeys.A then moveDir -= camCFrame.RightVector end
-            if flyKeys.E then moveDir += Vector3.new(0, 1, 0) end
-            if flyKeys.Q then moveDir -= Vector3.new(0, 1, 0) end
-            
-            if moveDir.Magnitude > 0 then
-                moveDir = moveDir.Unit
-            end
-            
-            -- Keep against gravity if physics are running by setting velocity to counteract gravity
-            -- User requested: "kein globales Workspace.Gravity = 0. HumanoidRootPart direkt bewegen."
-            hrp.CFrame = CFrame.new(hrp.Position + moveDir * speed * dt)
-            hrp.Velocity = Vector3.new(0, 0, 0)
-        end
         
         -- Safe Respawn Floor (Y < -100)
         if hrp.Position.Y < -100 then
