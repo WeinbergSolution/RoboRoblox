@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 const BUILD_DIR = path.join(process.cwd(), 'roblox', 'builds');
-const buildFiles = fs.readdirSync(BUILD_DIR).filter(f => f.endsWith('.rbxlx')).sort();
+const buildFiles = fs.readdirSync(BUILD_DIR).filter(f => f.startsWith('Norderstedt_MVP_v') && f.endsWith('.rbxlx')).sort();
 
 if (buildFiles.length === 0) {
   console.error("Place-Integrity-Test FAILED: No .rbxlx builds found in roblox/builds/");
