@@ -86,21 +86,21 @@ def parse_road_width(w):
     
     hw_type = w.tags.get("highway", "default")
     defaults = {
-        "motorway": 14.0, "motorway_link": 7.0,
-        "trunk": 12.0, "trunk_link": 7.0,
-        "primary": 10.0, "primary_link": 6.5,
-        "secondary": 8.0, "secondary_link": 6.0,
-        "tertiary": 7.0, "tertiary_link": 5.5,
-        "residential": 6.0,
-        "unclassified": 5.5,
-        "living_street": 5.0,
-        "service": 3.5,
-        "track": 3.0,
-        "cycleway": 2.5,
-        "footway": 2.0,
-        "path": 1.8,
-        "pedestrian": 5.0,
-        "steps": 2.0
+        "motorway": 24.0, "motorway_link": 14.0,
+        "trunk": 20.0, "trunk_link": 12.0,
+        "primary": 18.0, "primary_link": 10.0,
+        "secondary": 14.0, "secondary_link": 10.0,
+        "tertiary": 12.0, "tertiary_link": 10.0,
+        "residential": 10.0,
+        "unclassified": 10.0,
+        "living_street": 8.0,
+        "service": 6.0,
+        "track": 5.0,
+        "cycleway": 4.0,
+        "footway": 4.0,
+        "path": 3.0,
+        "pedestrian": 8.0,
+        "steps": 4.0
     }
     class_default = defaults.get(hw_type, 4.0)
     

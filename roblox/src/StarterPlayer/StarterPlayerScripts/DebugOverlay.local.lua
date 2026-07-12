@@ -1,5 +1,3 @@
-print("[RoboRoblox QA] DebugOverlay LocalScript started")
-
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local ContextActionService = game:GetService("ContextActionService")
@@ -14,13 +12,7 @@ end
 local player = Players.LocalPlayer
 local camera = Workspace.CurrentCamera
 
-local cityData = ReplicatedStorage:WaitForChild("CityData")
-local manifest = require(cityData:WaitForChild("Manifest"))
-print("[RoboRoblox QA] Manifest loaded")
-
-local importStatusFolder = ReplicatedStorage:WaitForChild("CityImportStatus", 10)
-
--- 1. Setup UI
+-- 1. Setup UI INSTANTLY
 local gui = Instance.new("ScreenGui")
 gui.Name = "DebugOverlay"
 gui.ResetOnSpawn = false
@@ -63,9 +55,9 @@ local function createButton(text, callback)
     return btn
 end
 
-createLabel("RoboRoblox QA")
-createLabel("Coverage: " .. (manifest.Coverage or "Unknown"))
-createLabel("Scale: 1 m = " .. string.format("%.3f", manifest.MetersToStuds or 3.571) .. " studs")
+local headerLabel = createLabel("RoboRoblox QA - Loading...")
+local coverageLabel = createLabel("Coverage: ...")
+local scaleLabel = createLabel("Scale: ...")
 createLabel("F or button = Toggle Fly")
 createLabel("O or button = Overview")
 local flyStatusLabel = createLabel("Fly: OFF")
@@ -73,6 +65,46 @@ local posLabel = createLabel("Position: ...")
 local fpsLabel = createLabel("FPS: ...")
 local importStatusLabel = createLabel("Import: ...")
 local importStatsLabel = createLabel("Roads/Bldgs: ...")
+
+print("[RoboRoblox QA] DebugOverlay LocalScript started")
+
+-- Yielding for data asynchronously
+task.spawn(function()
+    local cityData = ReplicatedStorage:WaitForChild("CityData")
+    local manifest = require(cityData:WaitForChild("Manifest"))
+    print("[RoboRoblox QA] Manifest loaded")
+    
+    headerLabel.Text = " RoboRoblox QA"
+    coverageLabel.Text = " Coverage: " .. (manifest.Coverage or "Unknown")
+    scaleLabel.Text = " Scale: 1 m = " .. string.format("%.3f", manifest.MetersToStuds or 3.571) .. " studs"
+    
+    local importStatusFolder = ReplicatedStorage:WaitForChild("CityImportStatus", 10)
+    
+    local frames = 0
+    local lastUpdate = os.clock()
+    
+    RunService.RenderStepped:Connect(function(dt)
+        frames += 1
+        local now = os.clock()
+        if now - lastUpdate >= 1 then
+            fpsLabel.Text = " FPS: " .. tostring(frames)
+            frames = 0
+            lastUpdate = now
+            
+            if importStatusFolder then
+                local stateObj = importStatusFolder:FindFirstChild("State")
+                if stateObj then
+                    importStatusLabel.Text = " Import: " .. stateObj.Value
+                end
+                local rObj = importStatusFolder:FindFirstChild("RoadsCreated")
+                local bObj = importStatusFolder:FindFirstChild("BuildingsCreated")
+                if rObj and bObj then
+                    importStatsLabel.Text = string.format(" Roads: %d / Bldgs: %d", rObj.Value, bObj.Value)
+                end
+            end
+        end
+    end)
+end)
 
 -- 2. Fly Logic
 local isFlying = false
@@ -132,10 +164,16 @@ local function tpTo(offset)
     local char = player.Character
     if char and char:FindFirstChild("HumanoidRootPart") then
         local hrp = char.HumanoidRootPart
-        local cx = (manifest.LocalBoundsStuds.MinX + manifest.LocalBoundsStuds.MaxX) / 2
-        local cz = (manifest.LocalBoundsStuds.MinZ + manifest.LocalBoundsStuds.MaxZ) / 2
-        local w = manifest.LocalBoundsStuds.MaxX - manifest.LocalBoundsStuds.MinX
-        local d = manifest.LocalBoundsStuds.MaxZ - manifest.LocalBoundsStuds.MinZ
+        local cityData = ReplicatedStorage:FindFirstChild("CityData")
+        if not cityData then return end
+        local manifestMod = require(cityData:FindFirstChild("Manifest"))
+        local bounds = manifestMod.LocalBoundsStuds
+        if not bounds then return end
+        
+        local cx = (bounds.MinX + bounds.MaxX) / 2
+        local cz = (bounds.MinZ + bounds.MaxZ) / 2
+        local w = bounds.MaxX - bounds.MinX
+        local d = bounds.MaxZ - bounds.MinZ
         
         local tx = cx + offset.X * (w / 2 * 0.8)
         local tz = cz + offset.Z * (d / 2 * 0.8)
@@ -196,30 +234,7 @@ ContextActionService:BindActionAtPriority("QA_Up", onMoveAction, false, Enum.Con
 ContextActionService:BindActionAtPriority("QA_Down", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Q)
 ContextActionService:BindActionAtPriority("QA_Fast", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.LeftShift)
 
-local frames = 0
-local lastUpdate = os.clock()
-
 RunService.RenderStepped:Connect(function(dt)
-    frames += 1
-    local now = os.clock()
-    if now - lastUpdate >= 1 then
-        fpsLabel.Text = " FPS: " .. tostring(frames)
-        frames = 0
-        lastUpdate = now
-        
-        if importStatusFolder then
-            local stateObj = importStatusFolder:FindFirstChild("State")
-            if stateObj then
-                importStatusLabel.Text = "Import: " .. stateObj.Value
-            end
-            local rObj = importStatusFolder:FindFirstChild("RoadsCreated")
-            local bObj = importStatusFolder:FindFirstChild("BuildingsCreated")
-            if rObj and bObj then
-                importStatsLabel.Text = string.format("Roads: %d / Bldgs: %d", rObj.Value, bObj.Value)
-            end
-        end
-    end
-    
     local char = player.Character
     if char and char:FindFirstChild("HumanoidRootPart") then
         local hrp = char.HumanoidRootPart

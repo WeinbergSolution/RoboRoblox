@@ -64,20 +64,31 @@ local centerZ = (bounds.MinZ + bounds.MaxZ) / 2
 if math.abs(centerX) > 10000 or math.abs(centerZ) > 10000 then
     warn("Ground center coordinates too large, aborting ground creation to prevent floating point issues!")
 else
-    local ground = Instance.new("Part")
-    ground.Name = "PilotGround"
-    ground.Anchored = true
-    ground.CanCollide = true
-    ground.Material = Enum.Material.Grass
-    ground.Color = Color3.fromRGB(100, 150, 100)
-
     local sizeX = bounds.MaxX - bounds.MinX + 100
     local sizeZ = bounds.MaxZ - bounds.MinZ + 100
-
-    ground.Size = Vector3.new(sizeX, 1, sizeZ)
-    ground.CFrame = CFrame.new(centerX, -0.5, centerZ) -- Top at Y=0
-    ground:SetAttribute("CoordinateSpace", "LocalStuds")
-    ground.Parent = cityGeometry
+    
+    local TILE_SIZE = 1000
+    local startX = centerX - sizeX/2
+    local startZ = centerZ - sizeZ/2
+    
+    for tx = 0, math.ceil(sizeX / TILE_SIZE) - 1 do
+        for tz = 0, math.ceil(sizeZ / TILE_SIZE) - 1 do
+            local ground = Instance.new("Part")
+            ground.Name = "PilotGround_" .. tx .. "_" .. tz
+            ground.Anchored = true
+            ground.CanCollide = true
+            ground.Material = Enum.Material.Grass
+            ground.Color = Color3.fromRGB(100, 150, 100)
+            
+            local w = math.min(TILE_SIZE, sizeX - tx * TILE_SIZE)
+            local d = math.min(TILE_SIZE, sizeZ - tz * TILE_SIZE)
+            
+            ground.Size = Vector3.new(w, 1, d)
+            ground.CFrame = CFrame.new(startX + tx * TILE_SIZE + w/2, -0.5, startZ + tz * TILE_SIZE + d/2)
+            ground:SetAttribute("CoordinateSpace", "LocalStuds")
+            ground.Parent = cityGeometry
+        end
+    end
 end
 
 local function createPart(name, parent, color, material, canCollide)
