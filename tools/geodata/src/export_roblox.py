@@ -24,7 +24,32 @@ def export_manifest():
     lua_content = "return {\n"
     lua_content += f"    Source = \"{manifest['source']}\",\n"
     lua_content += f"    FetchTime = \"{manifest['fetch_time']}\",\n"
-    lua_content += f"    Origin = {{{manifest['roblox_origin'][0]:.2f}, {manifest['roblox_origin'][1]:.2f}}},\n"
+    lua_content += f"    OriginMeters = {{{manifest['roblox_origin'][0]:.2f}, {manifest['roblox_origin'][1]:.2f}}},\n"
+    lua_content += f"    MetersToStuds = {manifest['MetersToStuds']},\n"
+    
+    pb_m = manifest['PilotBoundsMeters']
+    lua_content += "    PilotBoundsMeters = {\n"
+    lua_content += f"        MinX = {pb_m['MinX']:.2f}, MinZ = {pb_m['MinZ']:.2f},\n"
+    lua_content += f"        MaxX = {pb_m['MaxX']:.2f}, MaxZ = {pb_m['MaxZ']:.2f}\n"
+    lua_content += "    },\n"
+    
+    pb_s = manifest['PilotBoundsStuds']
+    lua_content += "    PilotBoundsStuds = {\n"
+    lua_content += f"        MinX = {pb_s['MinX']:.2f}, MinZ = {pb_s['MinZ']:.2f},\n"
+    lua_content += f"        MaxX = {pb_s['MaxX']:.2f}, MaxZ = {pb_s['MaxZ']:.2f}\n"
+    lua_content += "    },\n"
+    
+    lua_content += f"    Coverage = \"{manifest['Coverage']}\",\n"
+    lua_content += f"    IsFullNorderstedt = {'true' if manifest['IsFullNorderstedt'] else 'false'},\n"
+    
+    c = manifest['counts']
+    lua_content += "    Counts = {\n"
+    lua_content += f"        Roads = {c['roads']},\n"
+    lua_content += f"        Buildings = {c['buildings']},\n"
+    lua_content += f"        Rail = {c['rail']},\n"
+    lua_content += f"        Water = {c['water']},\n"
+    lua_content += f"        Green = {c['green']}\n"
+    lua_content += "    }\n"
     lua_content += "}\n"
     
     with open(ROBLOX_SRC_DIR / "Manifest.lua", "w", encoding="utf-8") as f:

@@ -28,12 +28,6 @@
       "$properties": {
         "StreamingEnabled": true
       },
-      "SpawnLocation": {
-        "$className": "SpawnLocation",
-        "$properties": {
-          "Position": [0, 10, 0]
-        }
-      },
       "CityGeometry": {
         "$className": "Folder"
       }

@@ -45,7 +45,36 @@ function App() {
     mapRef.current = initialMap
 
     initialMap.on('load', () => {
-      // BBox
+      // Full Norderstedt BBox (approx)
+      const fullBounds = [
+        [9.94, 53.65],
+        [10.06, 53.65],
+        [10.06, 53.75],
+        [9.94, 53.75],
+        [9.94, 53.65]
+      ]
+      initialMap.addSource('full-bbox', {
+        type: 'geojson',
+        data: {
+          type: 'Feature',
+          geometry: { type: 'Polygon', coordinates: [fullBounds] },
+          properties: {}
+        }
+      })
+      initialMap.addLayer({
+        id: 'full-bbox-fill',
+        type: 'fill',
+        source: 'full-bbox',
+        paint: { 'fill-color': '#444444', 'fill-opacity': 0.2 }
+      })
+      initialMap.addLayer({
+        id: 'full-bbox-line',
+        type: 'line',
+        source: 'full-bbox',
+        paint: { 'line-color': '#888888', 'line-dasharray': [2, 2], 'line-width': 2 }
+      })
+
+      // Pilot BBox
       initialMap.addSource('pilot-bbox', {
         type: 'geojson',
         data: {
@@ -64,10 +93,16 @@ function App() {
         }
       })
       initialMap.addLayer({
+        id: 'pilot-bbox-fill',
+        type: 'fill',
+        source: 'pilot-bbox',
+        paint: { 'fill-color': '#00ff00', 'fill-opacity': 0.1 }
+      })
+      initialMap.addLayer({
         id: 'pilot-bbox-line',
         type: 'line',
         source: 'pilot-bbox',
-        paint: { 'line-color': '#ff0000', 'line-width': 2 }
+        paint: { 'line-color': '#ff0000', 'line-width': 3 }
       })
 
       // Load Layers
@@ -136,12 +171,16 @@ function App() {
         <h1>Norderstedt City Importer MVP - Control Center</h1>
       </header>
       <div style={{ display: 'flex', flex: 1, overflow: 'hidden' }}>
-        <aside style={{ width: '350px', padding: '1rem', backgroundColor: '#f4f4f4', overflowY: 'auto' }}>
+        <aside style={{ width: '400px', padding: '1rem', backgroundColor: '#f4f4f4', overflowY: 'auto' }}>
           <h2>Status</h2>
+          <div style={{ padding: '0.5rem', marginBottom: '1rem', background: '#ffe0e0', border: '1px solid red', borderRadius: 4 }}>
+            <strong>Note:</strong> Current Roblox build contains only the Norderstedt-Mitte pilot. Rest of Norderstedt is "Not imported".
+          </div>
           {manifest ? (
             <ul>
               <li><span style={{color: 'green'}}>✔</span> Pilot Data Loaded</li>
-              <li>Source: {manifest.source}</li>
+              <li>Coverage: {manifest.Coverage || manifest.source}</li>
+              <li>Scale: 1 m = {manifest.MetersToStuds?.toFixed(3) || 3.571} studs</li>
               <li>Features:</li>
               <ul>
                 <li>Roads: {manifest.counts.roads}</li>
@@ -150,7 +189,6 @@ function App() {
                 <li>Water: {manifest.counts.water}</li>
                 <li>Green: {manifest.counts.green}</li>
               </ul>
-              <li>Roblox Origin: [{manifest.roblox_origin[0].toFixed(2)}, {manifest.roblox_origin[1].toFixed(2)}]</li>
             </ul>
           ) : (
             <p>Loading manifest...</p>

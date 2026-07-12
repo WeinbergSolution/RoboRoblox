@@ -1,0 +1,55 @@
+{
+  "source": "Geofabrik Schleswig-Holstein",
+  "fetch_time": "2026-07-12T14:08:15.426245Z",
+  "pbf_size_bytes": 156865792,
+  "pilot_bbox_wgs84": [
+    9.988,
+    53.7,
+    10.015,
+    53.715
+  ],
+  "pilot_bbox_epsg25832": [
+    565226.7294248777,
+    5950597.613850405,
+    566985.3567270794,
+    5952291.473428086
+  ],
+  "roblox_origin": [
+    566106.0430759785,
+    5951444.543639246
+  ],
+  "crs": "EPSG:25832",
+  "MetersToStuds": 3.571428,
+  "PilotBoundsMeters": {
+    "MinX": 565226.7294248777,
+    "MinZ": 5950597.613850405,
+    "MaxX": 566985.3567270794,
+    "MaxZ": 5952291.473428086
+  },
+  "PilotBoundsStuds": {
+    "MinX": 2018666.567816432,
+    "MinZ": 21252130.934838526,
+    "MaxX": 2024947.3786050796,
+    "MaxZ": 21258180.432362325
+  },
+  "Coverage": "Norderstedt-Mitte Pilot",
+  "IsFullNorderstedt": false,
+  "counts": {
+    "roads": 1293,
+    "buildings": 2890,
+    "rail": 21,
+    "water": 0,
+    "green": 0
+  },
+  "stats": {
+    "road_length_m": 86197.87200957708,
+    "tiles_500_count": 18,
+    "tiles_250_count": 65,
+    "errors": {
+      "invalid_geom": 0,
+      "transform": 0,
+      "clip": 0
+    },
+    "skipped": 0
+  }
+}
