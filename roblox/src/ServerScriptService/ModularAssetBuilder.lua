@@ -27,20 +27,20 @@ local function buildCrossJunction(assetName, roadWidth)
 	
 	-- 1. Base (Sidewalk Level)
 	-- We create a large square base for the sidewalk
-	local base = createPart("SidewalkBase", model, Config.Sidewalks.Color, Config.Sidewalks.Material, Vector3.new(totalWidth, Config.Sidewalks.Height, totalWidth), CFrame.new(0, Config.Sidewalks.Height/2, 0))
+	local base = createPart("SidewalkBase", model, Config.Colors.Pavement, Config.Materials.Pavement, Vector3.new(totalWidth, Config.Sidewalks.Height, totalWidth), CFrame.new(0, Config.Sidewalks.Height/2, 0))
 	
 	-- 2. Asphalt Surface (Cross)
 	-- The central asphalt square
-	local asphalt = createPart("AsphaltSurface", model, Config.Roads.Color, Config.Roads.Material, Vector3.new(roadWidth, Config.Roads.Height, roadWidth), CFrame.new(0, Config.Roads.Height/2 + 0.05, 0))
+	local asphalt = createPart("AsphaltSurface", model, Config.Colors.Asphalt, Config.Materials.Asphalt, Vector3.new(roadWidth, 0.4, roadWidth), CFrame.new(0, 0.4/2 + 0.05, 0))
 	
 	-- 3. Pedestrian Crosswalks (White Stripes)
 	-- We paint crosswalks on all 4 entries
 	for i = 0, 3 do
 		local angle = math.rad(i * 90)
 		local offset = (roadWidth / 2) - 2 -- 2 studs inward from the edge
-		local cframe = CFrame.new(0, Config.Roads.Height/2 + 0.1, 0) * CFrame.Angles(0, angle, 0) * CFrame.new(0, 0, offset)
+		local cframe = CFrame.new(0, 0.4/2 + 0.1, 0) * CFrame.Angles(0, angle, 0) * CFrame.new(0, 0, offset)
 		
-		local crosswalk = createPart("Crosswalk_"..i, model, Color3.fromRGB(200, 200, 200), Enum.Material.SmoothPlastic, Vector3.new(roadWidth - 4, 0.1, 4), cframe)
+		local crosswalk = createPart("Crosswalk_"..i, model, Config.Colors.MarkingWhite, Enum.Material.SmoothPlastic, Vector3.new(roadWidth - 4, 0.1, 4), cframe)
 		crosswalk.CanCollide = false
 	end
 	
@@ -59,11 +59,11 @@ local function buildTJunction(assetName, roadWidth)
 	local totalWidth = roadWidth + (swWidth * 2)
 	
 	-- Base
-	local base = createPart("SidewalkBase", model, Config.Sidewalks.Color, Config.Sidewalks.Material, Vector3.new(totalWidth, Config.Sidewalks.Height, totalWidth), CFrame.new(0, Config.Sidewalks.Height/2, 0))
+	local base = createPart("SidewalkBase", model, Config.Colors.Pavement, Config.Materials.Pavement, Vector3.new(totalWidth, Config.Sidewalks.Height, totalWidth), CFrame.new(0, Config.Sidewalks.Height/2, 0))
 	
 	-- Asphalt Surface (T-Shape)
 	-- Instead of a full cross, we just need a T. But a square asphalt piece is fine, the non-road side will just look like a driveway or we can cover it.
-	local asphalt = createPart("AsphaltSurface", model, Config.Roads.Color, Config.Roads.Material, Vector3.new(roadWidth, Config.Roads.Height, roadWidth), CFrame.new(0, Config.Roads.Height/2 + 0.05, 0))
+	local asphalt = createPart("AsphaltSurface", model, Config.Colors.Asphalt, Config.Materials.Asphalt, Vector3.new(roadWidth, 0.4, roadWidth), CFrame.new(0, 0.4/2 + 0.05, 0))
 	
 	-- Set Primary Part
 	model.PrimaryPart = asphalt
