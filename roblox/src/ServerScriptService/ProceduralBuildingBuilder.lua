@@ -45,7 +45,7 @@ function ProceduralBuildingBuilder.buildOBB(feature, folder, scale, scaleFactor)
 
 	-- Determine Building Type based on footprint area
 	local area = w * d
-	local isResidential = area < 500 -- Studs squared (roughly 500 sqm)
+	local isResidential = area < 3000 -- Increased threshold to ~22x22 meters
 	
 	-- Height Variation
 	local baseHeight = isResidential and 20 or 40
@@ -128,9 +128,10 @@ function ProceduralBuildingBuilder.buildOBB(feature, folder, scale, scaleFactor)
 		win.Name = "WindowStrip"
 		win.Anchored = true
 		win.Color = Color3.fromRGB(150, 200, 255)
-		win.Material = Enum.Material.Neon
+		win.Material = Enum.Material.Glass
+		win.Transparency = 0.4
 		-- Create a strip around the building
-		win.Size = Vector3.new(w + 0.2, h * 0.4, d + 0.2)
+		win.Size = Vector3.new(w + 0.2, h * 0.3, d + 0.2)
 		win.CFrame = base.CFrame * CFrame.new(0, h * 0.1, 0)
 		win.Parent = model
 	end
