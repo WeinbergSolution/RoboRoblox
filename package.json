@@ -8,6 +8,7 @@
   "scripts": {
     "dev:control-center": "pnpm --filter control-center run dev",
     "build:control-center": "pnpm --filter control-center run build",
-    "roblox:build": "rojo build roblox/default.project.json -o roblox/Norderstedt_MVP.rbxlx"
+    "roblox:build": "rojo build roblox/default.project.json -o roblox/Norderstedt_MVP.rbxlx",
+    "geodata:build": "cd tools/geodata && python -m uv run python src/pipeline.py && python -m uv run python src/export_roblox.py"
   }
 }

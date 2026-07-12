@@ -5,7 +5,7 @@
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
       "CityData": {
-        "$className": "Folder"
+        "$path": "src/ReplicatedStorage/CityData"
       }
     },
     "ServerScriptService": {
