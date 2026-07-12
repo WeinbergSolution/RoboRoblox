@@ -1,0 +1,26 @@
+return {
+    [1] = {
+        NodeId = 47698,
+        LocalPositionMeters = {-4235.99, 1062.16},
+        Degree = 1,
+        JunctionType = "DeadEnd",
+        IsBridge = false,
+        IsTunnel = false,
+        Layer = "0",
+        ConnectedRoadIds = {"1446952035"},
+        WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.897, -0.443}, {0.939, -0.343}},
+    },
+    [2] = {
+        NodeId = 47699,
+        LocalPositionMeters = {-4228.52, 1059.43},
+        Degree = 1,
+        JunctionType = "DeadEnd",
+        IsBridge = false,
+        IsTunnel = false,
+        Layer = "0",
+        ConnectedRoadIds = {"1446952035"},
+        WidthsStuds = {7.8400012544002005},
+        Vectors = {{-0.939, 0.343}},
+    },
+}

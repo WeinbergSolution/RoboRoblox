@@ -1,0 +1,92 @@
+return {
+    [1] = {
+        Id = "120872137",
+        Type = "LineString",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "446-454",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Ulzburger Straße",
+            ["brand"] = "Lidl",
+            ["brand:wikidata"] = "Q151954",
+            ["brand:wikipedia"] = "en:Lidl",
+            ["building"] = "retail",
+            ["building:levels"] = "1",
+            ["check_date:opening_hours"] = "2024-05-08",
+            ["currency:EUR"] = "yes",
+            ["name"] = "Lidl",
+            ["opening_hours"] = "Mo-Sa 07:00-21:00",
+            ["operator"] = "Lidl Vertriebs-GmbH & Co. KG (Siek)",
+            ["organic"] = "yes",
+            ["payment:cash"] = "yes",
+            ["payment:coins"] = "yes",
+            ["payment:contactless"] = "yes",
+            ["payment:credit_cards"] = "yes",
+            ["payment:debit_cards"] = "yes",
+            ["payment:girocard"] = "yes",
+            ["payment:mastercard"] = "yes",
+            ["payment:visa"] = "yes",
+            ["payment:visa_debit"] = "yes",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "gabled",
+            ["shop"] = "supermarket",
+            ["toilets:wheelchair"] = "no",
+            ["website"] = "https://www.lidl.de/filialen/norderstedt/ulzburger-str-446-454.html",
+            ["wheelchair"] = "yes",
+            ["osm_id"] = 120872137,
+            ["tile_500"] = "NO_E565500_N5953500_500",
+            ["tile_250"] = "NO_E565750_N5953750_250",
+            ["amenity"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-534.53, 3260.67}, {-503.68, 3262.67}, {-499.81, 3203.60}, {-507.42, 3203.10}, {-508.27, 3216.08}, {-525.19, 3214.97}, {-526.12, 3229.14}, {-532.44, 3228.73}, {-533.79, 3249.31}, {-534.53, 3260.67}
+        }
+    },
+    [2] = {
+        Id = "1852678677",
+        Type = "Point",
+        Properties = {
+            ["bus"] = "yes",
+            ["name"] = "Friedrichsgabe, Bahnhofstraße",
+            ["old_name"] = "Friedrichsgabe, Mühlenweg (West)",
+            ["public_transport"] = "stop_position",
+            ["osm_id"] = 1852678677,
+            ["tile_500"] = "NO_E565500_N5953500_500",
+            ["tile_250"] = "NO_E565750_N5953750_250",
+            ["amenity"] = "",
+            ["shop"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-549.28, 3139.43}
+        }
+    },
+    [3] = {
+        Id = "7756487574",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "567",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Ulzburger Straße",
+            ["amenity"] = "restaurant",
+            ["cuisine"] = "greek",
+            ["name"] = "Athena \"Mediterrane Küche\"",
+            ["opening_hours"] = "Tu-Su 17:00-22:00",
+            ["phone"] = "+49 40 5224716",
+            ["website"] = "https://www.athena-das-restaurant.de",
+            ["osm_id"] = 7756487574,
+            ["tile_500"] = "NO_E565500_N5953500_500",
+            ["tile_250"] = "NO_E565750_N5953750_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-585.83, 3296.86}
+        }
+    },
+}

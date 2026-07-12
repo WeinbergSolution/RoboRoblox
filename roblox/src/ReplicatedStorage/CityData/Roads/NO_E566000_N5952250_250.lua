@@ -1,5 +1,111 @@
 return {
     [1] = {
+        Id = "1450177827",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["osm_id"] = 1450177827,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-125.34, 1731.26}, {-132.42, 1704.93}, {-122.43, 1692.96}, {-122.38, 1689.36}, {-123.63, 1686.25}
+        }
+    },
+    [2] = {
+        Id = "1466515163",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["osm_id"] = 1466515163,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-278.83, 1888.80}, {-272.69, 1835.38}
+        }
+    },
+    [3] = {
+        Id = "148811389",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["maxspeed:type"] = "DE:zone30",
+            ["name"] = "Weg am Denkmal",
+            ["oneway"] = "yes",
+            ["oneway:bicycle"] = "no",
+            ["sidewalk"] = "both",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 148811389,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 1,
+            ["DirectionMode"] = "one-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 14.0,
+            ["FinalWidthStuds"] = 21.428568,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-352.82, 1820.00}, {-329.30, 1823.42}, {-293.62, 1828.70}, {-273.71, 1834.88}, {-272.69, 1835.38}, {-247.94, 1847.55}
+        }
+    },
+    [4] = {
+        Id = "28901902",
+        Type = "LineString",
+        Properties = {
+            ["direction"] = "both",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["maxspeed:type"] = "DE:zone30",
+            ["name"] = "Cordt-Buck-Weg",
+            ["surface"] = "asphalt;cobblestone",
+            ["traffic_calming"] = "table",
+            ["osm_id"] = 28901902,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-240.34, 1854.21}, {-236.75, 1852.52}, {-231.28, 1849.49}, {-224.53, 1844.97}
+        }
+    },
+    [5] = {
         Id = "28901903",
         Type = "LineString",
         Properties = {
@@ -24,10 +130,68 @@ return {
             ["traffic_signals"] = "",
         },
         Geometry = {
-            {27.74, 834.85}, {29.59, 811.74}
+            {-224.81, 1836.40}, {-216.72, 1756.25}, {-213.90, 1724.24}, {-207.24, 1640.98}
         }
     },
-    [2] = {
+    [6] = {
+        Id = "29343556",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["maxspeed:type"] = "DE:zone30",
+            ["name"] = "Cordt-Buck-Weg",
+            ["sidewalk"] = "right",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 29343556,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-213.90, 1724.24}, {-246.86, 1726.55}, {-256.50, 1726.98}
+        }
+    },
+    [7] = {
+        Id = "29343556",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["maxspeed:type"] = "DE:zone30",
+            ["name"] = "Cordt-Buck-Weg",
+            ["sidewalk"] = "right",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 29343556,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-256.50, 1726.98}, {-266.14, 1727.41}, {-266.00, 1717.80}, {-256.39, 1719.07}, {-256.50, 1726.98}
+        }
+    },
+    [8] = {
         Id = "817501200",
         Type = "LineString",
         Properties = {
@@ -49,10 +213,285 @@ return {
             ["sidewalk"] = "",
         },
         Geometry = {
-            {-69.67, 833.47}, {-69.81, 825.84}
+            {-358.29, 1739.72}, {-346.52, 1740.21}, {-341.00, 1740.30}, {-340.56, 1728.92}, {-339.87, 1714.00}, {-340.52, 1688.39}, {-340.09, 1678.81}, {-306.23, 1675.93}, {-306.64, 1655.08}
         }
     },
-    [3] = {
+    [9] = {
+        Id = "823720819",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "customers",
+            ["highway"] = "service",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 823720819,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-341.00, 1740.30}, {-336.99, 1740.41}, {-330.17, 1740.53}, {-314.26, 1740.79}, {-302.68, 1740.97}, {-303.58, 1727.67}
+        }
+    },
+    [10] = {
+        Id = "823720820",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "customers",
+            ["highway"] = "service",
+            ["service"] = "parking_aisle",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 823720820,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-314.26, 1740.79}, {-314.87, 1728.36}
+        }
+    },
+    [11] = {
+        Id = "823720821",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "customers",
+            ["highway"] = "service",
+            ["service"] = "parking_aisle",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 823720821,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-330.17, 1740.53}, {-330.79, 1728.81}
+        }
+    },
+    [12] = {
+        Id = "915091537",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 915091537,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-314.08, 1779.84}, {-335.21, 1779.31}, {-348.50, 1777.96}, {-362.25, 1775.78}
+        }
+    },
+    [13] = {
+        Id = "997796572",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["name"] = "Weg am Denkmal",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 997796572,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-103.26, 1851.46}, {-125.41, 1856.09}, {-131.76, 1856.80}, {-137.70, 1856.85}, {-210.63, 1850.35}
+        }
+    },
+    [14] = {
+        Id = "997796576",
+        Type = "LineString",
+        Properties = {
+            ["direction"] = "both",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["maxspeed:type"] = "DE:zone30",
+            ["name"] = "Cordt-Buck-Weg",
+            ["surface"] = "asphalt;cobblestone",
+            ["traffic_calming"] = "table",
+            ["osm_id"] = 997796576,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-234.37, 1874.83}, {-234.57, 1869.07}, {-235.37, 1864.67}, {-236.83, 1859.78}, {-240.34, 1854.21}
+        }
+    },
+    [15] = {
+        Id = "997796577",
+        Type = "LineString",
+        Properties = {
+            ["direction"] = "both",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["maxspeed:type"] = "DE:zone30",
+            ["name"] = "Weg am Denkmal",
+            ["oneway"] = "yes",
+            ["sidewalk"] = "both",
+            ["surface"] = "asphalt;cobblestone",
+            ["traffic_calming"] = "table",
+            ["osm_id"] = 997796577,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 1,
+            ["DirectionMode"] = "one-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 14.0,
+            ["FinalWidthStuds"] = 21.428568,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-247.94, 1847.55}, {-240.34, 1854.21}
+        }
+    },
+    [16] = {
+        Id = "997796578",
+        Type = "LineString",
+        Properties = {
+            ["direction"] = "both",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["name"] = "Cordt-Buck-Weg",
+            ["surface"] = "asphalt;cobblestone",
+            ["traffic_calming"] = "table",
+            ["osm_id"] = 997796578,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-224.53, 1844.97}, {-225.34, 1841.03}, {-224.81, 1836.40}
+        }
+    },
+    [17] = {
+        Id = "997796579",
+        Type = "LineString",
+        Properties = {
+            ["direction"] = "both",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["name"] = "Weg am Denkmal",
+            ["surface"] = "asphalt;cobblestone",
+            ["traffic_calming"] = "table",
+            ["osm_id"] = 997796579,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-210.63, 1850.35}, {-218.32, 1849.53}, {-221.81, 1847.85}, {-224.53, 1844.97}
+        }
+    },
+    [18] = {
+        Id = "997796583",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["direction"] = "both",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["name"] = "Glashütter Weg",
+            ["sidewalk"] = "both",
+            ["surface"] = "paving_stones",
+            ["traffic_calming"] = "table",
+            ["osm_id"] = 997796583,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-337.43, 1663.34}, {-343.56, 1664.80}
+        }
+    },
+    [19] = {
         Id = "997796586",
         Type = "LineString",
         Properties = {
@@ -77,7 +516,7 @@ return {
             ["traffic_signals"] = "",
         },
         Geometry = {
-            {10.51, 802.86}, {-59.68, 822.89}, {-69.81, 825.84}, {-87.72, 831.04}, {-96.40, 833.10}
+            {-226.31, 1632.10}, {-296.50, 1652.13}, {-306.64, 1655.08}, {-324.54, 1660.28}, {-337.43, 1663.34}
         }
     },
 }

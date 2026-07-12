@@ -1,0 +1,166 @@
+return {
+    [1] = {
+        Id = "161894819",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "path",
+            ["surface"] = "ground",
+            ["width"] = "0.5",
+            ["osm_id"] = 161894819,
+            ["tile_500"] = "NO_E569500_N5953000_500",
+            ["tile_250"] = "NO_E569500_N5953250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 0.5,
+            ["ScaledOSMWidthStuds"] = 1.785714,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {3391.69, 2803.98}, {3379.65, 2806.63}, {3352.07, 2804.80}, {3330.83, 2804.49}, {3313.84, 2804.23}, {3301.10, 2804.05}, {3296.00, 2813.86}, {3292.95, 2828.65}, {3298.33, 2847.09}, {3297.90, 2856.42}, {3297.49, 2867.35}
+        }
+    },
+    [2] = {
+        Id = "31801485",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "track",
+            ["surface"] = "unpaved",
+            ["tracktype"] = "grade3",
+            ["osm_id"] = 31801485,
+            ["tile_500"] = "NO_E569500_N5953000_500",
+            ["tile_250"] = "NO_E569500_N5953250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 3.0,
+            ["ScaledOSMWidthStuds"] = 10.714284,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {3229.19, 2852.13}, {3232.03, 2838.25}, {3247.41, 2762.58}, {3267.92, 2676.86}, {3303.84, 2504.78}
+        }
+    },
+    [3] = {
+        Id = "35412362",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "yes",
+            ["highway"] = "path",
+            ["horse"] = "no",
+            ["motorcar"] = "no",
+            ["surface"] = "ground",
+            ["osm_id"] = 35412362,
+            ["tile_500"] = "NO_E569500_N5953000_500",
+            ["tile_250"] = "NO_E569500_N5953250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 1.5,
+            ["ScaledOSMWidthStuds"] = 5.357142,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {3259.61, 2495.61}, {3232.32, 2607.28}, {3226.02, 2614.33}, {3204.76, 2623.99}, {3177.98, 2642.73}, {3169.45, 2654.22}, {3161.41, 2668.73}, {3160.42, 2676.54}, {3162.77, 2683.06}, {3164.66, 2708.05}, {3160.40, 2732.56}, {3142.28, 2815.94}, {3137.98, 2829.84}
+        }
+    },
+    [4] = {
+        Id = "35780356",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "yes",
+            ["highway"] = "path",
+            ["horse"] = "no",
+            ["motorcar"] = "no",
+            ["surface"] = "ground",
+            ["osm_id"] = 35780356,
+            ["tile_500"] = "NO_E569500_N5953000_500",
+            ["tile_250"] = "NO_E569500_N5953250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 1.5,
+            ["ScaledOSMWidthStuds"] = 5.357142,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {3368.84, 2547.76}, {3373.86, 2581.70}, {3382.50, 2675.67}, {3384.91, 2716.19}, {3389.67, 2740.23}, {3388.52, 2762.93}, {3391.69, 2803.98}, {3392.17, 2883.18}, {3392.72, 2891.24}
+        }
+    },
+    [5] = {
+        Id = "58417327",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["foot"] = "yes",
+            ["highway"] = "track",
+            ["motor_vehicle"] = "no",
+            ["surface"] = "compacted",
+            ["tracktype"] = "grade2",
+            ["width"] = "4",
+            ["osm_id"] = 58417327,
+            ["tile_500"] = "NO_E569500_N5953000_500",
+            ["tile_250"] = "NO_E569500_N5953250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {3235.56, 2853.37}, {3229.19, 2852.13}
+        }
+    },
+    [6] = {
+        Id = "62298258",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "no",
+            ["foot"] = "yes",
+            ["highway"] = "path",
+            ["horse"] = "no",
+            ["motorcar"] = "no",
+            ["surface"] = "ground",
+            ["trail_visibility"] = "intermediate",
+            ["wheelchair"] = "no",
+            ["width"] = "1",
+            ["osm_id"] = 62298258,
+            ["tile_500"] = "NO_E569500_N5953000_500",
+            ["tile_250"] = "NO_E569500_N5953250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 1.0,
+            ["ScaledOSMWidthStuds"] = 3.571428,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {3267.92, 2676.86}, {3271.75, 2677.75}, {3277.04, 2678.62}, {3280.07, 2678.48}, {3285.03, 2677.88}, {3292.81, 2674.77}, {3301.21, 2670.90}, {3309.97, 2671.28}, {3312.21, 2669.28}, {3314.88, 2667.36}, {3317.09, 2667.39}, {3325.41, 2668.71}, {3339.56, 2667.30}, {3344.19, 2665.43}, {3347.94, 2665.56}, {3363.72, 2669.28}, {3372.09, 2672.97}, {3382.50, 2675.67}
+        }
+    },
+}

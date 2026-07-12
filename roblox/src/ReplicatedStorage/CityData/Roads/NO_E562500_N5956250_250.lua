@@ -1,0 +1,116 @@
+return {
+    [1] = {
+        Id = "10711345",
+        Type = "LineString",
+        Properties = {
+            ["bdouble"] = "yes",
+            ["highway"] = "motorway",
+            ["int_ref"] = "E 45",
+            ["lanes"] = "3",
+            ["lit"] = "no",
+            ["maxspeed"] = "none",
+            ["oneway"] = "yes",
+            ["ref"] = "A 7",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 10711345,
+            ["tile_500"] = "NO_E562500_N5956000_500",
+            ["tile_250"] = "NO_E562500_N5956250_250",
+            ["LaneCount"] = 3,
+            ["DirectionMode"] = "one-way",
+            ["OSMWidthMeters"] = 24.0,
+            ["ScaledOSMWidthStuds"] = 85.714272,
+            ["GameplayMinimumStuds"] = 42.0,
+            ["FinalWidthStuds"] = 85.714272,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-3720.82, 6116.14}, {-3719.66, 6019.07}, {-3720.79, 5921.52}, {-3721.47, 5893.73}, {-3723.38, 5811.92}, {-3726.71, 5730.20}, {-3735.07, 5581.61}, {-3737.39, 5555.86}, {-3746.50, 5448.66}
+        }
+    },
+    [2] = {
+        Id = "25260101",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "private",
+            ["highway"] = "track",
+            ["tracktype"] = "grade2",
+            ["osm_id"] = 25260101,
+            ["tile_500"] = "NO_E562500_N5956000_500",
+            ["tile_250"] = "NO_E562500_N5956250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 3.0,
+            ["ScaledOSMWidthStuds"] = 10.714284,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-3671.93, 5695.82}, {-3667.10, 5668.17}, {-3645.50, 5645.18}, {-3616.99, 5636.86}, {-3606.98, 5631.97}
+        }
+    },
+    [3] = {
+        Id = "28582218",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "private",
+            ["highway"] = "track",
+            ["tracktype"] = "grade2",
+            ["osm_id"] = 28582218,
+            ["tile_500"] = "NO_E562500_N5956000_500",
+            ["tile_250"] = "NO_E562500_N5956250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 3.0,
+            ["ScaledOSMWidthStuds"] = 10.714284,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-3566.19, 5621.11}, {-3606.98, 5631.97}, {-3605.97, 5647.73}, {-3613.43, 5659.37}, {-3614.84, 5670.46}
+        }
+    },
+    [4] = {
+        Id = "690918956",
+        Type = "LineString",
+        Properties = {
+            ["bdouble"] = "yes",
+            ["highway"] = "motorway",
+            ["int_ref"] = "E 45",
+            ["lanes"] = "3",
+            ["lit"] = "no",
+            ["maxspeed"] = "none",
+            ["oneway"] = "yes",
+            ["placement"] = "middle_of:2",
+            ["ref"] = "A 7",
+            ["shoulder"] = "right",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 690918956,
+            ["tile_500"] = "NO_E562500_N5956000_500",
+            ["tile_250"] = "NO_E562500_N5956250_250",
+            ["LaneCount"] = 3,
+            ["DirectionMode"] = "one-way",
+            ["OSMWidthMeters"] = 24.0,
+            ["ScaledOSMWidthStuds"] = 85.714272,
+            ["GameplayMinimumStuds"] = 42.0,
+            ["FinalWidthStuds"] = 85.714272,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-3785.75, 5039.96}, {-3753.12, 5255.19}, {-3739.01, 5369.81}, {-3733.86, 5416.49}, {-3731.93, 5436.43}, {-3721.25, 5556.51}, {-3714.58, 5654.82}, {-3710.59, 5728.90}, {-3704.44, 5890.98}, {-3703.70, 5921.51}, {-3703.83, 5978.97}, {-3703.55, 6048.50}, {-3705.11, 6118.03}, {-3709.87, 6250.08}, {-3719.57, 6406.04}
+        }
+    },
+}

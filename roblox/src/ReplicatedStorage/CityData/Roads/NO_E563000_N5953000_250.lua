@@ -1,0 +1,41 @@
+return {
+    [1] = {
+        Id = "458085792",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "use_sidepath",
+            ["cycleway:left"] = "separate",
+            ["cycleway:right"] = "no",
+            ["foot"] = "use_sidepath",
+            ["highway"] = "secondary",
+            ["lanes"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "60",
+            ["name"] = "Harksheider Weg",
+            ["note"] = "Kreisgrenze trennt vmtl. auch Waldstraße und Harksheider Weg",
+            ["shoulder"] = "no",
+            ["sidewalk:left"] = "separate",
+            ["sidewalk:left:surface"] = "asphalt",
+            ["sidewalk:right"] = "no",
+            ["smoothness"] = "good",
+            ["source:name"] = "local knowledge",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 458085792,
+            ["tile_500"] = "NO_E563000_N5953000_500",
+            ["tile_250"] = "NO_E563000_N5953000_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 14.0,
+            ["ScaledOSMWidthStuds"] = 49.999992,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 49.999992,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-2977.65, 2442.57}, {-3132.60, 2546.48}, {-3263.92, 2634.25}, {-3312.71, 2665.44}
+        }
+    },
+}

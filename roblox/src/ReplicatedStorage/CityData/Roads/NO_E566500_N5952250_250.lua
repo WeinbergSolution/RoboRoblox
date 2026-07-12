@@ -1,17 +1,15 @@
 return {
     [1] = {
-        Id = "148807472",
+        Id = "148869339",
         Type = "LineString",
         Properties = {
-            ["cycleway:both"] = "no",
             ["highway"] = "residential",
+            ["lane_markings"] = "no",
             ["lit"] = "yes",
-            ["maxspeed"] = "30",
-            ["maxspeed:type"] = "DE:zone30",
-            ["name"] = "Grootkoppelstraße",
-            ["sidewalk"] = "both",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Sonnentauweg",
             ["surface"] = "asphalt",
-            ["osm_id"] = 148807472,
+            ["osm_id"] = 148869339,
             ["tile_500"] = "NO_E566500_N5952000_500",
             ["tile_250"] = "NO_E566500_N5952250_250",
             ["LaneCount"] = 2,
@@ -23,23 +21,23 @@ return {
             ["crossing"] = "",
             ["stop"] = "",
             ["traffic_signals"] = "",
+            ["sidewalk"] = "",
         },
         Geometry = {
-            {489.73, 798.61}, {350.22, 836.74}, {340.98, 839.27}
+            {340.33, 1764.83}, {341.68, 1761.74}, {343.99, 1758.52}, {348.58, 1755.98}, {351.96, 1756.09}, {354.72, 1757.46}, {356.26, 1760.39}, {356.40, 1763.71}, {354.70, 1766.25}, {351.08, 1767.82}, {347.16, 1768.13}, {343.18, 1767.01}, {340.33, 1764.83}
         }
     },
     [2] = {
-        Id = "148869361",
+        Id = "148869339",
         Type = "LineString",
         Properties = {
-            ["cycleway:both"] = "no",
             ["highway"] = "residential",
             ["lane_markings"] = "no",
             ["lit"] = "yes",
             ["maxspeed:type"] = "DE:urban",
-            ["name"] = "Wollgrasweg",
+            ["name"] = "Sonnentauweg",
             ["surface"] = "asphalt",
-            ["osm_id"] = 148869361,
+            ["osm_id"] = 148869339,
             ["tile_500"] = "NO_E566500_N5952000_500",
             ["tile_250"] = "NO_E566500_N5952250_250",
             ["LaneCount"] = 2,
@@ -54,10 +52,60 @@ return {
             ["sidewalk"] = "",
         },
         Geometry = {
-            {512.93, 840.09}, {534.90, 834.31}, {548.08, 830.85}, {551.67, 829.90}
+            {340.33, 1764.83}, {304.60, 1774.61}
         }
     },
     [3] = {
+        Id = "148869346",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["name"] = "Sonnentauweg",
+            ["osm_id"] = 148869346,
+            ["tile_500"] = "NO_E566500_N5952000_500",
+            ["tile_250"] = "NO_E566500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {361.45, 1749.28}, {355.57, 1750.86}, {351.96, 1756.09}
+        }
+    },
+    [4] = {
+        Id = "148869351",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["name"] = "Sonnentauweg",
+            ["osm_id"] = 148869351,
+            ["tile_500"] = "NO_E566500_N5952000_500",
+            ["tile_250"] = "NO_E566500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {366.19, 1767.65}, {372.24, 1770.75}, {374.64, 1771.73}, {376.68, 1772.04}, {378.98, 1771.64}, {394.20, 1767.63}, {417.31, 1761.23}
+        }
+    },
+    [5] = {
         Id = "148869361",
         Type = "LineString",
         Properties = {
@@ -83,10 +131,188 @@ return {
             ["sidewalk"] = "",
         },
         Geometry = {
-            {551.67, 829.90}, {554.46, 831.44}, {558.25, 833.11}, {561.67, 833.30}, {565.09, 832.28}, {567.26, 830.34}, {567.65, 827.57}, {566.74, 824.12}, {564.47, 821.60}, {562.51, 821.09}, {561.15, 820.72}, {557.43, 821.28}, {554.75, 823.71}, {552.90, 826.53}, {551.67, 829.90}
+            {276.11, 1669.33}, {298.08, 1663.55}, {311.26, 1660.09}, {314.85, 1659.14}
         }
     },
-    [4] = {
+    [6] = {
+        Id = "148869361",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "residential",
+            ["lane_markings"] = "no",
+            ["lit"] = "yes",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Wollgrasweg",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 148869361,
+            ["tile_500"] = "NO_E566500_N5952000_500",
+            ["tile_250"] = "NO_E566500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {314.85, 1659.14}, {317.64, 1660.68}, {321.43, 1662.35}, {324.84, 1662.54}, {328.26, 1661.52}, {330.44, 1659.59}, {330.83, 1656.81}, {329.92, 1653.36}, {327.64, 1650.84}, {325.69, 1650.33}, {324.33, 1649.96}, {320.61, 1650.52}, {317.93, 1652.95}, {316.08, 1655.78}, {314.85, 1659.14}
+        }
+    },
+    [7] = {
+        Id = "154459952",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["name"] = "Sonnentauweg",
+            ["osm_id"] = 154459952,
+            ["tile_500"] = "NO_E566500_N5952000_500",
+            ["tile_250"] = "NO_E566500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {394.20, 1767.63}, {410.10, 1813.05}
+        }
+    },
+    [8] = {
+        Id = "154459967",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["name"] = "Sonnentauweg",
+            ["osm_id"] = 154459967,
+            ["tile_500"] = "NO_E566500_N5952000_500",
+            ["tile_250"] = "NO_E566500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {352.93, 1717.86}, {399.90, 1703.58}
+        }
+    },
+    [9] = {
+        Id = "154459968",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["osm_id"] = 154459968,
+            ["tile_500"] = "NO_E566500_N5952000_500",
+            ["tile_250"] = "NO_E566500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {288.95, 1717.21}, {348.41, 1700.57}
+        }
+    },
+    [10] = {
+        Id = "154459969",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["name"] = "Sonnentauweg",
+            ["osm_id"] = 154459969,
+            ["tile_500"] = "NO_E566500_N5952000_500",
+            ["tile_250"] = "NO_E566500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {360.42, 1746.49}, {413.28, 1731.16}
+        }
+    },
+    [11] = {
+        Id = "154459972",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["name"] = "Wollgrasweg",
+            ["osm_id"] = 154459972,
+            ["tile_500"] = "NO_E566500_N5952000_500",
+            ["tile_250"] = "NO_E566500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {345.14, 1688.07}, {390.72, 1675.16}
+        }
+    },
+    [12] = {
+        Id = "154459982",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["name"] = "Sonnentauweg",
+            ["osm_id"] = 154459982,
+            ["tile_500"] = "NO_E566500_N5952000_500",
+            ["tile_250"] = "NO_E566500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {366.19, 1767.65}, {359.84, 1767.62}, {354.70, 1766.25}
+        }
+    },
+    [13] = {
         Id = "154460000",
         Type = "LineString",
         Properties = {
@@ -109,10 +335,10 @@ return {
             ["sidewalk"] = "",
         },
         Geometry = {
-            {646.93, 812.95}, {635.57, 816.02}, {623.19, 819.36}, {620.75, 820.01}, {589.86, 828.34}, {576.46, 831.95}, {573.84, 834.68}, {565.09, 832.28}
+            {410.11, 1642.19}, {398.75, 1645.26}, {386.37, 1648.60}, {383.92, 1649.25}, {353.04, 1657.58}, {339.64, 1661.20}, {337.02, 1663.92}, {328.26, 1661.52}
         }
     },
-    [5] = {
+    [14] = {
         Id = "154460013",
         Type = "LineString",
         Properties = {
@@ -134,10 +360,35 @@ return {
             ["sidewalk"] = "",
         },
         Geometry = {
-            {573.84, 834.68}, {572.60, 837.89}, {572.34, 842.56}
+            {337.02, 1663.92}, {335.78, 1667.13}, {335.51, 1672.10}, {338.45, 1681.42}, {343.09, 1684.92}, {345.14, 1688.07}
         }
     },
-    [6] = {
+    [15] = {
+        Id = "154460014",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["name"] = "Sonnentauweg",
+            ["osm_id"] = 154460014,
+            ["tile_500"] = "NO_E566500_N5952000_500",
+            ["tile_250"] = "NO_E566500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {345.14, 1688.07}, {348.41, 1700.57}, {352.93, 1717.86}, {360.42, 1746.49}, {361.45, 1749.28}, {363.44, 1758.00}, {366.19, 1767.65}
+        }
+    },
+    [16] = {
         Id = "589071764",
         Type = "LineString",
         Properties = {
@@ -158,7 +409,36 @@ return {
             ["sidewalk"] = "",
         },
         Geometry = {
-            {524.49, 791.16}, {533.17, 827.85}, {534.90, 834.31}
+            {287.67, 1620.40}, {296.35, 1657.09}, {298.08, 1663.55}
+        }
+    },
+    [17] = {
+        Id = "997796599",
+        Type = "LineString",
+        Properties = {
+            ["direction"] = "both",
+            ["highway"] = "residential",
+            ["lane_markings"] = "no",
+            ["lit"] = "yes",
+            ["name"] = "Weg am Denkmal",
+            ["sidewalk"] = "both",
+            ["surface"] = "paving_stones",
+            ["traffic_calming"] = "table",
+            ["osm_id"] = 997796599,
+            ["tile_500"] = "NO_E566500_N5952000_500",
+            ["tile_250"] = "NO_E566500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {297.00, 1747.37}, {291.08, 1748.85}, {285.67, 1750.29}
         }
     },
 }

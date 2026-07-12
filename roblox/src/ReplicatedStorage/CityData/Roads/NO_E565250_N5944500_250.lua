@@ -1,0 +1,67 @@
+return {
+    [1] = {
+        Id = "591348095",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "no",
+            ["highway"] = "trunk_link",
+            ["lanes"] = "1",
+            ["lit"] = "yes",
+            ["maxspeed"] = "70",
+            ["motorroad"] = "yes",
+            ["name"] = "Zeppelinstraße",
+            ["oneway"] = "yes",
+            ["ref"] = "B 433",
+            ["sidewalk"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 591348095,
+            ["tile_500"] = "NO_E565000_N5944500_500",
+            ["tile_250"] = "NO_E565250_N5944500_250",
+            ["LaneCount"] = 1,
+            ["DirectionMode"] = "one-way",
+            ["OSMWidthMeters"] = 12.0,
+            ["ScaledOSMWidthStuds"] = 42.857136,
+            ["GameplayMinimumStuds"] = 14.0,
+            ["FinalWidthStuds"] = 42.857136,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-1079.15, -5969.86}, {-1077.54, -5977.52}, {-1075.92, -5985.56}, {-1071.84, -6004.06}
+        }
+    },
+    [2] = {
+        Id = "591348098",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "no",
+            ["highway"] = "trunk_link",
+            ["lanes"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "70",
+            ["motorroad"] = "yes",
+            ["name"] = "Zeppelinstraße",
+            ["oneway"] = "yes",
+            ["ref"] = "B 433",
+            ["sidewalk"] = "no",
+            ["surface"] = "asphalt",
+            ["turn:lanes"] = "none|merge_to_left",
+            ["osm_id"] = 591348098,
+            ["tile_500"] = "NO_E565000_N5944500_500",
+            ["tile_250"] = "NO_E565250_N5944500_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "one-way",
+            ["OSMWidthMeters"] = 12.0,
+            ["ScaledOSMWidthStuds"] = 42.857136,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 42.857136,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-1088.63, -5919.47}, {-1085.97, -5936.01}, {-1082.55, -5954.42}, {-1079.15, -5969.86}
+        }
+    },
+}

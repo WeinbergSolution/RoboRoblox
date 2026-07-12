@@ -1,0 +1,141 @@
+return {
+    [1] = {
+        Id = "1458329006",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["osm_id"] = 1458329006,
+            ["tile_500"] = "NO_E568500_N5948000_500",
+            ["tile_250"] = "NO_E568500_N5948000_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {2242.88, -2460.09}, {2254.68, -2436.73}, {2248.05, -2431.50}
+        }
+    },
+    [2] = {
+        Id = "194542074",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "residential",
+            ["lit"] = "no",
+            ["maxspeed"] = "30",
+            ["maxweight"] = "2.5",
+            ["name"] = "Wakendorfer Weg",
+            ["shoulder"] = "right",
+            ["sidewalk"] = "no",
+            ["smoothness"] = "excellent",
+            ["surface"] = "asphalt",
+            ["width"] = "4.5",
+            ["osm_id"] = 194542074,
+            ["tile_500"] = "NO_E568500_N5948000_500",
+            ["tile_250"] = "NO_E568500_N5948000_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.5,
+            ["ScaledOSMWidthStuds"] = 16.071426,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {2261.62, -2463.52}, {2407.73, -2488.42}
+        }
+    },
+    [3] = {
+        Id = "24343410",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["surface"] = "sand",
+            ["osm_id"] = 24343410,
+            ["tile_500"] = "NO_E568500_N5948000_500",
+            ["tile_250"] = "NO_E568500_N5948000_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {2261.62, -2463.52}, {2260.15, -2478.23}
+        }
+    },
+    [4] = {
+        Id = "24362020",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "destination",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 24362020,
+            ["tile_500"] = "NO_E568500_N5948000_500",
+            ["tile_250"] = "NO_E568500_N5948000_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {2175.61, -2448.30}, {2179.06, -2427.60}, {2187.80, -2389.94}, {2201.00, -2371.83}
+        }
+    },
+    [5] = {
+        Id = "56152819",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["hgv"] = "destination",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["maxweight"] = "2.5",
+            ["name"] = "Wakendorfer Weg",
+            ["shoulder"] = "right",
+            ["sidewalk"] = "no",
+            ["smoothness"] = "excellent",
+            ["surface"] = "asphalt",
+            ["traffic_sign"] = "DE:262-2.5",
+            ["width"] = "4.5",
+            ["osm_id"] = 56152819,
+            ["tile_500"] = "NO_E568500_N5948000_500",
+            ["tile_250"] = "NO_E568500_N5948000_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.5,
+            ["ScaledOSMWidthStuds"] = 16.071426,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {2215.58, -2455.00}, {2223.67, -2456.43}, {2242.88, -2460.09}, {2253.25, -2462.06}, {2261.62, -2463.52}
+        }
+    },
+}

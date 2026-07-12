@@ -1,0 +1,117 @@
+return {
+    [1] = {
+        Id = "228588612",
+        Type = "LineString",
+        Properties = {
+            ["addr:city"] = "Henstedt-Ulzburg",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "36a",
+            ["addr:postcode"] = "24558",
+            ["addr:street"] = "Wilstedter Straße",
+            ["amenity"] = "fast_food",
+            ["building"] = "yes",
+            ["building:levels"] = "1",
+            ["check_date"] = "2025-08-07",
+            ["check_date:opening_hours"] = "2025-08-07",
+            ["name"] = "Tottis Rhener Grilleck",
+            ["opening_hours"] = "Mo-Fr 11:00-20:00",
+            ["operator"] = "Mirko Tott",
+            ["phone"] = "+49 4193 903913",
+            ["roof:shape"] = "flat",
+            ["website"] = "http://www.bienesrhenergrilleck.de/",
+            ["wheelchair"] = "yes",
+            ["osm_id"] = 228588612,
+            ["tile_500"] = "NO_E565500_N5956500_500",
+            ["tile_250"] = "NO_E565500_N5956500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-676.58, 5913.36}, {-675.66, 5910.62}, {-666.27, 5910.73}, {-666.46, 5916.01}, {-669.91, 5919.12}, {-674.24, 5920.47}, {-676.58, 5913.36}
+        }
+    },
+    [2] = {
+        Id = "314072908",
+        Type = "Point",
+        Properties = {
+            ["bus"] = "yes",
+            ["name"] = "Rhen, Wilstedter Straße",
+            ["public_transport"] = "stop_position",
+            ["osm_id"] = 314072908,
+            ["tile_500"] = "NO_E565500_N5956500_500",
+            ["tile_250"] = "NO_E565500_N5956500_250",
+            ["amenity"] = "",
+            ["shop"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-644.88, 6047.84}
+        }
+    },
+    [3] = {
+        Id = "459502629",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Henstedt-Ulzburg",
+            ["addr:housenumber"] = "13",
+            ["addr:postcode"] = "24558",
+            ["addr:street"] = "Norderstedter Straße",
+            ["amenity"] = "fast_food",
+            ["cuisine"] = "greek",
+            ["name"] = "Hellas Grill",
+            ["opening_hours"] = "Tu-Fr 15:00-21:00; Sa 16:00-22:00; Su 16:00-21:00",
+            ["phone"] = "+49 4193 8859855",
+            ["website"] = "https://www.hellasgrill-online.de/",
+            ["wheelchair"] = "limited",
+            ["osm_id"] = 459502629,
+            ["tile_500"] = "NO_E565500_N5956500_500",
+            ["tile_250"] = "NO_E565500_N5956500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-664.09, 5971.21}
+        }
+    },
+    [4] = {
+        Id = "76729876",
+        Type = "LineString",
+        Properties = {
+            ["addr:city"] = "Henstedt-Ulzburg",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "1",
+            ["addr:postcode"] = "24558",
+            ["addr:street"] = "Middelweg",
+            ["amenity"] = "fuel",
+            ["brand"] = "Shell",
+            ["brand:wikidata"] = "Q110716465",
+            ["brand:wikipedia"] = "en:Royal Dutch Shell",
+            ["building"] = "yes",
+            ["check_date"] = "2025-08-07",
+            ["check_date:compressed_air"] = "2025-08-07",
+            ["compressed_air"] = "yes",
+            ["fuel:GTL_diesel"] = "yes",
+            ["fuel:diesel"] = "yes",
+            ["fuel:e10"] = "yes",
+            ["fuel:octane_100"] = "yes",
+            ["fuel:octane_95"] = "yes",
+            ["name"] = "Shell",
+            ["opening_hours"] = "Mo-Fr 06:00-22:00; Sa 07:00-22:00; Su 08:00-22:00",
+            ["operator"] = "Shell Deutschland GmbH",
+            ["phone"] = "+49 4193 78150",
+            ["shop"] = "convenience",
+            ["website"] = "https://find.shell.com/de/fuel/10024674-henstedt-ulzburg-middelweg",
+            ["wheelchair"] = "no",
+            ["osm_id"] = 76729876,
+            ["tile_500"] = "NO_E565500_N5956500_500",
+            ["tile_250"] = "NO_E565500_N5956500_250",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-661.93, 5999.08}, {-664.61, 5999.16}, {-665.01, 5984.51}, {-670.18, 5984.66}, {-673.41, 5986.26}, {-673.06, 5997.94}, {-671.17, 5997.88}, {-670.93, 6006.20}, {-661.72, 6005.94}, {-661.93, 5999.08}
+        }
+    },
+}

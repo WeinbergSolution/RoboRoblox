@@ -1,0 +1,92 @@
+return {
+    [1] = {
+        Id = "1395292650",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "path",
+            ["surface"] = "ground",
+            ["width"] = "0.5",
+            ["osm_id"] = 1395292650,
+            ["tile_500"] = "NO_E562500_N5946500_500",
+            ["tile_250"] = "NO_E562500_N5946500_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 0.5,
+            ["ScaledOSMWidthStuds"] = 1.785714,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-3514.92, -4046.81}, {-3523.00, -4053.02}, {-3534.72, -4057.70}, {-3548.99, -4070.97}, {-3553.80, -4082.79}, {-3564.12, -4086.29}, {-3574.69, -4084.84}, {-3585.47, -4087.37}, {-3592.90, -4094.46}, {-3604.45, -4112.56}, {-3615.47, -4117.21}, {-3635.35, -4121.81}, {-3644.05, -4114.50}, {-3655.00, -4117.04}, {-3671.92, -4104.26}, {-3681.76, -4084.58}, {-3686.96, -4079.61}
+        }
+    },
+    [2] = {
+        Id = "36371727",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "use_sidepath",
+            ["cycleway:both"] = "no",
+            ["cycleway:left"] = "no",
+            ["cycleway:right"] = "separate",
+            ["foot"] = "use_sidepath",
+            ["highway"] = "secondary",
+            ["lanes"] = "2",
+            ["lit"] = "no",
+            ["maxspeed"] = "80",
+            ["name"] = "Norderstedter Straße",
+            ["ref"] = "K 107",
+            ["sidewalk:left"] = "no",
+            ["sidewalk:right"] = "separate",
+            ["source:maxspeed"] = "sign",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 36371727,
+            ["tile_500"] = "NO_E562500_N5946500_500",
+            ["tile_250"] = "NO_E562500_N5946500_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 14.0,
+            ["ScaledOSMWidthStuds"] = 49.999992,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 49.999992,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-4019.54, -4246.69}, {-3991.09, -4238.85}, {-3972.51, -4232.52}, {-3945.61, -4221.30}, {-3926.85, -4210.53}, {-3906.59, -4197.20}, {-3889.75, -4184.63}, {-3871.33, -4170.12}, {-3748.74, -4067.36}, {-3672.03, -4003.52}, {-3636.61, -3975.35}, {-3604.96, -3951.79}, {-3541.71, -3907.50}, {-3503.63, -3883.90}, {-3480.04, -3868.64}, {-3461.61, -3855.90}
+        }
+    },
+    [3] = {
+        Id = "979673327",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "designated",
+            ["foot"] = "designated",
+            ["highway"] = "path",
+            ["lit"] = "no",
+            ["segregated"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 979673327,
+            ["tile_500"] = "NO_E562500_N5946500_500",
+            ["tile_250"] = "NO_E562500_N5946500_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 1.5,
+            ["ScaledOSMWidthStuds"] = 5.357142,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-4018.30, -4250.77}, {-3987.71, -4242.14}, {-3941.74, -4222.31}, {-3900.47, -4196.40}, {-3858.14, -4163.74}, {-3668.35, -4005.95}, {-3601.68, -3955.57}, {-3473.13, -3870.40}, {-3431.65, -3840.09}, {-3391.88, -3800.93}, {-3364.76, -3765.12}, {-3337.72, -3722.66}, {-3277.41, -3579.99}
+        }
+    },
+}

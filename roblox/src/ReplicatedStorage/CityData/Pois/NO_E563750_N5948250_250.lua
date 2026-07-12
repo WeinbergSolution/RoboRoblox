@@ -1,0 +1,40 @@
+return {
+    [1] = {
+        Id = "1385113455",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "5",
+            ["addr:postcode"] = "22848",
+            ["addr:street"] = "Friedrichsgaber Weg",
+            ["amenity"] = "fast_food",
+            ["contact:facebook"] = "https://www.facebook.com/Papp-Satt-Norderstedt-506986489413987/",
+            ["cuisine"] = "german",
+            ["delivery"] = "yes",
+            ["diet:halal"] = "no",
+            ["email"] = "info@pappsatt-norderstedt.de",
+            ["indoor_seating"] = "yes",
+            ["name"] = "Papp Satt",
+            ["opening_hours"] = "Mo-Fr 08:00-16:00",
+            ["operator"] = "Eckhardt Nehrig",
+            ["outdoor_seating"] = "yes",
+            ["payment:cash"] = "yes",
+            ["payment:coins"] = "yes",
+            ["phone"] = "+49 40 5282670",
+            ["ref:vatin"] = "DE1115708108",
+            ["takeaway"] = "yes",
+            ["website"] = "http://www.pappsatt-norderstedt.de/",
+            ["wheelchair"] = "limited",
+            ["osm_id"] = 1385113455,
+            ["tile_500"] = "NO_E563500_N5948000_500",
+            ["tile_250"] = "NO_E563750_N5948250_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-2408.73, -2341.64}
+        }
+    },
+}

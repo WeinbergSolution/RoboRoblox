@@ -1,0 +1,117 @@
+return {
+    [1] = {
+        Id = "25739465",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "unclassified",
+            ["lane_markings"] = "no",
+            ["lit"] = "no",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Moordamm",
+            ["sidewalk"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 25739465,
+            ["tile_500"] = "NO_E563000_N5945000_500",
+            ["tile_250"] = "NO_E563000_N5945000_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-3358.93, -5436.68}, {-3354.97, -5439.33}, {-3226.30, -5521.19}
+        }
+    },
+    [2] = {
+        Id = "26782994",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "no",
+            ["name"] = "Polabenstieg",
+            ["surface"] = "dirt",
+            ["osm_id"] = 26782994,
+            ["tile_500"] = "NO_E563000_N5945000_500",
+            ["tile_250"] = "NO_E563000_N5945000_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-3226.30, -5521.19}, {-3243.72, -5613.75}
+        }
+    },
+    [3] = {
+        Id = "26783018",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "unclassified",
+            ["lane_markings"] = "no",
+            ["lit"] = "no",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Ambronendamm",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 26783018,
+            ["tile_500"] = "NO_E563000_N5945000_500",
+            ["tile_250"] = "NO_E563000_N5945000_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-3243.72, -5613.75}, {-3358.61, -5575.49}, {-3432.57, -5550.87}, {-3437.65, -5548.70}
+        }
+    },
+    [4] = {
+        Id = "749892947",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "unclassified",
+            ["lanes"] = "2",
+            ["lit"] = "no",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Herulerweg",
+            ["shoulder"] = "no",
+            ["sidewalk"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 749892947,
+            ["tile_500"] = "NO_E563000_N5945000_500",
+            ["tile_250"] = "NO_E563000_N5945000_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-3591.72, -5586.69}, {-3586.38, -5591.00}, {-3583.23, -5592.65}, {-3580.87, -5593.65}, {-3575.93, -5595.13}, {-3548.35, -5602.22}, {-3543.91, -5603.04}, {-3539.82, -5603.43}, {-3535.35, -5603.10}, {-3530.00, -5602.11}, {-3521.97, -5599.25}, {-3513.73, -5595.29}, {-3463.93, -5570.18}, {-3455.93, -5565.25}, {-3447.60, -5558.55}, {-3440.55, -5551.95}, {-3437.65, -5548.70}, {-3431.69, -5542.02}, {-3394.74, -5490.58}, {-3358.93, -5436.68}, {-3356.33, -5432.75}, {-3342.54, -5416.47}, {-3330.50, -5405.47}, {-3307.13, -5385.79}, {-3259.34, -5346.73}, {-3204.23, -5298.89}, {-3181.42, -5280.54}, {-3163.67, -5269.16}, {-3145.89, -5259.55}, {-3131.26, -5253.51}, {-3117.03, -5249.60}, {-3099.87, -5246.99}, {-3073.13, -5244.68}, {-3032.29, -5242.72}, {-2965.04, -5240.30}, {-2885.52, -5233.66}, {-2876.38, -5234.24}, {-2870.40, -5237.09}, {-2864.84, -5242.05}, {-2858.95, -5251.61}, {-2849.66, -5270.05}, {-2823.76, -5330.29}, {-2817.23, -5340.78}, {-2807.32, -5349.31}, {-2792.96, -5358.88}, {-2777.88, -5366.84}
+        }
+    },
+}

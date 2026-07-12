@@ -1,0 +1,340 @@
+return {
+    [1] = {
+        Id = "1118298334",
+        Type = "LineString",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "131",
+            ["addr:postcode"] = "22848",
+            ["addr:street"] = "Ochsenzoller Straße",
+            ["amenity"] = "fuel",
+            ["brand"] = "Esso",
+            ["brand:wikidata"] = "Q867662",
+            ["brand:wikipedia"] = "en:Esso",
+            ["compressed_air"] = "yes",
+            ["fuel:diesel"] = "yes",
+            ["fuel:e10"] = "yes",
+            ["fuel:octane_95"] = "yes",
+            ["fuel:octane_98"] = "yes",
+            ["landuse"] = "retail",
+            ["name"] = "Esso",
+            ["opening_hours"] = "Mo-Fr 05:30-22:00; PH,Sa,Su 06:00-22:00",
+            ["phone"] = "+49 40 5235122",
+            ["website"] = "https://www.esso.de/de-de/find-station/esso-norderstedt-essostationnorderstedt-100150405",
+            ["osm_id"] = 1118298334,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1196.16, -2070.89}, {-1209.63, -2030.81}, {-1241.51, -2021.04}, {-1249.61, -2057.86}, {-1196.16, -2070.89}
+        }
+    },
+    [2] = {
+        Id = "1727933786",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "4",
+            ["addr:postcode"] = "22850",
+            ["addr:street"] = "Europaallee",
+            ["amenity"] = "bank",
+            ["brand"] = "HypoVereinsbank",
+            ["brand:wikidata"] = "Q220189",
+            ["brand:wikipedia"] = "en:HypoVereinsbank",
+            ["name"] = "HypoVereinsbank",
+            ["opening_hours"] = "Mo-Fr 10:00-13:00, Tu 14:00-16:00, Th 16:00-18:00",
+            ["website"] = "http://www.hvb.de",
+            ["wheelchair"] = "limited",
+            ["osm_id"] = 1727933786,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1114.86, -1969.08}
+        }
+    },
+    [3] = {
+        Id = "282568788",
+        Type = "Point",
+        Properties = {
+            ["bus"] = "yes",
+            ["name"] = "Garstedt, Europaallee",
+            ["public_transport"] = "stop_position",
+            ["osm_id"] = 282568788,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["amenity"] = "",
+            ["shop"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1180.88, -2087.36}
+        }
+    },
+    [4] = {
+        Id = "304890906",
+        Type = "LineString",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "136",
+            ["addr:postcode"] = "22848",
+            ["addr:street"] = "Ochsenzoller Straße",
+            ["amenity"] = "restaurant",
+            ["building"] = "yes",
+            ["cuisine"] = "greek",
+            ["name"] = "Corfu",
+            ["toilets:wheelchair"] = "no",
+            ["website"] = "https://corfugrill-nord.de",
+            ["wheelchair"] = "no",
+            ["osm_id"] = 304890906,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1283.05, -2078.10}, {-1264.54, -2081.73}, {-1265.80, -2088.13}, {-1266.22, -2090.24}, {-1271.09, -2089.28}, {-1284.72, -2086.62}, {-1283.05, -2078.10}
+        }
+    },
+    [5] = {
+        Id = "3108349155",
+        Type = "Point",
+        Properties = {
+            ["bus"] = "yes",
+            ["name"] = "Garstedt, Europaallee",
+            ["public_transport"] = "stop_position",
+            ["osm_id"] = 3108349155,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["amenity"] = "",
+            ["shop"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1127.09, -2099.76}
+        }
+    },
+    [6] = {
+        Id = "318784869",
+        Type = "LineString",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "6",
+            ["addr:postcode"] = "22850",
+            ["addr:street"] = "Europaallee",
+            ["building"] = "yes",
+            ["building:levels"] = "2",
+            ["name"] = "De-Gasperi-Passage",
+            ["shop"] = "mall",
+            ["osm_id"] = 318784869,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["amenity"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1201.26, -1904.15}, {-1178.37, -1899.41}, {-1177.06, -1889.17}, {-1141.73, -1887.10}, {-1140.64, -1900.28}, {-1136.05, -1900.00}, {-1135.96, -1901.93}, {-1127.16, -1901.27}, {-1106.74, -1899.90}, {-1105.96, -1899.84}, {-1098.70, -1929.89}, {-1094.96, -1955.36}, {-1101.14, -1955.91}, {-1123.79, -1957.13}, {-1132.92, -1957.61}, {-1132.55, -1962.44}, {-1191.28, -1965.89}, {-1193.19, -1930.65}, {-1193.28, -1927.55}, {-1199.16, -1927.83}, {-1200.46, -1913.14}, {-1201.26, -1904.15}
+        }
+    },
+    [7] = {
+        Id = "3248392173",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "1",
+            ["addr:postcode"] = "22850",
+            ["addr:street"] = "Europaallee",
+            ["amenity"] = "bank",
+            ["atm"] = "yes",
+            ["brand"] = "Commerzbank",
+            ["brand:wikidata"] = "Q157617",
+            ["brand:wikipedia"] = "de:Commerzbank",
+            ["name"] = "Commerzbank",
+            ["opening_hours"] = "Mo-Fr 09:30-13:00, Mo,We 14:00-16:00, Tu,Th 14:00-18:00; PH,Sa,Su off",
+            ["osm_id"] = 3248392173,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1131.83, -2058.82}
+        }
+    },
+    [8] = {
+        Id = "3248392177",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "147",
+            ["addr:postcode"] = "22848",
+            ["addr:street"] = "Ochsenzoller Straße",
+            ["amenity"] = "pharmacy",
+            ["dispensing"] = "yes",
+            ["email"] = "infoscandia-apotheke@t-online.de",
+            ["fax"] = "+49 40 5239359",
+            ["healthcare"] = "pharmacy",
+            ["name"] = "Scandia-Apotheke",
+            ["opening_hours"] = "Mo-Fr 09:00-18:30; Sa 09:00-13:00; PH,Su off",
+            ["phone"] = "+49 40 5231045",
+            ["website"] = "https://scandia-apotheke.com/",
+            ["osm_id"] = 3248392177,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1115.77, -2031.09}
+        }
+    },
+    [9] = {
+        Id = "3248392178",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "21",
+            ["addr:postcode"] = "22850",
+            ["addr:street"] = "Europaallee",
+            ["amenity"] = "restaurant",
+            ["cuisine"] = "korean",
+            ["email"] = "info@yang-zi.de",
+            ["fax"] = "+49 40 528 83 821",
+            ["name"] = "Restaurant Yang-Zi",
+            ["owner"] = "Hyun-Woo Jung",
+            ["phone"] = "+49 40 528 83 820",
+            ["start_date"] = "1996",
+            ["website"] = "https://yang-zi.de/",
+            ["osm_id"] = 3248392178,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1136.25, -1976.68}
+        }
+    },
+    [10] = {
+        Id = "4338608949",
+        Type = "Point",
+        Properties = {
+            ["brand"] = "Nur Hier",
+            ["brand:wikidata"] = "Q107985207",
+            ["indoor_seating"] = "yes",
+            ["level"] = "0",
+            ["name"] = "Nur Hier",
+            ["opening_hours"] = "Mo-Sa 08:00-20:00; PH,Su off",
+            ["outdoor_seating"] = "no",
+            ["shop"] = "bakery",
+            ["osm_id"] = 4338608949,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["amenity"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1132.73, -1931.32}
+        }
+    },
+    [11] = {
+        Id = "4462444088",
+        Type = "Point",
+        Properties = {
+            ["amenity"] = "school",
+            ["name"] = "Rackow SBH Nord GmbH",
+            ["osm_id"] = 4462444088,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1143.37, -1991.87}
+        }
+    },
+    [12] = {
+        Id = "814246442",
+        Type = "LineString",
+        Properties = {
+            ["access:covid19"] = "yes",
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "2",
+            ["addr:postcode"] = "22850",
+            ["addr:street"] = "Berliner Allee",
+            ["amenity"] = "bank",
+            ["atm"] = "yes",
+            ["building"] = "yes",
+            ["email"] = "info@vreg.de",
+            ["fax"] = "+49 40 523058-1093",
+            ["name"] = "Norderstedter Bank VReG",
+            ["opening_hours"] = "Mo,Tu,Th 09:00-18:00; We 09:00-13:00; Fr 09:00-16:00",
+            ["operator"] = "Volksbank Raiffeisenbank eG",
+            ["phone"] = "+49 40 523058-0",
+            ["website"] = "https://www.vreg.de/",
+            ["osm_id"] = 814246442,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1282.44, -2019.17}, {-1274.13, -2018.36}, {-1265.70, -2020.33}, {-1243.51, -2024.73}, {-1251.06, -2057.57}, {-1273.55, -2052.82}, {-1270.10, -2038.51}, {-1274.65, -2037.39}, {-1281.70, -2035.69}, {-1282.44, -2019.17}
+        }
+    },
+    [13] = {
+        Id = "954183210",
+        Type = "LineString",
+        Properties = {
+            ["access:covid19"] = "yes",
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "6",
+            ["addr:postcode"] = "22850",
+            ["addr:street"] = "Europaallee",
+            ["branch"] = "Europaalle",
+            ["brand"] = "REWE",
+            ["brand:wikidata"] = "Q16968817",
+            ["building:levels"] = "1",
+            ["building:part"] = "yes",
+            ["delivery:covid19"] = "no",
+            ["drive_through:covid19"] = "no",
+            ["level"] = "0",
+            ["name"] = "REWE",
+            ["opening_hours"] = "Mo-Sa 08:00-22:00; PH off",
+            ["operator"] = "REWE Markt GmbH",
+            ["payment:cash"] = "yes",
+            ["payment:coins"] = "yes",
+            ["payment:contactless"] = "yes",
+            ["payment:credit_cards"] = "yes",
+            ["payment:debit_cards"] = "yes",
+            ["payment:girocard"] = "yes",
+            ["phone"] = "+49 40 51313482",
+            ["shop"] = "supermarket",
+            ["website"] = "https://www.rewe.de/marktseite/norderstedt/531128/rewe-center-europaallee-6/",
+            ["osm_id"] = 954183210,
+            ["tile_500"] = "NO_E565000_N5948500_500",
+            ["tile_250"] = "NO_E565000_N5948500_250",
+            ["amenity"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1134.82, -1932.58}, {-1136.96, -1900.62}, {-1194.94, -1903.13}, {-1193.19, -1930.65}, {-1191.28, -1965.89}, {-1132.55, -1962.44}, {-1132.92, -1957.61}, {-1134.82, -1932.58}
+        }
+    },
+}

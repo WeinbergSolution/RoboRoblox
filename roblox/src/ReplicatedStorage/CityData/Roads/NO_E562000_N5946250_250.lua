@@ -1,0 +1,91 @@
+return {
+    [1] = {
+        Id = "496601589",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "designated",
+            ["foot"] = "designated",
+            ["highway"] = "path",
+            ["lit"] = "no",
+            ["segregated"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 496601589,
+            ["tile_500"] = "NO_E562000_N5946000_500",
+            ["tile_250"] = "NO_E562000_N5946250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 1.5,
+            ["ScaledOSMWidthStuds"] = 5.357142,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-4229.77, -4235.47}, {-4228.59, -4235.56}, {-4123.92, -4253.45}, {-4067.38, -4257.25}, {-4018.30, -4250.77}
+        }
+    },
+    [2] = {
+        Id = "612212285",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "use_sidepath",
+            ["cycleway:left"] = "no",
+            ["cycleway:right"] = "separate",
+            ["foot"] = "use_sidepath",
+            ["highway"] = "secondary",
+            ["lanes"] = "2",
+            ["lit"] = "no",
+            ["maxspeed"] = "80",
+            ["name"] = "Norderstedter Straße",
+            ["ref"] = "K 5",
+            ["sidewalk:left"] = "no",
+            ["sidewalk:right"] = "separate",
+            ["source:maxspeed"] = "sign",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 612212285,
+            ["tile_500"] = "NO_E562000_N5946000_500",
+            ["tile_250"] = "NO_E562000_N5946250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 14.0,
+            ["ScaledOSMWidthStuds"] = 49.999992,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 49.999992,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-4229.83, -4230.40}, {-4199.02, -4235.49}, {-4153.37, -4244.47}, {-4127.53, -4249.31}, {-4098.90, -4252.16}, {-4081.20, -4252.48}, {-4058.88, -4251.95}, {-4033.66, -4248.88}, {-4019.54, -4246.69}
+        }
+    },
+    [3] = {
+        Id = "71594097",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "bridleway",
+            ["lit"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 71594097,
+            ["tile_500"] = "NO_E562000_N5946000_500",
+            ["tile_250"] = "NO_E562000_N5946250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-4000.92, -4295.82}, {-4013.96, -4301.30}, {-4120.14, -4261.02}, {-4229.65, -4244.60}
+        }
+    },
+}

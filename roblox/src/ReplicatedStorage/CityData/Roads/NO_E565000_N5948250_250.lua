@@ -1,0 +1,266 @@
+return {
+    [1] = {
+        Id = "1009130913",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "residential",
+            ["maxspeed"] = "50",
+            ["name"] = "Tannenhofstraße",
+            ["sidewalk"] = "left",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1009130913,
+            ["tile_500"] = "NO_E565000_N5948000_500",
+            ["tile_250"] = "NO_E565000_N5948250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-1377.10, -2221.82}, {-1357.79, -2244.05}, {-1318.77, -2291.30}, {-1266.61, -2354.15}, {-1258.05, -2364.48}
+        }
+    },
+    [2] = {
+        Id = "1092057160",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["lit"] = "yes",
+            ["service"] = "driveway",
+            ["osm_id"] = 1092057160,
+            ["tile_500"] = "NO_E565000_N5948000_500",
+            ["tile_250"] = "NO_E565000_N5948250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-1239.38, -2152.85}, {-1205.99, -2149.22}, {-1169.70, -2166.13}
+        }
+    },
+    [3] = {
+        Id = "1093378478",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["name"] = "Krummer Weg",
+            ["sidewalk"] = "both",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1093378478,
+            ["tile_500"] = "NO_E565000_N5948000_500",
+            ["tile_250"] = "NO_E565000_N5948250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-1258.05, -2364.48}, {-1193.92, -2311.39}, {-1175.01, -2295.74}
+        }
+    },
+    [4] = {
+        Id = "150170924",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["name"] = "Krummer Weg",
+            ["sidewalk"] = "both",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 150170924,
+            ["tile_500"] = "NO_E565000_N5948000_500",
+            ["tile_250"] = "NO_E565000_N5948250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-1175.01, -2295.74}, {-1207.45, -2236.16}, {-1224.63, -2197.32}, {-1234.78, -2171.08}, {-1238.88, -2155.18}, {-1239.38, -2152.85}, {-1241.58, -2142.64}, {-1243.66, -2132.98}
+        }
+    },
+    [5] = {
+        Id = "24666995",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "service",
+            ["lit"] = "yes",
+            ["name"] = "Tannenstieg",
+            ["service"] = "driveway",
+            ["sidewalk"] = "no",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 24666995,
+            ["tile_500"] = "NO_E565000_N5948000_500",
+            ["tile_250"] = "NO_E565000_N5948250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-1243.66, -2132.98}, {-1326.61, -2182.57}
+        }
+    },
+    [6] = {
+        Id = "47062168",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["name"] = "Memeler Straße",
+            ["sidewalk"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 47062168,
+            ["tile_500"] = "NO_E565000_N5948000_500",
+            ["tile_250"] = "NO_E565000_N5948250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-1115.96, -2288.26}, {-1137.58, -2227.84}, {-1140.51, -2222.20}, {-1142.32, -2219.37}, {-1144.66, -2217.10}, {-1147.67, -2215.65}, {-1150.13, -2214.60}, {-1153.95, -2213.44}
+        }
+    },
+    [7] = {
+        Id = "744893214",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["service"] = "driveway",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 744893214,
+            ["tile_500"] = "NO_E565000_N5948000_500",
+            ["tile_250"] = "NO_E565000_N5948250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-1156.61, -2287.80}, {-1149.94, -2346.31}
+        }
+    },
+    [8] = {
+        Id = "814993927",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["lit"] = "no",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 814993927,
+            ["tile_500"] = "NO_E565000_N5948000_500",
+            ["tile_250"] = "NO_E565000_N5948250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-1163.55, -2091.96}, {-1182.20, -2153.79}, {-1150.91, -2169.36}
+        }
+    },
+    [9] = {
+        Id = "912224746",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["service"] = "driveway",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 912224746,
+            ["tile_500"] = "NO_E565000_N5948000_500",
+            ["tile_250"] = "NO_E565000_N5948250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-1318.77, -2291.30}, {-1351.36, -2315.61}
+        }
+    },
+    [10] = {
+        Id = "912688652",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["service"] = "driveway",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 912688652,
+            ["tile_500"] = "NO_E565000_N5948000_500",
+            ["tile_250"] = "NO_E565000_N5948250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-1193.92, -2311.39}, {-1158.11, -2385.30}
+        }
+    },
+}

@@ -1,5 +1,32 @@
 return {
     [1] = {
+        Id = "1124217806",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["name"] = "Im Brook",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1124217806,
+            ["tile_500"] = "NO_E566000_N5950500_500",
+            ["tile_250"] = "NO_E566250_N5950500_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-98.86, -86.47}, {-63.21, -104.18}
+        }
+    },
+    [2] = {
         Id = "1132556638",
         Type = "LineString",
         Properties = {
@@ -21,32 +48,7 @@ return {
             ["sidewalk"] = "",
         },
         Geometry = {
-            {257.06, -671.91}, {272.22, -679.39}, {242.78, -738.88}, {227.85, -731.52}
-        }
-    },
-    [2] = {
-        Id = "152341542",
-        Type = "LineString",
-        Properties = {
-            ["access"] = "permit",
-            ["description"] = "Zugangsweg zum Schulgelände",
-            ["highway"] = "footway",
-            ["osm_id"] = 152341542,
-            ["tile_500"] = "NO_E566000_N5950500_500",
-            ["tile_250"] = "NO_E566250_N5950500_250",
-            ["LaneCount"] = 2,
-            ["DirectionMode"] = "two-way",
-            ["OSMWidthMeters"] = 2.0,
-            ["ScaledOSMWidthStuds"] = 7.142856,
-            ["GameplayMinimumStuds"] = 7.0,
-            ["FinalWidthStuds"] = 7.142856,
-            ["crossing"] = "",
-            ["stop"] = "",
-            ["traffic_signals"] = "",
-            ["sidewalk"] = "",
-        },
-        Geometry = {
-            {223.26, -740.90}, {228.67, -743.36}, {400.23, -828.97}
+            {20.24, 157.33}, {35.40, 149.86}, {5.96, 90.36}, {-8.97, 97.72}
         }
     },
     [3] = {
@@ -76,7 +78,33 @@ return {
             ["sidewalk"] = "",
         },
         Geometry = {
-            {178.84, -832.10}, {197.55, -793.84}, {223.26, -740.90}
+            {-141.17, -172.62}, {-130.85, -150.51}, {-98.86, -86.47}, {-39.27, 35.40}, {-13.56, 88.34}
+        }
+    },
+    [4] = {
+        Id = "463964983",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "living_street",
+            ["lit"] = "yes",
+            ["name"] = "Im Brook",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 463964983,
+            ["tile_500"] = "NO_E566000_N5950500_500",
+            ["tile_250"] = "NO_E566250_N5950500_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 5.0,
+            ["ScaledOSMWidthStuds"] = 17.85714,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-63.21, -104.18}, {-56.48, -90.74}, {-24.70, -106.58}, {-12.53, -107.02}
         }
     },
 }

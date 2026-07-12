@@ -1,0 +1,91 @@
+return {
+    [1] = {
+        Id = "170933738",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "permissive",
+            ["bicycle"] = "designated",
+            ["foot"] = "designated",
+            ["highway"] = "path",
+            ["motorcar"] = "no",
+            ["motorcycle"] = "no",
+            ["surface"] = "asphalt",
+            ["tracktype"] = "grade2",
+            ["width"] = "3.50",
+            ["osm_id"] = 170933738,
+            ["tile_500"] = "NO_E567500_N5950000_500",
+            ["tile_250"] = "NO_E567500_N5950250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 3.5,
+            ["ScaledOSMWidthStuds"] = 12.499998,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 12.499998,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {1165.94, -212.03}, {1171.81, -199.77}
+        }
+    },
+    [2] = {
+        Id = "241545519",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["foot"] = "yes",
+            ["highway"] = "track",
+            ["motor_vehicle"] = "permissive",
+            ["name"] = "Achtern Born",
+            ["surface"] = "unpaved",
+            ["tracktype"] = "grade2",
+            ["width"] = "3.50",
+            ["osm_id"] = 241545519,
+            ["tile_500"] = "NO_E567500_N5950000_500",
+            ["tile_250"] = "NO_E567500_N5950250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 3.5,
+            ["ScaledOSMWidthStuds"] = 12.499998,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {1491.29, -269.10}, {1350.80, -258.00}, {1277.64, -254.53}, {1264.56, -251.90}, {1165.94, -212.03}
+        }
+    },
+    [3] = {
+        Id = "241545520",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["foot"] = "yes",
+            ["highway"] = "track",
+            ["motor_vehicle"] = "permissive",
+            ["tracktype"] = "grade2",
+            ["width"] = "3.50",
+            ["osm_id"] = 241545520,
+            ["tile_500"] = "NO_E567500_N5950000_500",
+            ["tile_250"] = "NO_E567500_N5950250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 3.5,
+            ["ScaledOSMWidthStuds"] = 12.499998,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {1085.74, -387.06}, {1312.89, -380.12}, {1319.73, -379.16}, {1326.46, -378.22}, {1337.10, -369.59}, {1340.28, -354.28}, {1350.80, -258.00}
+        }
+    },
+}

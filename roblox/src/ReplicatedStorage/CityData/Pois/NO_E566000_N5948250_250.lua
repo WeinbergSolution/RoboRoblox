@@ -1,0 +1,92 @@
+return {
+    [1] = {
+        Id = "10224540165",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Hamburg",
+            ["addr:housenumber"] = "679",
+            ["addr:postcode"] = "22419",
+            ["addr:street"] = "Langenhorner Chaussee",
+            ["amenity"] = "restaurant",
+            ["cuisine"] = "sushi",
+            ["email"] = "ayhan@saito-sushi.de",
+            ["name"] = "Saito Sushi",
+            ["operator"] = "XXL Burger GmbH - Yasharov Bedri",
+            ["phone"] = "+49 40 54757179",
+            ["source"] = "https://www.saito-sushi.de/info/impressum.html",
+            ["takeaway"] = "only",
+            ["website"] = "https://www.saito-sushi.de/",
+            ["osm_id"] = 10224540165,
+            ["tile_500"] = "NO_E566000_N5948000_500",
+            ["tile_250"] = "NO_E566000_N5948250_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-270.74, -2141.43}
+        }
+    },
+    [2] = {
+        Id = "229189565",
+        Type = "LineString",
+        Properties = {
+            ["addr:city"] = "Hamburg",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "679",
+            ["addr:postcode"] = "22419",
+            ["addr:street"] = "Langenhorner Chaussee",
+            ["amenity"] = "restaurant",
+            ["building"] = "yes",
+            ["cuisine"] = "burger",
+            ["diet:meat"] = "yes",
+            ["email"] = "kontakt@burgerlounge.de",
+            ["indoor_seating"] = "yes",
+            ["name"] = "Burger Lounge",
+            ["opening_hours"] = "Mo-Fr 11:30-23:00; PH,Sa,Su 13:00-23:00",
+            ["operator"] = "XXL Burger GmbH - Yasharov Bedri",
+            ["outdoor_seating"] = "yes",
+            ["phone"] = "+49 40 46630740",
+            ["website"] = "https://www.burgerlounge.de/",
+            ["website:menu"] = "https://burgerlounge.de/filiale/langenhorn",
+            ["wheelchair"] = "no",
+            ["osm_id"] = 229189565,
+            ["tile_500"] = "NO_E566000_N5948000_500",
+            ["tile_250"] = "NO_E566000_N5948250_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-270.09, -2149.05}, {-270.53, -2150.81}, {-274.90, -2149.71}, {-273.91, -2145.81}, {-274.83, -2145.57}, {-273.98, -2142.18}, {-273.06, -2142.41}, {-272.12, -2138.70}, {-267.75, -2139.80}, {-268.28, -2141.89}, {-264.52, -2142.84}, {-266.32, -2149.99}, {-270.09, -2149.05}
+        }
+    },
+    [3] = {
+        Id = "3942090519",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Hamburg",
+            ["addr:housenumber"] = "41",
+            ["addr:postcode"] = "22419",
+            ["addr:street"] = "Schmuggelstieg",
+            ["amenity"] = "fast_food",
+            ["check_date"] = "2025-09-22",
+            ["cuisine"] = "persian",
+            ["indoor_seating"] = "yes",
+            ["name"] = "Chaloos",
+            ["outdoor_seating"] = "yes",
+            ["toilets:wheelchair"] = "no",
+            ["wheelchair"] = "yes",
+            ["wheelchair:description"] = "Das WC befindet sich im Keller und kann nur über eine Treppe erreicht werden.",
+            ["osm_id"] = 3942090519,
+            ["tile_500"] = "NO_E566000_N5948000_500",
+            ["tile_250"] = "NO_E566000_N5948250_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-280.69, -2186.23}
+        }
+    },
+}

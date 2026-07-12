@@ -1,0 +1,68 @@
+return {
+    [1] = {
+        Id = "1050316367",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "use_sidepath",
+            ["cycleway:left"] = "separate",
+            ["cycleway:right"] = "no",
+            ["foot"] = "use_sidepath",
+            ["highway"] = "secondary",
+            ["lanes"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "60",
+            ["name"] = "Harksheider Weg",
+            ["note"] = "Kreisgrenze trennt vmtl. auch Waldstraße und Harksheider Weg",
+            ["sidewalk:left"] = "separate",
+            ["sidewalk:right"] = "no",
+            ["smoothness"] = "good",
+            ["source:name"] = "local knowledge",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1050316367,
+            ["tile_500"] = "NO_E562500_N5953000_500",
+            ["tile_250"] = "NO_E562750_N5953250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 14.0,
+            ["ScaledOSMWidthStuds"] = 49.999992,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 49.999992,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-3312.71, 2665.44}, {-3353.97, 2686.71}, {-3402.83, 2708.55}, {-3458.87, 2727.05}, {-3545.84, 2744.04}, {-3591.10, 2748.36}, {-3646.66, 2750.81}
+        }
+    },
+    [2] = {
+        Id = "1050316368",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "designated",
+            ["foot"] = "designated",
+            ["highway"] = "path",
+            ["lit"] = "yes",
+            ["segregated"] = "no",
+            ["smoothness"] = "excellent",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1050316368,
+            ["tile_500"] = "NO_E562500_N5953000_500",
+            ["tile_250"] = "NO_E562750_N5953250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 1.5,
+            ["ScaledOSMWidthStuds"] = 5.357142,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-2980.38, 2435.91}, {-3256.73, 2623.08}, {-3278.73, 2637.43}, {-3300.26, 2651.41}, {-3344.48, 2676.46}, {-3391.15, 2698.00}, {-3415.26, 2707.74}, {-3439.88, 2715.53}, {-3494.73, 2730.25}, {-3550.22, 2740.63}, {-3574.68, 2743.43}, {-3599.32, 2745.48}, {-3648.78, 2747.79}, {-3700.17, 2749.04}, {-3749.89, 2747.76}, {-3805.37, 2741.20}, {-3900.43, 2722.50}, {-3961.26, 2710.78}, {-3986.11, 2708.81}, {-4140.25, 2710.47}, {-4216.02, 2710.13}
+        }
+    },
+}

@@ -35,7 +35,57 @@ return {
             ["railway"] = "",
         },
         Geometry = {
-            {-98.83, 814.76}
+            {-335.65, 1644.00}
+        }
+    },
+    [2] = {
+        Id = "60415491",
+        Type = "LineString",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "332",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Ulzburger Straße",
+            ["brand"] = "REWE",
+            ["brand:wikidata"] = "Q16968817",
+            ["brand:wikipedia"] = "de:Rewe",
+            ["building"] = "retail",
+            ["building:levels"] = "2",
+            ["check_date:opening_hours"] = "2026-06-13",
+            ["currency:EUR"] = "yes",
+            ["email"] = "kundenmanagement@rewe.de",
+            ["internet_access"] = "wlan",
+            ["internet_access:fee"] = "no",
+            ["name"] = "REWE",
+            ["opening_hours"] = "Mo-Sa 07:00-23:00",
+            ["operator"] = "REWE Markt GmbH",
+            ["organic"] = "yes",
+            ["payment:american_express"] = "yes",
+            ["payment:cash"] = "yes",
+            ["payment:coins"] = "yes",
+            ["payment:contactless"] = "yes",
+            ["payment:credit_cards"] = "yes",
+            ["payment:debit_cards"] = "yes",
+            ["payment:girocard"] = "yes",
+            ["payment:mastercard"] = "yes",
+            ["payment:visa"] = "yes",
+            ["payment:visa_debit"] = "yes",
+            ["phone"] = "+49 40 52681310",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["shop"] = "supermarket",
+            ["website"] = "https://www.rewe.de/marktseite/norderstedt/540548/rewe-markt-ulzburger-str-332/",
+            ["wheelchair"] = "yes",
+            ["osm_id"] = 60415491,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566000_N5952250_250",
+            ["amenity"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-309.25, 1777.19}, {-309.36, 1784.95}, {-298.04, 1785.11}, {-296.48, 1749.82}, {-338.96, 1749.56}, {-340.41, 1776.75}, {-309.25, 1777.19}
         }
     },
 }

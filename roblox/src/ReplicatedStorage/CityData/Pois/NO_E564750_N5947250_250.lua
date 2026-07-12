@@ -1,0 +1,40 @@
+return {
+    [1] = {
+        Id = "1118084368",
+        Type = "LineString",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "146",
+            ["addr:postcode"] = "22848",
+            ["addr:street"] = "Ohechaussee",
+            ["amenity"] = "fuel",
+            ["brand"] = "Aral",
+            ["brand:wikidata"] = "Q565734",
+            ["brand:wikipedia"] = "en:Aral AG",
+            ["compressed_air"] = "yes",
+            ["fax"] = "+49 40 5282287",
+            ["fuel:GTL_diesel"] = "yes",
+            ["fuel:diesel"] = "yes",
+            ["fuel:e10"] = "yes",
+            ["fuel:octane_100"] = "yes",
+            ["fuel:octane_95"] = "yes",
+            ["landuse"] = "retail",
+            ["mapillary"] = "700941518379086",
+            ["name"] = "Aral",
+            ["opening_hours"] = "24/7",
+            ["operator"] = "Axel Holz",
+            ["phone"] = "+49 40 5234266",
+            ["survey:date"] = "2022-11-29",
+            ["website"] = "https://tankstelle.aral.de/norderstedt/ohechaussee-146/13068400",
+            ["osm_id"] = 1118084368,
+            ["tile_500"] = "NO_E564500_N5947000_500",
+            ["tile_250"] = "NO_E564750_N5947250_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1357.02, -3125.80}, {-1377.83, -3110.87}, {-1416.25, -3164.15}, {-1395.43, -3179.10}, {-1357.02, -3125.80}
+        }
+    },
+}

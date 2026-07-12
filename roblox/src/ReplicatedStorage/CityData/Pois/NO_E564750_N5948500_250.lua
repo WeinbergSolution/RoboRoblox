@@ -1,0 +1,91 @@
+return {
+    [1] = {
+        Id = "10812523121",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "8",
+            ["addr:postcode"] = "22848",
+            ["addr:street"] = "Tannenhofstraße",
+            ["amenity"] = "fast_food",
+            ["check_date:opening_hours"] = "2023-04-14",
+            ["cuisine"] = "pizza",
+            ["name"] = "Speedy's Pizzaservice",
+            ["opening_hours"] = "Mo-Th 11:00-14:30,17:00-22:00; Fr 11:00-14:30,17:00-22:30; Sa 16:00-22:30; Su 12:00-22:00",
+            ["operator"] = "Lakwinder Multani",
+            ["phone"] = "+49 40 52878651",
+            ["website"] = "https://www.speedys-pizza.de",
+            ["osm_id"] = 10812523121,
+            ["tile_500"] = "NO_E564500_N5948500_500",
+            ["tile_250"] = "NO_E564750_N5948500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1514.24, -2083.48}
+        }
+    },
+    [2] = {
+        Id = "3327735843",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "4",
+            ["addr:postcode"] = "22850",
+            ["addr:street"] = "Achternfelde",
+            ["amenity"] = "pharmacy",
+            ["dispensing"] = "yes",
+            ["email"] = "info@hubertusnorderstedt.de",
+            ["fax"] = "+49 40 5344036",
+            ["healthcare"] = "pharmacy",
+            ["name"] = "Hubertus-Apotheke",
+            ["opening_hours"] = "Mo-Fr 08:15-13:00,14:00-18:30; Sa 09:00-13:00",
+            ["operator"] = "Dr. Thomas Meyer",
+            ["phone"] = "+49 40 5231228",
+            ["website"] = "http://www.hubertusnorderstedt.de",
+            ["osm_id"] = 3327735843,
+            ["tile_500"] = "NO_E564500_N5948500_500",
+            ["tile_250"] = "NO_E564750_N5948500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1592.24, -1959.18}
+        }
+    },
+    [3] = {
+        Id = "4067258546",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "110",
+            ["addr:postcode"] = "22848",
+            ["addr:street"] = "Ochsenzoller Straße",
+            ["amenity"] = "restaurant",
+            ["bar"] = "yes",
+            ["check_date:opening_hours"] = "2023-04-17",
+            ["cuisine"] = "steak_house",
+            ["email"] = "info@mendoza-norderstedt.de",
+            ["fax"] = "+49 40 85159407",
+            ["name"] = "Mendoza",
+            ["opening_hours"] = "Mo-Su 12:00-22:00",
+            ["operator"] = "G.M.X.Verwaltungs GmbH / Naginder Singh",
+            ["phone"] = "+49 40 85159313",
+            ["toilets:wheelchair"] = "no",
+            ["website"] = "https://www.mendoza-norderstedt.de/",
+            ["website:menu"] = "https://www.mendoza-norderstedt.de/wp-content/uploads/2022/04/2022_mendoza_speisekarte_web.pdf",
+            ["wheelchair"] = "limited",
+            ["osm_id"] = 4067258546,
+            ["tile_500"] = "NO_E564500_N5948500_500",
+            ["tile_250"] = "NO_E564750_N5948500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1559.27, -2039.02}
+        }
+    },
+}

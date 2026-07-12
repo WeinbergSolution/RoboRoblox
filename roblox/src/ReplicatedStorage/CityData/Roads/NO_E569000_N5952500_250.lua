@@ -1,0 +1,91 @@
+return {
+    [1] = {
+        Id = "239822559",
+        Type = "LineString",
+        Properties = {
+            ["check_date:surface"] = "2021-04-02",
+            ["highway"] = "path",
+            ["horse"] = "no",
+            ["smoothness"] = "horrible",
+            ["surface"] = "ground",
+            ["trail_visibility"] = "good",
+            ["width"] = "1",
+            ["osm_id"] = 239822559,
+            ["tile_500"] = "NO_E569000_N5952500_500",
+            ["tile_250"] = "NO_E569000_N5952500_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 1.0,
+            ["ScaledOSMWidthStuds"] = 3.571428,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {2774.89, 2119.81}, {2776.83, 2133.07}
+        }
+    },
+    [2] = {
+        Id = "239822561",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "path",
+            ["horse"] = "no",
+            ["mtb:scale"] = "2",
+            ["smoothness"] = "horrible",
+            ["surface"] = "earth",
+            ["trail_visibility"] = "intermediate",
+            ["width"] = "1",
+            ["osm_id"] = 239822561,
+            ["tile_500"] = "NO_E569000_N5952500_500",
+            ["tile_250"] = "NO_E569000_N5952500_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 1.0,
+            ["ScaledOSMWidthStuds"] = 3.571428,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {2923.06, 1921.04}, {2919.28, 1924.31}, {2914.71, 1928.57}, {2902.92, 1945.38}, {2897.35, 1964.57}, {2888.68, 1984.44}, {2877.97, 1997.79}, {2867.95, 2012.04}, {2860.44, 2020.90}, {2839.59, 2045.65}, {2817.48, 2064.77}, {2808.21, 2076.65}, {2799.32, 2084.92}, {2790.88, 2104.59}, {2774.89, 2119.81}, {2733.55, 2149.97}, {2717.80, 2163.46}, {2668.16, 2167.41}, {2649.08, 2160.28}, {2640.58, 2148.24}, {2620.33, 2146.86}, {2581.85, 2155.67}, {2579.92, 2163.23}, {2558.61, 2186.02}, {2529.53, 2194.62}, {2490.57, 2211.02}, {2452.19, 2212.62}, {2425.24, 2224.50}, {2402.63, 2245.18}
+        }
+    },
+    [3] = {
+        Id = "55824806",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "no",
+            ["check_date:surface"] = "2021-04-02",
+            ["foot"] = "yes",
+            ["highway"] = "path",
+            ["horse"] = "no",
+            ["surface"] = "ground",
+            ["trail_visibility"] = "intermediate",
+            ["wheelchair"] = "no",
+            ["width"] = "0.5",
+            ["osm_id"] = 55824806,
+            ["tile_500"] = "NO_E569000_N5952500_500",
+            ["tile_250"] = "NO_E569000_N5952500_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 0.5,
+            ["ScaledOSMWidthStuds"] = 1.785714,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {2860.44, 2020.90}, {2875.99, 2023.50}
+        }
+    },
+}

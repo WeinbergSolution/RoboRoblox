@@ -1,0 +1,91 @@
+return {
+    [1] = {
+        Id = "31892504",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "path",
+            ["horse"] = "no",
+            ["mtb:name"] = "Kukidenttrail",
+            ["smoothness"] = "horrible",
+            ["surface"] = "ground",
+            ["trail_visibility"] = "intermediate",
+            ["width"] = "1",
+            ["osm_id"] = 31892504,
+            ["tile_500"] = "NO_E569500_N5952000_500",
+            ["tile_250"] = "NO_E569500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 1.0,
+            ["ScaledOSMWidthStuds"] = 3.571428,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {3594.05, 1737.94}, {3576.99, 1744.77}, {3564.40, 1750.59}, {3548.10, 1757.01}, {3529.15, 1764.54}, {3508.69, 1770.58}, {3487.33, 1772.35}, {3424.29, 1786.98}, {3325.68, 1811.49}, {3309.99, 1816.40}, {3295.74, 1820.16}, {3275.52, 1825.63}, {3254.48, 1829.60}, {3237.32, 1833.82}, {3225.93, 1836.61}, {3166.72, 1855.20}, {3138.63, 1862.59}, {3118.30, 1864.82}, {3089.34, 1870.79}, {3022.42, 1884.69}, {3002.32, 1890.91}, {2961.96, 1898.58}, {2948.27, 1903.15}, {2933.14, 1909.79}, {2923.06, 1921.04}
+        }
+    },
+    [2] = {
+        Id = "39332040",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "no",
+            ["foot"] = "yes",
+            ["highway"] = "path",
+            ["horse"] = "no",
+            ["motorcar"] = "no",
+            ["motorcycle"] = "no",
+            ["surface"] = "ground",
+            ["width"] = "0.5",
+            ["osm_id"] = 39332040,
+            ["tile_500"] = "NO_E569500_N5952000_500",
+            ["tile_250"] = "NO_E569500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 0.5,
+            ["ScaledOSMWidthStuds"] = 1.785714,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {3325.68, 1811.49}, {3335.01, 1838.44}, {3340.70, 1841.39}, {3348.88, 1855.38}, {3358.99, 1911.01}
+        }
+    },
+    [3] = {
+        Id = "55824808",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "no",
+            ["foot"] = "yes",
+            ["highway"] = "path",
+            ["horse"] = "no",
+            ["surface"] = "dirt",
+            ["trail_visibility"] = "intermediate",
+            ["wheelchair"] = "no",
+            ["width"] = "0.5",
+            ["osm_id"] = 55824808,
+            ["tile_500"] = "NO_E569500_N5952000_500",
+            ["tile_250"] = "NO_E569500_N5952250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 0.5,
+            ["ScaledOSMWidthStuds"] = 1.785714,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {3335.01, 1838.44}, {3331.07, 1840.54}, {3323.04, 1835.53}, {3309.99, 1816.40}
+        }
+    },
+}

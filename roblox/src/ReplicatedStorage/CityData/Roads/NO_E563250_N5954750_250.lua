@@ -1,0 +1,65 @@
+return {
+    [1] = {
+        Id = "37873382",
+        Type = "LineString",
+        Properties = {
+            ["bdouble"] = "yes",
+            ["bicycle"] = "use_sidepath",
+            ["cycleway:left"] = "no",
+            ["cycleway:right"] = "separate",
+            ["foot"] = "use_sidepath",
+            ["highway"] = "primary",
+            ["lanes"] = "2",
+            ["lit"] = "no",
+            ["maxspeed"] = "50",
+            ["name"] = "Friedrichsgaber Straße",
+            ["overtaking"] = "no",
+            ["ref"] = "K 24",
+            ["sidewalk:left"] = "no",
+            ["sidewalk:right"] = "separate",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 37873382,
+            ["tile_500"] = "NO_E563000_N5954500_500",
+            ["tile_250"] = "NO_E563250_N5954750_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 18.0,
+            ["ScaledOSMWidthStuds"] = 64.285704,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 64.285704,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-3220.28, 4602.34}, {-3181.79, 4572.20}, {-3114.83, 4520.09}, {-3050.22, 4469.00}, {-2787.61, 4263.35}, {-2673.25, 4174.67}, {-2622.25, 4136.05}, {-2613.00, 4129.75}
+        }
+    },
+    [2] = {
+        Id = "4038540",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "track",
+            ["name"] = "Breedenmoorweg",
+            ["surface"] = "asphalt",
+            ["tracktype"] = "grade1",
+            ["osm_id"] = 4038540,
+            ["tile_500"] = "NO_E563000_N5954500_500",
+            ["tile_250"] = "NO_E563250_N5954750_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 3.0,
+            ["ScaledOSMWidthStuds"] = 10.714284,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-3154.34, 4389.15}, {-3147.67, 4387.10}, {-3142.58, 4386.25}, {-3129.72, 4387.01}, {-3117.95, 4388.69}, {-3106.42, 4390.89}, {-3098.72, 4392.21}, {-3091.85, 4392.75}, {-3087.19, 4392.20}, {-3081.14, 4390.12}, {-3074.74, 4386.54}, {-3062.29, 4375.92}, {-2935.40, 4278.61}, {-2788.11, 4165.21}, {-2672.50, 4075.77}, {-2550.89, 3989.48}
+        }
+    },
+}

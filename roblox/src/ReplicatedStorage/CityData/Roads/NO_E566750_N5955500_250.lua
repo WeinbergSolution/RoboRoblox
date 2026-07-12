@@ -1,0 +1,68 @@
+return {
+    [1] = {
+        Id = "690921114",
+        Type = "LineString",
+        Properties = {
+            ["bdouble"] = "yes",
+            ["bicycle"] = "use_sidepath",
+            ["cycleway:left"] = "no",
+            ["cycleway:right"] = "separate",
+            ["foot"] = "use_sidepath",
+            ["highway"] = "primary",
+            ["lanes"] = "2",
+            ["lit"] = "no",
+            ["maxspeed"] = "80",
+            ["name"] = "Schleswig-Holstein-Straße",
+            ["oneway"] = "no",
+            ["ref"] = "L 284",
+            ["sidewalk:left"] = "no",
+            ["sidewalk:right"] = "separate",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 690921114,
+            ["tile_500"] = "NO_E566500_N5955500_500",
+            ["tile_250"] = "NO_E566750_N5955500_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 18.0,
+            ["ScaledOSMWidthStuds"] = 64.285704,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 64.285704,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {255.29, 5021.78}, {444.63, 4970.75}, {658.32, 4912.60}, {872.87, 4854.68}
+        }
+    },
+    [2] = {
+        Id = "72341099",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["foot"] = "yes",
+            ["highway"] = "path",
+            ["lit"] = "no",
+            ["surface"] = "ground",
+            ["trail_visibility"] = "intermediate",
+            ["width"] = "0.5",
+            ["osm_id"] = 72341099,
+            ["tile_500"] = "NO_E566500_N5955500_500",
+            ["tile_250"] = "NO_E566750_N5955500_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 0.5,
+            ["ScaledOSMWidthStuds"] = 1.785714,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {444.51, 4962.85}, {446.78, 4958.92}, {445.50, 4954.59}, {399.57, 4918.96}, {395.20, 4913.06}
+        }
+    },
+}

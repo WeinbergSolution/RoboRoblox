@@ -1,0 +1,115 @@
+return {
+    [1] = {
+        Id = "120865974",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "track",
+            ["surface"] = "compacted",
+            ["tracktype"] = "grade1",
+            ["osm_id"] = 120865974,
+            ["tile_500"] = "NO_E563500_N5948500_500",
+            ["tile_250"] = "NO_E563500_N5948750_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 3.0,
+            ["ScaledOSMWidthStuds"] = 10.714284,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-2655.48, -1570.24}, {-2655.48, -1622.55}, {-2657.51, -1681.26}, {-2652.56, -1732.81}, {-2648.39, -1779.41}, {-2646.49, -1833.03}
+        }
+    },
+    [2] = {
+        Id = "27161272",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:bicycle"] = "designated",
+            ["cycleway:left"] = "track",
+            ["cycleway:right"] = "no",
+            ["highway"] = "secondary",
+            ["lanes"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "50",
+            ["name"] = "Friedrich-Ebert-Straße",
+            ["sidewalk"] = "left",
+            ["sidewalk:left:surface"] = "asphalt",
+            ["smoothness"] = "good",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 27161272,
+            ["tile_500"] = "NO_E563500_N5948500_500",
+            ["tile_250"] = "NO_E563500_N5948750_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 14.0,
+            ["ScaledOSMWidthStuds"] = 49.999992,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 49.999992,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-2646.49, -1833.03}, {-2614.20, -1831.71}
+        }
+    },
+    [3] = {
+        Id = "277265076",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:left"] = "no",
+            ["cycleway:right"] = "separate",
+            ["highway"] = "secondary",
+            ["lanes"] = "2",
+            ["lit"] = "no",
+            ["maxspeed"] = "80",
+            ["name"] = "Friedrich-Ebert-Straße",
+            ["sidewalk"] = "right",
+            ["sidewalk:right:surface"] = "asphalt",
+            ["smoothness"] = "good",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 277265076,
+            ["tile_500"] = "NO_E563500_N5948500_500",
+            ["tile_250"] = "NO_E563500_N5948750_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 14.0,
+            ["ScaledOSMWidthStuds"] = 49.999992,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 49.999992,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {-2646.49, -1833.03}, {-2654.52, -1833.54}, {-2737.85, -1838.89}, {-2823.93, -1840.06}, {-2905.55, -1831.61}, {-2974.16, -1815.21}, {-2995.66, -1806.50}
+        }
+    },
+    [4] = {
+        Id = "856265234",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["osm_id"] = 856265234,
+            ["tile_500"] = "NO_E563500_N5948500_500",
+            ["tile_250"] = "NO_E563500_N5948750_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-2615.16, -1838.38}, {-2612.33, -1843.39}, {-2606.09, -1850.08}, {-2585.89, -1853.32}
+        }
+    },
+}

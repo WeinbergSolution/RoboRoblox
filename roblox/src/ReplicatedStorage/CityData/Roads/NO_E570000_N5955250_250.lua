@@ -1,0 +1,115 @@
+return {
+    [1] = {
+        Id = "1234487045",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "unclassified",
+            ["lanes"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["name"] = "Glashütter Weg",
+            ["sidewalk"] = "right",
+            ["sidewalk:right:surface"] = "paving_stones",
+            ["smoothness"] = "excellent",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1234487045,
+            ["tile_500"] = "NO_E570000_N5955000_500",
+            ["tile_250"] = "NO_E570000_N5955250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {3759.63, 4889.09}, {3757.19, 4848.14}, {3754.06, 4796.09}
+        }
+    },
+    [2] = {
+        Id = "4054933",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "residential",
+            ["maxspeed"] = "30",
+            ["name"] = "Achtern Diek",
+            ["osm_id"] = 4054933,
+            ["tile_500"] = "NO_E570000_N5955000_500",
+            ["tile_250"] = "NO_E570000_N5955250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {3757.19, 4848.14}, {3798.21, 4845.35}
+        }
+    },
+    [3] = {
+        Id = "788272549",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:left"] = "no",
+            ["cycleway:right"] = "track",
+            ["cycleway:right:segregated"] = "no",
+            ["highway"] = "unclassified",
+            ["lanes"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["maxspeed:type"] = "sign",
+            ["name"] = "Glashütter Weg",
+            ["sidewalk"] = "right",
+            ["sidewalk:right:surface"] = "asphalt",
+            ["smoothness"] = "excellent",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 788272549,
+            ["tile_500"] = "NO_E570000_N5955000_500",
+            ["tile_250"] = "NO_E570000_N5955250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {3754.06, 4796.09}, {3749.09, 4713.70}
+        }
+    },
+    [4] = {
+        Id = "822166049",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["osm_id"] = 822166049,
+            ["tile_500"] = "NO_E570000_N5955000_500",
+            ["tile_250"] = "NO_E570000_N5955250_250",
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {3746.99, 4678.81}, {3735.77, 4672.44}, {3725.13, 4667.81}, {3719.56, 4663.07}, {3615.98, 4629.52}
+        }
+    },
+}

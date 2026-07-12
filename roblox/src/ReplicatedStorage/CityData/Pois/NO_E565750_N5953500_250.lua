@@ -1,0 +1,90 @@
+return {
+    [1] = {
+        Id = "1852678670",
+        Type = "Point",
+        Properties = {
+            ["bus"] = "yes",
+            ["name"] = "Friedrichsgabe, Bahnhofstraße",
+            ["old_name"] = "Friedrichsgabe, Mühlenweg (West)",
+            ["public_transport"] = "stop_position",
+            ["osm_id"] = 1852678670,
+            ["tile_500"] = "NO_E565500_N5953500_500",
+            ["tile_250"] = "NO_E565750_N5953500_250",
+            ["amenity"] = "",
+            ["shop"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-538.90, 3020.57}
+        }
+    },
+    [2] = {
+        Id = "706476658",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "2",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Erlengang",
+            ["amenity"] = "pharmacy",
+            ["contact:phone"] = "+49 40 5222698",
+            ["dispensing"] = "yes",
+            ["drive_through"] = "no",
+            ["healthcare"] = "pharmacy",
+            ["name"] = "Erlen-Apotheke",
+            ["network"] = "mea - meine apotheke",
+            ["opening_hours"] = "Mo,Tu,Th,Fr 08:00-18:30; Sa 08:30-13:00; We 08:00-14:00",
+            ["operator"] = "Monika Suhrbier",
+            ["website"] = "https://www.erlen-apotheke-norderstedt.de/",
+            ["wheelchair"] = "yes",
+            ["osm_id"] = 706476658,
+            ["tile_500"] = "NO_E565500_N5953500_500",
+            ["tile_250"] = "NO_E565750_N5953500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-567.89, 3074.19}
+        }
+    },
+    [3] = {
+        Id = "957977116",
+        Type = "LineString",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "440",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Ulzburger Straße",
+            ["amenity"] = "fuel",
+            ["brand"] = "Aral",
+            ["brand:wikidata"] = "Q565734",
+            ["brand:wikipedia"] = "en:Aral AG",
+            ["compressed_air"] = "yes",
+            ["fax"] = "+49 40 53532101",
+            ["fuel:GTL_diesel"] = "yes",
+            ["fuel:HGV_diesel"] = "yes",
+            ["fuel:diesel"] = "yes",
+            ["fuel:e10"] = "yes",
+            ["fuel:octane_95"] = "yes",
+            ["fuel:octane_98"] = "yes",
+            ["name"] = "ARAL",
+            ["opening_hours"] = "24/7",
+            ["payment:dkv"] = "yes",
+            ["payment:uta"] = "yes",
+            ["phone"] = "+49 40 5222155",
+            ["website"] = "https://tankstelle.aral.de/norderstedt/ulzburger-strasse-440/13102100",
+            ["wheelchair"] = "yes",
+            ["osm_id"] = 957977116,
+            ["tile_500"] = "NO_E565500_N5953500_500",
+            ["tile_250"] = "NO_E565750_N5953500_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-477.03, 3103.57}, {-489.05, 3149.53}, {-543.19, 3138.62}, {-537.86, 3087.50}, {-477.03, 3103.57}
+        }
+    },
+}

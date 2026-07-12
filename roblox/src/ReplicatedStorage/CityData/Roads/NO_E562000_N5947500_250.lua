@@ -1,0 +1,67 @@
+return {
+    [1] = {
+        Id = "263234462",
+        Type = "LineString",
+        Properties = {
+            ["destination"] = "Rastplatz Bönningstedt",
+            ["destination:symbol"] = "rest_area;toilets",
+            ["highway"] = "motorway_link",
+            ["lanes"] = "1",
+            ["lit"] = "no",
+            ["oneway"] = "yes",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 263234462,
+            ["tile_500"] = "NO_E562000_N5947500_500",
+            ["tile_250"] = "NO_E562000_N5947500_250",
+            ["LaneCount"] = 1,
+            ["DirectionMode"] = "one-way",
+            ["OSMWidthMeters"] = 14.0,
+            ["ScaledOSMWidthStuds"] = 49.999992,
+            ["GameplayMinimumStuds"] = 14.0,
+            ["FinalWidthStuds"] = 49.999992,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-4136.11, -3042.10}, {-4164.61, -3093.61}, {-4177.40, -3110.87}, {-4184.96, -3120.12}
+        }
+    },
+    [2] = {
+        Id = "760878205",
+        Type = "LineString",
+        Properties = {
+            ["bdouble"] = "yes",
+            ["destination:lanes"] = "|||Bönningstedt",
+            ["destination:symbol:lanes"] = "|||rest_area;toilets",
+            ["highway"] = "motorway",
+            ["int_ref"] = "E 45",
+            ["lanes"] = "4",
+            ["lit"] = "no",
+            ["maxspeed"] = "none",
+            ["maxspeed:variable"] = "peak_traffic",
+            ["oneway"] = "yes",
+            ["placement"] = "middle_of:2",
+            ["ref"] = "A 7",
+            ["surface"] = "concrete",
+            ["turn:lanes"] = "none|none|none|slight_right",
+            ["osm_id"] = 760878205,
+            ["tile_500"] = "NO_E562000_N5947500_500",
+            ["tile_250"] = "NO_E562000_N5947500_250",
+            ["LaneCount"] = 4,
+            ["DirectionMode"] = "one-way",
+            ["OSMWidthMeters"] = 24.0,
+            ["ScaledOSMWidthStuds"] = 85.714272,
+            ["GameplayMinimumStuds"] = 52.0,
+            ["FinalWidthStuds"] = 85.714272,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
+        },
+        Geometry = {
+            {-4080.03, -2840.63}, {-4089.30, -2876.03}, {-4101.09, -2918.79}, {-4126.11, -3007.47}, {-4136.11, -3042.10}
+        }
+    },
+}

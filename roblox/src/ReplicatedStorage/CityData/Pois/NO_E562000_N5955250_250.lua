@@ -1,0 +1,141 @@
+return {
+    [1] = {
+        Id = "10311972459",
+        Type = "Point",
+        Properties = {
+            ["bus"] = "yes",
+            ["name"] = "Quickborn-Heide, Pascalkehre",
+            ["public_transport"] = "stop_position",
+            ["osm_id"] = 10311972459,
+            ["tile_500"] = "NO_E562000_N5955000_500",
+            ["tile_250"] = "NO_E562000_N5955250_250",
+            ["amenity"] = "",
+            ["shop"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-4261.56, 4823.45}
+        }
+    },
+    [2] = {
+        Id = "1852678755",
+        Type = "Point",
+        Properties = {
+            ["bus"] = "yes",
+            ["name"] = "Quickborn-Heide, Pascalkehre",
+            ["public_transport"] = "stop_position",
+            ["osm_id"] = 1852678755,
+            ["tile_500"] = "NO_E562000_N5955000_500",
+            ["tile_250"] = "NO_E562000_N5955250_250",
+            ["amenity"] = "",
+            ["shop"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-4240.50, 4830.92}
+        }
+    },
+    [3] = {
+        Id = "273206683",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Quickborn",
+            ["addr:housenumber"] = "9",
+            ["addr:postcode"] = "25451",
+            ["addr:street"] = "Pascalstraße",
+            ["brand"] = "famila",
+            ["brand:wikidata"] = "Q1395108",
+            ["brand:wikipedia"] = "de:Famila",
+            ["check_date"] = "2026-04-25",
+            ["diet:halal"] = "no",
+            ["diet:kosher"] = "no",
+            ["fax"] = "+49 4106 760849",
+            ["internet_access"] = "wlan",
+            ["internet_access:fee"] = "no",
+            ["name"] = "famila",
+            ["opening_hours"] = "Mo-Sa 07:00-21:00",
+            ["organic"] = "yes",
+            ["payment:cash"] = "yes",
+            ["payment:coins"] = "yes",
+            ["payment:girocard"] = "yes",
+            ["phone"] = "+49 4106 76080",
+            ["shop"] = "supermarket",
+            ["website"] = "https://www.famila-nordost.de/wqwarenhaus/quickborn/",
+            ["wheelchair"] = "yes",
+            ["osm_id"] = 273206683,
+            ["tile_500"] = "NO_E562000_N5955000_500",
+            ["tile_250"] = "NO_E562000_N5955250_250",
+            ["amenity"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-4282.95, 4672.77}
+        }
+    },
+    [4] = {
+        Id = "880883842",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Quickborn",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "9",
+            ["addr:postcode"] = "25451",
+            ["addr:street"] = "Pascalstraße",
+            ["amenity"] = "pharmacy",
+            ["dispensing"] = "yes",
+            ["email"] = "info@pascal-apotheke.de",
+            ["fax"] = "+49 4106 12 50 40",
+            ["healthcare"] = "pharmacy",
+            ["name"] = "Pascal Apotheke",
+            ["note"] = "de: Nachtschalter",
+            ["opening_hours"] = "Mo-Fr 08:00-20:00",
+            ["phone"] = "+49 4106 125036",
+            ["website"] = "https://www.pascalapotheke.de/",
+            ["wheelchair"] = "yes",
+            ["osm_id"] = 880883842,
+            ["tile_500"] = "NO_E562000_N5955000_500",
+            ["tile_250"] = "NO_E562000_N5955250_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-4339.21, 4643.62}
+        }
+    },
+    [5] = {
+        Id = "913336808",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Quickborn",
+            ["addr:housenumber"] = "9",
+            ["addr:postcode"] = "25451",
+            ["addr:street"] = "Pascalstraße",
+            ["brand"] = "Kolls",
+            ["brand:wikidata"] = "Q107151170",
+            ["currency:EUR"] = "yes",
+            ["indoor_seating"] = "yes",
+            ["name"] = "Kolls",
+            ["opening_hours"] = "Mo-Sa 07:00-21:00",
+            ["operator"] = "Bäckerei Konditorei Kolls GmbH",
+            ["outdoor_seating"] = "no",
+            ["payment:cash"] = "yes",
+            ["payment:coins"] = "yes",
+            ["payment:girocard"] = "yes",
+            ["phone"] = "+49 4106 626839",
+            ["shop"] = "bakery",
+            ["website"] = "https://www.baeckerei-kolls.de/filiale/quickborn-heide-pascalstrasse/",
+            ["wheelchair"] = "yes",
+            ["osm_id"] = 913336808,
+            ["tile_500"] = "NO_E562000_N5955000_500",
+            ["tile_250"] = "NO_E562000_N5955250_250",
+            ["amenity"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-4333.19, 4668.55}
+        }
+    },
+}

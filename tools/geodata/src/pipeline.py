@@ -11,7 +11,7 @@ import geopandas as gpd
 from pyproj import Transformer
 import requests
 
-from config import RAW_DIR, PROCESSED_DIR, PBF_URL, PBF_FILENAME, PILOT_BBOX, MANIFESTS_DIR, WORKING_CRS, OSM_CRS
+from config import RAW_DIR, PROCESSED_DIR, PBF_URL, PBF_FILENAME, NORDERSTEDT_BBOX, MANIFESTS_DIR, WORKING_CRS, OSM_CRS
 
 METERS_TO_STUDS = 3.571428
 wkbfab = osmium.geom.WKBFactory()
@@ -352,7 +352,7 @@ def run_pipeline():
     file_size = os.path.getsize(filepath)
     
     print("Extracting pilot area features...")
-    handler = PilotHandler(PILOT_BBOX)
+    handler = PilotHandler(NORDERSTEDT_BBOX)
     handler.apply_file(str(filepath), locations=True)
     
     print(f"Extracted {len(handler.roads)} roads, {len(handler.buildings)} buildings.")
@@ -373,24 +373,32 @@ def run_pipeline():
     save_geojson(handler.green, "green")
     save_geojson(handler.pois, "pois")
     
+    # Reproject coordinates and assemble chunks
+    # We use a custom local projection origin for Roblox coordinates
+    # Let's take the center of the pilot bbox as origin (0,0)
+    
     transformer = Transformer.from_crs(OSM_CRS, WORKING_CRS, always_xy=True)
-    minx, miny = transformer.transform(PILOT_BBOX[0], PILOT_BBOX[1])
-    maxx, maxy = transformer.transform(PILOT_BBOX[2], PILOT_BBOX[3])
+    minx, miny = transformer.transform(NORDERSTEDT_BBOX[0], NORDERSTEDT_BBOX[1])
+    maxx, maxy = transformer.transform(NORDERSTEDT_BBOX[2], NORDERSTEDT_BBOX[3])
     proj_bbox = [minx, miny, maxx, maxy]
     
     origin_x = (minx + maxx) / 2
     origin_y = (miny + maxy) / 2
+    print(f"Roblox Origin (EPSG:25832): {origin_x}, {origin_y}")
     
     local_min_x = minx - origin_x
     local_max_x = maxx - origin_x
     local_min_z = miny - origin_y
     local_max_z = maxy - origin_y
     
+    print("Reprojecting geometries to local Roblox space...")
+    
+    # Build a metadata dictionary
     manifest = {
-        "source": "Geofabrik Schleswig-Holstein",
+        "dataset": "Norderstedt",
         "fetch_time": datetime.utcnow().isoformat() + "Z",
         "pbf_size_bytes": file_size,
-        "pilot_bbox_wgs84": PILOT_BBOX,
+        "pilot_bbox_wgs84": NORDERSTEDT_BBOX,
         "crs": WORKING_CRS,
         "OriginEPSG25832": {
             "Easting": origin_x,

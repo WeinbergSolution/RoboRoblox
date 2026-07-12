@@ -1,0 +1,93 @@
+return {
+    [1] = {
+        Id = "288191666",
+        Type = "LineString",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "150",
+            ["addr:postcode"] = "22850",
+            ["addr:street"] = "Ulzburger Straße",
+            ["amenity"] = "fuel",
+            ["brand"] = "JET",
+            ["brand:wikidata"] = "Q568940",
+            ["brand:wikipedia"] = "en:Jet (brand)",
+            ["building"] = "yes",
+            ["fax"] = "+49 40 52110924",
+            ["fuel:adblue"] = "yes",
+            ["fuel:diesel"] = "yes",
+            ["fuel:e10"] = "yes",
+            ["fuel:octane_95"] = "yes",
+            ["fuel:octane_98"] = "yes",
+            ["name"] = "JET",
+            ["opening_hours"] = "Mo-Fr 06:00-22:00; Sa-Su 07:00-22:00",
+            ["operator"] = "Manfred Breiholz",
+            ["payment:american_express"] = "yes",
+            ["payment:apple_pay"] = "yes",
+            ["payment:cash"] = "yes",
+            ["payment:coins"] = "yes",
+            ["payment:contactless"] = "yes",
+            ["payment:credit_cards"] = "yes",
+            ["payment:debit_cards"] = "yes",
+            ["payment:dkv"] = "yes",
+            ["payment:girocard"] = "yes",
+            ["payment:google_pay"] = "yes",
+            ["payment:jet_card"] = "yes",
+            ["payment:logpay"] = "yes",
+            ["payment:maestro"] = "yes",
+            ["payment:mastercard"] = "yes",
+            ["payment:notes"] = "yes",
+            ["payment:novofleet"] = "yes",
+            ["payment:samsung_pay"] = "yes",
+            ["payment:uta"] = "yes",
+            ["payment:visa"] = "yes",
+            ["phone"] = "+49 40 52110925",
+            ["website"] = "https://www.jet-tankstellen.de/tankstellen/norderstedt/ulzburger-str-150/",
+            ["osm_id"] = 288191666,
+            ["tile_500"] = "NO_E565500_N5950000_500",
+            ["tile_250"] = "NO_E565500_N5950250_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-691.62, -254.49}, {-691.98, -263.17}, {-677.49, -263.77}, {-677.13, -255.08}, {-691.62, -254.49}
+        }
+    },
+    [2] = {
+        Id = "8328616466",
+        Type = "Point",
+        Properties = {
+            ["bus"] = "yes",
+            ["name"] = "Garstedt, Buchenweg (Ost)",
+            ["public_transport"] = "stop_position",
+            ["osm_id"] = 8328616466,
+            ["tile_500"] = "NO_E565500_N5950000_500",
+            ["tile_250"] = "NO_E565500_N5950250_250",
+            ["amenity"] = "",
+            ["shop"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-696.26, -179.58}
+        }
+    },
+    [3] = {
+        Id = "8328616469",
+        Type = "Point",
+        Properties = {
+            ["bus"] = "yes",
+            ["name"] = "Garstedt, Buchenweg (Ost)",
+            ["public_transport"] = "stop_position",
+            ["osm_id"] = 8328616469,
+            ["tile_500"] = "NO_E565500_N5950000_500",
+            ["tile_250"] = "NO_E565500_N5950250_250",
+            ["amenity"] = "",
+            ["shop"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-698.25, -199.49}
+        }
+    },
+}

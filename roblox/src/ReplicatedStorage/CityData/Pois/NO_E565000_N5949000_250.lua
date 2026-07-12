@@ -1,0 +1,66 @@
+return {
+    [1] = {
+        Id = "4380248695",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "38-44a",
+            ["addr:postcode"] = "22850",
+            ["addr:street"] = "Berliner Allee",
+            ["branch"] = "Herold Center",
+            ["brand"] = "Rewe",
+            ["brand:wikidata"] = "Q16968817",
+            ["brand:wikipedia"] = "de:Rewe",
+            ["check_date:opening_hours"] = "2022-08-22",
+            ["internet_access"] = "wlan",
+            ["level"] = "0",
+            ["name"] = "REWE",
+            ["opening_hours"] = "Mo-Sa 07:00-20:00",
+            ["organic"] = "yes",
+            ["payment:american_express"] = "yes",
+            ["payment:cash"] = "yes",
+            ["payment:coins"] = "yes",
+            ["payment:contactless"] = "yes",
+            ["payment:credit_cards"] = "yes",
+            ["payment:girocard"] = "yes",
+            ["payment:mastercard"] = "yes",
+            ["payment:visa"] = "yes",
+            ["phone"] = "+49 40 52303703",
+            ["shop"] = "supermarket",
+            ["website"] = "https://www.rewe.de/marktseite/norderstedt/540680/rewe-markt-berliner-allee-38-44/",
+            ["osm_id"] = 4380248695,
+            ["tile_500"] = "NO_E565000_N5949000_500",
+            ["tile_250"] = "NO_E565000_N5949000_250",
+            ["amenity"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1210.53, -1559.33}
+        }
+    },
+    [2] = {
+        Id = "4453295838",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "38-44a",
+            ["addr:postcode"] = "22850",
+            ["addr:street"] = "Berliner Allee",
+            ["amenity"] = "fast_food",
+            ["cuisine"] = "burger",
+            ["level"] = "0",
+            ["name"] = "burger BRO",
+            ["takeaway"] = "yes",
+            ["osm_id"] = 4453295838,
+            ["tile_500"] = "NO_E565000_N5949000_500",
+            ["tile_250"] = "NO_E565000_N5949000_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-1173.55, -1614.19}
+        }
+    },
+}

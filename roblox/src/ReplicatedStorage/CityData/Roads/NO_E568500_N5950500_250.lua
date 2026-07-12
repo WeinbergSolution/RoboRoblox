@@ -1,0 +1,40 @@
+return {
+    [1] = {
+        Id = "339918620",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "yes",
+            ["bicycle"] = "yes",
+            ["cycleway:both"] = "no",
+            ["foot"] = "yes",
+            ["highway"] = "unclassified",
+            ["horse"] = "yes",
+            ["lane_markings"] = "no",
+            ["lanes"] = "1",
+            ["lit"] = "no",
+            ["maxspeed"] = "50",
+            ["maxweight"] = "7.5",
+            ["motor_vehicle"] = "yes",
+            ["name"] = "Hofweg",
+            ["oneway"] = "no",
+            ["sidewalk"] = "no",
+            ["surface"] = "asphalt",
+            ["width"] = "4",
+            ["osm_id"] = 339918620,
+            ["tile_500"] = "NO_E568500_N5950500_500",
+            ["tile_250"] = "NO_E568500_N5950500_250",
+            ["LaneCount"] = 1,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 14.0,
+            ["FinalWidthStuds"] = 14.285712,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+        },
+        Geometry = {
+            {2548.90, -127.53}, {2532.19, -122.48}, {2514.88, -114.84}, {2317.13, -17.18}, {2154.39, 63.85}, {2117.52, 82.74}, {2096.91, 92.70}, {2085.16, 96.58}, {2073.44, 98.92}, {2045.08, 102.05}, {1998.67, 106.51}
+        }
+    },
+}

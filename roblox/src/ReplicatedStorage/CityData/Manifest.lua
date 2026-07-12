@@ -1,31 +1,31 @@
 return {
     Source = "Geofabrik Schleswig-Holstein",
-    FetchTime = "2026-07-12T20:37:45.294523Z",
+    FetchTime = "2026-07-12T22:11:25.037985Z",
     OriginEPSG25832 = {
-        Easting = 566106.04,
-        Northing = 5951444.54
+        Easting = 566342.86,
+        Northing = 5950615.30
     },
     MetersToStuds = 3.571428,
     LocalBoundsMeters = {
-        MinX = -879.31, MinZ = -846.93,
-        MaxX = 879.31, MaxZ = 846.93
+        MinX = -4196.73, MinZ = -6735.65,
+        MaxX = 4196.73, MaxZ = 6735.65
     },
     LocalBoundsStuds = {
-        MinX = -3140.41, MinZ = -3024.75,
-        MaxX = 3140.41, MaxZ = 3024.75
+        MinX = -14988.30, MinZ = -24055.90,
+        MaxX = 14988.30, MaxZ = 24055.90
     },
     AbsoluteBoundsEPSG25832 = {
-        MinEasting = 565226.73, MinNorthing = 5950597.61,
-        MaxEasting = 566985.36, MaxNorthing = 5952291.47
+        MinEasting = 562146.14, MinNorthing = 5943879.65,
+        MaxEasting = 570539.59, MaxNorthing = 5957350.95
     },
     Coverage = "Norderstedt-Mitte Pilot",
     IsFullNorderstedt = false,
     Counts = {
-        Roads = 1293,
-        Buildings = 2890,
-        Rail = 20,
+        Roads = 12311,
+        Buildings = 27293,
+        Rail = 114,
         Water = 0,
         Green = 0,
-        POIs = 93
+        POIs = 700
     }
 }
