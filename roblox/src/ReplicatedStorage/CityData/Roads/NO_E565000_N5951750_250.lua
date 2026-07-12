@@ -17,6 +17,10 @@ return {
             ["ScaledOSMWidthStuds"] = 21.428568,
             ["GameplayMinimumStuds"] = 14.0,
             ["FinalWidthStuds"] = 21.428568,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
         },
         Geometry = {
             {-857.52, 461.97}, {-897.85, 486.50}
@@ -39,6 +43,10 @@ return {
             ["ScaledOSMWidthStuds"] = 21.428568,
             ["GameplayMinimumStuds"] = 28.0,
             ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
         },
         Geometry = {
             {-895.17, 293.97}, {-857.58, 345.85}
@@ -62,6 +70,10 @@ return {
             ["ScaledOSMWidthStuds"] = 21.428568,
             ["GameplayMinimumStuds"] = 28.0,
             ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
         },
         Geometry = {
             {-857.58, 345.85}, {-896.31, 375.66}

@@ -14,6 +14,10 @@ return {
             ["ScaledOSMWidthStuds"] = 14.285712,
             ["GameplayMinimumStuds"] = 28.0,
             ["FinalWidthStuds"] = 28.0,
+            ["crossing"] = "",
+            ["stop"] = "",
+            ["traffic_signals"] = "",
+            ["sidewalk"] = "",
         },
         Geometry = {
             {-885.72, 731.97}, {-876.35, 780.21}

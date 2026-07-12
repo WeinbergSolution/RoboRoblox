@@ -79,8 +79,9 @@ local flyStatusLabel = createLabel("Fly: OFF")
 local posLabel = createLabel("Position: ...")
 local fpsLabel = createLabel("FPS: ...")
 local importStatusLabel = createLabel("Import: ...")
-local importStatsLabel = createLabel("Roads/Bldgs: ...")
-local qaCoverageLabel = createLabel("Ground Check: ...")
+local importStatsLabel = createLabel("Instances: ...")
+local importStatsLabel2 = createLabel("Roads/Bldgs: ...")
+local qaCoverageLabel = createLabel("Ground Check: N/A")
 
 print("[RoboRoblox QA] UI mounted")
 logLabel.Text = "Log: UI mounted"
@@ -111,36 +112,23 @@ local function overview()
     end
 end
 
-local function tpToDirection(offset)
-    local char = player.Character
-    if not char or not char:FindFirstChild("HumanoidRootPart") then return end
-    
-    local cityData = ReplicatedStorage:FindFirstChild("CityData")
-    if not cityData then return end
-    local manifestMod = cityData:FindFirstChild("Manifest")
-    if not manifestMod then return end
-    
-    local success, manifestData = pcall(require, manifestMod)
-    if not success or not manifestData.LocalBoundsStuds then return end
-    
-    local bounds = manifestData.LocalBoundsStuds
-    local cx = (bounds.MinX + bounds.MaxX) / 2
-    local cz = (bounds.MinZ + bounds.MaxZ) / 2
-    local w = bounds.MaxX - bounds.MinX
-    local d = bounds.MaxZ - bounds.MinZ
-    
-    local tx = cx + offset.X * (w / 2 * 0.8)
-    local tz = cz + offset.Z * (d / 2 * 0.8)
-    teleportToAbsolute(tx, 50, tz)
+local function tpToCameraPoint(pointName)
+    local cpFolder = Workspace:FindFirstChild("CameraPoints")
+    if cpFolder then
+        local p = cpFolder:FindFirstChild(pointName)
+        if p and p:IsA("Vector3Value") then
+            teleportToAbsolute(p.Value.X, p.Value.Y, p.Value.Z)
+        end
+    end
 end
 
 -- Buttons
 createButton("[OVERVIEW]", overview)
-createButton("[CENTER]", function() tpToDirection(Vector3.new(0, 0, 0)) end)
-createButton("[NORTH]", function() tpToDirection(Vector3.new(0, 0, -1)) end)
-createButton("[SOUTH]", function() tpToDirection(Vector3.new(0, 0, 1)) end)
-createButton("[EAST]", function() tpToDirection(Vector3.new(1, 0, 0)) end)
-createButton("[WEST]", function() tpToDirection(Vector3.new(-1, 0, 0)) end)
+createButton("[CENTER]", function() tpToCameraPoint("CenterOverview") end)
+createButton("[MAIN ROAD]", function() tpToCameraPoint("MainRoad") end)
+createButton("[RESIDENTIAL]", function() tpToCameraPoint("ResidentialArea") end)
+createButton("[RAIL AREA]", function() tpToCameraPoint("RailArea") end)
+createButton("[POI AREA]", function() tpToCameraPoint("POIArea") end)
 
 -- Input Bindings
 local function onOverviewAction(actionName, state, input)
@@ -213,16 +201,18 @@ task.spawn(function()
                 if stateObj then
                     importStatusLabel.Text = " Import: " .. stateObj.Value
                 end
-                local rObj = importStatusFolder:FindFirstChild("RoadsCreated")
-                local bObj = importStatusFolder:FindFirstChild("BuildingsCreated")
-                if rObj and bObj then
-                    importStatsLabel.Text = string.format(" Roads: %d / Bldgs: %d", rObj.Value, bObj.Value)
+                local instances = 0
+                local rParts = importStatusFolder:FindFirstChild("RoadSurfaceParts")
+                local bParts = importStatusFolder:FindFirstChild("BuildingParts")
+                local pParts = importStatusFolder:FindFirstChild("POIMarkers")
+                
+                if rParts and bParts then
+                    importStatsLabel2.Text = string.format(" Roads: %d / Bldgs: %d / POIs: %d", rParts.Value, bParts.Value, pParts and pParts.Value or 0)
                 end
                 
-                local gSamples = importStatusFolder:FindFirstChild("GroundSamples")
-                local gHits = importStatusFolder:FindFirstChild("GroundHits")
-                if gSamples and gHits then
-                    qaCoverageLabel.Text = string.format(" Ground: %d/%d Hits", gHits.Value, gSamples.Value)
+                local tInstances = importStatusFolder:FindFirstChild("TotalInstances")
+                if tInstances then
+                    importStatsLabel.Text = string.format(" Total Instances: %d", tInstances.Value)
                 end
             end
         end)

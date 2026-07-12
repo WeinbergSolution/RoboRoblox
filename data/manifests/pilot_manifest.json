@@ -1,6 +1,6 @@
 {
   "source": "Geofabrik Schleswig-Holstein",
-  "fetch_time": "2026-07-12T15:37:58.584027Z",
+  "fetch_time": "2026-07-12T17:13:50.479918Z",
   "pbf_size_bytes": 156865792,
   "pilot_bbox_wgs84": [
     9.988,
@@ -37,9 +37,10 @@
   "counts": {
     "roads": 1293,
     "buildings": 2890,
-    "rail": 21,
+    "rail": 20,
     "water": 0,
-    "green": 0
+    "green": 0,
+    "pois": 93
   },
   "stats": {
     "road_length_m": 86197.87200957708,

@@ -163,7 +163,12 @@ def parse_road_width(w):
         "OSMWidthMeters": osm_width,
         "ScaledOSMWidthStuds": scaled_width,
         "GameplayMinimumStuds": gameplay_min,
-        "FinalWidthStuds": final_width
+        "FinalWidthStuds": final_width,
+        "highway": hw_type,
+        "crossing": w.tags.get("crossing", ""),
+        "stop": w.tags.get("stop", ""),
+        "traffic_signals": w.tags.get("traffic_signals", ""),
+        "sidewalk": w.tags.get("sidewalk", "")
     }
 
 class PilotHandler(osmium.SimpleHandler):
@@ -175,6 +180,7 @@ class PilotHandler(osmium.SimpleHandler):
         self.water = []
         self.green = []
         self.rail = []
+        self.pois = []
         
         self.transformer = Transformer.from_crs(OSM_CRS, WORKING_CRS, always_xy=True)
         self.errors = {"invalid_geom": 0, "transform": 0, "clip": 0}
@@ -247,14 +253,49 @@ class PilotHandler(osmium.SimpleHandler):
                     road_data = parse_road_width(w)
                     for k, v in road_data.items():
                         feature["properties"][k] = v
+                elif category == "pois":
+                    # For POIs we want to keep name and amenity/shop/public_transport
+                    feature["properties"]["name"] = w.tags.get("name", "")
+                    feature["properties"]["amenity"] = w.tags.get("amenity", "")
+                    feature["properties"]["shop"] = w.tags.get("shop", "")
+                    feature["properties"]["public_transport"] = w.tags.get("public_transport", "")
+                    feature["properties"]["railway"] = w.tags.get("railway", "")
                 
                 feature_list.append(feature)
 
         except Exception as e:
             self.errors["clip"] += 1
 
+    def process_poi(self, osmium_obj, geom):
+        amenity = osmium_obj.tags.get("amenity")
+        shop = osmium_obj.tags.get("shop")
+        pt = osmium_obj.tags.get("public_transport")
+        railway = osmium_obj.tags.get("railway")
+        building = osmium_obj.tags.get("building")
+        
+        is_poi = False
+        if amenity in ["fuel", "bank", "fast_food", "restaurant", "hospital", "clinic", "fire_station", "police", "school", "kindergarten", "townhall", "pharmacy"]:
+            is_poi = True
+        elif shop in ["supermarket", "bakery", "mall"]:
+            is_poi = True
+        elif pt in ["station", "stop_position"]:
+            is_poi = True
+        elif railway in ["station", "halt"]:
+            is_poi = True
+        elif building in ["train_station"]:
+            is_poi = True
+            
+        if is_poi:
+            self.process_feature(osmium_obj, geom, self.pois, "pois")
+
+    def node(self, n):
+        if not (n.tags.get("amenity") or n.tags.get("shop") or n.tags.get("public_transport") or n.tags.get("railway")):
+            return
+        geom = Point(n.location.lon, n.location.lat)
+        self.process_poi(n, geom)
+
     def way(self, w):
-        if not (w.tags.get("highway") or w.tags.get("building") or w.tags.get("water") or w.tags.get("natural") or w.tags.get("landuse") or w.tags.get("railway")):
+        if not (w.tags.get("highway") or w.tags.get("building") or w.tags.get("water") or w.tags.get("natural") or w.tags.get("landuse") or w.tags.get("railway") or w.tags.get("amenity") or w.tags.get("shop")):
             return
             
         try:
@@ -262,20 +303,22 @@ class PilotHandler(osmium.SimpleHandler):
             geom = wkblib.loads(wkb, hex=True)
             if w.tags.get("highway"):
                 self.process_feature(w, geom, self.roads, "roads")
-            elif w.tags.get("railway"):
+            elif w.tags.get("railway") and not w.tags.get("railway") in ["station", "halt"]:
                 self.process_feature(w, geom, self.rail, "rail")
             elif w.tags.get("water") or w.tags.get("natural") == "water":
                 if w.is_closed():
                     wkb = wkbfab.create_multipolygon(w)
                     geom = wkblib.loads(wkb, hex=True)
                 self.process_feature(w, geom, self.water, "water")
-            elif w.tags.get("landuse") in ["grass", "forest", "park", "meadow"]:
+            elif w.tags.get("landuse") in ["grass", "forest", "park", "meadow", "recreation_ground", "cemetery", "village_green"] or w.tags.get("natural") in ["wood", "scrub"]:
                 if w.is_closed():
                     wkb = wkbfab.create_multipolygon(w)
                     geom = wkblib.loads(wkb, hex=True)
                 self.process_feature(w, geom, self.green, "green")
         except Exception:
             pass 
+        
+        self.process_poi(w, geom) if 'geom' in locals() else None 
         
         if w.tags.get("building"):
             try:
@@ -330,6 +373,7 @@ def run_pipeline():
     save_geojson(handler.rail, "rail")
     save_geojson(handler.water, "water")
     save_geojson(handler.green, "green")
+    save_geojson(handler.pois, "pois")
     
     transformer = Transformer.from_crs(OSM_CRS, WORKING_CRS, always_xy=True)
     minx, miny = transformer.transform(PILOT_BBOX[0], PILOT_BBOX[1])
@@ -380,7 +424,8 @@ def run_pipeline():
             "buildings": len(handler.buildings),
             "rail": len(handler.rail),
             "water": len(handler.water),
-            "green": len(handler.green)
+            "green": len(handler.green),
+            "pois": len(handler.pois)
         },
         "stats": {
             "road_length_m": handler.total_road_length,

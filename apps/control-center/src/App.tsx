@@ -12,15 +12,23 @@ function App() {
     buildings: true,
     rail: true,
     water: true,
-    green: true
+    green: true,
+    pois: true
   })
   const [selectedTile, setSelectedTile] = useState<string | null>(null)
 
+  const [buildInfo, setBuildInfo] = useState<any>(null)
+  
   useEffect(() => {
     fetch('/generated/pilot_manifest.json')
       .then(r => r.json())
       .then(data => setManifest(data))
       .catch(e => console.error("Manifest load failed", e))
+      
+    fetch('/generated/build_info.json')
+      .then(r => r.json())
+      .then(data => setBuildInfo(data))
+      .catch(e => console.log("No build info found", e))
   }, [])
 
   useEffect(() => {
@@ -111,7 +119,8 @@ function App() {
         { id: 'green', color: '#00ff00', type: 'fill' },
         { id: 'buildings', color: '#cccccc', type: 'fill' },
         { id: 'rail', color: '#555555', type: 'line' },
-        { id: 'roads', color: '#ffffff', type: 'line' }
+        { id: 'roads', color: '#ffffff', type: 'line' },
+        { id: 'pois', color: '#ffff00', type: 'circle' }
       ]
 
       layers.forEach(l => {
@@ -127,12 +136,19 @@ function App() {
             source: l.id,
             paint: { 'fill-color': l.color, 'fill-opacity': 0.6 }
           })
-        } else {
+        } else if (l.type === 'line') {
           initialMap.addLayer({
             id: l.id + '-layer',
             type: 'line',
             source: l.id,
             paint: { 'line-color': l.color, 'line-width': 2 }
+          })
+        } else if (l.type === 'circle') {
+          initialMap.addLayer({
+            id: l.id + '-layer',
+            type: 'circle',
+            source: l.id,
+            paint: { 'circle-color': l.color, 'circle-radius': 4 }
           })
         }
       })
@@ -188,10 +204,31 @@ function App() {
                 <li>Rail: {manifest.counts.rail}</li>
                 <li>Water: {manifest.counts.water}</li>
                 <li>Green: {manifest.counts.green}</li>
+                <li>POIs: {manifest.counts.pois}</li>
+              </ul>
+              <li>Tile Status:</li>
+              <ul>
+                <li><span style={{color: 'green'}}>✔</span> Source Data</li>
+                <li><span style={{color: 'green'}}>✔</span> Road Geometry</li>
+                <li><span style={{color: 'green'}}>✔</span> Road Visuals</li>
+                <li><span style={{color: 'green'}}>✔</span> Buildings</li>
+                <li><span style={{color: 'green'}}>✔</span> Environment</li>
+                <li><span style={{color: 'green'}}>✔</span> POIs</li>
+                <li><span style={{color: 'orange'}}>⚠</span> Automatic QA</li>
+                <li><span style={{color: 'red'}}>✖</span> Manual QA</li>
               </ul>
             </ul>
           ) : (
             <p>Loading manifest...</p>
+          )}
+          
+          {buildInfo && (
+            <div style={{marginTop: '1rem', padding: '1rem', background: '#e8f4f8', borderRadius: 4, border: '1px solid #b3d4fc'}}>
+              <h4>Latest Build</h4>
+              <p><strong>Version:</strong> {buildInfo.version}</p>
+              <p><strong>SHA-256:</strong> {buildInfo.sha256}</p>
+              <p><strong>File:</strong> {buildInfo.file}</p>
+            </div>
           )}
 
           <h3>Filters</h3>
@@ -202,7 +239,7 @@ function App() {
                   type="checkbox" 
                   checked={filters[k as keyof typeof filters]} 
                   onChange={() => toggleFilter(k as keyof typeof filters)} 
-                /> {k}
+                /> {k.toUpperCase()}
               </label>
             </div>
           ))}
@@ -211,6 +248,7 @@ function App() {
             <div style={{marginTop: '1rem', padding: '1rem', background: '#e0e0e0', borderRadius: 4}}>
               <h4>Tile Detail</h4>
               <p>ID: {selectedTile}</p>
+              <p>Status: Imported</p>
             </div>
           )}
         </aside>

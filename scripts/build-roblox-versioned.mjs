@@ -81,6 +81,11 @@ const sidecar = {
 };
 fs.writeFileSync(sidecarPath, JSON.stringify(sidecar, null, 2));
 
+const controlCenterPath = path.join(ROOT_DIR, 'apps', 'control-center', 'public', 'generated', 'build_info.json');
+if (fs.existsSync(path.dirname(controlCenterPath))) {
+    fs.writeFileSync(controlCenterPath, JSON.stringify(sidecar, null, 2));
+}
+
 // 7. Update LATEST.txt
 const latestPath = path.join(BUILDS_DIR, 'LATEST.txt');
 fs.writeFileSync(latestPath, baseName);

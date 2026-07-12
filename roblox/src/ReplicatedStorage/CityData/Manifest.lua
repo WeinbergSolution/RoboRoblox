@@ -1,6 +1,6 @@
 return {
     Source = "Geofabrik Schleswig-Holstein",
-    FetchTime = "2026-07-12T15:37:58.584027Z",
+    FetchTime = "2026-07-12T17:13:50.479918Z",
     OriginEPSG25832 = {
         Easting = 566106.04,
         Northing = 5951444.54
@@ -23,8 +23,9 @@ return {
     Counts = {
         Roads = 1293,
         Buildings = 2890,
-        Rail = 21,
+        Rail = 20,
         Water = 0,
-        Green = 0
+        Green = 0,
+        POIs = 93
     }
 }

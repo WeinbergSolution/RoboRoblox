@@ -56,7 +56,8 @@ def export_manifest():
     lua_content += f"        Buildings = {c['buildings']},\n"
     lua_content += f"        Rail = {c['rail']},\n"
     lua_content += f"        Water = {c['water']},\n"
-    lua_content += f"        Green = {c['green']}\n"
+    lua_content += f"        Green = {c['green']},\n"
+    lua_content += f"        POIs = {c['pois']}\n"
     lua_content += "    }\n"
     lua_content += "}\n"
     
@@ -178,7 +179,7 @@ def sync_frontend():
     ensure_dir(frontend_dir)
     shutil.copy(MANIFESTS_DIR / "pilot_manifest.json", frontend_dir / "pilot_manifest.json")
     shutil.copy(MANIFESTS_DIR / "tile_manifest.json", frontend_dir / "tile_manifest.json")
-    for category in ["roads", "buildings", "rail", "water", "green"]:
+    for category in ["roads", "buildings", "rail", "water", "green", "pois"]:
         geojson_path = PROCESSED_DIR / f"pilot_{category}.geojson"
         if geojson_path.exists():
             shutil.copy(geojson_path, frontend_dir / f"pilot_{category}.geojson")
@@ -189,7 +190,7 @@ def main():
     origin = export_manifest()
     
     print("Exporting Categories...")
-    for category in ["roads", "buildings", "rail", "water", "green"]:
+    for category in ["roads", "buildings", "rail", "water", "green", "pois"]:
         export_features(category, origin)
         
     print("Syncing Frontend data...")

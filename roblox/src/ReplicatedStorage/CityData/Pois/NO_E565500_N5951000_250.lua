@@ -1,0 +1,33 @@
+return {
+    [1] = {
+        Id = "2124838272",
+        Type = "Point",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "279",
+            ["addr:postcode"] = "22850",
+            ["addr:street"] = "Ulzburger Straße",
+            ["amenity"] = "restaurant",
+            ["cuisine"] = "greek",
+            ["email"] = "info@restaurant-naxos.de",
+            ["fax"] = "+49 40 30 98 26 10",
+            ["indoor_seating"] = "yes",
+            ["name"] = "Restaurant Naxos",
+            ["opening_hours"] = "Mo-Fr 11:30-14:30,17:00-23:00; Sa-Su 11:30-23:00",
+            ["outdoor_seating"] = "yes",
+            ["phone"] = "+49 40 525 77 33",
+            ["website"] = "https://www.restaurant-naxos.de/",
+            ["wheelchair"] = "limited",
+            ["osm_id"] = 2124838272,
+            ["tile_500"] = "NO_E565500_N5951000_500",
+            ["tile_250"] = "NO_E565500_N5951000_250",
+            ["shop"] = "",
+            ["public_transport"] = "",
+            ["railway"] = "",
+        },
+        Geometry = {
+            {-361.90, -219.79}
+        }
+    },
+}
