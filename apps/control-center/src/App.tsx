@@ -1,11 +1,10 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import './App.css'
 
 function App() {
   const mapContainer = useRef<HTMLDivElement>(null)
-  const [map, setMap] = useState<maplibregl.Map | null>(null)
 
   useEffect(() => {
     if (!mapContainer.current) return
@@ -79,7 +78,7 @@ function App() {
       })
     })
 
-    setMap(initialMap)
+
 
     return () => {
       initialMap.remove()

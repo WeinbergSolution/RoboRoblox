@@ -92,7 +92,12 @@ def download_pbf():
         return filepath
         
     print(f"Downloading {PBF_URL}...")
-    urllib.request.urlretrieve(PBF_URL, filepath)
+    import requests
+    response = requests.get(PBF_URL, verify=False, stream=True)
+    response.raise_for_status()
+    with open(filepath, 'wb') as f:
+        for chunk in response.iter_content(chunk_size=8192):
+            f.write(chunk)
     print("Download complete.")
     return filepath
 
