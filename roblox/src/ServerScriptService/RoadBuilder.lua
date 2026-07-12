@@ -16,13 +16,52 @@ local function createPart(name, folder, color, material, canCollide, size, cfram
 	return part
 end
 
-function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale)
+function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale, junctionMap, cumulativeDist)
 	local distance = (p2 - p1).Magnitude
 	if distance < 0.1 then
 		return
 	end
 
-	local cframe = CFrame.lookAt(p1, p2) * CFrame.new(0, 0, -distance / 2)
+	-- Junction cutbacks
+	local cutback1 = 0
+	local cutback2 = 0
+
+	if junctionMap then
+		local k1 = math.floor(p1.X * 10) / 10 .. "_" .. math.floor(p1.Z * 10) / 10
+		local n1 = junctionMap[k1]
+		if n1 and n1.Degree > 2 and not n1.IsBridge and not n1.IsTunnel then
+			local maxW = width
+			for _, w in ipairs(n1.WidthsStuds) do
+				if w * scale > maxW then
+					maxW = w * scale
+				end
+			end
+			cutback1 = math.max(width / 2, maxW / 2) + 0.5
+		end
+
+		local k2 = math.floor(p2.X * 10) / 10 .. "_" .. math.floor(p2.Z * 10) / 10
+		local n2 = junctionMap[k2]
+		if n2 and n2.Degree > 2 and not n2.IsBridge and not n2.IsTunnel then
+			local maxW = width
+			for _, w in ipairs(n2.WidthsStuds) do
+				if w * scale > maxW then
+					maxW = w * scale
+				end
+			end
+			cutback2 = math.max(width / 2, maxW / 2) + 0.5
+		end
+	end
+
+	local actualDist = distance - cutback1 - cutback2
+	if actualDist <= 0.1 then
+		return -- Skip segment if cutback consumes it entirely
+	end
+
+	local dir = (p2 - p1).Unit
+	local actualP1 = p1 + dir * cutback1
+	local actualP2 = p2 - dir * cutback2
+
+	local cframe = CFrame.lookAt(actualP1, actualP2) * CFrame.new(0, 0, -actualDist / 2)
 	local hwType = feature.Properties.highway or "unknown"
 	local oneway = feature.Properties.DirectionMode == "one-way"
 	local lanes = feature.Properties.LaneCount or 2
@@ -41,7 +80,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale)
 	local roadLayerY = Config.Layers.Road
 
 	local roadCFrame = CFrame.new(cframe.Position.X, roadLayerY, cframe.Position.Z) * cframe.Rotation
-	createPart("Road_" .. feature.Id, tileFolder.Roads, col, mat, true, Vector3.new(width, 0.4, distance), roadCFrame)
+	createPart("Road_" .. feature.Id, tileFolder.Roads, col, mat, true, Vector3.new(width, 0.4, actualDist), roadCFrame)
 
 	-- 2. Sidewalks
 	if not isPavement and hwType ~= "motorway" and hwType ~= "motorway_link" then
@@ -57,7 +96,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale)
 			Config.Colors.Pavement,
 			Config.Materials.Pavement,
 			true,
-			Vector3.new(sidewalkW - curbW, 0.4 + sidewalkH, distance),
+			Vector3.new(sidewalkW - curbW, 0.4 + sidewalkH, actualDist),
 			rsCF
 		)
 		local rcCF = roadCFrame * CFrame.new(width / 2 + curbW / 2, sidewalkH / 2, 0)
@@ -67,7 +106,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale)
 			Config.Colors.Curb,
 			Config.Materials.Curb,
 			true,
-			Vector3.new(curbW, 0.4 + sidewalkH, distance),
+			Vector3.new(curbW, 0.4 + sidewalkH, actualDist),
 			rcCF
 		)
 
@@ -79,7 +118,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale)
 			Config.Colors.Pavement,
 			Config.Materials.Pavement,
 			true,
-			Vector3.new(sidewalkW - curbW, 0.4 + sidewalkH, distance),
+			Vector3.new(sidewalkW - curbW, 0.4 + sidewalkH, actualDist),
 			lsCF
 		)
 		local lcCF = roadCFrame * CFrame.new(-width / 2 - curbW / 2, sidewalkH / 2, 0)
@@ -89,7 +128,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale)
 			Config.Colors.Curb,
 			Config.Materials.Curb,
 			true,
-			Vector3.new(curbW, 0.4 + sidewalkH, distance),
+			Vector3.new(curbW, 0.4 + sidewalkH, actualDist),
 			lcCF
 		)
 	end
@@ -111,7 +150,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale)
 			mColor,
 			mMat,
 			false,
-			Vector3.new(mW, mT, distance),
+			Vector3.new(mW, mT, actualDist),
 			markCF * CFrame.new(width / 2 - mW, 0, 0)
 		)
 		createPart(
@@ -120,27 +159,32 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale)
 			mColor,
 			mMat,
 			false,
-			Vector3.new(mW, mT, distance),
+			Vector3.new(mW, mT, actualDist),
 			markCF * CFrame.new(-width / 2 + mW, 0, 0)
 		)
 
 		-- Center / Lane Lines
+		cumulativeDist = cumulativeDist or 0
+		local dLen = Config.Markings.DashLength
+		local dSpc = Config.Markings.DashSpacing
+		local cycleLen = dLen + dSpc
+
 		if not oneway and lanes >= 2 then
 			-- Dashed center line
-			local dLen = Config.Markings.DashLength
-			local dSpc = Config.Markings.DashSpacing
-			local tDist = 0
-			while tDist + dLen < distance do
-				createPart(
-					"CenterDash",
-					tileFolder.RoadMarkings,
-					mColor,
-					mMat,
-					false,
-					Vector3.new(mW, mT, dLen),
-					markCF * CFrame.new(0, 0, distance / 2 - tDist - dLen / 2)
-				)
-				tDist = tDist + dLen + dSpc
+			local tDist = -(cumulativeDist + cutback1) % cycleLen
+			while tDist + dLen < actualDist do
+				if tDist >= 0 then
+					createPart(
+						"CenterDash",
+						tileFolder.RoadMarkings,
+						mColor,
+						mMat,
+						false,
+						Vector3.new(mW, mT, dLen),
+						markCF * CFrame.new(0, 0, actualDist / 2 - tDist - dLen / 2)
+					)
+				end
+				tDist = tDist + cycleLen
 			end
 		end
 
@@ -149,20 +193,20 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale)
 			local laneWidth = width / lanes
 			for l = 1, lanes - 1 do
 				local offset = -width / 2 + l * laneWidth
-				local dLen = Config.Markings.DashLength
-				local dSpc = Config.Markings.DashSpacing
-				local tDist = 0
-				while tDist + dLen < distance do
-					createPart(
-						"LaneDash",
-						tileFolder.RoadMarkings,
-						mColor,
-						mMat,
-						false,
-						Vector3.new(mW, mT, dLen),
-						markCF * CFrame.new(offset, 0, distance / 2 - tDist - dLen / 2)
-					)
-					tDist = tDist + dLen + dSpc
+				local tDist = -(cumulativeDist + cutback1) % cycleLen
+				while tDist + dLen < actualDist do
+					if tDist >= 0 then
+						createPart(
+							"LaneDash",
+							tileFolder.RoadMarkings,
+							mColor,
+							mMat,
+							false,
+							Vector3.new(mW, mT, dLen),
+							markCF * CFrame.new(offset, 0, actualDist / 2 - tDist - dLen / 2)
+						)
+					end
+					tDist = tDist + cycleLen
 				end
 			end
 		end

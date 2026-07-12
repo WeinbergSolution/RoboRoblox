@@ -172,6 +172,113 @@ def export_features(category, origin):
         with open(out_dir / f"{tile_id}.lua", "w", encoding="utf-8") as f:
             f.write(lua_content)
 
+import math
+
+def export_junctions(origin):
+    geojson_path = PROCESSED_DIR / "pilot_roads.geojson"
+    if not geojson_path.exists():
+        return
+        
+    with open(geojson_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        
+    # Group by coordinate (rounded to 2 decimals)
+    nodes = {}
+    
+    for feature in data.get("features", []):
+        osm_id = feature["properties"].get("osm_id", "")
+        layer = feature["properties"].get("layer", "0")
+        is_bridge = feature["properties"].get("bridge", "no") == "yes"
+        is_tunnel = feature["properties"].get("tunnel", "no") == "yes"
+        width = float(feature["properties"].get("RoadWidthMeters", 5.0))
+        geom_type = feature["geometry"]["type"]
+        coords = feature["geometry"]["coordinates"]
+        
+        if geom_type == "LineString":
+            # For each point in the line (we only care about endpoints or actually ALL points for intersections? The prompt says "Pro Straßenendpunkt bzw. OSM-Node")
+            # Usually intersections happen at the ends of segments or shared points in the middle. We'll check all points.
+            for i, c in enumerate(coords):
+                cx = round(c[0] - origin[0], 2)
+                cy = round(c[1] - origin[1], 2)
+                key = (cx, cy, layer, is_bridge, is_tunnel)
+                
+                if key not in nodes:
+                    nodes[key] = {
+                        "LocalPositionMeters": [cx, cy],
+                        "ConnectedRoadIds": set(),
+                        "RoadClasses": set(),
+                        "Widths": [],
+                        "Layer": layer,
+                        "IsBridge": is_bridge,
+                        "IsTunnel": is_tunnel
+                    }
+                
+                nodes[key]["ConnectedRoadIds"].add(osm_id)
+                rc = feature["properties"].get("highway", "unclassified")
+                nodes[key]["RoadClasses"].add(rc)
+                nodes[key]["Widths"].append(width)
+                
+    # Filter only nodes with Degree >= 3 OR Degree >= 1 (we need dead ends too? Prompt says Degree 1 = DeadEnd, 3 = TJunction etc)
+    # Actually, if we only take endpoints, degree is count of unique roads. But a continuous road might have multiple segments.
+    # To keep it simple, we just export all nodes that have Degree >= 1.
+    # We will chunk them by 250m tiles
+    
+    chunks = {}
+    junction_id = 1
+    
+    for key, node in nodes.items():
+        deg = len(node["ConnectedRoadIds"])
+        # We only really care about junctions (deg > 2) and dead ends (deg == 1). Deg 2 is just a bend unless it connects two different roads.
+        # But wait, we need to cutback roads! The Lua script needs to know which nodes are junctions.
+        # So we just export all nodes that connect MULTIPLE roads, or endpoints of a road.
+        
+        tile_x = math.floor(node["LocalPositionMeters"][0] / 250.0) * 250
+        tile_z = math.floor(node["LocalPositionMeters"][1] / 250.0) * 250
+        tile_id = f"NO_E{int(origin[0] + tile_x)}_N{int(origin[1] + tile_z)}_250"
+        
+        if tile_id not in chunks:
+            chunks[tile_id] = []
+            
+        j_type = "Straight/Bend"
+        if deg == 1: j_type = "DeadEnd"
+        elif deg == 3: j_type = "TJunction"
+        elif deg == 4: j_type = "CrossJunction"
+        elif deg > 4: j_type = "ComplexJunction"
+        
+        node["JunctionId"] = junction_id
+        node["Degree"] = deg
+        node["JunctionType"] = j_type
+        junction_id += 1
+        
+        chunks[tile_id].append(node)
+        
+    out_dir = ROBLOX_SRC_DIR / "Junctions"
+    ensure_dir(out_dir)
+    
+    for tile_id, jlist in chunks.items():
+        lua_content = "return {\n"
+        for idx, node in enumerate(jlist):
+            lua_content += f"    [{idx+1}] = {{\n"
+            lua_content += f"        NodeId = {node['JunctionId']},\n"
+            lua_content += f"        LocalPositionMeters = {{{node['LocalPositionMeters'][0]}, {node['LocalPositionMeters'][1]}}},\n"
+            lua_content += f"        Degree = {node['Degree']},\n"
+            lua_content += f"        JunctionType = \"{node['JunctionType']}\",\n"
+            lua_content += f"        IsBridge = {'true' if node['IsBridge'] else 'false'},\n"
+            lua_content += f"        IsTunnel = {'true' if node['IsTunnel'] else 'false'},\n"
+            lua_content += f"        Layer = \"{node['Layer']}\",\n"
+            
+            roads_str = ", ".join([f'"{r}"' for r in node["ConnectedRoadIds"]])
+            lua_content += f"        ConnectedRoadIds = {{{roads_str}}},\n"
+            
+            widths_str = ", ".join([str(w) for w in node["Widths"]])
+            lua_content += f"        WidthsStuds = {{{widths_str}}},\n" # Width is in meters, will be scaled in Lua
+            
+            lua_content += "    },\n"
+        lua_content += "}\n"
+        
+        with open(out_dir / f"{tile_id}.lua", "w", encoding="utf-8") as f:
+            f.write(lua_content)
+
 import shutil
 
 def sync_frontend():
@@ -192,6 +299,9 @@ def main():
     print("Exporting Categories...")
     for category in ["roads", "buildings", "rail", "water", "green", "pois"]:
         export_features(category, origin)
+        
+    print("Exporting Junctions...")
+    export_junctions(origin)
         
     print("Syncing Frontend data...")
     sync_frontend()

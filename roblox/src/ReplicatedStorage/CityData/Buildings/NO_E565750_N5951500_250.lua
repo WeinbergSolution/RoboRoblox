@@ -1,1566 +1,1373 @@
 return {
-	[1] = {
-		Id = "1349703797",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 1349703797,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -119.31, 95.91 },
-			SizeMeters = { 4.77, 10.75 },
-			RotationDegrees = 82.21,
-		},
-		Geometry = {
-			{ -122.40, 90.91 },
-			{ -116.22, 100.91 },
-			{ -117.67, 90.27 },
-			{ -122.40, 90.91 },
-		},
-	},
-	[2] = {
-		Id = "1349859314",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garage",
-			["osm_id"] = 1349859314,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -269.44, 280.83 },
-			SizeMeters = { 5.73, 12.18 },
-			RotationDegrees = -147.46,
-		},
-		Geometry = {
-			{ -262.76, 281.69 },
-			{ -273.04, 275.13 },
-			{ -272.74, 282.13 },
-			{ -262.76, 281.69 },
-		},
-	},
-	[3] = {
-		Id = "149251935",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "274",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Ulzburger Straße",
-			["building"] = "retail",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["wheelchair"] = "yes",
-			["osm_id"] = 149251935,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -122.99, 280.60 },
-			SizeMeters = { 9.00, 21.00 },
-			RotationDegrees = 21.43,
-		},
-		Geometry = {
-			{ -134.41, 280.95 },
-			{ -114.86, 288.63 },
-			{ -116.33, 278.38 },
-			{ -134.41, 280.95 },
-		},
-	},
-	[4] = {
-		Id = "321470976",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "apartments",
-			["roof:shape"] = "flat",
-			["osm_id"] = 321470976,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 12.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -120.09, 123.81 },
-			SizeMeters = { 15.69, 42.06 },
-			RotationDegrees = 93.66,
-		},
-		Geometry = {
-			{ -126.58, 102.32 },
-			{ -129.26, 144.29 },
-			{ -116.85, 142.61 },
-			{ -111.22, 108.18 },
-			{ -126.58, 102.32 },
-		},
-	},
-	[5] = {
-		Id = "321470977",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 321470977,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -264.35, 90.59 },
-			SizeMeters = { 10.72, 24.23 },
-			RotationDegrees = 162.69,
-		},
-		Geometry = {
-			{ -277.51, 89.08 },
-			{ -257.40, 94.04 },
-			{ -254.38, 81.87 },
-			{ -277.51, 89.08 },
-		},
-	},
-	[6] = {
-		Id = "321470981",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:postcode"] = "22846",
-			["building"] = "yes",
-			["osm_id"] = 321470981,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -329.65, 148.30 },
-			SizeMeters = { 7.61, 23.10 },
-			RotationDegrees = -102.62,
-		},
-		Geometry = {
-			{ -335.89, 137.85 },
-			{ -330.84, 160.39 },
-			{ -323.42, 158.74 },
-			{ -328.46, 136.20 },
-			{ -335.89, 137.85 },
-		},
-	},
-	[7] = {
-		Id = "321470986",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "15",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321470986,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -318.89, 203.71 },
-			SizeMeters = { 7.16, 14.84 },
-			RotationDegrees = -135.82,
-		},
-		Geometry = {
-			{ -311.07, 206.31 },
-			{ -321.71, 195.97 },
-			{ -320.00, 207.62 },
-			{ -311.07, 206.31 },
-		},
-	},
-	[8] = {
-		Id = "321470988",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "12",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "yes",
-			["osm_id"] = 321470988,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -277.92, 240.35 },
-			SizeMeters = { 11.48, 16.63 },
-			RotationDegrees = 80.19,
-		},
-		Geometry = {
-			{ -284.99, 233.14 },
-			{ -282.16, 249.52 },
-			{ -270.84, 247.57 },
-			{ -273.67, 231.19 },
-			{ -284.99, 233.14 },
-		},
-	},
-	[9] = {
-		Id = "321470990",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 321470990,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -197.69, 91.58 },
-			SizeMeters = { 5.44, 17.48 },
-			RotationDegrees = 75.13,
-		},
-		Geometry = {
-			{ -198.06, 100.72 },
-			{ -197.30, 82.44 },
-			{ -202.56, 83.83 },
-			{ -198.06, 100.72 },
-		},
-	},
-	[10] = {
-		Id = "321470993",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "6",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321470993,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -311.28, 71.69 },
-			SizeMeters = { 9.73, 19.52 },
-			RotationDegrees = -150.82,
-		},
-		Geometry = {
-			{ -300.39, 72.20 },
-			{ -317.43, 62.68 },
-			{ -313.26, 76.16 },
-			{ -300.39, 72.20 },
-		},
-	},
-	[11] = {
-		Id = "321470996",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:postcode"] = "22846",
-			["building"] = "yes",
-			["osm_id"] = 321470996,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -349.91, 82.09 },
-			SizeMeters = { 5.64, 11.56 },
-			RotationDegrees = -157.57,
-		},
-		Geometry = {
-			{ -352.10, 84.24 },
-			{ -343.49, 81.69 },
-			{ -354.17, 77.28 },
-			{ -352.10, 84.24 },
-		},
-	},
-	[12] = {
-		Id = "321471001",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "325",
-			["addr:street"] = "Ulzburger Straße",
-			["building"] = "yes",
-			["osm_id"] = 321471001,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -189.96, 189.88 },
-			SizeMeters = { 9.13, 12.65 },
-			RotationDegrees = -99.57,
-		},
-		Geometry = {
-			{ -186.51, 182.89 },
-			{ -193.41, 196.87 },
-			{ -184.41, 195.36 },
-			{ -186.51, 182.89 },
-		},
-	},
-	[13] = {
-		Id = "321471005",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "8",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471005,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -307.66, 95.67 },
-			SizeMeters = { 7.30, 16.22 },
-			RotationDegrees = -133.34,
-		},
-		Geometry = {
-			{ -299.44, 99.06 },
-			{ -310.57, 87.27 },
-			{ -307.91, 100.73 },
-			{ -299.44, 99.06 },
-		},
-	},
-	[14] = {
-		Id = "321471009",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "10",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "yes",
-			["osm_id"] = 321471009,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -295.89, 249.61 },
-			SizeMeters = { 8.14, 17.38 },
-			RotationDegrees = -135.51,
-		},
-		Geometry = {
-			{ -286.84, 252.80 },
-			{ -299.24, 240.62 },
-			{ -296.59, 254.62 },
-			{ -286.84, 252.80 },
-		},
-	},
-	[15] = {
-		Id = "321471018",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 321471018,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -194.08, 112.70 },
-			SizeMeters = { 4.87, 11.97 },
-			RotationDegrees = 75.19,
-		},
-		Geometry = {
-			{ -194.91, 119.10 },
-			{ -193.26, 106.30 },
-			{ -197.97, 107.53 },
-			{ -194.91, 119.10 },
-		},
-	},
-	[16] = {
-		Id = "321471022",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garage",
-			["osm_id"] = 321471022,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -285.15, 291.27 },
-			SizeMeters = { 3.65, 7.44 },
-			RotationDegrees = -145.93,
-		},
-		Geometry = {
-			{ -281.05, 291.85 },
-			{ -287.21, 287.68 },
-			{ -285.59, 293.18 },
-			{ -281.05, 291.85 },
-		},
-	},
-	[17] = {
-		Id = "321471030",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "18a",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "yes",
-			["osm_id"] = 321471030,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -218.24, 170.54 },
-			SizeMeters = { 9.52, 12.30 },
-			RotationDegrees = -97.96,
-		},
-		Geometry = {
-			{ -214.38, 163.78 },
-			{ -222.11, 177.28 },
-			{ -212.68, 175.97 },
-			{ -214.38, 163.78 },
-		},
-	},
-	[18] = {
-		Id = "321471033",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "19",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471033,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -289.90, 190.49 },
-			SizeMeters = { 7.58, 15.89 },
-			RotationDegrees = -136.37,
-		},
-		Geometry = {
-			{ -281.53, 193.23 },
-			{ -293.04, 182.26 },
-			{ -290.80, 194.86 },
-			{ -281.53, 193.23 },
-		},
-	},
-	[19] = {
-		Id = "321471034",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 321471034,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -191.68, 129.81 },
-			SizeMeters = { 5.58, 17.26 },
-			RotationDegrees = -84.79,
-		},
-		Geometry = {
-			{ -189.68, 138.66 },
-			{ -188.12, 121.47 },
-			{ -193.86, 123.00 },
-			{ -189.68, 138.66 },
-		},
-	},
-	[20] = {
-		Id = "321471036",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "12",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["building:levels"] = "2",
-			["osm_id"] = 321471036,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -301.67, 144.86 },
-			SizeMeters = { 7.60, 16.55 },
-			RotationDegrees = -161.66,
-		},
-		Geometry = {
-			{ -305.94, 147.45 },
-			{ -292.62, 143.86 },
-			{ -308.33, 138.65 },
-			{ -305.94, 147.45 },
-		},
-	},
-	[21] = {
-		Id = "321471039",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "15a",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471039,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -337.88, 206.74 },
-			SizeMeters = { 8.30, 17.36 },
-			RotationDegrees = -137.46,
-		},
-		Geometry = {
-			{ -328.67, 209.55 },
-			{ -341.47, 197.81 },
-			{ -338.84, 211.49 },
-			{ -328.67, 209.55 },
-		},
-	},
-	[22] = {
-		Id = "321471040",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "18",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471040,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -255.04, 128.41 },
-			SizeMeters = { 7.32, 14.72 },
-			RotationDegrees = 25.80,
-		},
-		Geometry = {
-			{ -263.26, 128.50 },
-			{ -250.01, 134.91 },
-			{ -252.79, 125.43 },
-			{ -263.26, 128.50 },
-		},
-	},
-	[23] = {
-		Id = "321471042",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "4b",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "yes",
-			["osm_id"] = 321471042,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -320.83, 256.26 },
-			SizeMeters = { 6.41, 15.52 },
-			RotationDegrees = 107.38,
-		},
-		Geometry = {
-			{ -321.57, 247.89 },
-			{ -326.21, 262.70 },
-			{ -319.09, 261.40 },
-			{ -321.57, 247.89 },
-		},
-	},
-	[24] = {
-		Id = "321471047",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "10",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471047,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -299.75, 119.32 },
-			SizeMeters = { 9.49, 19.28 },
-			RotationDegrees = -145.04,
-		},
-		Geometry = {
-			{ -289.13, 120.95 },
-			{ -304.93, 109.90 },
-			{ -301.15, 124.13 },
-			{ -289.13, 120.95 },
-		},
-	},
-	[25] = {
-		Id = "321471057",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "8",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "yes",
-			["osm_id"] = 321471057,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -302.72, 251.03 },
-			SizeMeters = { 6.06, 15.68 },
-			RotationDegrees = 104.61,
-		},
-		Geometry = {
-			{ -303.67, 242.68 },
-			{ -307.63, 257.86 },
-			{ -301.05, 256.63 },
-			{ -303.67, 242.68 },
-		},
-	},
-	[26] = {
-		Id = "321471058",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 321471058,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -346.61, 96.41 },
-			SizeMeters = { 3.06, 6.14 },
-			RotationDegrees = -62.34,
-		},
-		Geometry = {
-			{ -346.68, 99.84 },
-			{ -343.83, 94.40 },
-			{ -347.87, 95.50 },
-			{ -346.68, 99.84 },
-		},
-	},
-	[27] = {
-		Id = "321471063",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "327",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Ulzburger Straße",
-			["building"] = "yes",
-			["osm_id"] = 321471063,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -181.38, 217.86 },
-			SizeMeters = { 7.84, 16.01 },
-			RotationDegrees = -156.55,
-		},
-		Geometry = {
-			{ -184.37, 220.83 },
-			{ -172.48, 217.45 },
-			{ -187.16, 211.08 },
-			{ -184.37, 220.83 },
-		},
-	},
-	[28] = {
-		Id = "321471065",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "323",
-			["addr:street"] = "Ulzburger Straße",
-			["building"] = "yes",
-			["osm_id"] = 321471065,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -194.96, 176.37 },
-			SizeMeters = { 7.08, 15.03 },
-			RotationDegrees = -135.29,
-		},
-		Geometry = {
-			{ -187.12, 179.14 },
-			{ -197.81, 168.57 },
-			{ -195.69, 180.63 },
-			{ -187.12, 179.14 },
-		},
-	},
-	[29] = {
-		Id = "321471069",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:postcode"] = "22846",
-			["building"] = "yes",
-			["osm_id"] = 321471069,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -250.47, 178.87 },
-			SizeMeters = { 8.33, 16.66 },
-			RotationDegrees = 122.89,
-		},
-		Geometry = {
-			{ -249.44, 169.61 },
-			{ -258.49, 183.60 },
-			{ -247.20, 181.49 },
-			{ -249.44, 169.61 },
-		},
-	},
-	[30] = {
-		Id = "321471072",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "321",
-			["addr:street"] = "Ulzburger Straße",
-			["building"] = "yes",
-			["osm_id"] = 321471072,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -190.71, 161.36 },
-			SizeMeters = { 6.63, 14.82 },
-			RotationDegrees = -159.04,
-		},
-		Geometry = {
-			{ -194.97, 163.28 },
-			{ -182.60, 160.91 },
-			{ -196.44, 155.61 },
-			{ -194.97, 163.28 },
-		},
-	},
-	[31] = {
-		Id = "321471076",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "50",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Hermelinweg",
-			["building"] = "yes",
-			["osm_id"] = 321471076,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -265.43, 303.81 },
-			SizeMeters = { 7.97, 11.52 },
-			RotationDegrees = 177.72,
-		},
-		Geometry = {
-			{ -271.34, 300.07 },
-			{ -259.51, 307.56 },
-			{ -259.83, 299.60 },
-			{ -271.34, 300.07 },
-		},
-	},
-	[32] = {
-		Id = "321471077",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "17",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471077,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -305.12, 194.62 },
-			SizeMeters = { 7.15, 14.54 },
-			RotationDegrees = -139.54,
-		},
-		Geometry = {
-			{ -297.27, 196.61 },
-			{ -308.33, 187.18 },
-			{ -306.47, 198.16 },
-			{ -297.27, 196.61 },
-		},
-	},
-	[33] = {
-		Id = "321471079",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 321471079,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -218.59, 140.86 },
-			SizeMeters = { 13.47, 31.51 },
-			RotationDegrees = 165.12,
-		},
-		Geometry = {
-			{ -232.08, 151.41 },
-			{ -210.75, 145.74 },
-			{ -201.64, 143.32 },
-			{ -205.11, 130.31 },
-			{ -235.55, 138.39 },
-			{ -232.08, 151.41 },
-		},
-	},
-	[34] = {
-		Id = "321471083",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:postcode"] = "22846",
-			["building"] = "yes",
-			["osm_id"] = 321471083,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -334.50, 130.92 },
-			SizeMeters = { 5.62, 11.49 },
-			RotationDegrees = -155.98,
-		},
-		Geometry = {
-			{ -336.68, 133.03 },
-			{ -328.11, 130.69 },
-			{ -338.60, 126.01 },
-			{ -336.68, 133.03 },
-		},
-	},
-	[35] = {
-		Id = "321471084",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "21",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471084,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -272.49, 182.30 },
-			SizeMeters = { 10.26, 13.46 },
-			RotationDegrees = 80.49,
-		},
-		Geometry = {
-			{ -278.66, 176.51 },
-			{ -276.44, 189.78 },
-			{ -266.32, 188.09 },
-			{ -268.55, 174.83 },
-			{ -278.66, 176.51 },
-		},
-	},
-	[36] = {
-		Id = "321471086",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471086,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -278.39, 141.26 },
-			SizeMeters = { 6.88, 20.60 },
-			RotationDegrees = -166.69,
-		},
-		Geometry = {
-			{ -287.62, 135.54 },
-			{ -280.51, 144.30 },
-			{ -267.57, 140.28 },
-			{ -287.62, 135.54 },
-		},
-	},
-	[37] = {
-		Id = "321471094",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garage",
-			["osm_id"] = 321471094,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -199.26, 221.37 },
-			SizeMeters = { 3.75, 10.25 },
-			RotationDegrees = 83.29,
-		},
-		Geometry = {
-			{ -200.53, 226.68 },
-			{ -198.00, 216.07 },
-			{ -201.72, 216.50 },
-			{ -200.53, 226.68 },
-		},
-	},
-	[38] = {
-		Id = "321471105",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "18",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "yes",
-			["osm_id"] = 321471105,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -211.61, 220.81 },
-			SizeMeters = { 7.53, 21.22 },
-			RotationDegrees = 107.21,
-		},
-		Geometry = {
-			{ -212.07, 209.56 },
-			{ -218.35, 229.83 },
-			{ -209.64, 227.19 },
-			{ -212.07, 209.56 },
-		},
-	},
-	[39] = {
-		Id = "321471109",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "apartments",
-			["roof:shape"] = "flat",
-			["osm_id"] = 321471109,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 12.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -143.47, 88.75 },
-			SizeMeters = { 28.36, 40.56 },
-			RotationDegrees = -3.23,
-		},
-		Geometry = {
-			{ -122.43, 101.76 },
-			{ -150.08, 91.38 },
-			{ -152.30, 75.05 },
-			{ -164.47, 76.69 },
-			{ -160.75, 103.93 },
-			{ -122.43, 101.76 },
-		},
-	},
-	[40] = {
-		Id = "321471115",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "apartments",
-			["roof:shape"] = "flat",
-			["osm_id"] = 321471115,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 12.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -137.46, 151.58 },
-			SizeMeters = { 12.24, 27.56 },
-			RotationDegrees = 172.28,
-		},
-		Geometry = {
-			{ -122.98, 155.80 },
-			{ -124.64, 143.67 },
-			{ -151.93, 147.37 },
-			{ -150.28, 159.50 },
-			{ -122.98, 155.80 },
-		},
-	},
-	[41] = {
-		Id = "321471123",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "9",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471123,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -336.07, 118.49 },
-			SizeMeters = { 8.88, 13.18 },
-			RotationDegrees = -105.35,
-		},
-		Geometry = {
-			{ -330.04, 123.67 },
-			{ -333.53, 110.97 },
-			{ -342.09, 113.31 },
-			{ -338.60, 126.01 },
-			{ -330.04, 123.67 },
-		},
-	},
-	[42] = {
-		Id = "321471126",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 321471126,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -201.26, 134.39 },
-			SizeMeters = { 5.33, 17.06 },
-			RotationDegrees = 75.07,
-		},
-		Geometry = {
-			{ -201.64, 143.32 },
-			{ -200.89, 125.47 },
-			{ -206.04, 126.84 },
-			{ -201.64, 143.32 },
-		},
-	},
-	[43] = {
-		Id = "321471131",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "13a",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471131,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -323.74, 165.10 },
-			SizeMeters = { 6.01, 12.61 },
-			RotationDegrees = 131.28,
-		},
-		Geometry = {
-			{ -321.83, 158.38 },
-			{ -330.15, 167.86 },
-			{ -320.21, 165.64 },
-			{ -321.83, 158.38 },
-		},
-	},
-	[44] = {
-		Id = "321471133",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "7",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471133,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -343.41, 108.09 },
-			SizeMeters = { 6.99, 16.33 },
-			RotationDegrees = -134.80,
-		},
-		Geometry = {
-			{ -335.17, 111.43 },
-			{ -346.68, 99.84 },
-			{ -342.92, 113.54 },
-			{ -335.17, 111.43 },
-		},
-	},
-	[45] = {
-		Id = "321471136",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "14",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "yes",
-			["osm_id"] = 321471136,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -251.09, 226.11 },
-			SizeMeters = { 13.16, 20.24 },
-			RotationDegrees = 21.40,
-		},
-		Geometry = {
-			{ -262.92, 228.54 },
-			{ -244.07, 235.93 },
-			{ -246.91, 220.68 },
-			{ -262.92, 228.54 },
-		},
-	},
-	[46] = {
-		Id = "321471144",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 321471144,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -218.41, 105.24 },
-			SizeMeters = { 14.96, 30.22 },
-			RotationDegrees = -99.95,
-		},
-		Geometry = {
-			{ -208.65, 117.60 },
-			{ -213.65, 89.06 },
-			{ -225.18, 92.08 },
-			{ -223.17, 121.41 },
-			{ -208.65, 117.60 },
-		},
-	},
-	[47] = {
-		Id = "321471149",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "23c",
-			["addr:street"] = "Sanddornweg",
-			["building"] = "yes",
-			["osm_id"] = 321471149,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -237.26, 177.99 },
-			SizeMeters = { 10.40, 16.90 },
-			RotationDegrees = 82.14,
-		},
-		Geometry = {
-			{ -241.25, 187.07 },
-			{ -231.08, 184.72 },
-			{ -234.56, 169.09 },
-			{ -243.56, 170.33 },
-			{ -241.25, 187.07 },
-		},
-	},
-	[48] = {
-		Id = "339934896",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "79",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Kiebitzreihe",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "1",
-			["roof:shape"] = "flat",
-			["osm_id"] = 339934896,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -129.72, 70.66 },
-			SizeMeters = { 6.26, 10.99 },
-			RotationDegrees = -97.68,
-		},
-		Geometry = {
-			{ -127.37, 64.79 },
-			{ -132.09, 76.52 },
-			{ -125.89, 75.69 },
-			{ -127.37, 64.79 },
-		},
-	},
-	[49] = {
-		Id = "339934900",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "85",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Kiebitzreihe",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 339934900,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -107.92, 74.10 },
-			SizeMeters = { 5.44, 12.65 },
-			RotationDegrees = 111.90,
-		},
-		Geometry = {
-			{ -108.08, 67.21 },
-			{ -112.80, 78.95 },
-			{ -106.60, 78.11 },
-			{ -108.08, 67.21 },
-		},
-	},
-	[50] = {
-		Id = "339934908",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "81",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Kiebitzreihe",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 339934908,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -121.00, 70.83 },
-			SizeMeters = { 5.44, 12.65 },
-			RotationDegrees = 111.90,
-		},
-		Geometry = {
-			{ -121.16, 63.95 },
-			{ -125.89, 75.69 },
-			{ -119.68, 74.84 },
-			{ -121.16, 63.95 },
-		},
-	},
-	[51] = {
-		Id = "339934909",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "83",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Kiebitzreihe",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 339934909,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -114.12, 74.94 },
-			SizeMeters = { 5.44, 12.64 },
-			RotationDegrees = 111.92,
-		},
-		Geometry = {
-			{ -114.28, 68.06 },
-			{ -119.00, 79.79 },
-			{ -112.80, 78.95 },
-			{ -114.28, 68.06 },
-		},
-	},
-	[52] = {
-		Id = "350187465",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "28",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "detached",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 350187465,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -107.34, 170.70 },
-			SizeMeters = { 4.43, 21.04 },
-			RotationDegrees = -44.14,
-		},
-		Geometry = {
-			{ -113.34, 179.61 },
-			{ -98.25, 164.96 },
-			{ -114.09, 174.16 },
-			{ -113.34, 179.61 },
-		},
-	},
-	[53] = {
-		Id = "350372864",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "20",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 350372864,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -117.63, 192.83 },
-			SizeMeters = { 13.28, 13.67 },
-			RotationDegrees = 148.59,
-		},
-		Geometry = {
-			{ -126.92, 190.73 },
-			{ -113.29, 197.96 },
-			{ -115.26, 183.60 },
-			{ -126.92, 190.73 },
-		},
-	},
-	[54] = {
-		Id = "350372865",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "22",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 350372865,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -108.07, 189.95 },
-			SizeMeters = { 12.52, 14.49 },
-			RotationDegrees = -97.79,
-		},
-		Geometry = {
-			{ -114.51, 189.04 },
-			{ -100.88, 196.28 },
-			{ -102.85, 181.92 },
-			{ -114.51, 189.04 },
-		},
-	},
-	[55] = {
-		Id = "352148583",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "52",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Hermelinweg",
-			["building"] = "yes",
-			["osm_id"] = 352148583,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -267.99, 287.94 },
-			SizeMeters = { 11.02, 11.99 },
-			RotationDegrees = -92.70,
-		},
-		Geometry = {
-			{ -262.76, 281.69 },
-			{ -273.21, 294.18 },
-			{ -262.20, 293.67 },
-			{ -262.76, 281.69 },
-		},
-	},
-	[56] = {
-		Id = "352685061",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "16",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "yes",
-			["osm_id"] = 352685061,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -229.64, 230.52 },
-			SizeMeters = { 6.97, 13.41 },
-			RotationDegrees = -158.91,
-		},
-		Geometry = {
-			{ -222.13, 229.68 },
-			{ -234.64, 224.85 },
-			{ -232.55, 233.13 },
-			{ -222.13, 229.68 },
-		},
-	},
-	[57] = {
-		Id = "352871168",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "4a",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "yes",
-			["osm_id"] = 352871168,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -331.00, 256.60 },
-			SizeMeters = { 7.24, 13.74 },
-			RotationDegrees = -100.36,
-		},
-		Geometry = {
-			{ -328.69, 249.19 },
-			{ -333.33, 264.01 },
-			{ -326.21, 262.70 },
-			{ -328.69, 249.19 },
-		},
-	},
-	[58] = {
-		Id = "352871172",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "6",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Langenharmer Weg",
-			["building"] = "yes",
-			["osm_id"] = 352871172,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -309.30, 252.26 },
-			SizeMeters = { 6.05, 15.68 },
-			RotationDegrees = 104.61,
-		},
-		Geometry = {
-			{ -310.25, 243.91 },
-			{ -314.20, 259.09 },
-			{ -307.63, 257.86 },
-			{ -310.25, 243.91 },
-		},
-	},
-	[59] = {
-		Id = "415365645",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "roof",
-			["layer"] = "1",
-			["osm_id"] = 415365645,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -126.12, 269.12 },
-			SizeMeters = { 21.09, 27.57 },
-			RotationDegrees = -8.12,
-		},
-		Geometry = {
-			{ -134.41, 280.95 },
-			{ -110.99, 277.61 },
-			{ -113.97, 256.74 },
-			{ -141.26, 260.63 },
-			{ -134.41, 280.95 },
-		},
-	},
-	[60] = {
-		Id = "73855864",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "276",
-			["addr:postcode"] = "22846",
-			["addr:street"] = "Ulzburger Straße",
-			["amenity"] = "car_wash",
-			["automated"] = "yes",
-			["building"] = "yes",
-			["operator"] = "Star",
-			["osm_id"] = 73855864,
-			["tile_500"] = "NO_E565500_N5951500_500",
-			["tile_250"] = "NO_E565750_N5951500_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { -125.49, 299.13 },
-			SizeMeters = { 7.41, 11.40 },
-			RotationDegrees = -8.07,
-		},
-		Geometry = {
-			{ -120.37, 294.66 },
-			{ -130.61, 303.59 },
-			{ -119.32, 302.00 },
-			{ -120.37, 294.66 },
-		},
-	},
+    [1] = {
+        Id = "1349703797",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 1349703797,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-119.31, 95.91},
+            SizeMeters = {4.77, 10.75},
+            RotationDegrees = 82.21
+        },
+        Geometry = {
+            {-122.40, 90.91}, {-116.22, 100.91}, {-117.67, 90.27}, {-122.40, 90.91}
+        }
+    },
+    [2] = {
+        Id = "1349859314",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garage",
+            ["osm_id"] = 1349859314,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-269.44, 280.83},
+            SizeMeters = {5.73, 12.18},
+            RotationDegrees = -147.46
+        },
+        Geometry = {
+            {-262.76, 281.69}, {-273.04, 275.13}, {-272.74, 282.13}, {-262.76, 281.69}
+        }
+    },
+    [3] = {
+        Id = "149251935",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "274",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Ulzburger Straße",
+            ["building"] = "retail",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["wheelchair"] = "yes",
+            ["osm_id"] = 149251935,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-122.99, 280.60},
+            SizeMeters = {9.00, 21.00},
+            RotationDegrees = 21.43
+        },
+        Geometry = {
+            {-134.41, 280.95}, {-114.86, 288.63}, {-116.33, 278.38}, {-134.41, 280.95}
+        }
+    },
+    [4] = {
+        Id = "321470976",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "apartments",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 321470976,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 12.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-120.09, 123.81},
+            SizeMeters = {15.69, 42.06},
+            RotationDegrees = 93.66
+        },
+        Geometry = {
+            {-126.58, 102.32}, {-129.26, 144.29}, {-116.85, 142.61}, {-111.22, 108.18}, {-126.58, 102.32}
+        }
+    },
+    [5] = {
+        Id = "321470977",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 321470977,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-264.35, 90.59},
+            SizeMeters = {10.72, 24.23},
+            RotationDegrees = 162.69
+        },
+        Geometry = {
+            {-277.51, 89.08}, {-257.40, 94.04}, {-254.38, 81.87}, {-277.51, 89.08}
+        }
+    },
+    [6] = {
+        Id = "321470981",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:postcode"] = "22846",
+            ["building"] = "yes",
+            ["osm_id"] = 321470981,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-329.65, 148.30},
+            SizeMeters = {7.61, 23.10},
+            RotationDegrees = -102.62
+        },
+        Geometry = {
+            {-335.89, 137.85}, {-330.84, 160.39}, {-323.42, 158.74}, {-328.46, 136.20}, {-335.89, 137.85}
+        }
+    },
+    [7] = {
+        Id = "321470986",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "15",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321470986,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-318.89, 203.71},
+            SizeMeters = {7.16, 14.84},
+            RotationDegrees = -135.82
+        },
+        Geometry = {
+            {-311.07, 206.31}, {-321.71, 195.97}, {-320.00, 207.62}, {-311.07, 206.31}
+        }
+    },
+    [8] = {
+        Id = "321470988",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "12",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 321470988,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-277.92, 240.35},
+            SizeMeters = {11.48, 16.63},
+            RotationDegrees = 80.19
+        },
+        Geometry = {
+            {-284.99, 233.14}, {-282.16, 249.52}, {-270.84, 247.57}, {-273.67, 231.19}, {-284.99, 233.14}
+        }
+    },
+    [9] = {
+        Id = "321470990",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 321470990,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-197.69, 91.58},
+            SizeMeters = {5.44, 17.48},
+            RotationDegrees = 75.13
+        },
+        Geometry = {
+            {-198.06, 100.72}, {-197.30, 82.44}, {-202.56, 83.83}, {-198.06, 100.72}
+        }
+    },
+    [10] = {
+        Id = "321470993",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "6",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321470993,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-311.28, 71.69},
+            SizeMeters = {9.73, 19.52},
+            RotationDegrees = -150.82
+        },
+        Geometry = {
+            {-300.39, 72.20}, {-317.43, 62.68}, {-313.26, 76.16}, {-300.39, 72.20}
+        }
+    },
+    [11] = {
+        Id = "321470996",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:postcode"] = "22846",
+            ["building"] = "yes",
+            ["osm_id"] = 321470996,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-349.91, 82.09},
+            SizeMeters = {5.64, 11.56},
+            RotationDegrees = -157.57
+        },
+        Geometry = {
+            {-352.10, 84.24}, {-343.49, 81.69}, {-354.17, 77.28}, {-352.10, 84.24}
+        }
+    },
+    [12] = {
+        Id = "321471001",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "325",
+            ["addr:street"] = "Ulzburger Straße",
+            ["building"] = "yes",
+            ["osm_id"] = 321471001,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-189.96, 189.88},
+            SizeMeters = {9.13, 12.65},
+            RotationDegrees = -99.57
+        },
+        Geometry = {
+            {-186.51, 182.89}, {-193.41, 196.87}, {-184.41, 195.36}, {-186.51, 182.89}
+        }
+    },
+    [13] = {
+        Id = "321471005",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "8",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471005,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-307.66, 95.67},
+            SizeMeters = {7.30, 16.22},
+            RotationDegrees = -133.34
+        },
+        Geometry = {
+            {-299.44, 99.06}, {-310.57, 87.27}, {-307.91, 100.73}, {-299.44, 99.06}
+        }
+    },
+    [14] = {
+        Id = "321471009",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "10",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471009,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-295.89, 249.61},
+            SizeMeters = {8.14, 17.38},
+            RotationDegrees = -135.51
+        },
+        Geometry = {
+            {-286.84, 252.80}, {-299.24, 240.62}, {-296.59, 254.62}, {-286.84, 252.80}
+        }
+    },
+    [15] = {
+        Id = "321471018",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 321471018,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-194.08, 112.70},
+            SizeMeters = {4.87, 11.97},
+            RotationDegrees = 75.19
+        },
+        Geometry = {
+            {-194.91, 119.10}, {-193.26, 106.30}, {-197.97, 107.53}, {-194.91, 119.10}
+        }
+    },
+    [16] = {
+        Id = "321471022",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garage",
+            ["osm_id"] = 321471022,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-285.15, 291.27},
+            SizeMeters = {3.65, 7.44},
+            RotationDegrees = -145.93
+        },
+        Geometry = {
+            {-281.05, 291.85}, {-287.21, 287.68}, {-285.59, 293.18}, {-281.05, 291.85}
+        }
+    },
+    [17] = {
+        Id = "321471030",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "18a",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471030,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-218.24, 170.54},
+            SizeMeters = {9.52, 12.30},
+            RotationDegrees = -97.96
+        },
+        Geometry = {
+            {-214.38, 163.78}, {-222.11, 177.28}, {-212.68, 175.97}, {-214.38, 163.78}
+        }
+    },
+    [18] = {
+        Id = "321471033",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "19",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471033,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-289.90, 190.49},
+            SizeMeters = {7.58, 15.89},
+            RotationDegrees = -136.37
+        },
+        Geometry = {
+            {-281.53, 193.23}, {-293.04, 182.26}, {-290.80, 194.86}, {-281.53, 193.23}
+        }
+    },
+    [19] = {
+        Id = "321471034",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 321471034,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-191.68, 129.81},
+            SizeMeters = {5.58, 17.26},
+            RotationDegrees = -84.79
+        },
+        Geometry = {
+            {-189.68, 138.66}, {-188.12, 121.47}, {-193.86, 123.00}, {-189.68, 138.66}
+        }
+    },
+    [20] = {
+        Id = "321471036",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "12",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["building:levels"] = "2",
+            ["osm_id"] = 321471036,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-301.67, 144.86},
+            SizeMeters = {7.60, 16.55},
+            RotationDegrees = -161.66
+        },
+        Geometry = {
+            {-305.94, 147.45}, {-292.62, 143.86}, {-308.33, 138.65}, {-305.94, 147.45}
+        }
+    },
+    [21] = {
+        Id = "321471039",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "15a",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471039,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-337.88, 206.74},
+            SizeMeters = {8.30, 17.36},
+            RotationDegrees = -137.46
+        },
+        Geometry = {
+            {-328.67, 209.55}, {-341.47, 197.81}, {-338.84, 211.49}, {-328.67, 209.55}
+        }
+    },
+    [22] = {
+        Id = "321471040",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "18",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471040,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-255.04, 128.41},
+            SizeMeters = {7.32, 14.72},
+            RotationDegrees = 25.80
+        },
+        Geometry = {
+            {-263.26, 128.50}, {-250.01, 134.91}, {-252.79, 125.43}, {-263.26, 128.50}
+        }
+    },
+    [23] = {
+        Id = "321471042",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "4b",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471042,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-320.83, 256.26},
+            SizeMeters = {6.41, 15.52},
+            RotationDegrees = 107.38
+        },
+        Geometry = {
+            {-321.57, 247.89}, {-326.21, 262.70}, {-319.09, 261.40}, {-321.57, 247.89}
+        }
+    },
+    [24] = {
+        Id = "321471047",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "10",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471047,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-299.75, 119.32},
+            SizeMeters = {9.49, 19.28},
+            RotationDegrees = -145.04
+        },
+        Geometry = {
+            {-289.13, 120.95}, {-304.93, 109.90}, {-301.15, 124.13}, {-289.13, 120.95}
+        }
+    },
+    [25] = {
+        Id = "321471057",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "8",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471057,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-302.72, 251.03},
+            SizeMeters = {6.06, 15.68},
+            RotationDegrees = 104.61
+        },
+        Geometry = {
+            {-303.67, 242.68}, {-307.63, 257.86}, {-301.05, 256.63}, {-303.67, 242.68}
+        }
+    },
+    [26] = {
+        Id = "321471058",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 321471058,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-346.61, 96.41},
+            SizeMeters = {3.06, 6.14},
+            RotationDegrees = -62.34
+        },
+        Geometry = {
+            {-346.68, 99.84}, {-343.83, 94.40}, {-347.87, 95.50}, {-346.68, 99.84}
+        }
+    },
+    [27] = {
+        Id = "321471063",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "327",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Ulzburger Straße",
+            ["building"] = "yes",
+            ["osm_id"] = 321471063,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-181.38, 217.86},
+            SizeMeters = {7.84, 16.01},
+            RotationDegrees = -156.55
+        },
+        Geometry = {
+            {-184.37, 220.83}, {-172.48, 217.45}, {-187.16, 211.08}, {-184.37, 220.83}
+        }
+    },
+    [28] = {
+        Id = "321471065",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "323",
+            ["addr:street"] = "Ulzburger Straße",
+            ["building"] = "yes",
+            ["osm_id"] = 321471065,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-194.96, 176.37},
+            SizeMeters = {7.08, 15.03},
+            RotationDegrees = -135.29
+        },
+        Geometry = {
+            {-187.12, 179.14}, {-197.81, 168.57}, {-195.69, 180.63}, {-187.12, 179.14}
+        }
+    },
+    [29] = {
+        Id = "321471069",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:postcode"] = "22846",
+            ["building"] = "yes",
+            ["osm_id"] = 321471069,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-250.47, 178.87},
+            SizeMeters = {8.33, 16.66},
+            RotationDegrees = 122.89
+        },
+        Geometry = {
+            {-249.44, 169.61}, {-258.49, 183.60}, {-247.20, 181.49}, {-249.44, 169.61}
+        }
+    },
+    [30] = {
+        Id = "321471072",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "321",
+            ["addr:street"] = "Ulzburger Straße",
+            ["building"] = "yes",
+            ["osm_id"] = 321471072,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-190.71, 161.36},
+            SizeMeters = {6.63, 14.82},
+            RotationDegrees = -159.04
+        },
+        Geometry = {
+            {-194.97, 163.28}, {-182.60, 160.91}, {-196.44, 155.61}, {-194.97, 163.28}
+        }
+    },
+    [31] = {
+        Id = "321471076",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "50",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Hermelinweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471076,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-265.43, 303.81},
+            SizeMeters = {7.97, 11.52},
+            RotationDegrees = 177.72
+        },
+        Geometry = {
+            {-271.34, 300.07}, {-259.51, 307.56}, {-259.83, 299.60}, {-271.34, 300.07}
+        }
+    },
+    [32] = {
+        Id = "321471077",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "17",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471077,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-305.12, 194.62},
+            SizeMeters = {7.15, 14.54},
+            RotationDegrees = -139.54
+        },
+        Geometry = {
+            {-297.27, 196.61}, {-308.33, 187.18}, {-306.47, 198.16}, {-297.27, 196.61}
+        }
+    },
+    [33] = {
+        Id = "321471079",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 321471079,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-218.59, 140.86},
+            SizeMeters = {13.47, 31.51},
+            RotationDegrees = 165.12
+        },
+        Geometry = {
+            {-232.08, 151.41}, {-210.75, 145.74}, {-201.64, 143.32}, {-205.11, 130.31}, {-235.55, 138.39}, {-232.08, 151.41}
+        }
+    },
+    [34] = {
+        Id = "321471083",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:postcode"] = "22846",
+            ["building"] = "yes",
+            ["osm_id"] = 321471083,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-334.50, 130.92},
+            SizeMeters = {5.62, 11.49},
+            RotationDegrees = -155.98
+        },
+        Geometry = {
+            {-336.68, 133.03}, {-328.11, 130.69}, {-338.60, 126.01}, {-336.68, 133.03}
+        }
+    },
+    [35] = {
+        Id = "321471084",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "21",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471084,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-272.49, 182.30},
+            SizeMeters = {10.26, 13.46},
+            RotationDegrees = 80.49
+        },
+        Geometry = {
+            {-278.66, 176.51}, {-276.44, 189.78}, {-266.32, 188.09}, {-268.55, 174.83}, {-278.66, 176.51}
+        }
+    },
+    [36] = {
+        Id = "321471086",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471086,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-278.39, 141.26},
+            SizeMeters = {6.88, 20.60},
+            RotationDegrees = -166.69
+        },
+        Geometry = {
+            {-287.62, 135.54}, {-280.51, 144.30}, {-267.57, 140.28}, {-287.62, 135.54}
+        }
+    },
+    [37] = {
+        Id = "321471094",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garage",
+            ["osm_id"] = 321471094,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-199.26, 221.37},
+            SizeMeters = {3.75, 10.25},
+            RotationDegrees = 83.29
+        },
+        Geometry = {
+            {-200.53, 226.68}, {-198.00, 216.07}, {-201.72, 216.50}, {-200.53, 226.68}
+        }
+    },
+    [38] = {
+        Id = "321471105",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "18",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471105,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-211.61, 220.81},
+            SizeMeters = {7.53, 21.22},
+            RotationDegrees = 107.21
+        },
+        Geometry = {
+            {-212.07, 209.56}, {-218.35, 229.83}, {-209.64, 227.19}, {-212.07, 209.56}
+        }
+    },
+    [39] = {
+        Id = "321471109",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "apartments",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 321471109,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 12.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-143.47, 88.75},
+            SizeMeters = {28.36, 40.56},
+            RotationDegrees = -3.23
+        },
+        Geometry = {
+            {-122.43, 101.76}, {-150.08, 91.38}, {-152.30, 75.05}, {-164.47, 76.69}, {-160.75, 103.93}, {-122.43, 101.76}
+        }
+    },
+    [40] = {
+        Id = "321471115",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "apartments",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 321471115,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 12.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-137.46, 151.58},
+            SizeMeters = {12.24, 27.56},
+            RotationDegrees = 172.28
+        },
+        Geometry = {
+            {-122.98, 155.80}, {-124.64, 143.67}, {-151.93, 147.37}, {-150.28, 159.50}, {-122.98, 155.80}
+        }
+    },
+    [41] = {
+        Id = "321471123",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "9",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471123,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-336.07, 118.49},
+            SizeMeters = {8.88, 13.18},
+            RotationDegrees = -105.35
+        },
+        Geometry = {
+            {-330.04, 123.67}, {-333.53, 110.97}, {-342.09, 113.31}, {-338.60, 126.01}, {-330.04, 123.67}
+        }
+    },
+    [42] = {
+        Id = "321471126",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 321471126,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-201.26, 134.39},
+            SizeMeters = {5.33, 17.06},
+            RotationDegrees = 75.07
+        },
+        Geometry = {
+            {-201.64, 143.32}, {-200.89, 125.47}, {-206.04, 126.84}, {-201.64, 143.32}
+        }
+    },
+    [43] = {
+        Id = "321471131",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "13a",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471131,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-323.74, 165.10},
+            SizeMeters = {6.01, 12.61},
+            RotationDegrees = 131.28
+        },
+        Geometry = {
+            {-321.83, 158.38}, {-330.15, 167.86}, {-320.21, 165.64}, {-321.83, 158.38}
+        }
+    },
+    [44] = {
+        Id = "321471133",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "7",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471133,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-343.41, 108.09},
+            SizeMeters = {6.99, 16.33},
+            RotationDegrees = -134.80
+        },
+        Geometry = {
+            {-335.17, 111.43}, {-346.68, 99.84}, {-342.92, 113.54}, {-335.17, 111.43}
+        }
+    },
+    [45] = {
+        Id = "321471136",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "14",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471136,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-251.09, 226.11},
+            SizeMeters = {13.16, 20.24},
+            RotationDegrees = 21.40
+        },
+        Geometry = {
+            {-262.92, 228.54}, {-244.07, 235.93}, {-246.91, 220.68}, {-262.92, 228.54}
+        }
+    },
+    [46] = {
+        Id = "321471144",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 321471144,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-218.41, 105.24},
+            SizeMeters = {14.96, 30.22},
+            RotationDegrees = -99.95
+        },
+        Geometry = {
+            {-208.65, 117.60}, {-213.65, 89.06}, {-225.18, 92.08}, {-223.17, 121.41}, {-208.65, 117.60}
+        }
+    },
+    [47] = {
+        Id = "321471149",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "23c",
+            ["addr:street"] = "Sanddornweg",
+            ["building"] = "yes",
+            ["osm_id"] = 321471149,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-237.26, 177.99},
+            SizeMeters = {10.40, 16.90},
+            RotationDegrees = 82.14
+        },
+        Geometry = {
+            {-241.25, 187.07}, {-231.08, 184.72}, {-234.56, 169.09}, {-243.56, 170.33}, {-241.25, 187.07}
+        }
+    },
+    [48] = {
+        Id = "339934896",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "79",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Kiebitzreihe",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 339934896,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-129.72, 70.66},
+            SizeMeters = {6.26, 10.99},
+            RotationDegrees = -97.68
+        },
+        Geometry = {
+            {-127.37, 64.79}, {-132.09, 76.52}, {-125.89, 75.69}, {-127.37, 64.79}
+        }
+    },
+    [49] = {
+        Id = "339934900",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "85",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Kiebitzreihe",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 339934900,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-107.92, 74.10},
+            SizeMeters = {5.44, 12.65},
+            RotationDegrees = 111.90
+        },
+        Geometry = {
+            {-108.08, 67.21}, {-112.80, 78.95}, {-106.60, 78.11}, {-108.08, 67.21}
+        }
+    },
+    [50] = {
+        Id = "339934908",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "81",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Kiebitzreihe",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 339934908,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-121.00, 70.83},
+            SizeMeters = {5.44, 12.65},
+            RotationDegrees = 111.90
+        },
+        Geometry = {
+            {-121.16, 63.95}, {-125.89, 75.69}, {-119.68, 74.84}, {-121.16, 63.95}
+        }
+    },
+    [51] = {
+        Id = "339934909",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "83",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Kiebitzreihe",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 339934909,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-114.12, 74.94},
+            SizeMeters = {5.44, 12.64},
+            RotationDegrees = 111.92
+        },
+        Geometry = {
+            {-114.28, 68.06}, {-119.00, 79.79}, {-112.80, 78.95}, {-114.28, 68.06}
+        }
+    },
+    [52] = {
+        Id = "350187465",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "28",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "detached",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 350187465,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-107.34, 170.70},
+            SizeMeters = {4.43, 21.04},
+            RotationDegrees = -44.14
+        },
+        Geometry = {
+            {-113.34, 179.61}, {-98.25, 164.96}, {-114.09, 174.16}, {-113.34, 179.61}
+        }
+    },
+    [53] = {
+        Id = "350372864",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "20",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 350372864,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-117.63, 192.83},
+            SizeMeters = {13.28, 13.67},
+            RotationDegrees = 148.59
+        },
+        Geometry = {
+            {-126.92, 190.73}, {-113.29, 197.96}, {-115.26, 183.60}, {-126.92, 190.73}
+        }
+    },
+    [54] = {
+        Id = "350372865",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "22",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 350372865,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-108.07, 189.95},
+            SizeMeters = {12.52, 14.49},
+            RotationDegrees = -97.79
+        },
+        Geometry = {
+            {-114.51, 189.04}, {-100.88, 196.28}, {-102.85, 181.92}, {-114.51, 189.04}
+        }
+    },
+    [55] = {
+        Id = "352148583",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "52",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Hermelinweg",
+            ["building"] = "yes",
+            ["osm_id"] = 352148583,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-267.99, 287.94},
+            SizeMeters = {11.02, 11.99},
+            RotationDegrees = -92.70
+        },
+        Geometry = {
+            {-262.76, 281.69}, {-273.21, 294.18}, {-262.20, 293.67}, {-262.76, 281.69}
+        }
+    },
+    [56] = {
+        Id = "352685061",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "16",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 352685061,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-229.64, 230.52},
+            SizeMeters = {6.97, 13.41},
+            RotationDegrees = -158.91
+        },
+        Geometry = {
+            {-222.13, 229.68}, {-234.64, 224.85}, {-232.55, 233.13}, {-222.13, 229.68}
+        }
+    },
+    [57] = {
+        Id = "352871168",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "4a",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 352871168,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-331.00, 256.60},
+            SizeMeters = {7.24, 13.74},
+            RotationDegrees = -100.36
+        },
+        Geometry = {
+            {-328.69, 249.19}, {-333.33, 264.01}, {-326.21, 262.70}, {-328.69, 249.19}
+        }
+    },
+    [58] = {
+        Id = "352871172",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "6",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 352871172,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-309.30, 252.26},
+            SizeMeters = {6.05, 15.68},
+            RotationDegrees = 104.61
+        },
+        Geometry = {
+            {-310.25, 243.91}, {-314.20, 259.09}, {-307.63, 257.86}, {-310.25, 243.91}
+        }
+    },
+    [59] = {
+        Id = "415365645",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "roof",
+            ["layer"] = "1",
+            ["osm_id"] = 415365645,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-126.12, 269.12},
+            SizeMeters = {21.09, 27.57},
+            RotationDegrees = -8.12
+        },
+        Geometry = {
+            {-134.41, 280.95}, {-110.99, 277.61}, {-113.97, 256.74}, {-141.26, 260.63}, {-134.41, 280.95}
+        }
+    },
+    [60] = {
+        Id = "73855864",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "276",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Ulzburger Straße",
+            ["amenity"] = "car_wash",
+            ["automated"] = "yes",
+            ["building"] = "yes",
+            ["operator"] = "Star",
+            ["osm_id"] = 73855864,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-125.49, 299.13},
+            SizeMeters = {7.41, 11.40},
+            RotationDegrees = -8.07
+        },
+        Geometry = {
+            {-120.37, 294.66}, {-130.61, 303.59}, {-119.32, 302.00}, {-120.37, 294.66}
+        }
+    },
 }

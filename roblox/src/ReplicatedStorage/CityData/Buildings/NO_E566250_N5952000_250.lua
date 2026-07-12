@@ -1,3399 +1,2971 @@
 return {
-	[1] = {
-		Id = "132416546",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "27",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 132416546,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 158.35, 793.92 },
-			SizeMeters = { 13.08, 21.79 },
-			RotationDegrees = -106.47,
-		},
-		Geometry = {
-			{ 164.46, 803.48 },
-			{ 161.53, 781.62 },
-			{ 149.69, 787.70 },
-			{ 155.19, 806.22 },
-			{ 164.46, 803.48 },
-		},
-	},
-	[2] = {
-		Id = "132458831",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 132458831,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 322.99, 790.13 },
-			SizeMeters = { 6.04, 6.35 },
-			RotationDegrees = 166.83,
-		},
-		Geometry = {
-			{ 320.59, 793.80 },
-			{ 325.40, 786.46 },
-			{ 319.21, 787.91 },
-			{ 320.59, 793.80 },
-		},
-	},
-	[3] = {
-		Id = "132458847",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 132458847,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 148.19, 777.14 },
-			SizeMeters = { 5.31, 5.81 },
-			RotationDegrees = 71.23,
-		},
-		Geometry = {
-			{ 146.61, 780.74 },
-			{ 149.90, 773.90 },
-			{ 144.74, 775.24 },
-			{ 146.61, 780.74 },
-		},
-	},
-	[4] = {
-		Id = "132458860",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 132458860,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 342.46, 798.87 },
-			SizeMeters = { 7.22, 14.75 },
-			RotationDegrees = -54.85,
-		},
-		Geometry = {
-			{ 341.17, 806.98 },
-			{ 349.66, 794.92 },
-			{ 338.82, 797.77 },
-			{ 341.17, 806.98 },
-		},
-	},
-	[5] = {
-		Id = "132458875",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "50",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Grootkoppelstraße",
-			["building"] = "yes",
-			["osm_id"] = 132458875,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 389.10, 802.65 },
-			SizeMeters = { 8.85, 20.33 },
-			RotationDegrees = -136.36,
-		},
-		Geometry = {
-			{ 399.51, 806.46 },
-			{ 384.80, 792.44 },
-			{ 389.64, 809.28 },
-			{ 399.51, 806.46 },
-		},
-	},
-	[6] = {
-		Id = "134429680",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "35",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429680,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 216.01, 761.85 },
-			SizeMeters = { 8.12, 20.22 },
-			RotationDegrees = -41.31,
-		},
-		Geometry = {
-			{ 211.09, 771.57 },
-			{ 226.28, 758.22 },
-			{ 208.79, 762.79 },
-			{ 211.09, 771.57 },
-		},
-	},
-	[7] = {
-		Id = "134429681",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "39",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429681,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 247.12, 770.46 },
-			SizeMeters = { 7.20, 39.67 },
-			RotationDegrees = 59.55,
-		},
-		Geometry = {
-			{ 246.24, 761.85 },
-			{ 233.96, 755.18 },
-			{ 254.07, 789.38 },
-			{ 246.24, 761.85 },
-		},
-	},
-	[8] = {
-		Id = "134429682",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 134429682,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 337.26, 721.93 },
-			SizeMeters = { 4.19, 8.40 },
-			RotationDegrees = -58.78,
-		},
-		Geometry = {
-			{ 336.88, 726.61 },
-			{ 341.23, 719.42 },
-			{ 335.36, 721.02 },
-			{ 336.88, 726.61 },
-		},
-	},
-	[9] = {
-		Id = "134429683",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "55a",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "semidetached_house",
-			["osm_id"] = 134429683,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 365.43, 757.56 },
-			SizeMeters = { 8.02, 11.69 },
-			RotationDegrees = -14.99,
-		},
-		Geometry = {
-			{ 360.83, 762.94 },
-			{ 370.05, 752.19 },
-			{ 358.75, 755.19 },
-			{ 360.83, 762.94 },
-		},
-	},
-	[10] = {
-		Id = "134429684",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 134429684,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 251.56, 749.41 },
-			SizeMeters = { 5.17, 11.19 },
-			RotationDegrees = -67.85,
-		},
-		Geometry = {
-			{ 251.84, 755.57 },
-			{ 256.06, 745.20 },
-			{ 249.65, 747.23 },
-			{ 251.84, 755.57 },
-		},
-	},
-	[11] = {
-		Id = "134429686",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 134429686,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 213.71, 786.68 },
-			SizeMeters = { 14.24, 17.32 },
-			RotationDegrees = 164.81,
-		},
-		Geometry = {
-			{ 207.54, 795.73 },
-			{ 220.20, 777.54 },
-			{ 203.48, 782.08 },
-			{ 207.54, 795.73 },
-		},
-	},
-	[12] = {
-		Id = "134429688",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 134429688,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 307.00, 732.46 },
-			SizeMeters = { 4.84, 10.05 },
-			RotationDegrees = -54.88,
-		},
-		Geometry = {
-			{ 306.09, 737.97 },
-			{ 311.87, 729.75 },
-			{ 304.04, 732.46 },
-			{ 306.09, 737.97 },
-		},
-	},
-	[13] = {
-		Id = "134429690",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "45",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429690,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 290.28, 769.84 },
-			SizeMeters = { 10.42, 17.12 },
-			RotationDegrees = -106.04,
-		},
-		Geometry = {
-			{ 297.65, 776.62 },
-			{ 292.92, 760.19 },
-			{ 282.90, 763.05 },
-			{ 287.63, 779.49 },
-			{ 297.65, 776.62 },
-		},
-	},
-	[14] = {
-		Id = "134429691",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "29",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429691,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 172.05, 789.51 },
-			SizeMeters = { 9.29, 14.72 },
-			RotationDegrees = 77.03,
-		},
-		Geometry = {
-			{ 178.23, 795.64 },
-			{ 172.43, 781.89 },
-			{ 165.87, 783.38 },
-			{ 169.18, 797.72 },
-			{ 178.23, 795.64 },
-		},
-	},
-	[15] = {
-		Id = "134429692",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 134429692,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 333.16, 773.49 },
-			SizeMeters = { 5.56, 6.07 },
-			RotationDegrees = -17.37,
-		},
-		Geometry = {
-			{ 331.09, 777.05 },
-			{ 335.23, 769.94 },
-			{ 329.43, 771.74 },
-			{ 331.09, 777.05 },
-		},
-	},
-	[16] = {
-		Id = "134429693",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 134429693,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 331.15, 756.37 },
-			SizeMeters = { 4.97, 11.93 },
-			RotationDegrees = -77.93,
-		},
-		Geometry = {
-			{ 332.33, 762.73 },
-			{ 334.82, 751.06 },
-			{ 329.41, 752.62 },
-			{ 332.33, 762.73 },
-		},
-	},
-	[17] = {
-		Id = "134429695",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "31",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429695,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 181.95, 783.60 },
-			SizeMeters = { 7.68, 15.89 },
-			RotationDegrees = -143.16,
-		},
-		Geometry = {
-			{ 190.61, 785.29 },
-			{ 177.90, 775.77 },
-			{ 181.22, 787.85 },
-			{ 190.61, 785.29 },
-		},
-	},
-	[18] = {
-		Id = "134429697",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "49",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429697,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 312.97, 752.60 },
-			SizeMeters = { 9.25, 16.40 },
-			RotationDegrees = -70.44,
-		},
-		Geometry = {
-			{ 314.58, 761.88 },
-			{ 320.07, 746.42 },
-			{ 310.52, 745.66 },
-			{ 314.58, 761.88 },
-		},
-	},
-	[19] = {
-		Id = "134429698",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "43",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429698,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 265.45, 758.11 },
-			SizeMeters = { 14.35, 22.52 },
-			RotationDegrees = -63.98,
-		},
-		Geometry = {
-			{ 266.96, 771.37 },
-			{ 276.84, 751.14 },
-			{ 263.12, 746.54 },
-			{ 266.96, 771.37 },
-		},
-	},
-	[20] = {
-		Id = "134429699",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "51",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429699,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 328.21, 735.54 },
-			SizeMeters = { 11.24, 16.81 },
-			RotationDegrees = 74.86,
-		},
-		Geometry = {
-			{ 335.83, 742.18 },
-			{ 331.44, 725.97 },
-			{ 320.59, 728.89 },
-			{ 324.97, 745.10 },
-			{ 335.83, 742.18 },
-		},
-	},
-	[21] = {
-		Id = "134429700",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 134429700,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 356.79, 773.40 },
-			SizeMeters = { 3.49, 7.12 },
-			RotationDegrees = -65.75,
-		},
-		Geometry = {
-			{ 356.92, 777.36 },
-			{ 359.84, 770.87 },
-			{ 355.49, 772.05 },
-			{ 356.92, 777.36 },
-		},
-	},
-	[22] = {
-		Id = "134429701",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "yes",
-			["osm_id"] = 134429701,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 192.91, 794.70 },
-			SizeMeters = { 7.55, 7.85 },
-			RotationDegrees = -15.49,
-		},
-		Geometry = {
-			{ 190.14, 799.38 },
-			{ 195.76, 790.27 },
-			{ 188.12, 792.11 },
-			{ 190.14, 799.38 },
-		},
-	},
-	[23] = {
-		Id = "134429702",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "33",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429702,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 194.71, 768.71 },
-			SizeMeters = { 6.63, 13.40 },
-			RotationDegrees = -53.34,
-		},
-		Geometry = {
-			{ 193.36, 776.06 },
-			{ 201.36, 765.31 },
-			{ 191.44, 767.54 },
-			{ 193.36, 776.06 },
-		},
-	},
-	[24] = {
-		Id = "134429703",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "47",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429703,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 299.83, 745.82 },
-			SizeMeters = { 9.60, 20.16 },
-			RotationDegrees = -106.70,
-		},
-		Geometry = {
-			{ 307.32, 754.10 },
-			{ 301.53, 734.81 },
-			{ 292.33, 737.55 },
-			{ 298.12, 756.84 },
-			{ 307.32, 754.10 },
-		},
-	},
-	[25] = {
-		Id = "134429705",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429705,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 372.38, 725.91 },
-			SizeMeters = { 9.86, 16.85 },
-			RotationDegrees = 73.13,
-		},
-		Geometry = {
-			{ 379.54, 732.54 },
-			{ 374.65, 716.43 },
-			{ 365.21, 719.27 },
-			{ 370.10, 735.39 },
-			{ 379.54, 732.54 },
-		},
-	},
-	[26] = {
-		Id = "134429706",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "53",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429706,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 345.61, 747.84 },
-			SizeMeters = { 11.17, 18.54 },
-			RotationDegrees = -106.36,
-		},
-		Geometry = {
-			{ 353.58, 755.16 },
-			{ 348.36, 737.38 },
-			{ 337.64, 740.52 },
-			{ 342.86, 758.29 },
-			{ 353.58, 755.16 },
-		},
-	},
-	[27] = {
-		Id = "134429710",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "41",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 134429710,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 261.75, 779.29 },
-			SizeMeters = { 10.91, 22.77 },
-			RotationDegrees = 74.06,
-		},
-		Geometry = {
-			{ 270.12, 788.74 },
-			{ 260.73, 767.75 },
-			{ 253.37, 769.84 },
-			{ 259.63, 791.73 },
-			{ 270.12, 788.74 },
-		},
-	},
-	[28] = {
-		Id = "134429713",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "55",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "semidetached_house",
-			["osm_id"] = 134429713,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 363.19, 748.91 },
-			SizeMeters = { 10.42, 11.99 },
-			RotationDegrees = 162.36,
-		},
-		Geometry = {
-			{ 367.32, 742.13 },
-			{ 355.89, 745.76 },
-			{ 370.05, 752.19 },
-			{ 367.32, 742.13 },
-		},
-	},
-	[29] = {
-		Id = "1347837202",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "carport",
-			["osm_id"] = 1347837202,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 177.76, 639.79 },
-			SizeMeters = { 5.99, 9.01 },
-			RotationDegrees = -10.04,
-		},
-		Geometry = {
-			{ 173.84, 643.53 },
-			{ 181.67, 636.06 },
-			{ 172.80, 637.63 },
-			{ 173.84, 643.53 },
-		},
-	},
-	[30] = {
-		Id = "1347837203",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "carport",
-			["osm_id"] = 1347837203,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 157.45, 594.64 },
-			SizeMeters = { 6.00, 7.51 },
-			RotationDegrees = -10.03,
-		},
-		Geometry = {
-			{ 161.68, 596.94 },
-			{ 153.23, 592.34 },
-			{ 154.28, 598.25 },
-			{ 161.68, 596.94 },
-		},
-	},
-	[31] = {
-		Id = "1348161211",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 1348161211,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 282.72, 706.10 },
-			SizeMeters = { 6.01, 10.99 },
-			RotationDegrees = 74.64,
-		},
-		Geometry = {
-			{ 281.28, 712.20 },
-			{ 284.16, 700.01 },
-			{ 278.37, 701.60 },
-			{ 281.28, 712.20 },
-		},
-	},
-	[32] = {
-		Id = "1348161212",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "carport",
-			["osm_id"] = 1348161212,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 249.56, 714.35 },
-			SizeMeters = { 5.56, 15.89 },
-			RotationDegrees = -127.59,
-		},
-		Geometry = {
-			{ 256.61, 718.95 },
-			{ 246.92, 706.36 },
-			{ 250.81, 720.54 },
-			{ 256.61, 718.95 },
-		},
-	},
-	[33] = {
-		Id = "1348161213",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 1348161213,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 244.33, 717.34 },
-			SizeMeters = { 5.37, 13.43 },
-			RotationDegrees = -131.95,
-		},
-		Geometry = {
-			{ 250.81, 720.54 },
-			{ 241.84, 710.55 },
-			{ 245.02, 722.12 },
-			{ 250.81, 720.54 },
-		},
-	},
-	[34] = {
-		Id = "1348161214",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 1348161214,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 231.64, 719.08 },
-			SizeMeters = { 5.57, 16.16 },
-			RotationDegrees = -127.17,
-		},
-		Geometry = {
-			{ 238.74, 723.84 },
-			{ 228.98, 710.96 },
-			{ 232.95, 725.43 },
-			{ 238.74, 723.84 },
-		},
-	},
-	[35] = {
-		Id = "1348161215",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garage",
-			["osm_id"] = 1348161215,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 269.29, 702.39 },
-			SizeMeters = { 2.76, 6.01 },
-			RotationDegrees = -15.32,
-		},
-		Geometry = {
-			{ 266.76, 704.52 },
-			{ 271.83, 700.28 },
-			{ 266.03, 701.86 },
-			{ 266.76, 704.52 },
-		},
-	},
-	[36] = {
-		Id = "1348161216",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 1348161216,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 265.64, 711.81 },
-			SizeMeters = { 6.01, 8.99 },
-			RotationDegrees = 74.69,
-		},
-		Geometry = {
-			{ 263.94, 716.94 },
-			{ 267.36, 706.68 },
-			{ 261.56, 708.27 },
-			{ 263.94, 716.94 },
-		},
-	},
-	[37] = {
-		Id = "1348161217",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 1348161217,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 269.08, 709.44 },
-			SizeMeters = { 5.00, 10.81 },
-			RotationDegrees = -71.60,
-		},
-		Geometry = {
-			{ 269.74, 715.35 },
-			{ 273.16, 705.10 },
-			{ 267.36, 706.68 },
-			{ 269.74, 715.35 },
-		},
-	},
-	[38] = {
-		Id = "1450177125",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 1450177125,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 378.63, 749.89 },
-			SizeMeters = { 9.86, 16.85 },
-			RotationDegrees = 73.13,
-		},
-		Geometry = {
-			{ 385.79, 756.52 },
-			{ 380.90, 740.41 },
-			{ 371.46, 743.25 },
-			{ 376.35, 759.37 },
-			{ 385.79, 756.52 },
-		},
-	},
-	[39] = {
-		Id = "1450177830",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "33a",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["osm_id"] = 1450177830,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 207.86, 805.41 },
-			SizeMeters = { 9.98, 11.19 },
-			RotationDegrees = 74.29,
-		},
-		Geometry = {
-			{ 204.57, 812.15 },
-			{ 211.15, 798.68 },
-			{ 201.54, 801.38 },
-			{ 204.57, 812.15 },
-		},
-	},
-	[40] = {
-		Id = "178699601",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "46",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "gabled",
-			["osm_id"] = 178699601,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 143.65, 744.76 },
-			SizeMeters = { 5.45, 11.94 },
-			RotationDegrees = -138.39,
-		},
-		Geometry = {
-			{ 149.92, 746.68 },
-			{ 141.00, 738.76 },
-			{ 143.65, 748.40 },
-			{ 149.92, 746.68 },
-		},
-	},
-	[41] = {
-		Id = "178699602",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "60",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178699602,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 201.78, 726.97 },
-			SizeMeters = { 6.76, 11.49 },
-			RotationDegrees = 74.66,
-		},
-		Geometry = {
-			{ 200.05, 733.41 },
-			{ 203.52, 720.54 },
-			{ 197.00, 722.32 },
-			{ 200.05, 733.41 },
-		},
-	},
-	[42] = {
-		Id = "178699604",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "64",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178699604,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 213.21, 723.19 },
-			SizeMeters = { 5.76, 10.25 },
-			RotationDegrees = 74.63,
-		},
-		Geometry = {
-			{ 211.79, 728.90 },
-			{ 214.63, 717.50 },
-			{ 209.08, 719.01 },
-			{ 211.79, 728.90 },
-		},
-	},
-	[43] = {
-		Id = "178699605",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "62",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178699605,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 205.87, 726.48 },
-			SizeMeters = { 5.02, 11.76 },
-			RotationDegrees = -134.69,
-		},
-		Geometry = {
-			{ 211.79, 728.90 },
-			{ 203.52, 720.54 },
-			{ 206.23, 730.41 },
-			{ 211.79, 728.90 },
-		},
-	},
-	[44] = {
-		Id = "178699606",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "50",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "gabled",
-			["osm_id"] = 178699606,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 160.79, 740.15 },
-			SizeMeters = { 5.60, 12.06 },
-			RotationDegrees = 108.73,
-		},
-		Geometry = {
-			{ 160.08, 733.54 },
-			{ 156.21, 744.96 },
-			{ 162.73, 743.18 },
-			{ 160.08, 733.54 },
-		},
-	},
-	[45] = {
-		Id = "178699607",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "54",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "gabled",
-			["osm_id"] = 178699607,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 174.74, 735.25 },
-			SizeMeters = { 5.45, 11.94 },
-			RotationDegrees = -138.39,
-		},
-		Geometry = {
-			{ 181.01, 737.18 },
-			{ 172.08, 729.25 },
-			{ 174.73, 738.89 },
-			{ 181.01, 737.18 },
-		},
-	},
-	[46] = {
-		Id = "178699608",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "68",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178699608,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 222.08, 719.59 },
-			SizeMeters = { 5.82, 13.35 },
-			RotationDegrees = -135.81,
-		},
-		Geometry = {
-			{ 228.89, 722.15 },
-			{ 219.32, 712.85 },
-			{ 222.37, 723.93 },
-			{ 228.89, 722.15 },
-		},
-	},
-	[47] = {
-		Id = "178699609",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "56",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "gabled",
-			["osm_id"] = 178699609,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 181.02, 733.53 },
-			SizeMeters = { 5.46, 11.93 },
-			RotationDegrees = -138.45,
-		},
-		Geometry = {
-			{ 187.29, 735.45 },
-			{ 178.36, 727.54 },
-			{ 181.01, 737.18 },
-			{ 187.29, 735.45 },
-		},
-	},
-	[48] = {
-		Id = "178699610",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "58",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "gabled",
-			["osm_id"] = 178699610,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 187.41, 731.87 },
-			SizeMeters = { 5.59, 12.08 },
-			RotationDegrees = -139.39,
-		},
-		Geometry = {
-			{ 193.81, 733.67 },
-			{ 184.64, 725.81 },
-			{ 187.29, 735.45 },
-			{ 193.81, 733.67 },
-		},
-	},
-	[49] = {
-		Id = "178699611",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "48",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "gabled",
-			["osm_id"] = 178699611,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 149.93, 743.04 },
-			SizeMeters = { 5.46, 11.93 },
-			RotationDegrees = -138.45,
-		},
-		Geometry = {
-			{ 156.21, 744.96 },
-			{ 147.27, 737.04 },
-			{ 149.92, 746.68 },
-			{ 156.21, 744.96 },
-		},
-	},
-	[50] = {
-		Id = "178699613",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "66",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178699613,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 216.45, 721.51 },
-			SizeMeters = { 5.02, 11.76 },
-			RotationDegrees = -134.69,
-		},
-		Geometry = {
-			{ 222.37, 723.93 },
-			{ 214.10, 715.57 },
-			{ 216.81, 725.45 },
-			{ 222.37, 723.93 },
-		},
-	},
-	[51] = {
-		Id = "178699614",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "52",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "gabled",
-			["osm_id"] = 178699614,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 167.50, 734.07 },
-			SizeMeters = { 5.60, 12.07 },
-			RotationDegrees = -71.29,
-		},
-		Geometry = {
-			{ 168.21, 740.68 },
-			{ 172.08, 729.25 },
-			{ 165.56, 731.04 },
-			{ 168.21, 740.68 },
-		},
-	},
-	[52] = {
-		Id = "178702147",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "106",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "saltbox",
-			["osm_id"] = 178702147,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 337.93, 686.94 },
-			SizeMeters = { 5.14, 12.87 },
-			RotationDegrees = -131.96,
-		},
-		Geometry = {
-			{ 344.14, 690.00 },
-			{ 335.54, 680.43 },
-			{ 338.59, 691.51 },
-			{ 344.14, 690.00 },
-		},
-	},
-	[53] = {
-		Id = "178702148",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "102",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "saltbox",
-			["osm_id"] = 178702148,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 327.41, 692.14 },
-			SizeMeters = { 5.15, 12.86 },
-			RotationDegrees = -131.94,
-		},
-		Geometry = {
-			{ 333.63, 695.20 },
-			{ 325.03, 685.64 },
-			{ 328.07, 696.73 },
-			{ 333.63, 695.20 },
-		},
-	},
-	[54] = {
-		Id = "178702149",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "108",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "saltbox",
-			["osm_id"] = 178702149,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 343.57, 685.48 },
-			SizeMeters = { 5.33, 12.98 },
-			RotationDegrees = -132.93,
-		},
-		Geometry = {
-			{ 349.94, 688.41 },
-			{ 341.10, 678.91 },
-			{ 344.14, 690.00 },
-			{ 349.94, 688.41 },
-		},
-	},
-	[55] = {
-		Id = "178702150",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "116",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "saltbox",
-			["osm_id"] = 178702150,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 371.73, 677.43 },
-			SizeMeters = { 5.14, 12.86 },
-			RotationDegrees = -131.94,
-		},
-		Geometry = {
-			{ 377.94, 680.50 },
-			{ 369.34, 670.93 },
-			{ 372.38, 682.01 },
-			{ 377.94, 680.50 },
-		},
-	},
-	[56] = {
-		Id = "178702151",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "100",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "saltbox",
-			["osm_id"] = 178702151,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 321.53, 692.46 },
-			SizeMeters = { 5.14, 12.86 },
-			RotationDegrees = -131.94,
-		},
-		Geometry = {
-			{ 327.74, 695.52 },
-			{ 319.14, 685.95 },
-			{ 322.19, 697.03 },
-			{ 327.74, 695.52 },
-		},
-	},
-	[57] = {
-		Id = "178702152",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "98",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "saltbox",
-			["osm_id"] = 178702152,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 317.50, 691.32 },
-			SizeMeters = { 6.00, 11.49 },
-			RotationDegrees = 74.64,
-		},
-		Geometry = {
-			{ 316.13, 697.66 },
-			{ 318.87, 684.99 },
-			{ 313.08, 686.58 },
-			{ 316.13, 697.66 },
-		},
-	},
-	[58] = {
-		Id = "178702153",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "94",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "2",
-			["roof:shape"] = "gabled",
-			["osm_id"] = 178702153,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 300.84, 696.92 },
-			SizeMeters = { 5.51, 11.50 },
-			RotationDegrees = 74.65,
-		},
-		Geometry = {
-			{ 299.70, 703.19 },
-			{ 301.97, 690.65 },
-			{ 296.66, 692.10 },
-			{ 299.70, 703.19 },
-		},
-	},
-	[59] = {
-		Id = "178702154",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "90",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "2",
-			["roof:shape"] = "gabled",
-			["osm_id"] = 178702154,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 287.90, 699.86 },
-			SizeMeters = { 4.97, 12.73 },
-			RotationDegrees = -79.76,
-		},
-		Geometry = {
-			{ 289.21, 706.57 },
-			{ 291.48, 694.04 },
-			{ 286.16, 695.49 },
-			{ 289.21, 706.57 },
-		},
-	},
-	[60] = {
-		Id = "178702155",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "104",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "saltbox",
-			["osm_id"] = 178702155,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 332.64, 689.42 },
-			SizeMeters = { 5.14, 12.87 },
-			RotationDegrees = -131.96,
-		},
-		Geometry = {
-			{ 338.85, 692.49 },
-			{ 330.25, 682.92 },
-			{ 333.30, 694.00 },
-			{ 338.85, 692.49 },
-		},
-	},
-	[61] = {
-		Id = "178702156",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "112",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "saltbox",
-			["osm_id"] = 178702156,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 365.04, 679.20 },
-			SizeMeters = { 5.14, 12.87 },
-			RotationDegrees = 48.04,
-		},
-		Geometry = {
-			{ 358.82, 676.13 },
-			{ 367.43, 685.70 },
-			{ 364.38, 674.62 },
-			{ 358.82, 676.13 },
-		},
-	},
-	[62] = {
-		Id = "178702157",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "110",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "0",
-			["roof:shape"] = "saltbox",
-			["osm_id"] = 178702157,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 357.23, 681.23 },
-			SizeMeters = { 5.75, 11.49 },
-			RotationDegrees = 74.64,
-		},
-		Geometry = {
-			{ 355.98, 687.53 },
-			{ 358.49, 674.94 },
-			{ 352.94, 676.45 },
-			{ 355.98, 687.53 },
-		},
-	},
-	[63] = {
-		Id = "178702158",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "92",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "2",
-			["roof:shape"] = "gabled",
-			["osm_id"] = 178702158,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 293.41, 699.13 },
-			SizeMeters = { 4.97, 12.75 },
-			RotationDegrees = -79.74,
-		},
-		Geometry = {
-			{ 294.72, 705.85 },
-			{ 296.99, 693.31 },
-			{ 291.68, 694.77 },
-			{ 294.72, 705.85 },
-		},
-	},
-	[64] = {
-		Id = "178702159",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "96",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "2",
-			["roof:shape"] = "gabled",
-			["osm_id"] = 178702159,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 304.02, 696.13 },
-			SizeMeters = { 4.96, 12.75 },
-			RotationDegrees = -130.95,
-		},
-		Geometry = {
-			{ 310.07, 699.32 },
-			{ 301.71, 689.69 },
-			{ 304.76, 700.77 },
-			{ 310.07, 699.32 },
-		},
-	},
-	[65] = {
-		Id = "178702160",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "114",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "1",
-			["roof:shape"] = "saltbox",
-			["osm_id"] = 178702160,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 366.44, 679.92 },
-			SizeMeters = { 5.14, 12.86 },
-			RotationDegrees = -131.94,
-		},
-		Geometry = {
-			{ 372.65, 682.98 },
-			{ 364.05, 673.41 },
-			{ 367.09, 684.50 },
-			{ 372.65, 682.98 },
-		},
-	},
-	[66] = {
-		Id = "178703608",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "118",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178703608,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 384.82, 668.18 },
-			SizeMeters = { 6.51, 10.00 },
-			RotationDegrees = 74.64,
-		},
-		Geometry = {
-			{ 383.00, 673.86 },
-			{ 386.63, 662.51 },
-			{ 380.35, 664.22 },
-			{ 383.00, 673.86 },
-		},
-	},
-	[67] = {
-		Id = "178703614",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "120",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "2",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178703614,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 6.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 389.08, 668.40 },
-			SizeMeters = { 5.15, 11.67 },
-			RotationDegrees = -136.34,
-		},
-		Geometry = {
-			{ 395.07, 670.56 },
-			{ 386.63, 662.51 },
-			{ 389.28, 672.15 },
-			{ 395.07, 670.56 },
-		},
-	},
-	[68] = {
-		Id = "178703742",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "88",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "detached",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178703742,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 275.76, 692.79 },
-			SizeMeters = { 11.07, 16.13 },
-			RotationDegrees = 134.98,
-		},
-		Geometry = {
-			{ 266.14, 694.58 },
-			{ 280.92, 695.46 },
-			{ 277.54, 683.17 },
-			{ 266.14, 694.58 },
-		},
-	},
-	[69] = {
-		Id = "178703743",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "70",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "yes",
-			["osm_id"] = 178703743,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 239.22, 695.62 },
-			SizeMeters = { 12.07, 14.81 },
-			RotationDegrees = 3.39,
-		},
-		Geometry = {
-			{ 231.47, 701.20 },
-			{ 246.25, 702.08 },
-			{ 242.88, 689.79 },
-			{ 231.47, 701.20 },
-		},
-	},
-	[70] = {
-		Id = "178870804",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "6c",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870804,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 187.14, 693.90 },
-			SizeMeters = { 6.91, 14.25 },
-			RotationDegrees = -53.17,
-		},
-		Geometry = {
-			{ 185.64, 701.68 },
-			{ 194.18, 690.27 },
-			{ 183.31, 693.24 },
-			{ 185.64, 701.68 },
-		},
-	},
-	[71] = {
-		Id = "178870806",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "6e",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870806,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 207.90, 673.38 },
-			SizeMeters = { 8.75, 11.77 },
-			RotationDegrees = 164.67,
-		},
-		Geometry = {
-			{ 203.38, 679.15 },
-			{ 212.42, 667.61 },
-			{ 201.06, 670.72 },
-			{ 203.38, 679.15 },
-		},
-	},
-	[72] = {
-		Id = "178870809",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "6f",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870809,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 184.86, 660.34 },
-			SizeMeters = { 14.06, 15.51 },
-			RotationDegrees = -48.26,
-		},
-		Geometry = {
-			{ 184.94, 670.80 },
-			{ 195.27, 659.23 },
-			{ 180.51, 654.66 },
-			{ 184.94, 670.80 },
-		},
-	},
-	[73] = {
-		Id = "178870810",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "5b",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870810,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 282.09, 650.35 },
-			SizeMeters = { 12.49, 14.03 },
-			RotationDegrees = 164.61,
-		},
-		Geometry = {
-			{ 290.51, 654.51 },
-			{ 287.20, 642.47 },
-			{ 275.26, 651.95 },
-			{ 276.98, 658.22 },
-			{ 290.51, 654.51 },
-		},
-	},
-	[74] = {
-		Id = "178870813",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "5a",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870813,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 280.88, 630.73 },
-			SizeMeters = { 8.76, 11.50 },
-			RotationDegrees = 74.75,
-		},
-		Geometry = {
-			{ 278.19, 637.43 },
-			{ 283.60, 624.03 },
-			{ 275.14, 626.33 },
-			{ 278.19, 637.43 },
-		},
-	},
-	[75] = {
-		Id = "178870817",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "4f",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "house",
-			["osm_id"] = 178870817,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 350.60, 615.65 },
-			SizeMeters = { 8.77, 8.99 },
-			RotationDegrees = 74.61,
-		},
-		Geometry = {
-			{ 347.57, 621.15 },
-			{ 353.64, 610.16 },
-			{ 345.18, 612.48 },
-			{ 347.57, 621.15 },
-		},
-	},
-	[76] = {
-		Id = "178870818",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "5d",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870818,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 151.20, 678.59 },
-			SizeMeters = { 11.01, 17.12 },
-			RotationDegrees = -105.38,
-		},
-		Geometry = {
-			{ 158.78, 685.39 },
-			{ 154.74, 670.69 },
-			{ 143.62, 671.80 },
-			{ 150.09, 687.77 },
-			{ 158.78, 685.39 },
-		},
-	},
-	[77] = {
-		Id = "178870820",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "6a",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870820,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 174.02, 671.99 },
-			SizeMeters = { 8.26, 18.00 },
-			RotationDegrees = -105.36,
-		},
-		Geometry = {
-			{ 180.39, 679.57 },
-			{ 175.63, 662.22 },
-			{ 167.65, 664.40 },
-			{ 172.42, 681.75 },
-			{ 180.39, 679.57 },
-		},
-	},
-	[78] = {
-		Id = "178870822",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "5f",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870822,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 300.36, 629.43 },
-			SizeMeters = { 10.00, 14.52 },
-			RotationDegrees = -15.37,
-		},
-		Geometry = {
-			{ 294.69, 636.18 },
-			{ 306.05, 622.71 },
-			{ 292.04, 626.54 },
-			{ 294.69, 636.18 },
-		},
-	},
-	[79] = {
-		Id = "178870824",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "4c",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "house",
-			["osm_id"] = 178870824,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 341.45, 653.95 },
-			SizeMeters = { 11.02, 14.01 },
-			RotationDegrees = -105.37,
-		},
-		Geometry = {
-			{ 348.62, 659.24 },
-			{ 344.91, 645.75 },
-			{ 334.28, 648.66 },
-			{ 337.99, 662.15 },
-			{ 348.62, 659.24 },
-		},
-	},
-	[80] = {
-		Id = "178870825",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "4e",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "house",
-			["osm_id"] = 178870825,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 365.63, 626.95 },
-			SizeMeters = { 13.00, 16.53 },
-			RotationDegrees = 164.63,
-		},
-		Geometry = {
-			{ 375.32, 631.02 },
-			{ 371.88, 618.49 },
-			{ 357.13, 627.19 },
-			{ 359.38, 635.38 },
-			{ 375.32, 631.02 },
-		},
-	},
-	[81] = {
-		Id = "178870827",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "80",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "detached",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178870827,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 249.97, 642.83 },
-			SizeMeters = { 8.63, 21.10 },
-			RotationDegrees = -153.74,
-		},
-		Geometry = {
-			{ 242.41, 634.29 },
-			{ 248.78, 647.06 },
-			{ 261.34, 643.63 },
-			{ 242.41, 634.29 },
-		},
-	},
-	[82] = {
-		Id = "178870829",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "6d",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870829,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 211.57, 691.13 },
-			SizeMeters = { 10.24, 10.26 },
-			RotationDegrees = 164.61,
-		},
-		Geometry = {
-			{ 205.60, 688.74 },
-			{ 217.88, 694.70 },
-			{ 215.16, 684.83 },
-			{ 205.60, 688.74 },
-		},
-	},
-	[83] = {
-		Id = "178870831",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "4a",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "house",
-			["osm_id"] = 178870831,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 331.99, 620.37 },
-			SizeMeters = { 10.50, 13.02 },
-			RotationDegrees = 164.69,
-		},
-		Geometry = {
-			{ 327.11, 627.15 },
-			{ 336.88, 613.59 },
-			{ 324.32, 617.03 },
-			{ 327.11, 627.15 },
-		},
-	},
-	[84] = {
-		Id = "178870833",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "74",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870833,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 238.61, 665.43 },
-			SizeMeters = { 8.84, 20.88 },
-			RotationDegrees = 116.81,
-		},
-		Geometry = {
-			{ 239.37, 654.11 },
-			{ 229.95, 672.75 },
-			{ 241.34, 669.83 },
-			{ 239.37, 654.11 },
-		},
-	},
-	[85] = {
-		Id = "178870836",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "5c",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870836,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 148.77, 704.59 },
-			SizeMeters = { 13.00, 13.02 },
-			RotationDegrees = 164.62,
-		},
-		Geometry = {
-			{ 156.77, 709.13 },
-			{ 153.32, 696.59 },
-			{ 141.96, 704.37 },
-			{ 144.21, 712.55 },
-			{ 156.77, 709.13 },
-		},
-	},
-	[86] = {
-		Id = "178870838",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "82",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "detached",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178870838,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 261.32, 656.39 },
-			SizeMeters = { 11.12, 16.35 },
-			RotationDegrees = 135.43,
-		},
-		Geometry = {
-			{ 251.59, 658.17 },
-			{ 266.62, 658.98 },
-			{ 263.24, 646.69 },
-			{ 251.59, 658.17 },
-		},
-	},
-	[87] = {
-		Id = "178870840",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "76",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870840,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 219.01, 645.52 },
-			SizeMeters = { 12.07, 14.81 },
-			RotationDegrees = 3.39,
-		},
-		Geometry = {
-			{ 211.26, 651.10 },
-			{ 226.04, 651.98 },
-			{ 222.67, 639.69 },
-			{ 211.26, 651.10 },
-		},
-	},
-	[88] = {
-		Id = "178870843",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "5c",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870843,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 294.45, 667.17 },
-			SizeMeters = { 9.01, 13.51 },
-			RotationDegrees = -105.38,
-		},
-		Geometry = {
-			{ 300.59, 672.48 },
-			{ 297.01, 659.47 },
-			{ 288.32, 661.85 },
-			{ 291.89, 674.86 },
-			{ 300.59, 672.48 },
-		},
-	},
-	[89] = {
-		Id = "178870849",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "72",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870849,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 233.96, 676.48 },
-			SizeMeters = { 12.07, 14.81 },
-			RotationDegrees = 3.39,
-		},
-		Geometry = {
-			{ 226.21, 682.07 },
-			{ 241.00, 682.94 },
-			{ 237.62, 670.66 },
-			{ 226.21, 682.07 },
-		},
-	},
-	[90] = {
-		Id = "178870851",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "4b",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "house",
-			["osm_id"] = 178870851,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 336.88, 635.97 },
-			SizeMeters = { 11.00, 14.03 },
-			RotationDegrees = 164.60,
-		},
-		Geometry = {
-			{ 345.10, 639.41 },
-			{ 342.19, 628.81 },
-			{ 330.05, 637.57 },
-			{ 331.57, 643.11 },
-			{ 345.10, 639.41 },
-		},
-	},
-	[91] = {
-		Id = "178870854",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "78",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870854,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 231.12, 644.00 },
-			SizeMeters = { 12.74, 14.03 },
-			RotationDegrees = 164.63,
-		},
-		Geometry = {
-			{ 224.78, 647.41 },
-			{ 239.57, 648.28 },
-			{ 236.19, 636.00 },
-			{ 224.78, 647.41 },
-		},
-	},
-	[92] = {
-		Id = "178870857",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "5d",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870857,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 312.57, 663.52 },
-			SizeMeters = { 13.14, 16.24 },
-			RotationDegrees = -8.22,
-		},
-		Geometry = {
-			{ 305.47, 671.18 },
-			{ 317.16, 667.99 },
-			{ 321.54, 668.86 },
-			{ 318.03, 656.09 },
-			{ 305.47, 671.18 },
-		},
-	},
-	[93] = {
-		Id = "178870859",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "84",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178870859,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 273.57, 674.83 },
-			SizeMeters = { 9.31, 21.06 },
-			RotationDegrees = 116.35,
-		},
-		Geometry = {
-			{ 274.08, 663.33 },
-			{ 264.73, 682.20 },
-			{ 276.45, 679.52 },
-			{ 274.08, 663.33 },
-		},
-	},
-	[94] = {
-		Id = "178870860",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "5e",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870860,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 309.78, 647.09 },
-			SizeMeters = { 9.00, 12.77 },
-			RotationDegrees = 164.73,
-		},
-		Geometry = {
-			{ 304.82, 653.11 },
-			{ 314.75, 641.07 },
-			{ 302.43, 644.43 },
-			{ 304.82, 653.11 },
-		},
-	},
-	[95] = {
-		Id = "178870862",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "86",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178870862,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 253.59, 676.64 },
-			SizeMeters = { 5.14, 21.58 },
-			RotationDegrees = -62.16,
-		},
-		Geometry = {
-			{ 250.82, 687.38 },
-			{ 260.90, 668.29 },
-			{ 248.83, 680.15 },
-			{ 250.82, 687.38 },
-		},
-	},
-	[96] = {
-		Id = "178870864",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "4d",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "house",
-			["osm_id"] = 178870864,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 363.50, 642.53 },
-			SizeMeters = { 8.33, 18.04 },
-			RotationDegrees = -48.97,
-		},
-		Geometry = {
-			{ 360.72, 652.07 },
-			{ 372.56, 638.46 },
-			{ 358.07, 642.43 },
-			{ 360.72, 652.07 },
-		},
-	},
-	[97] = {
-		Id = "178870866",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "6b",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 178870866,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 175.73, 696.98 },
-			SizeMeters = { 6.94, 14.00 },
-			RotationDegrees = 33.24,
-		},
-		Geometry = {
-			{ 167.97, 696.04 },
-			{ 179.68, 703.72 },
-			{ 176.90, 693.60 },
-			{ 167.97, 696.04 },
-		},
-	},
-	[98] = {
-		Id = "178871890",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "140",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "yes",
-			["osm_id"] = 178871890,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 391.04, 635.42 },
-			SizeMeters = { 6.24, 14.58 },
-			RotationDegrees = -59.92,
-		},
-		Geometry = {
-			{ 390.09, 643.29 },
-			{ 397.40, 630.68 },
-			{ 388.82, 633.03 },
-			{ 390.09, 643.29 },
-		},
-	},
-	[99] = {
-		Id = "178871893",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "142",
-			["addr:street"] = "Glashütter Weg",
-			["building"] = "yes",
-			["osm_id"] = 178871893,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 392.42, 619.27 },
-			SizeMeters = { 9.82, 13.16 },
-			RotationDegrees = 8.68,
-		},
-		Geometry = {
-			{ 385.17, 623.13 },
-			{ 398.18, 625.12 },
-			{ 395.33, 614.75 },
-			{ 385.17, 623.13 },
-		},
-	},
-	[100] = {
-		Id = "178873876",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "7b",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178873876,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 190.88, 618.41 },
-			SizeMeters = { 12.32, 17.97 },
-			RotationDegrees = 135.25,
-		},
-		Geometry = {
-			{ 180.17, 620.36 },
-			{ 195.54, 622.47 },
-			{ 192.93, 607.71 },
-			{ 180.17, 620.36 },
-		},
-	},
-	[101] = {
-		Id = "178873881",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "7a",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178873881,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 188.17, 605.58 },
-			SizeMeters = { 10.69, 21.65 },
-			RotationDegrees = 129.72,
-		},
-		Geometry = {
-			{ 190.98, 593.84 },
-			{ 177.14, 610.49 },
-			{ 193.42, 607.62 },
-			{ 190.98, 593.84 },
-		},
-	},
-	[102] = {
-		Id = "178873882",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "7c",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 178873882,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 189.08, 631.93 },
-			SizeMeters = { 14.94, 17.37 },
-			RotationDegrees = -14.97,
-		},
-		Geometry = {
-			{ 198.16, 637.24 },
-			{ 195.54, 622.47 },
-			{ 181.10, 632.84 },
-			{ 182.62, 641.39 },
-			{ 198.16, 637.24 },
-		},
-	},
-	[103] = {
-		Id = "179028185",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 179028185,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 164.59, 595.50 },
-			SizeMeters = { 4.99, 10.83 },
-			RotationDegrees = -156.39,
-		},
-		Geometry = {
-			{ 170.55, 595.38 },
-			{ 160.63, 591.04 },
-			{ 161.68, 596.94 },
-			{ 170.55, 595.38 },
-		},
-	},
-	[104] = {
-		Id = "179028189",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 179028189,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 143.13, 646.88 },
-			SizeMeters = { 5.37, 13.41 },
-			RotationDegrees = -73.43,
-		},
-		Geometry = {
-			{ 143.79, 654.07 },
-			{ 147.62, 641.22 },
-			{ 141.70, 642.26 },
-			{ 143.79, 654.07 },
-		},
-	},
-	[105] = {
-		Id = "179028201",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 179028201,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 169.99, 604.57 },
-			SizeMeters = { 5.99, 12.02 },
-			RotationDegrees = 169.97,
-		},
-		Geometry = {
-			{ 164.59, 608.57 },
-			{ 175.38, 600.58 },
-			{ 163.55, 602.67 },
-			{ 164.59, 608.57 },
-		},
-	},
-	[106] = {
-		Id = "179028220",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 179028220,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 149.47, 648.21 },
-			SizeMeters = { 5.37, 13.42 },
-			RotationDegrees = -126.67,
-		},
-		Geometry = {
-			{ 155.63, 651.98 },
-			{ 147.62, 641.22 },
-			{ 149.72, 653.03 },
-			{ 155.63, 651.98 },
-		},
-	},
-	[107] = {
-		Id = "179028222",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 179028222,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 173.17, 622.53 },
-			SizeMeters = { 5.99, 12.02 },
-			RotationDegrees = 169.98,
-		},
-		Geometry = {
-			{ 167.78, 626.53 },
-			{ 178.57, 618.54 },
-			{ 166.73, 620.63 },
-			{ 167.78, 626.53 },
-		},
-	},
-	[108] = {
-		Id = "179032349",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "7d",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "house",
-			["osm_id"] = 179032349,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 212.23, 627.72 },
-			SizeMeters = { 11.24, 17.28 },
-			RotationDegrees = -10.06,
-		},
-		Geometry = {
-			{ 204.71, 634.76 },
-			{ 219.76, 620.69 },
-			{ 202.75, 623.70 },
-			{ 204.71, 634.76 },
-		},
-	},
-	[109] = {
-		Id = "179032353",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "7h",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 179032353,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 213.16, 563.56 },
-			SizeMeters = { 13.27, 16.24 },
-			RotationDegrees = -100.06,
-		},
-		Geometry = {
-			{ 221.12, 570.39 },
-			{ 218.28, 554.40 },
-			{ 206.87, 566.06 },
-			{ 208.05, 572.70 },
-			{ 221.12, 570.39 },
-		},
-	},
-	[110] = {
-		Id = "179032363",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "8a",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 179032363,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 158.49, 583.88 },
-			SizeMeters = { 14.00, 18.03 },
-			RotationDegrees = -10.00,
-		},
-		Geometry = {
-			{ 150.83, 592.34 },
-			{ 168.58, 589.21 },
-			{ 166.15, 575.43 },
-			{ 156.78, 577.08 },
-			{ 150.83, 592.34 },
-		},
-	},
-	[111] = {
-		Id = "179032365",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "7m",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 179032365,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 180.57, 583.16 },
-			SizeMeters = { 13.49, 15.12 },
-			RotationDegrees = -10.05,
-		},
-		Geometry = {
-			{ 186.97, 588.88 },
-			{ 186.84, 575.20 },
-			{ 173.34, 585.70 },
-			{ 174.30, 591.12 },
-			{ 186.97, 588.88 },
-		},
-	},
-	[112] = {
-		Id = "179032368",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "8c",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 179032368,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 157.98, 555.94 },
-			SizeMeters = { 9.02, 13.24 },
-			RotationDegrees = -100.00,
-		},
-		Geometry = {
-			{ 161.26, 548.63 },
-			{ 154.69, 563.24 },
-			{ 163.57, 561.68 },
-			{ 161.26, 548.63 },
-		},
-	},
-	[113] = {
-		Id = "179032371",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "7e",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 179032371,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 220.32, 603.41 },
-			SizeMeters = { 15.03, 20.00 },
-			RotationDegrees = -100.05,
-		},
-		Geometry = {
-			{ 229.46, 611.94 },
-			{ 225.97, 592.26 },
-			{ 213.18, 606.18 },
-			{ 214.36, 612.83 },
-			{ 229.46, 611.94 },
-		},
-	},
-	[114] = {
-		Id = "179032382",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "8b",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 179032382,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 157.52, 571.31 },
-			SizeMeters = { 14.17, 17.79 },
-			RotationDegrees = 160.65,
-		},
-		Geometry = {
-			{ 163.57, 561.68 },
-			{ 149.37, 571.79 },
-			{ 150.51, 578.18 },
-			{ 168.26, 575.05 },
-			{ 163.57, 561.68 },
-		},
-	},
-	[115] = {
-		Id = "179032384",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "7g",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 179032384,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 209.12, 586.15 },
-			SizeMeters = { 11.74, 20.19 },
-			RotationDegrees = -10.00,
-		},
-		Geometry = {
-			{ 220.08, 590.18 },
-			{ 218.12, 579.11 },
-			{ 198.16, 582.13 },
-			{ 202.32, 593.31 },
-			{ 220.08, 590.18 },
-		},
-	},
-	[116] = {
-		Id = "179032386",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "7f",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "yes",
-			["osm_id"] = 179032386,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 205.38, 604.51 },
-			SizeMeters = { 14.75, 14.78 },
-			RotationDegrees = -10.04,
-		},
-		Geometry = {
-			{ 213.94, 610.48 },
-			{ 203.47, 597.36 },
-			{ 196.82, 598.53 },
-			{ 199.39, 613.06 },
-			{ 213.94, 610.48 },
-		},
-	},
-	[117] = {
-		Id = "179032388",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:housenumber"] = "7l",
-			["addr:street"] = "Walter-Gropius-Weg",
-			["building"] = "house",
-			["building:levels"] = "1",
-			["roof:levels"] = "0",
-			["roof:shape"] = "flat",
-			["osm_id"] = 179032388,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 184.04, 572.40 },
-			SizeMeters = { 8.65, 17.35 },
-			RotationDegrees = -143.89,
-		},
-		Geometry = {
-			{ 193.60, 574.02 },
-			{ 179.58, 563.79 },
-			{ 181.77, 576.10 },
-			{ 193.60, 574.02 },
-		},
-	},
-	[118] = {
-		Id = "179049056",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 179049056,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 322.02, 577.66 },
-			SizeMeters = { 6.01, 14.00 },
-			RotationDegrees = 74.70,
-		},
-		Geometry = {
-			{ 320.99, 585.20 },
-			{ 323.07, 570.12 },
-			{ 317.28, 571.71 },
-			{ 320.99, 585.20 },
-		},
-	},
-	[119] = {
-		Id = "179049061",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "8i",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "yes",
-			["osm_id"] = 179049061,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 301.72, 569.60 },
-			SizeMeters = { 16.02, 17.38 },
-			RotationDegrees = -105.30,
-		},
-		Geometry = {
-			{ 308.14, 576.85 },
-			{ 307.16, 559.10 },
-			{ 293.64, 570.41 },
-			{ 296.30, 580.09 },
-			{ 308.14, 576.85 },
-		},
-	},
-	[120] = {
-		Id = "179049066",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 179049066,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 309.27, 584.31 },
-			SizeMeters = { 4.18, 8.35 },
-			RotationDegrees = -59.33,
-		},
-		Geometry = {
-			{ 308.94, 588.97 },
-			{ 313.20, 581.78 },
-			{ 307.40, 583.37 },
-			{ 308.94, 588.97 },
-		},
-	},
-	[121] = {
-		Id = "179049067",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "6a",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "house",
-			["osm_id"] = 179049067,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 274.55, 612.24 },
-			SizeMeters = { 8.04, 16.34 },
-			RotationDegrees = -155.38,
-		},
-		Geometry = {
-			{ 283.65, 611.99 },
-			{ 268.80, 605.18 },
-			{ 271.58, 615.30 },
-			{ 283.65, 611.99 },
-		},
-	},
-	[122] = {
-		Id = "179049069",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 179049069,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 339.64, 573.36 },
-			SizeMeters = { 6.01, 15.00 },
-			RotationDegrees = 74.68,
-		},
-		Geometry = {
-			{ 338.73, 581.39 },
-			{ 340.55, 565.34 },
-			{ 334.76, 566.92 },
-			{ 338.73, 581.39 },
-		},
-	},
-	[123] = {
-		Id = "179049070",
-		Type = "Polygon",
-		Properties = {
-			["addr:city"] = "Norderstedt",
-			["addr:country"] = "DE",
-			["addr:housenumber"] = "6b",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "house",
-			["osm_id"] = 179049070,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 263.56, 613.09 },
-			SizeMeters = { 10.50, 14.28 },
-			RotationDegrees = 164.70,
-		},
-		Geometry = {
-			{ 258.08, 620.03 },
-			{ 269.06, 606.14 },
-			{ 255.29, 609.91 },
-			{ 258.08, 620.03 },
-		},
-	},
-	[124] = {
-		Id = "179049075",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "7d",
-			["building"] = "yes",
-			["osm_id"] = 179049075,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 260.94, 592.64 },
-			SizeMeters = { 13.11, 14.01 },
-			RotationDegrees = 140.32,
-		},
-		Geometry = {
-			{ 251.63, 591.84 },
-			{ 257.40, 599.33 },
-			{ 270.51, 593.21 },
-			{ 261.42, 583.72 },
-			{ 251.63, 591.84 },
-		},
-	},
-	[125] = {
-		Id = "179049076",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "7a",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "yes",
-			["osm_id"] = 179049076,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 290.00, 572.93 },
-			SizeMeters = { 7.20, 15.32 },
-			RotationDegrees = 19.84,
-		},
-		Geometry = {
-			{ 281.58, 573.71 },
-			{ 295.98, 578.91 },
-			{ 293.64, 570.41 },
-			{ 281.58, 573.71 },
-		},
-	},
-	[126] = {
-		Id = "179049077",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "7b",
-			["building"] = "yes",
-			["osm_id"] = 179049077,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 271.45, 573.26 },
-			SizeMeters = { 12.51, 12.52 },
-			RotationDegrees = 74.62,
-		},
-		Geometry = {
-			{ 278.16, 574.08 },
-			{ 263.76, 568.88 },
-			{ 267.08, 580.95 },
-			{ 278.16, 574.08 },
-		},
-	},
-	[127] = {
-		Id = "179049079",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 179049079,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 345.33, 594.07 },
-			SizeMeters = { 6.01, 11.99 },
-			RotationDegrees = 74.68,
-		},
-		Geometry = {
-			{ 344.02, 600.65 },
-			{ 346.64, 587.50 },
-			{ 340.85, 589.09 },
-			{ 344.02, 600.65 },
-		},
-	},
-	[128] = {
-		Id = "179049084",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "7c",
-			["building"] = "yes",
-			["osm_id"] = 179049084,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 262.40, 577.41 },
-			SizeMeters = { 8.49, 21.84 },
-			RotationDegrees = 113.60,
-		},
-		Geometry = {
-			{ 262.88, 565.71 },
-			{ 254.14, 585.72 },
-			{ 266.46, 578.72 },
-			{ 262.88, 565.71 },
-		},
-	},
-	[129] = {
-		Id = "179049086",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "carport",
-			["osm_id"] = 179049086,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 316.05, 601.56 },
-			SizeMeters = { 6.01, 10.99 },
-			RotationDegrees = 74.69,
-		},
-		Geometry = {
-			{ 314.61, 607.65 },
-			{ 317.49, 595.46 },
-			{ 311.70, 597.05 },
-			{ 314.61, 607.65 },
-		},
-	},
-	[130] = {
-		Id = "179049091",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 179049091,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 349.13, 594.28 },
-			SizeMeters = { 5.37, 13.42 },
-			RotationDegrees = -132.00,
-		},
-		Geometry = {
-			{ 355.62, 597.47 },
-			{ 346.64, 587.50 },
-			{ 349.82, 599.06 },
-			{ 355.62, 597.47 },
-		},
-	},
-	[131] = {
-		Id = "179049098",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "8a",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "yes",
-			["osm_id"] = 179049098,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 321.31, 560.42 },
-			SizeMeters = { 10.50, 13.52 },
-			RotationDegrees = -15.36,
-		},
-		Geometry = {
-			{ 316.18, 567.27 },
-			{ 326.44, 553.59 },
-			{ 313.40, 557.15 },
-			{ 316.18, 567.27 },
-		},
-	},
-	[132] = {
-		Id = "179049099",
-		Type = "Polygon",
-		Properties = {
-			["building"] = "garages",
-			["osm_id"] = 179049099,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 3.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 327.85, 598.85 },
-			SizeMeters = { 6.01, 12.00 },
-			RotationDegrees = 74.67,
-		},
-		Geometry = {
-			{ 326.55, 605.43 },
-			{ 329.16, 592.27 },
-			{ 323.37, 593.86 },
-			{ 326.55, 605.43 },
-		},
-	},
-	[133] = {
-		Id = "330284664",
-		Type = "Polygon",
-		Properties = {
-			["addr:housenumber"] = "3f",
-			["addr:postcode"] = "22844",
-			["addr:street"] = "E.-Howard-Weg",
-			["building"] = "yes",
-			["osm_id"] = 330284664,
-			["tile_500"] = "NO_E566000_N5952000_500",
-			["tile_250"] = "NO_E566250_N5952000_250",
-			["HeightMeters"] = 8.0,
-		},
-		OBB = {
-			CenterLocalMeters = { 390.84, 557.11 },
-			SizeMeters = { 12.75, 16.03 },
-			RotationDegrees = -96.16,
-		},
-		Geometry = {
-			{ 398.04, 564.39 },
-			{ 396.32, 548.46 },
-			{ 384.93, 557.22 },
-			{ 385.28, 564.96 },
-			{ 398.04, 564.39 },
-		},
-	},
+    [1] = {
+        Id = "132416546",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "27",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 132416546,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {158.35, 793.92},
+            SizeMeters = {13.08, 21.79},
+            RotationDegrees = -106.47
+        },
+        Geometry = {
+            {164.46, 803.48}, {161.53, 781.62}, {149.69, 787.70}, {155.19, 806.22}, {164.46, 803.48}
+        }
+    },
+    [2] = {
+        Id = "132458831",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 132458831,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {322.99, 790.13},
+            SizeMeters = {6.04, 6.35},
+            RotationDegrees = 166.83
+        },
+        Geometry = {
+            {320.59, 793.80}, {325.40, 786.46}, {319.21, 787.91}, {320.59, 793.80}
+        }
+    },
+    [3] = {
+        Id = "132458847",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 132458847,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {148.19, 777.14},
+            SizeMeters = {5.31, 5.81},
+            RotationDegrees = 71.23
+        },
+        Geometry = {
+            {146.61, 780.74}, {149.90, 773.90}, {144.74, 775.24}, {146.61, 780.74}
+        }
+    },
+    [4] = {
+        Id = "132458860",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 132458860,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {342.46, 798.87},
+            SizeMeters = {7.22, 14.75},
+            RotationDegrees = -54.85
+        },
+        Geometry = {
+            {341.17, 806.98}, {349.66, 794.92}, {338.82, 797.77}, {341.17, 806.98}
+        }
+    },
+    [5] = {
+        Id = "132458875",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "50",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Grootkoppelstraße",
+            ["building"] = "yes",
+            ["osm_id"] = 132458875,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {389.10, 802.65},
+            SizeMeters = {8.85, 20.33},
+            RotationDegrees = -136.36
+        },
+        Geometry = {
+            {399.51, 806.46}, {384.80, 792.44}, {389.64, 809.28}, {399.51, 806.46}
+        }
+    },
+    [6] = {
+        Id = "134429680",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "35",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429680,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {216.01, 761.85},
+            SizeMeters = {8.12, 20.22},
+            RotationDegrees = -41.31
+        },
+        Geometry = {
+            {211.09, 771.57}, {226.28, 758.22}, {208.79, 762.79}, {211.09, 771.57}
+        }
+    },
+    [7] = {
+        Id = "134429681",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "39",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429681,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {247.12, 770.46},
+            SizeMeters = {7.20, 39.67},
+            RotationDegrees = 59.55
+        },
+        Geometry = {
+            {246.24, 761.85}, {233.96, 755.18}, {254.07, 789.38}, {246.24, 761.85}
+        }
+    },
+    [8] = {
+        Id = "134429682",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 134429682,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {337.26, 721.93},
+            SizeMeters = {4.19, 8.40},
+            RotationDegrees = -58.78
+        },
+        Geometry = {
+            {336.88, 726.61}, {341.23, 719.42}, {335.36, 721.02}, {336.88, 726.61}
+        }
+    },
+    [9] = {
+        Id = "134429683",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "55a",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "semidetached_house",
+            ["osm_id"] = 134429683,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {365.43, 757.56},
+            SizeMeters = {8.02, 11.69},
+            RotationDegrees = -14.99
+        },
+        Geometry = {
+            {360.83, 762.94}, {370.05, 752.19}, {358.75, 755.19}, {360.83, 762.94}
+        }
+    },
+    [10] = {
+        Id = "134429684",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 134429684,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {251.56, 749.41},
+            SizeMeters = {5.17, 11.19},
+            RotationDegrees = -67.85
+        },
+        Geometry = {
+            {251.84, 755.57}, {256.06, 745.20}, {249.65, 747.23}, {251.84, 755.57}
+        }
+    },
+    [11] = {
+        Id = "134429686",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 134429686,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {213.71, 786.68},
+            SizeMeters = {14.24, 17.32},
+            RotationDegrees = 164.81
+        },
+        Geometry = {
+            {207.54, 795.73}, {220.20, 777.54}, {203.48, 782.08}, {207.54, 795.73}
+        }
+    },
+    [12] = {
+        Id = "134429688",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 134429688,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {307.00, 732.46},
+            SizeMeters = {4.84, 10.05},
+            RotationDegrees = -54.88
+        },
+        Geometry = {
+            {306.09, 737.97}, {311.87, 729.75}, {304.04, 732.46}, {306.09, 737.97}
+        }
+    },
+    [13] = {
+        Id = "134429690",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "45",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429690,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {290.28, 769.84},
+            SizeMeters = {10.42, 17.12},
+            RotationDegrees = -106.04
+        },
+        Geometry = {
+            {297.65, 776.62}, {292.92, 760.19}, {282.90, 763.05}, {287.63, 779.49}, {297.65, 776.62}
+        }
+    },
+    [14] = {
+        Id = "134429691",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "29",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429691,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {172.05, 789.51},
+            SizeMeters = {9.29, 14.72},
+            RotationDegrees = 77.03
+        },
+        Geometry = {
+            {178.23, 795.64}, {172.43, 781.89}, {165.87, 783.38}, {169.18, 797.72}, {178.23, 795.64}
+        }
+    },
+    [15] = {
+        Id = "134429692",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 134429692,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {333.16, 773.49},
+            SizeMeters = {5.56, 6.07},
+            RotationDegrees = -17.37
+        },
+        Geometry = {
+            {331.09, 777.05}, {335.23, 769.94}, {329.43, 771.74}, {331.09, 777.05}
+        }
+    },
+    [16] = {
+        Id = "134429693",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 134429693,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {331.15, 756.37},
+            SizeMeters = {4.97, 11.93},
+            RotationDegrees = -77.93
+        },
+        Geometry = {
+            {332.33, 762.73}, {334.82, 751.06}, {329.41, 752.62}, {332.33, 762.73}
+        }
+    },
+    [17] = {
+        Id = "134429695",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "31",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429695,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {181.95, 783.60},
+            SizeMeters = {7.68, 15.89},
+            RotationDegrees = -143.16
+        },
+        Geometry = {
+            {190.61, 785.29}, {177.90, 775.77}, {181.22, 787.85}, {190.61, 785.29}
+        }
+    },
+    [18] = {
+        Id = "134429697",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "49",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429697,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {312.97, 752.60},
+            SizeMeters = {9.25, 16.40},
+            RotationDegrees = -70.44
+        },
+        Geometry = {
+            {314.58, 761.88}, {320.07, 746.42}, {310.52, 745.66}, {314.58, 761.88}
+        }
+    },
+    [19] = {
+        Id = "134429698",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "43",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429698,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {265.45, 758.11},
+            SizeMeters = {14.35, 22.52},
+            RotationDegrees = -63.98
+        },
+        Geometry = {
+            {266.96, 771.37}, {276.84, 751.14}, {263.12, 746.54}, {266.96, 771.37}
+        }
+    },
+    [20] = {
+        Id = "134429699",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "51",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429699,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {328.21, 735.54},
+            SizeMeters = {11.24, 16.81},
+            RotationDegrees = 74.86
+        },
+        Geometry = {
+            {335.83, 742.18}, {331.44, 725.97}, {320.59, 728.89}, {324.97, 745.10}, {335.83, 742.18}
+        }
+    },
+    [21] = {
+        Id = "134429700",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 134429700,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {356.79, 773.40},
+            SizeMeters = {3.49, 7.12},
+            RotationDegrees = -65.75
+        },
+        Geometry = {
+            {356.92, 777.36}, {359.84, 770.87}, {355.49, 772.05}, {356.92, 777.36}
+        }
+    },
+    [22] = {
+        Id = "134429701",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 134429701,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {192.91, 794.70},
+            SizeMeters = {7.55, 7.85},
+            RotationDegrees = -15.49
+        },
+        Geometry = {
+            {190.14, 799.38}, {195.76, 790.27}, {188.12, 792.11}, {190.14, 799.38}
+        }
+    },
+    [23] = {
+        Id = "134429702",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "33",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429702,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {194.71, 768.71},
+            SizeMeters = {6.63, 13.40},
+            RotationDegrees = -53.34
+        },
+        Geometry = {
+            {193.36, 776.06}, {201.36, 765.31}, {191.44, 767.54}, {193.36, 776.06}
+        }
+    },
+    [24] = {
+        Id = "134429703",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "47",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429703,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {299.83, 745.82},
+            SizeMeters = {9.60, 20.16},
+            RotationDegrees = -106.70
+        },
+        Geometry = {
+            {307.32, 754.10}, {301.53, 734.81}, {292.33, 737.55}, {298.12, 756.84}, {307.32, 754.10}
+        }
+    },
+    [25] = {
+        Id = "134429705",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429705,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {372.38, 725.91},
+            SizeMeters = {9.86, 16.85},
+            RotationDegrees = 73.13
+        },
+        Geometry = {
+            {379.54, 732.54}, {374.65, 716.43}, {365.21, 719.27}, {370.10, 735.39}, {379.54, 732.54}
+        }
+    },
+    [26] = {
+        Id = "134429706",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "53",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429706,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {345.61, 747.84},
+            SizeMeters = {11.17, 18.54},
+            RotationDegrees = -106.36
+        },
+        Geometry = {
+            {353.58, 755.16}, {348.36, 737.38}, {337.64, 740.52}, {342.86, 758.29}, {353.58, 755.16}
+        }
+    },
+    [27] = {
+        Id = "134429710",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "41",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 134429710,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {261.75, 779.29},
+            SizeMeters = {10.91, 22.77},
+            RotationDegrees = 74.06
+        },
+        Geometry = {
+            {270.12, 788.74}, {260.73, 767.75}, {253.37, 769.84}, {259.63, 791.73}, {270.12, 788.74}
+        }
+    },
+    [28] = {
+        Id = "134429713",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "55",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "semidetached_house",
+            ["osm_id"] = 134429713,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {363.19, 748.91},
+            SizeMeters = {10.42, 11.99},
+            RotationDegrees = 162.36
+        },
+        Geometry = {
+            {367.32, 742.13}, {355.89, 745.76}, {370.05, 752.19}, {367.32, 742.13}
+        }
+    },
+    [29] = {
+        Id = "1347837202",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "carport",
+            ["osm_id"] = 1347837202,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {177.76, 639.79},
+            SizeMeters = {5.99, 9.01},
+            RotationDegrees = -10.04
+        },
+        Geometry = {
+            {173.84, 643.53}, {181.67, 636.06}, {172.80, 637.63}, {173.84, 643.53}
+        }
+    },
+    [30] = {
+        Id = "1347837203",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "carport",
+            ["osm_id"] = 1347837203,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {157.45, 594.64},
+            SizeMeters = {6.00, 7.51},
+            RotationDegrees = -10.03
+        },
+        Geometry = {
+            {161.68, 596.94}, {153.23, 592.34}, {154.28, 598.25}, {161.68, 596.94}
+        }
+    },
+    [31] = {
+        Id = "1348161211",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 1348161211,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {282.72, 706.10},
+            SizeMeters = {6.01, 10.99},
+            RotationDegrees = 74.64
+        },
+        Geometry = {
+            {281.28, 712.20}, {284.16, 700.01}, {278.37, 701.60}, {281.28, 712.20}
+        }
+    },
+    [32] = {
+        Id = "1348161212",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "carport",
+            ["osm_id"] = 1348161212,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {249.56, 714.35},
+            SizeMeters = {5.56, 15.89},
+            RotationDegrees = -127.59
+        },
+        Geometry = {
+            {256.61, 718.95}, {246.92, 706.36}, {250.81, 720.54}, {256.61, 718.95}
+        }
+    },
+    [33] = {
+        Id = "1348161213",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 1348161213,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {244.33, 717.34},
+            SizeMeters = {5.37, 13.43},
+            RotationDegrees = -131.95
+        },
+        Geometry = {
+            {250.81, 720.54}, {241.84, 710.55}, {245.02, 722.12}, {250.81, 720.54}
+        }
+    },
+    [34] = {
+        Id = "1348161214",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 1348161214,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {231.64, 719.08},
+            SizeMeters = {5.57, 16.16},
+            RotationDegrees = -127.17
+        },
+        Geometry = {
+            {238.74, 723.84}, {228.98, 710.96}, {232.95, 725.43}, {238.74, 723.84}
+        }
+    },
+    [35] = {
+        Id = "1348161215",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garage",
+            ["osm_id"] = 1348161215,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {269.29, 702.39},
+            SizeMeters = {2.76, 6.01},
+            RotationDegrees = -15.32
+        },
+        Geometry = {
+            {266.76, 704.52}, {271.83, 700.28}, {266.03, 701.86}, {266.76, 704.52}
+        }
+    },
+    [36] = {
+        Id = "1348161216",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 1348161216,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {265.64, 711.81},
+            SizeMeters = {6.01, 8.99},
+            RotationDegrees = 74.69
+        },
+        Geometry = {
+            {263.94, 716.94}, {267.36, 706.68}, {261.56, 708.27}, {263.94, 716.94}
+        }
+    },
+    [37] = {
+        Id = "1348161217",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 1348161217,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {269.08, 709.44},
+            SizeMeters = {5.00, 10.81},
+            RotationDegrees = -71.60
+        },
+        Geometry = {
+            {269.74, 715.35}, {273.16, 705.10}, {267.36, 706.68}, {269.74, 715.35}
+        }
+    },
+    [38] = {
+        Id = "1450177125",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 1450177125,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {378.63, 749.89},
+            SizeMeters = {9.86, 16.85},
+            RotationDegrees = 73.13
+        },
+        Geometry = {
+            {385.79, 756.52}, {380.90, 740.41}, {371.46, 743.25}, {376.35, 759.37}, {385.79, 756.52}
+        }
+    },
+    [39] = {
+        Id = "1450177830",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "33a",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["osm_id"] = 1450177830,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {207.86, 805.41},
+            SizeMeters = {9.98, 11.19},
+            RotationDegrees = 74.29
+        },
+        Geometry = {
+            {204.57, 812.15}, {211.15, 798.68}, {201.54, 801.38}, {204.57, 812.15}
+        }
+    },
+    [40] = {
+        Id = "178699601",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "46",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 178699601,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {143.65, 744.76},
+            SizeMeters = {5.45, 11.94},
+            RotationDegrees = -138.39
+        },
+        Geometry = {
+            {149.92, 746.68}, {141.00, 738.76}, {143.65, 748.40}, {149.92, 746.68}
+        }
+    },
+    [41] = {
+        Id = "178699602",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "60",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178699602,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {201.78, 726.97},
+            SizeMeters = {6.76, 11.49},
+            RotationDegrees = 74.66
+        },
+        Geometry = {
+            {200.05, 733.41}, {203.52, 720.54}, {197.00, 722.32}, {200.05, 733.41}
+        }
+    },
+    [42] = {
+        Id = "178699604",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "64",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178699604,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {213.21, 723.19},
+            SizeMeters = {5.76, 10.25},
+            RotationDegrees = 74.63
+        },
+        Geometry = {
+            {211.79, 728.90}, {214.63, 717.50}, {209.08, 719.01}, {211.79, 728.90}
+        }
+    },
+    [43] = {
+        Id = "178699605",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "62",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178699605,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {205.87, 726.48},
+            SizeMeters = {5.02, 11.76},
+            RotationDegrees = -134.69
+        },
+        Geometry = {
+            {211.79, 728.90}, {203.52, 720.54}, {206.23, 730.41}, {211.79, 728.90}
+        }
+    },
+    [44] = {
+        Id = "178699606",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "50",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 178699606,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {160.79, 740.15},
+            SizeMeters = {5.60, 12.06},
+            RotationDegrees = 108.73
+        },
+        Geometry = {
+            {160.08, 733.54}, {156.21, 744.96}, {162.73, 743.18}, {160.08, 733.54}
+        }
+    },
+    [45] = {
+        Id = "178699607",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "54",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 178699607,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {174.74, 735.25},
+            SizeMeters = {5.45, 11.94},
+            RotationDegrees = -138.39
+        },
+        Geometry = {
+            {181.01, 737.18}, {172.08, 729.25}, {174.73, 738.89}, {181.01, 737.18}
+        }
+    },
+    [46] = {
+        Id = "178699608",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "68",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178699608,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {222.08, 719.59},
+            SizeMeters = {5.82, 13.35},
+            RotationDegrees = -135.81
+        },
+        Geometry = {
+            {228.89, 722.15}, {219.32, 712.85}, {222.37, 723.93}, {228.89, 722.15}
+        }
+    },
+    [47] = {
+        Id = "178699609",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "56",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 178699609,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {181.02, 733.53},
+            SizeMeters = {5.46, 11.93},
+            RotationDegrees = -138.45
+        },
+        Geometry = {
+            {187.29, 735.45}, {178.36, 727.54}, {181.01, 737.18}, {187.29, 735.45}
+        }
+    },
+    [48] = {
+        Id = "178699610",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "58",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 178699610,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {187.41, 731.87},
+            SizeMeters = {5.59, 12.08},
+            RotationDegrees = -139.39
+        },
+        Geometry = {
+            {193.81, 733.67}, {184.64, 725.81}, {187.29, 735.45}, {193.81, 733.67}
+        }
+    },
+    [49] = {
+        Id = "178699611",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "48",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 178699611,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {149.93, 743.04},
+            SizeMeters = {5.46, 11.93},
+            RotationDegrees = -138.45
+        },
+        Geometry = {
+            {156.21, 744.96}, {147.27, 737.04}, {149.92, 746.68}, {156.21, 744.96}
+        }
+    },
+    [50] = {
+        Id = "178699613",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "66",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178699613,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {216.45, 721.51},
+            SizeMeters = {5.02, 11.76},
+            RotationDegrees = -134.69
+        },
+        Geometry = {
+            {222.37, 723.93}, {214.10, 715.57}, {216.81, 725.45}, {222.37, 723.93}
+        }
+    },
+    [51] = {
+        Id = "178699614",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "52",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 178699614,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {167.50, 734.07},
+            SizeMeters = {5.60, 12.07},
+            RotationDegrees = -71.29
+        },
+        Geometry = {
+            {168.21, 740.68}, {172.08, 729.25}, {165.56, 731.04}, {168.21, 740.68}
+        }
+    },
+    [52] = {
+        Id = "178702147",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "106",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "saltbox",
+            ["osm_id"] = 178702147,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {337.93, 686.94},
+            SizeMeters = {5.14, 12.87},
+            RotationDegrees = -131.96
+        },
+        Geometry = {
+            {344.14, 690.00}, {335.54, 680.43}, {338.59, 691.51}, {344.14, 690.00}
+        }
+    },
+    [53] = {
+        Id = "178702148",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "102",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "saltbox",
+            ["osm_id"] = 178702148,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {327.41, 692.14},
+            SizeMeters = {5.15, 12.86},
+            RotationDegrees = -131.94
+        },
+        Geometry = {
+            {333.63, 695.20}, {325.03, 685.64}, {328.07, 696.73}, {333.63, 695.20}
+        }
+    },
+    [54] = {
+        Id = "178702149",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "108",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "saltbox",
+            ["osm_id"] = 178702149,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {343.57, 685.48},
+            SizeMeters = {5.33, 12.98},
+            RotationDegrees = -132.93
+        },
+        Geometry = {
+            {349.94, 688.41}, {341.10, 678.91}, {344.14, 690.00}, {349.94, 688.41}
+        }
+    },
+    [55] = {
+        Id = "178702150",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "116",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "saltbox",
+            ["osm_id"] = 178702150,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {371.73, 677.43},
+            SizeMeters = {5.14, 12.86},
+            RotationDegrees = -131.94
+        },
+        Geometry = {
+            {377.94, 680.50}, {369.34, 670.93}, {372.38, 682.01}, {377.94, 680.50}
+        }
+    },
+    [56] = {
+        Id = "178702151",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "100",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "saltbox",
+            ["osm_id"] = 178702151,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {321.53, 692.46},
+            SizeMeters = {5.14, 12.86},
+            RotationDegrees = -131.94
+        },
+        Geometry = {
+            {327.74, 695.52}, {319.14, 685.95}, {322.19, 697.03}, {327.74, 695.52}
+        }
+    },
+    [57] = {
+        Id = "178702152",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "98",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "saltbox",
+            ["osm_id"] = 178702152,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {317.50, 691.32},
+            SizeMeters = {6.00, 11.49},
+            RotationDegrees = 74.64
+        },
+        Geometry = {
+            {316.13, 697.66}, {318.87, 684.99}, {313.08, 686.58}, {316.13, 697.66}
+        }
+    },
+    [58] = {
+        Id = "178702153",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "94",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 178702153,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {300.84, 696.92},
+            SizeMeters = {5.51, 11.50},
+            RotationDegrees = 74.65
+        },
+        Geometry = {
+            {299.70, 703.19}, {301.97, 690.65}, {296.66, 692.10}, {299.70, 703.19}
+        }
+    },
+    [59] = {
+        Id = "178702154",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "90",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 178702154,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {287.90, 699.86},
+            SizeMeters = {4.97, 12.73},
+            RotationDegrees = -79.76
+        },
+        Geometry = {
+            {289.21, 706.57}, {291.48, 694.04}, {286.16, 695.49}, {289.21, 706.57}
+        }
+    },
+    [60] = {
+        Id = "178702155",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "104",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "saltbox",
+            ["osm_id"] = 178702155,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {332.64, 689.42},
+            SizeMeters = {5.14, 12.87},
+            RotationDegrees = -131.96
+        },
+        Geometry = {
+            {338.85, 692.49}, {330.25, 682.92}, {333.30, 694.00}, {338.85, 692.49}
+        }
+    },
+    [61] = {
+        Id = "178702156",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "112",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "saltbox",
+            ["osm_id"] = 178702156,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {365.04, 679.20},
+            SizeMeters = {5.14, 12.87},
+            RotationDegrees = 48.04
+        },
+        Geometry = {
+            {358.82, 676.13}, {367.43, 685.70}, {364.38, 674.62}, {358.82, 676.13}
+        }
+    },
+    [62] = {
+        Id = "178702157",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "110",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "saltbox",
+            ["osm_id"] = 178702157,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {357.23, 681.23},
+            SizeMeters = {5.75, 11.49},
+            RotationDegrees = 74.64
+        },
+        Geometry = {
+            {355.98, 687.53}, {358.49, 674.94}, {352.94, 676.45}, {355.98, 687.53}
+        }
+    },
+    [63] = {
+        Id = "178702158",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "92",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 178702158,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {293.41, 699.13},
+            SizeMeters = {4.97, 12.75},
+            RotationDegrees = -79.74
+        },
+        Geometry = {
+            {294.72, 705.85}, {296.99, 693.31}, {291.68, 694.77}, {294.72, 705.85}
+        }
+    },
+    [64] = {
+        Id = "178702159",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "96",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 178702159,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {304.02, 696.13},
+            SizeMeters = {4.96, 12.75},
+            RotationDegrees = -130.95
+        },
+        Geometry = {
+            {310.07, 699.32}, {301.71, 689.69}, {304.76, 700.77}, {310.07, 699.32}
+        }
+    },
+    [65] = {
+        Id = "178702160",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "114",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "saltbox",
+            ["osm_id"] = 178702160,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {366.44, 679.92},
+            SizeMeters = {5.14, 12.86},
+            RotationDegrees = -131.94
+        },
+        Geometry = {
+            {372.65, 682.98}, {364.05, 673.41}, {367.09, 684.50}, {372.65, 682.98}
+        }
+    },
+    [66] = {
+        Id = "178703608",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "118",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178703608,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {384.82, 668.18},
+            SizeMeters = {6.51, 10.00},
+            RotationDegrees = 74.64
+        },
+        Geometry = {
+            {383.00, 673.86}, {386.63, 662.51}, {380.35, 664.22}, {383.00, 673.86}
+        }
+    },
+    [67] = {
+        Id = "178703614",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "120",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178703614,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {389.08, 668.40},
+            SizeMeters = {5.15, 11.67},
+            RotationDegrees = -136.34
+        },
+        Geometry = {
+            {395.07, 670.56}, {386.63, 662.51}, {389.28, 672.15}, {395.07, 670.56}
+        }
+    },
+    [68] = {
+        Id = "178703742",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "88",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "detached",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178703742,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {275.76, 692.79},
+            SizeMeters = {11.07, 16.13},
+            RotationDegrees = 134.98
+        },
+        Geometry = {
+            {266.14, 694.58}, {280.92, 695.46}, {277.54, 683.17}, {266.14, 694.58}
+        }
+    },
+    [69] = {
+        Id = "178703743",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "70",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178703743,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {239.22, 695.62},
+            SizeMeters = {12.07, 14.81},
+            RotationDegrees = 3.39
+        },
+        Geometry = {
+            {231.47, 701.20}, {246.25, 702.08}, {242.88, 689.79}, {231.47, 701.20}
+        }
+    },
+    [70] = {
+        Id = "178870804",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "6c",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870804,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {187.14, 693.90},
+            SizeMeters = {6.91, 14.25},
+            RotationDegrees = -53.17
+        },
+        Geometry = {
+            {185.64, 701.68}, {194.18, 690.27}, {183.31, 693.24}, {185.64, 701.68}
+        }
+    },
+    [71] = {
+        Id = "178870806",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "6e",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870806,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {207.90, 673.38},
+            SizeMeters = {8.75, 11.77},
+            RotationDegrees = 164.67
+        },
+        Geometry = {
+            {203.38, 679.15}, {212.42, 667.61}, {201.06, 670.72}, {203.38, 679.15}
+        }
+    },
+    [72] = {
+        Id = "178870809",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "6f",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870809,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {184.86, 660.34},
+            SizeMeters = {14.06, 15.51},
+            RotationDegrees = -48.26
+        },
+        Geometry = {
+            {184.94, 670.80}, {195.27, 659.23}, {180.51, 654.66}, {184.94, 670.80}
+        }
+    },
+    [73] = {
+        Id = "178870810",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5b",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870810,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {282.09, 650.35},
+            SizeMeters = {12.49, 14.03},
+            RotationDegrees = 164.61
+        },
+        Geometry = {
+            {290.51, 654.51}, {287.20, 642.47}, {275.26, 651.95}, {276.98, 658.22}, {290.51, 654.51}
+        }
+    },
+    [74] = {
+        Id = "178870813",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5a",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870813,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {280.88, 630.73},
+            SizeMeters = {8.76, 11.50},
+            RotationDegrees = 74.75
+        },
+        Geometry = {
+            {278.19, 637.43}, {283.60, 624.03}, {275.14, 626.33}, {278.19, 637.43}
+        }
+    },
+    [75] = {
+        Id = "178870817",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "4f",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "house",
+            ["osm_id"] = 178870817,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {350.60, 615.65},
+            SizeMeters = {8.77, 8.99},
+            RotationDegrees = 74.61
+        },
+        Geometry = {
+            {347.57, 621.15}, {353.64, 610.16}, {345.18, 612.48}, {347.57, 621.15}
+        }
+    },
+    [76] = {
+        Id = "178870818",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "5d",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870818,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {151.20, 678.59},
+            SizeMeters = {11.01, 17.12},
+            RotationDegrees = -105.38
+        },
+        Geometry = {
+            {158.78, 685.39}, {154.74, 670.69}, {143.62, 671.80}, {150.09, 687.77}, {158.78, 685.39}
+        }
+    },
+    [77] = {
+        Id = "178870820",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "6a",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870820,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {174.02, 671.99},
+            SizeMeters = {8.26, 18.00},
+            RotationDegrees = -105.36
+        },
+        Geometry = {
+            {180.39, 679.57}, {175.63, 662.22}, {167.65, 664.40}, {172.42, 681.75}, {180.39, 679.57}
+        }
+    },
+    [78] = {
+        Id = "178870822",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5f",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870822,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {300.36, 629.43},
+            SizeMeters = {10.00, 14.52},
+            RotationDegrees = -15.37
+        },
+        Geometry = {
+            {294.69, 636.18}, {306.05, 622.71}, {292.04, 626.54}, {294.69, 636.18}
+        }
+    },
+    [79] = {
+        Id = "178870824",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "4c",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "house",
+            ["osm_id"] = 178870824,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {341.45, 653.95},
+            SizeMeters = {11.02, 14.01},
+            RotationDegrees = -105.37
+        },
+        Geometry = {
+            {348.62, 659.24}, {344.91, 645.75}, {334.28, 648.66}, {337.99, 662.15}, {348.62, 659.24}
+        }
+    },
+    [80] = {
+        Id = "178870825",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "4e",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "house",
+            ["osm_id"] = 178870825,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {365.63, 626.95},
+            SizeMeters = {13.00, 16.53},
+            RotationDegrees = 164.63
+        },
+        Geometry = {
+            {375.32, 631.02}, {371.88, 618.49}, {357.13, 627.19}, {359.38, 635.38}, {375.32, 631.02}
+        }
+    },
+    [81] = {
+        Id = "178870827",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "80",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "detached",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178870827,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {249.97, 642.83},
+            SizeMeters = {8.63, 21.10},
+            RotationDegrees = -153.74
+        },
+        Geometry = {
+            {242.41, 634.29}, {248.78, 647.06}, {261.34, 643.63}, {242.41, 634.29}
+        }
+    },
+    [82] = {
+        Id = "178870829",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "6d",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870829,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {211.57, 691.13},
+            SizeMeters = {10.24, 10.26},
+            RotationDegrees = 164.61
+        },
+        Geometry = {
+            {205.60, 688.74}, {217.88, 694.70}, {215.16, 684.83}, {205.60, 688.74}
+        }
+    },
+    [83] = {
+        Id = "178870831",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "4a",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "house",
+            ["osm_id"] = 178870831,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {331.99, 620.37},
+            SizeMeters = {10.50, 13.02},
+            RotationDegrees = 164.69
+        },
+        Geometry = {
+            {327.11, 627.15}, {336.88, 613.59}, {324.32, 617.03}, {327.11, 627.15}
+        }
+    },
+    [84] = {
+        Id = "178870833",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "74",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870833,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {238.61, 665.43},
+            SizeMeters = {8.84, 20.88},
+            RotationDegrees = 116.81
+        },
+        Geometry = {
+            {239.37, 654.11}, {229.95, 672.75}, {241.34, 669.83}, {239.37, 654.11}
+        }
+    },
+    [85] = {
+        Id = "178870836",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "5c",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870836,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {148.77, 704.59},
+            SizeMeters = {13.00, 13.02},
+            RotationDegrees = 164.62
+        },
+        Geometry = {
+            {156.77, 709.13}, {153.32, 696.59}, {141.96, 704.37}, {144.21, 712.55}, {156.77, 709.13}
+        }
+    },
+    [86] = {
+        Id = "178870838",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "82",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "detached",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178870838,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {261.32, 656.39},
+            SizeMeters = {11.12, 16.35},
+            RotationDegrees = 135.43
+        },
+        Geometry = {
+            {251.59, 658.17}, {266.62, 658.98}, {263.24, 646.69}, {251.59, 658.17}
+        }
+    },
+    [87] = {
+        Id = "178870840",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "76",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870840,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {219.01, 645.52},
+            SizeMeters = {12.07, 14.81},
+            RotationDegrees = 3.39
+        },
+        Geometry = {
+            {211.26, 651.10}, {226.04, 651.98}, {222.67, 639.69}, {211.26, 651.10}
+        }
+    },
+    [88] = {
+        Id = "178870843",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5c",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870843,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {294.45, 667.17},
+            SizeMeters = {9.01, 13.51},
+            RotationDegrees = -105.38
+        },
+        Geometry = {
+            {300.59, 672.48}, {297.01, 659.47}, {288.32, 661.85}, {291.89, 674.86}, {300.59, 672.48}
+        }
+    },
+    [89] = {
+        Id = "178870849",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "72",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870849,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {233.96, 676.48},
+            SizeMeters = {12.07, 14.81},
+            RotationDegrees = 3.39
+        },
+        Geometry = {
+            {226.21, 682.07}, {241.00, 682.94}, {237.62, 670.66}, {226.21, 682.07}
+        }
+    },
+    [90] = {
+        Id = "178870851",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "4b",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "house",
+            ["osm_id"] = 178870851,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {336.88, 635.97},
+            SizeMeters = {11.00, 14.03},
+            RotationDegrees = 164.60
+        },
+        Geometry = {
+            {345.10, 639.41}, {342.19, 628.81}, {330.05, 637.57}, {331.57, 643.11}, {345.10, 639.41}
+        }
+    },
+    [91] = {
+        Id = "178870854",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "78",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870854,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {231.12, 644.00},
+            SizeMeters = {12.74, 14.03},
+            RotationDegrees = 164.63
+        },
+        Geometry = {
+            {224.78, 647.41}, {239.57, 648.28}, {236.19, 636.00}, {224.78, 647.41}
+        }
+    },
+    [92] = {
+        Id = "178870857",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5d",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870857,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {312.57, 663.52},
+            SizeMeters = {13.14, 16.24},
+            RotationDegrees = -8.22
+        },
+        Geometry = {
+            {305.47, 671.18}, {317.16, 667.99}, {321.54, 668.86}, {318.03, 656.09}, {305.47, 671.18}
+        }
+    },
+    [93] = {
+        Id = "178870859",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "84",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178870859,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {273.57, 674.83},
+            SizeMeters = {9.31, 21.06},
+            RotationDegrees = 116.35
+        },
+        Geometry = {
+            {274.08, 663.33}, {264.73, 682.20}, {276.45, 679.52}, {274.08, 663.33}
+        }
+    },
+    [94] = {
+        Id = "178870860",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5e",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870860,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {309.78, 647.09},
+            SizeMeters = {9.00, 12.77},
+            RotationDegrees = 164.73
+        },
+        Geometry = {
+            {304.82, 653.11}, {314.75, 641.07}, {302.43, 644.43}, {304.82, 653.11}
+        }
+    },
+    [95] = {
+        Id = "178870862",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "86",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178870862,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {253.59, 676.64},
+            SizeMeters = {5.14, 21.58},
+            RotationDegrees = -62.16
+        },
+        Geometry = {
+            {250.82, 687.38}, {260.90, 668.29}, {248.83, 680.15}, {250.82, 687.38}
+        }
+    },
+    [96] = {
+        Id = "178870864",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "4d",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "house",
+            ["osm_id"] = 178870864,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {363.50, 642.53},
+            SizeMeters = {8.33, 18.04},
+            RotationDegrees = -48.97
+        },
+        Geometry = {
+            {360.72, 652.07}, {372.56, 638.46}, {358.07, 642.43}, {360.72, 652.07}
+        }
+    },
+    [97] = {
+        Id = "178870866",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "6b",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178870866,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {175.73, 696.98},
+            SizeMeters = {6.94, 14.00},
+            RotationDegrees = 33.24
+        },
+        Geometry = {
+            {167.97, 696.04}, {179.68, 703.72}, {176.90, 693.60}, {167.97, 696.04}
+        }
+    },
+    [98] = {
+        Id = "178871890",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "140",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178871890,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {391.04, 635.42},
+            SizeMeters = {6.24, 14.58},
+            RotationDegrees = -59.92
+        },
+        Geometry = {
+            {390.09, 643.29}, {397.40, 630.68}, {388.82, 633.03}, {390.09, 643.29}
+        }
+    },
+    [99] = {
+        Id = "178871893",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "142",
+            ["addr:street"] = "Glashütter Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 178871893,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {392.42, 619.27},
+            SizeMeters = {9.82, 13.16},
+            RotationDegrees = 8.68
+        },
+        Geometry = {
+            {385.17, 623.13}, {398.18, 625.12}, {395.33, 614.75}, {385.17, 623.13}
+        }
+    },
+    [100] = {
+        Id = "178873876",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "7b",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178873876,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {190.88, 618.41},
+            SizeMeters = {12.32, 17.97},
+            RotationDegrees = 135.25
+        },
+        Geometry = {
+            {180.17, 620.36}, {195.54, 622.47}, {192.93, 607.71}, {180.17, 620.36}
+        }
+    },
+    [101] = {
+        Id = "178873881",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "7a",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178873881,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {188.17, 605.58},
+            SizeMeters = {10.69, 21.65},
+            RotationDegrees = 129.72
+        },
+        Geometry = {
+            {190.98, 593.84}, {177.14, 610.49}, {193.42, 607.62}, {190.98, 593.84}
+        }
+    },
+    [102] = {
+        Id = "178873882",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "7c",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 178873882,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {189.08, 631.93},
+            SizeMeters = {14.94, 17.37},
+            RotationDegrees = -14.97
+        },
+        Geometry = {
+            {198.16, 637.24}, {195.54, 622.47}, {181.10, 632.84}, {182.62, 641.39}, {198.16, 637.24}
+        }
+    },
+    [103] = {
+        Id = "179028185",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 179028185,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {164.59, 595.50},
+            SizeMeters = {4.99, 10.83},
+            RotationDegrees = -156.39
+        },
+        Geometry = {
+            {170.55, 595.38}, {160.63, 591.04}, {161.68, 596.94}, {170.55, 595.38}
+        }
+    },
+    [104] = {
+        Id = "179028189",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 179028189,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {143.13, 646.88},
+            SizeMeters = {5.37, 13.41},
+            RotationDegrees = -73.43
+        },
+        Geometry = {
+            {143.79, 654.07}, {147.62, 641.22}, {141.70, 642.26}, {143.79, 654.07}
+        }
+    },
+    [105] = {
+        Id = "179028201",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 179028201,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {169.99, 604.57},
+            SizeMeters = {5.99, 12.02},
+            RotationDegrees = 169.97
+        },
+        Geometry = {
+            {164.59, 608.57}, {175.38, 600.58}, {163.55, 602.67}, {164.59, 608.57}
+        }
+    },
+    [106] = {
+        Id = "179028220",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 179028220,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {149.47, 648.21},
+            SizeMeters = {5.37, 13.42},
+            RotationDegrees = -126.67
+        },
+        Geometry = {
+            {155.63, 651.98}, {147.62, 641.22}, {149.72, 653.03}, {155.63, 651.98}
+        }
+    },
+    [107] = {
+        Id = "179028222",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 179028222,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {173.17, 622.53},
+            SizeMeters = {5.99, 12.02},
+            RotationDegrees = 169.98
+        },
+        Geometry = {
+            {167.78, 626.53}, {178.57, 618.54}, {166.73, 620.63}, {167.78, 626.53}
+        }
+    },
+    [108] = {
+        Id = "179032349",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "7d",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "house",
+            ["osm_id"] = 179032349,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {212.23, 627.72},
+            SizeMeters = {11.24, 17.28},
+            RotationDegrees = -10.06
+        },
+        Geometry = {
+            {204.71, 634.76}, {219.76, 620.69}, {202.75, 623.70}, {204.71, 634.76}
+        }
+    },
+    [109] = {
+        Id = "179032353",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "7h",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 179032353,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {213.16, 563.56},
+            SizeMeters = {13.27, 16.24},
+            RotationDegrees = -100.06
+        },
+        Geometry = {
+            {221.12, 570.39}, {218.28, 554.40}, {206.87, 566.06}, {208.05, 572.70}, {221.12, 570.39}
+        }
+    },
+    [110] = {
+        Id = "179032363",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "8a",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 179032363,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {158.49, 583.88},
+            SizeMeters = {14.00, 18.03},
+            RotationDegrees = -10.00
+        },
+        Geometry = {
+            {150.83, 592.34}, {168.58, 589.21}, {166.15, 575.43}, {156.78, 577.08}, {150.83, 592.34}
+        }
+    },
+    [111] = {
+        Id = "179032365",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "7m",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 179032365,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {180.57, 583.16},
+            SizeMeters = {13.49, 15.12},
+            RotationDegrees = -10.05
+        },
+        Geometry = {
+            {186.97, 588.88}, {186.84, 575.20}, {173.34, 585.70}, {174.30, 591.12}, {186.97, 588.88}
+        }
+    },
+    [112] = {
+        Id = "179032368",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "8c",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 179032368,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {157.98, 555.94},
+            SizeMeters = {9.02, 13.24},
+            RotationDegrees = -100.00
+        },
+        Geometry = {
+            {161.26, 548.63}, {154.69, 563.24}, {163.57, 561.68}, {161.26, 548.63}
+        }
+    },
+    [113] = {
+        Id = "179032371",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "7e",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 179032371,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {220.32, 603.41},
+            SizeMeters = {15.03, 20.00},
+            RotationDegrees = -100.05
+        },
+        Geometry = {
+            {229.46, 611.94}, {225.97, 592.26}, {213.18, 606.18}, {214.36, 612.83}, {229.46, 611.94}
+        }
+    },
+    [114] = {
+        Id = "179032382",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "8b",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 179032382,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {157.52, 571.31},
+            SizeMeters = {14.17, 17.79},
+            RotationDegrees = 160.65
+        },
+        Geometry = {
+            {163.57, 561.68}, {149.37, 571.79}, {150.51, 578.18}, {168.26, 575.05}, {163.57, 561.68}
+        }
+    },
+    [115] = {
+        Id = "179032384",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "7g",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 179032384,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {209.12, 586.15},
+            SizeMeters = {11.74, 20.19},
+            RotationDegrees = -10.00
+        },
+        Geometry = {
+            {220.08, 590.18}, {218.12, 579.11}, {198.16, 582.13}, {202.32, 593.31}, {220.08, 590.18}
+        }
+    },
+    [116] = {
+        Id = "179032386",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "7f",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 179032386,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {205.38, 604.51},
+            SizeMeters = {14.75, 14.78},
+            RotationDegrees = -10.04
+        },
+        Geometry = {
+            {213.94, 610.48}, {203.47, 597.36}, {196.82, 598.53}, {199.39, 613.06}, {213.94, 610.48}
+        }
+    },
+    [117] = {
+        Id = "179032388",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "7l",
+            ["addr:street"] = "Walter-Gropius-Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 179032388,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {184.04, 572.40},
+            SizeMeters = {8.65, 17.35},
+            RotationDegrees = -143.89
+        },
+        Geometry = {
+            {193.60, 574.02}, {179.58, 563.79}, {181.77, 576.10}, {193.60, 574.02}
+        }
+    },
+    [118] = {
+        Id = "179049056",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 179049056,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {322.02, 577.66},
+            SizeMeters = {6.01, 14.00},
+            RotationDegrees = 74.70
+        },
+        Geometry = {
+            {320.99, 585.20}, {323.07, 570.12}, {317.28, 571.71}, {320.99, 585.20}
+        }
+    },
+    [119] = {
+        Id = "179049061",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "8i",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 179049061,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {301.72, 569.60},
+            SizeMeters = {16.02, 17.38},
+            RotationDegrees = -105.30
+        },
+        Geometry = {
+            {308.14, 576.85}, {307.16, 559.10}, {293.64, 570.41}, {296.30, 580.09}, {308.14, 576.85}
+        }
+    },
+    [120] = {
+        Id = "179049066",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 179049066,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {309.27, 584.31},
+            SizeMeters = {4.18, 8.35},
+            RotationDegrees = -59.33
+        },
+        Geometry = {
+            {308.94, 588.97}, {313.20, 581.78}, {307.40, 583.37}, {308.94, 588.97}
+        }
+    },
+    [121] = {
+        Id = "179049067",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "6a",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "house",
+            ["osm_id"] = 179049067,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {274.55, 612.24},
+            SizeMeters = {8.04, 16.34},
+            RotationDegrees = -155.38
+        },
+        Geometry = {
+            {283.65, 611.99}, {268.80, 605.18}, {271.58, 615.30}, {283.65, 611.99}
+        }
+    },
+    [122] = {
+        Id = "179049069",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 179049069,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {339.64, 573.36},
+            SizeMeters = {6.01, 15.00},
+            RotationDegrees = 74.68
+        },
+        Geometry = {
+            {338.73, 581.39}, {340.55, 565.34}, {334.76, 566.92}, {338.73, 581.39}
+        }
+    },
+    [123] = {
+        Id = "179049070",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "6b",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "house",
+            ["osm_id"] = 179049070,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {263.56, 613.09},
+            SizeMeters = {10.50, 14.28},
+            RotationDegrees = 164.70
+        },
+        Geometry = {
+            {258.08, 620.03}, {269.06, 606.14}, {255.29, 609.91}, {258.08, 620.03}
+        }
+    },
+    [124] = {
+        Id = "179049075",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "7d",
+            ["building"] = "yes",
+            ["osm_id"] = 179049075,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {260.94, 592.64},
+            SizeMeters = {13.11, 14.01},
+            RotationDegrees = 140.32
+        },
+        Geometry = {
+            {251.63, 591.84}, {257.40, 599.33}, {270.51, 593.21}, {261.42, 583.72}, {251.63, 591.84}
+        }
+    },
+    [125] = {
+        Id = "179049076",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "7a",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 179049076,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {290.00, 572.93},
+            SizeMeters = {7.20, 15.32},
+            RotationDegrees = 19.84
+        },
+        Geometry = {
+            {281.58, 573.71}, {295.98, 578.91}, {293.64, 570.41}, {281.58, 573.71}
+        }
+    },
+    [126] = {
+        Id = "179049077",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "7b",
+            ["building"] = "yes",
+            ["osm_id"] = 179049077,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {271.45, 573.26},
+            SizeMeters = {12.51, 12.52},
+            RotationDegrees = 74.62
+        },
+        Geometry = {
+            {278.16, 574.08}, {263.76, 568.88}, {267.08, 580.95}, {278.16, 574.08}
+        }
+    },
+    [127] = {
+        Id = "179049079",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 179049079,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {345.33, 594.07},
+            SizeMeters = {6.01, 11.99},
+            RotationDegrees = 74.68
+        },
+        Geometry = {
+            {344.02, 600.65}, {346.64, 587.50}, {340.85, 589.09}, {344.02, 600.65}
+        }
+    },
+    [128] = {
+        Id = "179049084",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "7c",
+            ["building"] = "yes",
+            ["osm_id"] = 179049084,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {262.40, 577.41},
+            SizeMeters = {8.49, 21.84},
+            RotationDegrees = 113.60
+        },
+        Geometry = {
+            {262.88, 565.71}, {254.14, 585.72}, {266.46, 578.72}, {262.88, 565.71}
+        }
+    },
+    [129] = {
+        Id = "179049086",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "carport",
+            ["osm_id"] = 179049086,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {316.05, 601.56},
+            SizeMeters = {6.01, 10.99},
+            RotationDegrees = 74.69
+        },
+        Geometry = {
+            {314.61, 607.65}, {317.49, 595.46}, {311.70, 597.05}, {314.61, 607.65}
+        }
+    },
+    [130] = {
+        Id = "179049091",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 179049091,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {349.13, 594.28},
+            SizeMeters = {5.37, 13.42},
+            RotationDegrees = -132.00
+        },
+        Geometry = {
+            {355.62, 597.47}, {346.64, 587.50}, {349.82, 599.06}, {355.62, 597.47}
+        }
+    },
+    [131] = {
+        Id = "179049098",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "8a",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 179049098,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {321.31, 560.42},
+            SizeMeters = {10.50, 13.52},
+            RotationDegrees = -15.36
+        },
+        Geometry = {
+            {316.18, 567.27}, {326.44, 553.59}, {313.40, 557.15}, {316.18, 567.27}
+        }
+    },
+    [132] = {
+        Id = "179049099",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["osm_id"] = 179049099,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {327.85, 598.85},
+            SizeMeters = {6.01, 12.00},
+            RotationDegrees = 74.67
+        },
+        Geometry = {
+            {326.55, 605.43}, {329.16, 592.27}, {323.37, 593.86}, {326.55, 605.43}
+        }
+    },
+    [133] = {
+        Id = "330284664",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "3f",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "E.-Howard-Weg",
+            ["building"] = "yes",
+            ["osm_id"] = 330284664,
+            ["tile_500"] = "NO_E566000_N5952000_500",
+            ["tile_250"] = "NO_E566250_N5952000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {390.84, 557.11},
+            SizeMeters = {12.75, 16.03},
+            RotationDegrees = -96.16
+        },
+        Geometry = {
+            {398.04, 564.39}, {396.32, 548.46}, {384.93, 557.22}, {385.28, 564.96}, {398.04, 564.39}
+        }
+    },
 }

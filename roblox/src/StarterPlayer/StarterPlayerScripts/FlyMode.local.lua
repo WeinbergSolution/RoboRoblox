@@ -6,9 +6,11 @@ local Workspace = game:GetService("Workspace")
 local player = Players.LocalPlayer
 local camera = Workspace.CurrentCamera
 
+print("[RoboRoblox Fly] LocalScript started")
+
 local isFlying = false
-local flySpeed = 100
-local flyKeys = { W = false, A = false, S = false, D = false, Q = false, E = false, Shift = false }
+local normalSpeed = 400
+local flyKeys = { W = false, A = false, S = false, D = false, Q = false, E = false, Shift = false, Ctrl = false }
 local noclipOriginals = {}
 local oldAutoRotate = true
 
@@ -21,7 +23,7 @@ gui.ResetOnSpawn = false
 gui.Parent = playerGui
 
 local label = Instance.new("TextLabel")
-label.Size = UDim2.new(0, 200, 0, 30)
+label.Size = UDim2.new(0, 300, 0, 30)
 label.Position = UDim2.new(0, 10, 0, 10)
 label.BackgroundColor3 = Color3.new(0, 0, 0)
 label.BackgroundTransparency = 0.5
@@ -30,6 +32,24 @@ label.Font = Enum.Font.Code
 label.TextSize = 14
 label.Text = " Fly: OFF  (F = Toggle)"
 label.Parent = gui
+
+local function updateUI()
+	if not isFlying then
+		label.Text = " Fly: OFF  (F = Toggle)"
+		return
+	end
+
+	local speed = normalSpeed
+	local mode = "NORMAL"
+	if flyKeys.Ctrl and flyKeys.Shift then
+		speed = 3500
+		mode = "TURBO"
+	elseif flyKeys.Shift then
+		speed = 1600
+		mode = "FAST"
+	end
+	label.Text = string.format(" Fly: ON | Mode: %s | Speed: %d", mode, speed)
+end
 
 -- Noclip
 local function setNoclip(enabled)
@@ -55,6 +75,26 @@ local function setNoclip(enabled)
 	end
 end
 
+local function tpToCameraPoint(pointName)
+	local char = player.Character
+	if not char then
+		return
+	end
+	local hrp = char:FindFirstChild("HumanoidRootPart")
+	if not hrp then
+		return
+	end
+
+	local cpFolder = Workspace:FindFirstChild("CameraPoints")
+	if cpFolder then
+		local pt = cpFolder:FindFirstChild(pointName)
+		if pt and pt:IsA("Vector3Value") then
+			hrp.CFrame = CFrame.new(pt.Value)
+			hrp.AssemblyLinearVelocity = Vector3.zero
+		end
+	end
+end
+
 -- Toggle Fly
 local function toggleFly()
 	local char = player.Character
@@ -75,14 +115,13 @@ local function toggleFly()
 		hum:ChangeState(Enum.HumanoidStateType.Physics)
 		setNoclip(true)
 		hrp.AssemblyLinearVelocity = Vector3.zero
-		label.Text = " Fly: ON  (Speed: 100)"
 	else
 		hum.AutoRotate = oldAutoRotate
 		hum:ChangeState(Enum.HumanoidStateType.GettingUp)
 		setNoclip(false)
 		hrp.AssemblyLinearVelocity = Vector3.zero
-		label.Text = " Fly: OFF  (F = Toggle)"
 	end
+	updateUI()
 end
 
 -- Input: Toggle
@@ -100,7 +139,48 @@ ContextActionService:BindActionAtPriority(
 	Enum.KeyCode.F
 )
 
--- Input: Movement keys
+local function onSpeedAdjust(actionName, state, input)
+	if state == Enum.UserInputState.Begin then
+		if
+			actionName == "FlySpeedUp"
+			or (input.UserInputType == Enum.UserInputType.MouseWheel and input.Position.Z > 0)
+		then
+			normalSpeed = math.min(5000, normalSpeed + 100)
+		elseif
+			actionName == "FlySpeedDown"
+			or (input.UserInputType == Enum.UserInputType.MouseWheel and input.Position.Z < 0)
+		then
+			normalSpeed = math.max(100, normalSpeed - 100)
+		end
+		updateUI()
+	end
+	return Enum.ContextActionResult.Pass
+end
+
+ContextActionService:BindActionAtPriority(
+	"FlySpeedScroll",
+	onSpeedAdjust,
+	false,
+	Enum.ContextActionPriority.High.Value,
+	Enum.UserInputType.MouseWheel
+)
+ContextActionService:BindActionAtPriority(
+	"FlySpeedUp",
+	onSpeedAdjust,
+	false,
+	Enum.ContextActionPriority.High.Value,
+	Enum.KeyCode.Equals,
+	Enum.KeyCode.KeypadPlus
+)
+ContextActionService:BindActionAtPriority(
+	"FlySpeedDown",
+	onSpeedAdjust,
+	false,
+	Enum.ContextActionPriority.High.Value,
+	Enum.KeyCode.Minus,
+	Enum.KeyCode.KeypadMinus
+)
+
 local function onMoveAction(actionName, state)
 	local isDown = (state ~= Enum.UserInputState.End)
 
@@ -118,10 +198,11 @@ local function onMoveAction(actionName, state)
 		flyKeys.Q = isDown
 	elseif actionName == "FlyFast" then
 		flyKeys.Shift = isDown
-		if isFlying then
-			label.Text = isDown and " Fly: ON  (Speed: 350)" or " Fly: ON  (Speed: 100)"
-		end
+	elseif actionName == "FlyTurbo" then
+		flyKeys.Ctrl = isDown
 	end
+
+	updateUI()
 	return Enum.ContextActionResult.Pass
 end
 
@@ -174,12 +255,83 @@ ContextActionService:BindActionAtPriority(
 	Enum.ContextActionPriority.High.Value,
 	Enum.KeyCode.LeftShift
 )
+ContextActionService:BindActionAtPriority(
+	"FlyTurbo",
+	onMoveAction,
+	false,
+	Enum.ContextActionPriority.High.Value,
+	Enum.KeyCode.LeftControl
+)
+
+local function onCameraPoints(actionName, state)
+	if state == Enum.UserInputState.Begin then
+		if actionName == "PilotOverview" then
+			tpToCameraPoint("CenterOverview")
+		elseif actionName == "CamPoint1" then
+			tpToCameraPoint("MainRoad")
+		elseif actionName == "CamPoint2" then
+			tpToCameraPoint("ResidentialArea")
+		elseif actionName == "CamPoint3" then
+			tpToCameraPoint("Intersection")
+		elseif actionName == "CamPoint4" then
+			tpToCameraPoint("TJunction")
+		elseif actionName == "CamPoint5" then
+			tpToCameraPoint("CrossJunction")
+		end
+	end
+	return Enum.ContextActionResult.Pass
+end
+
+ContextActionService:BindActionAtPriority(
+	"PilotOverview",
+	onCameraPoints,
+	false,
+	Enum.ContextActionPriority.High.Value,
+	Enum.KeyCode.O
+)
+ContextActionService:BindActionAtPriority(
+	"CamPoint1",
+	onCameraPoints,
+	false,
+	Enum.ContextActionPriority.High.Value,
+	Enum.KeyCode.One
+)
+ContextActionService:BindActionAtPriority(
+	"CamPoint2",
+	onCameraPoints,
+	false,
+	Enum.ContextActionPriority.High.Value,
+	Enum.KeyCode.Two
+)
+ContextActionService:BindActionAtPriority(
+	"CamPoint3",
+	onCameraPoints,
+	false,
+	Enum.ContextActionPriority.High.Value,
+	Enum.KeyCode.Three
+)
+ContextActionService:BindActionAtPriority(
+	"CamPoint4",
+	onCameraPoints,
+	false,
+	Enum.ContextActionPriority.High.Value,
+	Enum.KeyCode.Four
+)
+ContextActionService:BindActionAtPriority(
+	"CamPoint5",
+	onCameraPoints,
+	false,
+	Enum.ContextActionPriority.High.Value,
+	Enum.KeyCode.Five
+)
+
+print("[RoboRoblox Fly] Actions bound")
 
 -- Reset on respawn
 player.CharacterAdded:Connect(function()
 	isFlying = false
 	table.clear(noclipOriginals)
-	label.Text = " Fly: OFF  (F = Toggle)"
+	updateUI()
 end)
 
 -- Fly loop
@@ -193,9 +345,20 @@ RunService.RenderStepped:Connect(function(dt)
 		return
 	end
 
+	if hrp.Position.Y < -100 then
+		warn("[RoboRoblox Fly] Character fell below -100. Teleporting to center.")
+		tpToCameraPoint("CenterOverview")
+	end
+
 	if isFlying then
 		local camCFrame = camera.CFrame
-		local speed = flyKeys.Shift and 350 or 100
+		local speed = normalSpeed
+		if flyKeys.Ctrl and flyKeys.Shift then
+			speed = 3500
+		elseif flyKeys.Shift then
+			speed = 1600
+		end
+
 		local moveDir = Vector3.zero
 
 		if flyKeys.W then

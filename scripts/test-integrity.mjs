@@ -27,9 +27,18 @@ const content = fs.readFileSync(buildPath, 'utf8');
 const hasScript = content.includes('<Item class="Script"');
 const hasLocalScript = content.includes('<Item class="LocalScript"');
 const hasModuleScript = content.includes('<Item class="ModuleScript"');
+const hasFlyMode = content.includes('FlyMode');
+const hasSpeed400 = content.includes('400');
+const hasSpeed1600 = content.includes('1600');
+const hasSpeed3500 = content.includes('3500');
+const hasContextActionService = content.includes('ContextActionService');
 
 if (hasScript || hasLocalScript || hasModuleScript) {
-    console.log("Place-Integrity-Test passed. Scripts are present in the build XML.");
+    if (!hasFlyMode || !hasSpeed400 || !hasSpeed1600 || !hasSpeed3500 || !hasContextActionService) {
+        console.error("Place-Integrity-Test FAILED: FlyMode or specific speeds or ContextActionService missing from build XML!");
+        process.exit(1);
+    }
+    console.log("Place-Integrity-Test passed. Scripts, FlyMode and speeds are present in the build XML.");
     process.exit(0);
 } else {
     console.error("Place-Integrity-Test FAILED: No Script, LocalScript or ModuleScript found in the generated build!");

@@ -181,11 +181,11 @@ function PolygonExtruder.extrude(points2D, height, baseY, color, material, paren
 		if dist > 0.1 then
 			local wall = Instance.new("Part")
 			wall.Name = "Wall"
-			wall.Size = Vector3.new(dist, height, 0.5) -- 0.5 stud thick walls
+			wall.Size = Vector3.new(0.5, height, dist)
 
 			local center = (p1 + p2) / 2
-			local pos = Vector3.new(center.X, baseY + height / 2, center.Y)
-			wall.CFrame = CFrame.lookAt(pos, Vector3.new(p2.X, pos.Y, p2.Y)) * CFrame.new(0, 0, -0.25)
+			local pos = Vector3.new(center.X, baseY + height / 2, center.Z)
+			wall.CFrame = CFrame.lookAt(pos, Vector3.new(p2.X, pos.Y, p2.Z))
 
 			wall.Color = color
 			wall.Material = material
