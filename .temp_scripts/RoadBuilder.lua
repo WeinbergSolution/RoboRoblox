@@ -26,7 +26,9 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 	local cutback2 = 0
 
 	if junctionMap then
-		local k1 = math.floor(p1.X * 10) / 10 .. "_" .. math.floor(p1.Z * 10) / 10
+		local p1_mx = p1.X / scale
+		local p1_mz = p1.Z / scale
+		local k1 = math.floor(p1_mx * 10) / 10 .. "_" .. math.floor(p1_mz * 10) / 10
 		local n1 = junctionMap[k1]
 		if n1 and n1.Degree > 2 and not n1.IsBridge and not n1.IsTunnel then
 			local maxW = width
@@ -38,7 +40,9 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 			cutback1 = math.max(width / 2, maxW / 2) + 0.5
 		end
 
-		local k2 = math.floor(p2.X * 10) / 10 .. "_" .. math.floor(p2.Z * 10) / 10
+		local p2_mx = p2.X / scale
+		local p2_mz = p2.Z / scale
+		local k2 = math.floor(p2_mx * 10) / 10 .. "_" .. math.floor(p2_mz * 10) / 10
 		local n2 = junctionMap[k2]
 		if n2 and n2.Degree > 2 and not n2.IsBridge and not n2.IsTunnel then
 			local maxW = width
@@ -89,6 +93,15 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 	)
 
 	if feature.Properties and feature.Properties.name then
+		local namePart = Instance.new("Part")
+		namePart.Name = "StreetNameAnchor"
+		namePart.Size = Vector3.new(10, 0.1, 10)
+		namePart.Transparency = 1
+		namePart.Anchored = true
+		namePart.CanCollide = false
+		namePart.CFrame = roadCFrame * CFrame.new(0, 0.21, 0) -- slightly above the 0.4 height road
+		namePart.Parent = roadPart
+
 		local surfaceGui = Instance.new("SurfaceGui")
 		surfaceGui.Name = "StreetNameGui"
 		surfaceGui.Face = Enum.NormalId.Top
@@ -104,7 +117,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		label.TextStrokeTransparency = 0.5
 		label.TextScaled = true
 		label.Font = Enum.Font.GothamBold
-		surfaceGui.Parent = roadPart
+		surfaceGui.Parent = namePart
 	end
 	if not isPavement and hwType ~= "motorway" and hwType ~= "motorway_link" then
 		local sidewalkW = Config.Sidewalks.DefaultWidth

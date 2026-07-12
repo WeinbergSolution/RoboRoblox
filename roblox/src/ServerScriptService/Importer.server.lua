@@ -188,7 +188,7 @@ local function loadJunctions()
 			if node.Degree > 2 and not node.IsBridge and not node.IsTunnel then
 				local maxW = 5
 				for _, w in ipairs(node.WidthsStuds) do
-					if w * scale > maxW then maxW = w * scale end
+					if w > maxW then maxW = w end
 				end
 				-- Radius exactly matches road half-width plus sidewalk width to bridge the gap
 				local rad = (maxW / 2) + Config.Sidewalks.DefaultWidth
