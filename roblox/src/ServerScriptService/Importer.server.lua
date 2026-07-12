@@ -193,35 +193,22 @@ local function loadJunctions()
 				-- Radius exactly matches road half-width plus sidewalk width to bridge the gap
 				local rad = (maxW / 2) + Config.Sidewalks.DefaultWidth
 				
-				-- 1. Pavement Base (Sidewalk level)
-				local baseRad = (maxW / 2) + Config.Sidewalks.DefaultWidth
-				local basePart = Instance.new("Part")
-				basePart.Name = "JunctionBase_" .. node.NodeId
-				basePart.Shape = Enum.PartType.Cylinder
-				basePart.Size = Vector3.new(0.4 + Config.Sidewalks.Height, baseRad * 2, baseRad * 2)
-				basePart.CFrame = CFrame.new(node.LocalPositionMeters[1] * scale, Config.Layers.Road, node.LocalPositionMeters[2] * scale) * CFrame.Angles(0, 0, math.pi/2)
-				basePart.Color = Config.Colors.Pavement
-				basePart.Material = Config.Materials.Pavement
-				basePart.Anchored = true
-				basePart.Parent = tileFolders.Intersections
-				trackPart("IntersectionParts", 1)
-
-				-- 2. Asphalt Top (Road level)
-				local topRad = maxW / 2
-				local topPart = Instance.new("Part")
-				topPart.Name = "JunctionTop_" .. node.NodeId
-				topPart.Shape = Enum.PartType.Cylinder
-				topPart.Size = Vector3.new(0.4 + 0.02, topRad * 2, topRad * 2)
-				topPart.CFrame = CFrame.new(node.LocalPositionMeters[1] * scale, Config.Layers.Road, node.LocalPositionMeters[2] * scale) * CFrame.Angles(0, 0, math.pi/2)
-				topPart.Color = Config.Colors.Asphalt
-				topPart.Material = Config.Materials.Asphalt
-				topPart.Anchored = true
-				topPart.Parent = tileFolders.Intersections
+				local rad = (maxW / 2) + Config.Sidewalks.DefaultWidth
+				
+				local part = Instance.new("Part")
+				part.Name = "Junction_" .. node.NodeId
+				part.Shape = Enum.PartType.Cylinder
+				part.Size = Vector3.new(0.4, rad * 2, rad * 2)
+				part.CFrame = CFrame.new(node.LocalPositionMeters[1] * scale, Config.Layers.Road, node.LocalPositionMeters[2] * scale) * CFrame.Angles(0, 0, math.pi/2)
+				part.Color = Config.Colors.Asphalt
+				part.Material = Config.Materials.Asphalt
+				part.Anchored = true
+				part.Parent = tileFolders.Intersections
 				trackPart("IntersectionParts", 1)
 				
-				if node.JunctionType == "TJunction" then addCameraPoint("TJunction", basePart.Position + Vector3.new(0, 15, 0))
-				elseif node.JunctionType == "CrossJunction" then addCameraPoint("CrossJunction", basePart.Position + Vector3.new(0, 15, 0))
-				elseif node.JunctionType == "ComplexJunction" then addCameraPoint("Intersection", basePart.Position + Vector3.new(0, 15, 0))
+				if node.JunctionType == "TJunction" then addCameraPoint("TJunction", part.Position + Vector3.new(0, 15, 0))
+				elseif node.JunctionType == "CrossJunction" then addCameraPoint("CrossJunction", part.Position + Vector3.new(0, 15, 0))
+				elseif node.JunctionType == "ComplexJunction" then addCameraPoint("Intersection", part.Position + Vector3.new(0, 15, 0))
 				end
 			end
 		end
