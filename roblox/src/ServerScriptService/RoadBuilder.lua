@@ -74,8 +74,26 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 	local roadLayerY = Config.Layers.Road
 
 	local roadCFrame = CFrame.new(cframe.Position.X, roadLayerY, cframe.Position.Z) * cframe.Rotation
-	createPart("Road_" .. feature.Id, tileFolder.Roads, col, mat, true, Vector3.new(width, 0.4, actualDist), roadCFrame)
+	local roadPart = createPart("Road_" .. feature.Id, tileFolder.Roads, col, mat, true, Vector3.new(width, 0.4, actualDist), roadCFrame)
 
+	if feature.Properties and feature.Properties.name then
+		local surfaceGui = Instance.new("SurfaceGui")
+		surfaceGui.Name = "StreetNameGui"
+		surfaceGui.Face = Enum.NormalId.Top
+		surfaceGui.SizingMode = Enum.SurfaceGuiSizingMode.PixelsPerStud
+		surfaceGui.PixelsPerStud = 50
+		surfaceGui.LightInfluence = 0
+		local label = Instance.new("TextLabel")
+		label.Parent = surfaceGui
+		label.Size = UDim2.new(1, 0, 1, 0)
+		label.BackgroundTransparency = 1
+		label.Text = feature.Properties.name
+		label.TextColor3 = Color3.fromRGB(255, 255, 255)
+		label.TextStrokeTransparency = 0.5
+		label.TextScaled = true
+		label.Font = Enum.Font.GothamBold
+		surfaceGui.Parent = roadPart
+	end
 	if not isPavement and hwType ~= "motorway" and hwType ~= "motorway_link" then
 		local sidewalkW = Config.Sidewalks.DefaultWidth
 		local sidewalkH = Config.Sidewalks.Height

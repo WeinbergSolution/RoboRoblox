@@ -190,28 +190,38 @@ local function loadJunctions()
 				for _, w in ipairs(node.WidthsStuds) do
 					if w * scale > maxW then maxW = w * scale end
 				end
-				local rad = maxW * 0.75
+				-- Radius exactly matches road half-width plus sidewalk width to bridge the gap
+				local rad = (maxW / 2) + Config.Sidewalks.DefaultWidth
 				
-				local part = Instance.new("Part")
-				part.Name = "Junction_" .. node.NodeId
-				if node.JunctionType == "TJunction" or node.JunctionType == "CrossJunction" then
-					part.Shape = Enum.PartType.Cylinder
-					part.Size = Vector3.new(0.4, rad * 2, rad * 2)
-					part.CFrame = CFrame.new(node.LocalPositionMeters[1] * scale, Config.Layers.Road, node.LocalPositionMeters[2] * scale) * CFrame.Angles(0, 0, math.pi/2)
-				else
-					part.Shape = Enum.PartType.Cylinder
-					part.Size = Vector3.new(0.4, rad * 2.5, rad * 2.5)
-					part.CFrame = CFrame.new(node.LocalPositionMeters[1] * scale, Config.Layers.Road, node.LocalPositionMeters[2] * scale) * CFrame.Angles(0, 0, math.pi/2)
-				end
-				part.Color = Config.Colors.Asphalt
-				part.Material = Config.Materials.Asphalt
-				part.Anchored = true
-				part.Parent = tileFolders.Intersections
+				-- 1. Pavement Base (Sidewalk level)
+				local baseRad = (maxW / 2) + Config.Sidewalks.DefaultWidth
+				local basePart = Instance.new("Part")
+				basePart.Name = "JunctionBase_" .. node.NodeId
+				basePart.Shape = Enum.PartType.Cylinder
+				basePart.Size = Vector3.new(0.4 + Config.Sidewalks.Height, baseRad * 2, baseRad * 2)
+				basePart.CFrame = CFrame.new(node.LocalPositionMeters[1] * scale, Config.Layers.Road, node.LocalPositionMeters[2] * scale) * CFrame.Angles(0, 0, math.pi/2)
+				basePart.Color = Config.Colors.Pavement
+				basePart.Material = Config.Materials.Pavement
+				basePart.Anchored = true
+				basePart.Parent = tileFolders.Intersections
+				trackPart("IntersectionParts", 1)
+
+				-- 2. Asphalt Top (Road level)
+				local topRad = maxW / 2
+				local topPart = Instance.new("Part")
+				topPart.Name = "JunctionTop_" .. node.NodeId
+				topPart.Shape = Enum.PartType.Cylinder
+				topPart.Size = Vector3.new(0.4 + 0.02, topRad * 2, topRad * 2)
+				topPart.CFrame = CFrame.new(node.LocalPositionMeters[1] * scale, Config.Layers.Road, node.LocalPositionMeters[2] * scale) * CFrame.Angles(0, 0, math.pi/2)
+				topPart.Color = Config.Colors.Asphalt
+				topPart.Material = Config.Materials.Asphalt
+				topPart.Anchored = true
+				topPart.Parent = tileFolders.Intersections
 				trackPart("IntersectionParts", 1)
 				
-				if node.JunctionType == "TJunction" then addCameraPoint("TJunction", part.Position + Vector3.new(0, 15, 0))
-				elseif node.JunctionType == "CrossJunction" then addCameraPoint("CrossJunction", part.Position + Vector3.new(0, 15, 0))
-				elseif node.JunctionType == "ComplexJunction" then addCameraPoint("Intersection", part.Position + Vector3.new(0, 15, 0))
+				if node.JunctionType == "TJunction" then addCameraPoint("TJunction", basePart.Position + Vector3.new(0, 15, 0))
+				elseif node.JunctionType == "CrossJunction" then addCameraPoint("CrossJunction", basePart.Position + Vector3.new(0, 15, 0))
+				elseif node.JunctionType == "ComplexJunction" then addCameraPoint("Intersection", basePart.Position + Vector3.new(0, 15, 0))
 				end
 			end
 		end
@@ -413,8 +423,29 @@ local function importPOIs()
 				part.Size = Vector3.new(3, 3, 3)
 				part.Color = Color3.fromRGB(255, 100, 100)
 				part.Material = Enum.Material.Neon
-				part.CFrame = CFrame.new(p1[1] * scale, 5, p1[2] * scale)
+				part.CFrame = CFrame.new(p1[1] * scale, 10, p1[2] * scale)
 				part.Parent = tileFolders.POIs
+				
+				if feature.Properties and feature.Properties.name then
+					local bg = Instance.new("BillboardGui")
+					bg.Name = "POILabel"
+					bg.Size = UDim2.new(0, 250, 0, 50)
+					bg.StudsOffset = Vector3.new(0, 10, 0)
+					bg.AlwaysOnTop = true
+					bg.MaxDistance = 1500
+					
+					local label = Instance.new("TextLabel")
+					label.Parent = bg
+					label.Size = UDim2.new(1, 0, 1, 0)
+					label.BackgroundTransparency = 1
+					label.Text = feature.Properties.name
+					label.TextColor3 = Color3.fromRGB(255, 255, 0)
+					label.TextStrokeTransparency = 0
+					label.TextScaled = true
+					label.Font = Enum.Font.GothamBold
+					bg.Parent = part
+				end
+				
 				trackPart("POIParts", 1)
 			end
 		end

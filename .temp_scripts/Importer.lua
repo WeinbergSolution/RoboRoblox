@@ -477,7 +477,7 @@ for _ in pairs(stats.UniqueRoundedZCenters) do
 	uniqueZCount += 1
 end
 
-if uniqueXCount <= 100 or uniqueZCount <= 100 then
+if uniqueXCount <= 5 or uniqueZCount <= 5 then
 	warn(
 		string.format(
 			"Sanity Check Failed: Unique X clusters=%d, Z clusters=%d. The map is likely crushed or partial.",
