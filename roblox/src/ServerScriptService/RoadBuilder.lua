@@ -22,39 +22,34 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		return
 	end
 
-	-- Junction cutbacks
 	local cutback1 = 0
 	local cutback2 = 0
-
+	
 	if junctionMap then
 		local k1 = math.floor(p1.X * 10) / 10 .. "_" .. math.floor(p1.Z * 10) / 10
 		local n1 = junctionMap[k1]
 		if n1 and n1.Degree > 2 and not n1.IsBridge and not n1.IsTunnel then
 			local maxW = width
 			for _, w in ipairs(n1.WidthsStuds) do
-				if w * scale > maxW then
-					maxW = w * scale
-				end
+				if w * scale > maxW then maxW = w * scale end
 			end
-			cutback1 = math.max(width / 2, maxW / 2) + 0.5
+			cutback1 = math.max(width/2, maxW/2) + 0.5
 		end
-
+		
 		local k2 = math.floor(p2.X * 10) / 10 .. "_" .. math.floor(p2.Z * 10) / 10
 		local n2 = junctionMap[k2]
 		if n2 and n2.Degree > 2 and not n2.IsBridge and not n2.IsTunnel then
 			local maxW = width
 			for _, w in ipairs(n2.WidthsStuds) do
-				if w * scale > maxW then
-					maxW = w * scale
-				end
+				if w * scale > maxW then maxW = w * scale end
 			end
-			cutback2 = math.max(width / 2, maxW / 2) + 0.5
+			cutback2 = math.max(width/2, maxW/2) + 0.5
 		end
 	end
 
 	local actualDist = distance - cutback1 - cutback2
 	if actualDist <= 0.1 then
-		return -- Skip segment if cutback consumes it entirely
+		return
 	end
 
 	local dir = (p2 - p1).Unit
@@ -73,7 +68,6 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		or hwType == "pedestrian"
 	)
 
-	-- 1. Base Road Surface
 	local isPavement = (hwType == "footway" or hwType == "path" or hwType == "pedestrian" or hwType == "steps")
 	local mat = isPavement and Config.Materials.Pavement or Config.Materials.Asphalt
 	local col = isPavement and Config.Colors.Pavement or Config.Colors.Asphalt
@@ -82,16 +76,14 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 	local roadCFrame = CFrame.new(cframe.Position.X, roadLayerY, cframe.Position.Z) * cframe.Rotation
 	createPart("Road_" .. feature.Id, tileFolder.Roads, col, mat, true, Vector3.new(width, 0.4, actualDist), roadCFrame)
 
-	-- 2. Sidewalks
 	if not isPavement and hwType ~= "motorway" and hwType ~= "motorway_link" then
 		local sidewalkW = Config.Sidewalks.DefaultWidth
 		local sidewalkH = Config.Sidewalks.Height
 		local curbW = Config.Sidewalks.CurbWidth
 
-		-- Right Sidewalk
 		local rsCF = roadCFrame * CFrame.new(width / 2 + sidewalkW / 2, sidewalkH / 2, 0)
 		createPart(
-			"Sidewalk_" .. feature.Id,
+			"Sidewalk_R_" .. feature.Id,
 			tileFolder.Sidewalks,
 			Config.Colors.Pavement,
 			Config.Materials.Pavement,
@@ -101,7 +93,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		)
 		local rcCF = roadCFrame * CFrame.new(width / 2 + curbW / 2, sidewalkH / 2, 0)
 		createPart(
-			"Curb_" .. feature.Id,
+			"Curb_R_" .. feature.Id,
 			tileFolder.Sidewalks,
 			Config.Colors.Curb,
 			Config.Materials.Curb,
@@ -110,10 +102,9 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 			rcCF
 		)
 
-		-- Left Sidewalk
 		local lsCF = roadCFrame * CFrame.new(-width / 2 - sidewalkW / 2, sidewalkH / 2, 0)
 		createPart(
-			"Sidewalk_" .. feature.Id,
+			"Sidewalk_L_" .. feature.Id,
 			tileFolder.Sidewalks,
 			Config.Colors.Pavement,
 			Config.Materials.Pavement,
@@ -123,7 +114,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		)
 		local lcCF = roadCFrame * CFrame.new(-width / 2 - curbW / 2, sidewalkH / 2, 0)
 		createPart(
-			"Curb_" .. feature.Id,
+			"Curb_L_" .. feature.Id,
 			tileFolder.Sidewalks,
 			Config.Colors.Curb,
 			Config.Materials.Curb,
@@ -133,7 +124,6 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		)
 	end
 
-	-- 3. Markings
 	if not noMarkings then
 		local markY = Config.Layers.Marking
 		local markCF = CFrame.new(cframe.Position.X, markY, cframe.Position.Z) * cframe.Rotation
@@ -143,7 +133,6 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		local mW = Config.Markings.LineWidth
 		local mT = Config.Markings.Thickness
 
-		-- Edge Lines
 		createPart(
 			"EdgeLine_R",
 			tileFolder.RoadMarkings,
@@ -163,14 +152,12 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 			markCF * CFrame.new(-width / 2 + mW, 0, 0)
 		)
 
-		-- Center / Lane Lines
 		cumulativeDist = cumulativeDist or 0
 		local dLen = Config.Markings.DashLength
 		local dSpc = Config.Markings.DashSpacing
 		local cycleLen = dLen + dSpc
 
 		if not oneway and lanes >= 2 then
-			-- Dashed center line
 			local tDist = -(cumulativeDist + cutback1) % cycleLen
 			while tDist + dLen < actualDist do
 				if tDist >= 0 then
@@ -189,7 +176,6 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		end
 
 		if oneway and lanes > 1 then
-			-- Dashed lane separators
 			local laneWidth = width / lanes
 			for l = 1, lanes - 1 do
 				local offset = -width / 2 + l * laneWidth

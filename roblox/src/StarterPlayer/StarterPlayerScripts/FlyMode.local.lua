@@ -16,7 +16,6 @@ local oldAutoRotate = true
 
 local playerGui = player:WaitForChild("PlayerGui")
 
--- Simple UI
 local gui = Instance.new("ScreenGui")
 gui.Name = "FlyMode"
 gui.ResetOnSpawn = false
@@ -51,12 +50,9 @@ local function updateUI()
 	label.Text = string.format(" Fly: ON | Mode: %s | Speed: %d", mode, speed)
 end
 
--- Noclip
 local function setNoclip(enabled)
 	local char = player.Character
-	if not char then
-		return
-	end
+	if not char then return end
 
 	if enabled then
 		for _, part in ipairs(char:GetDescendants()) do
@@ -77,13 +73,9 @@ end
 
 local function tpToCameraPoint(pointName)
 	local char = player.Character
-	if not char then
-		return
-	end
+	if not char then return end
 	local hrp = char:FindFirstChild("HumanoidRootPart")
-	if not hrp then
-		return
-	end
+	if not hrp then return end
 
 	local cpFolder = Workspace:FindFirstChild("CameraPoints")
 	if cpFolder then
@@ -95,17 +87,12 @@ local function tpToCameraPoint(pointName)
 	end
 end
 
--- Toggle Fly
 local function toggleFly()
 	local char = player.Character
-	if not char then
-		return
-	end
+	if not char then return end
 	local hrp = char:FindFirstChild("HumanoidRootPart")
 	local hum = char:FindFirstChild("Humanoid")
-	if not hrp or not hum then
-		return
-	end
+	if not hrp or not hum then return end
 
 	isFlying = not isFlying
 
@@ -124,32 +111,19 @@ local function toggleFly()
 	updateUI()
 end
 
--- Input: Toggle
 local function onToggleAction(_, state)
 	if state == Enum.UserInputState.Begin then
 		toggleFly()
 	end
 	return Enum.ContextActionResult.Pass
 end
-ContextActionService:BindActionAtPriority(
-	"FlyToggle",
-	onToggleAction,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.F
-)
+ContextActionService:BindActionAtPriority("FlyToggle", onToggleAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.F)
 
 local function onSpeedAdjust(actionName, state, input)
 	if state == Enum.UserInputState.Begin then
-		if
-			actionName == "FlySpeedUp"
-			or (input.UserInputType == Enum.UserInputType.MouseWheel and input.Position.Z > 0)
-		then
+		if actionName == "FlySpeedUp" or (input.UserInputType == Enum.UserInputType.MouseWheel and input.Position.Z > 0) then
 			normalSpeed = math.min(5000, normalSpeed + 100)
-		elseif
-			actionName == "FlySpeedDown"
-			or (input.UserInputType == Enum.UserInputType.MouseWheel and input.Position.Z < 0)
-		then
+		elseif actionName == "FlySpeedDown" or (input.UserInputType == Enum.UserInputType.MouseWheel and input.Position.Z < 0) then
 			normalSpeed = math.max(100, normalSpeed - 100)
 		end
 		updateUI()
@@ -157,194 +131,70 @@ local function onSpeedAdjust(actionName, state, input)
 	return Enum.ContextActionResult.Pass
 end
 
-ContextActionService:BindActionAtPriority(
-	"FlySpeedScroll",
-	onSpeedAdjust,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.UserInputType.MouseWheel
-)
-ContextActionService:BindActionAtPriority(
-	"FlySpeedUp",
-	onSpeedAdjust,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.Equals,
-	Enum.KeyCode.KeypadPlus
-)
-ContextActionService:BindActionAtPriority(
-	"FlySpeedDown",
-	onSpeedAdjust,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.Minus,
-	Enum.KeyCode.KeypadMinus
-)
+ContextActionService:BindActionAtPriority("FlySpeedScroll", onSpeedAdjust, false, Enum.ContextActionPriority.High.Value, Enum.UserInputType.MouseWheel)
+ContextActionService:BindActionAtPriority("FlySpeedUp", onSpeedAdjust, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Equals, Enum.KeyCode.KeypadPlus)
+ContextActionService:BindActionAtPriority("FlySpeedDown", onSpeedAdjust, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Minus, Enum.KeyCode.KeypadMinus)
 
 local function onMoveAction(actionName, state)
 	local isDown = (state ~= Enum.UserInputState.End)
 
-	if actionName == "FlyForward" then
-		flyKeys.W = isDown
-	elseif actionName == "FlyBackward" then
-		flyKeys.S = isDown
-	elseif actionName == "FlyLeft" then
-		flyKeys.A = isDown
-	elseif actionName == "FlyRight" then
-		flyKeys.D = isDown
-	elseif actionName == "FlyUp" then
-		flyKeys.E = isDown
-	elseif actionName == "FlyDown" then
-		flyKeys.Q = isDown
-	elseif actionName == "FlyFast" then
-		flyKeys.Shift = isDown
-	elseif actionName == "FlyTurbo" then
-		flyKeys.Ctrl = isDown
+	if actionName == "FlyForward" then flyKeys.W = isDown
+	elseif actionName == "FlyBackward" then flyKeys.S = isDown
+	elseif actionName == "FlyLeft" then flyKeys.A = isDown
+	elseif actionName == "FlyRight" then flyKeys.D = isDown
+	elseif actionName == "FlyUp" then flyKeys.E = isDown
+	elseif actionName == "FlyDown" then flyKeys.Q = isDown
+	elseif actionName == "FlyFast" then flyKeys.Shift = isDown
+	elseif actionName == "FlyTurbo" then flyKeys.Ctrl = isDown
 	end
-
+	
 	updateUI()
 	return Enum.ContextActionResult.Pass
 end
 
-ContextActionService:BindActionAtPriority(
-	"FlyForward",
-	onMoveAction,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.W
-)
-ContextActionService:BindActionAtPriority(
-	"FlyBackward",
-	onMoveAction,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.S
-)
-ContextActionService:BindActionAtPriority(
-	"FlyLeft",
-	onMoveAction,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.A
-)
-ContextActionService:BindActionAtPriority(
-	"FlyRight",
-	onMoveAction,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.D
-)
-ContextActionService:BindActionAtPriority(
-	"FlyUp",
-	onMoveAction,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.E
-)
-ContextActionService:BindActionAtPriority(
-	"FlyDown",
-	onMoveAction,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.Q
-)
-ContextActionService:BindActionAtPriority(
-	"FlyFast",
-	onMoveAction,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.LeftShift
-)
-ContextActionService:BindActionAtPriority(
-	"FlyTurbo",
-	onMoveAction,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.LeftControl
-)
+ContextActionService:BindActionAtPriority("FlyForward", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.W)
+ContextActionService:BindActionAtPriority("FlyBackward", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.S)
+ContextActionService:BindActionAtPriority("FlyLeft", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.A)
+ContextActionService:BindActionAtPriority("FlyRight", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.D)
+ContextActionService:BindActionAtPriority("FlyUp", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.E)
+ContextActionService:BindActionAtPriority("FlyDown", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Q)
+ContextActionService:BindActionAtPriority("FlyFast", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.LeftShift)
+ContextActionService:BindActionAtPriority("FlyTurbo", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.LeftControl)
 
 local function onCameraPoints(actionName, state)
 	if state == Enum.UserInputState.Begin then
-		if actionName == "PilotOverview" then
-			tpToCameraPoint("CenterOverview")
-		elseif actionName == "CamPoint1" then
-			tpToCameraPoint("MainRoad")
-		elseif actionName == "CamPoint2" then
-			tpToCameraPoint("ResidentialArea")
-		elseif actionName == "CamPoint3" then
-			tpToCameraPoint("Intersection")
-		elseif actionName == "CamPoint4" then
-			tpToCameraPoint("TJunction")
-		elseif actionName == "CamPoint5" then
-			tpToCameraPoint("CrossJunction")
+		if actionName == "PilotOverview" then tpToCameraPoint("CenterOverview")
+		elseif actionName == "CamPoint1" then tpToCameraPoint("MainRoad")
+		elseif actionName == "CamPoint2" then tpToCameraPoint("ResidentialArea")
+		elseif actionName == "CamPoint3" then tpToCameraPoint("Intersection")
+		elseif actionName == "CamPoint4" then tpToCameraPoint("TJunction")
+		elseif actionName == "CamPoint5" then tpToCameraPoint("CrossJunction")
 		end
 	end
 	return Enum.ContextActionResult.Pass
 end
 
-ContextActionService:BindActionAtPriority(
-	"PilotOverview",
-	onCameraPoints,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.O
-)
-ContextActionService:BindActionAtPriority(
-	"CamPoint1",
-	onCameraPoints,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.One
-)
-ContextActionService:BindActionAtPriority(
-	"CamPoint2",
-	onCameraPoints,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.Two
-)
-ContextActionService:BindActionAtPriority(
-	"CamPoint3",
-	onCameraPoints,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.Three
-)
-ContextActionService:BindActionAtPriority(
-	"CamPoint4",
-	onCameraPoints,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.Four
-)
-ContextActionService:BindActionAtPriority(
-	"CamPoint5",
-	onCameraPoints,
-	false,
-	Enum.ContextActionPriority.High.Value,
-	Enum.KeyCode.Five
-)
+ContextActionService:BindActionAtPriority("PilotOverview", onCameraPoints, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.O)
+ContextActionService:BindActionAtPriority("CamPoint1", onCameraPoints, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.One)
+ContextActionService:BindActionAtPriority("CamPoint2", onCameraPoints, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Two)
+ContextActionService:BindActionAtPriority("CamPoint3", onCameraPoints, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Three)
+ContextActionService:BindActionAtPriority("CamPoint4", onCameraPoints, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Four)
+ContextActionService:BindActionAtPriority("CamPoint5", onCameraPoints, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Five)
 
 print("[RoboRoblox Fly] Actions bound")
 
--- Reset on respawn
 player.CharacterAdded:Connect(function()
 	isFlying = false
 	table.clear(noclipOriginals)
 	updateUI()
 end)
 
--- Fly loop
 RunService.RenderStepped:Connect(function(dt)
 	local char = player.Character
-	if not char then
-		return
-	end
+	if not char then return end
 	local hrp = char:FindFirstChild("HumanoidRootPart")
-	if not hrp then
-		return
-	end
-
+	if not hrp then return end
+	
 	if hrp.Position.Y < -100 then
 		warn("[RoboRoblox Fly] Character fell below -100. Teleporting to center.")
 		tpToCameraPoint("CenterOverview")
@@ -353,32 +203,18 @@ RunService.RenderStepped:Connect(function(dt)
 	if isFlying then
 		local camCFrame = camera.CFrame
 		local speed = normalSpeed
-		if flyKeys.Ctrl and flyKeys.Shift then
-			speed = 3500
-		elseif flyKeys.Shift then
-			speed = 1600
+		if flyKeys.Ctrl and flyKeys.Shift then speed = 3500
+		elseif flyKeys.Shift then speed = 1600
 		end
-
+		
 		local moveDir = Vector3.zero
 
-		if flyKeys.W then
-			moveDir += camCFrame.LookVector
-		end
-		if flyKeys.S then
-			moveDir -= camCFrame.LookVector
-		end
-		if flyKeys.D then
-			moveDir += camCFrame.RightVector
-		end
-		if flyKeys.A then
-			moveDir -= camCFrame.RightVector
-		end
-		if flyKeys.E then
-			moveDir += Vector3.new(0, 1, 0)
-		end
-		if flyKeys.Q then
-			moveDir -= Vector3.new(0, 1, 0)
-		end
+		if flyKeys.W then moveDir += camCFrame.LookVector end
+		if flyKeys.S then moveDir -= camCFrame.LookVector end
+		if flyKeys.D then moveDir += camCFrame.RightVector end
+		if flyKeys.A then moveDir -= camCFrame.RightVector end
+		if flyKeys.E then moveDir += Vector3.new(0, 1, 0) end
+		if flyKeys.Q then moveDir -= Vector3.new(0, 1, 0) end
 
 		if moveDir.Magnitude > 0 then
 			moveDir = moveDir.Unit
