@@ -1,6 +1,6 @@
 {
   "source": "Geofabrik Schleswig-Holstein",
-  "fetch_time": "2026-07-12T18:01:03.302176Z",
+  "fetch_time": "2026-07-12T20:37:45.294523Z",
   "pbf_size_bytes": 156865792,
   "pilot_bbox_wgs84": [
     9.988,
@@ -43,7 +43,7 @@
     "pois": 93
   },
   "stats": {
-    "road_length_m": 86197.87200957708,
+    "road_length_m": 87341.77073039078,
     "tiles_500_count": 18,
     "tiles_250_count": 65,
     "errors": {

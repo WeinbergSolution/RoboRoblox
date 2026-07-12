@@ -1,6 +1,6 @@
 return {
     Source = "Geofabrik Schleswig-Holstein",
-    FetchTime = "2026-07-12T18:01:03.302176Z",
+    FetchTime = "2026-07-12T20:37:45.294523Z",
     OriginEPSG25832 = {
         Easting = 566106.04,
         Northing = 5951444.54

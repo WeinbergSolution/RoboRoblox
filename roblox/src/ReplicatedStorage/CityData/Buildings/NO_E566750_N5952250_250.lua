@@ -10,12 +10,12 @@ return {
             ["HeightMeters"] = 2.8,
         },
         OBB = {
-            CenterLocalMeters = {716.18, 844.42},
-            SizeMeters = {1.03, 2.31},
-            RotationDegrees = 165.25
+            CenterLocalMeters = {716.18, 844.41},
+            SizeMeters = {1.03, 2.32},
+            RotationDegrees = 165.47
         },
         Geometry = {
-            {717.17, 843.63}, {715.03, 844.59}, {717.43, 844.62}, {717.17, 843.63}
+            {714.93, 844.21}, {715.03, 844.59}, {717.43, 844.62}, {717.17, 843.63}, {714.93, 844.21}
         }
     },
 }

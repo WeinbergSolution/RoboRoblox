@@ -1,7 +1,7 @@
 return {
     [1] = {
-        NodeId = 706,
-        LocalPositionMeters = {611.11, -825.98},
+        NodeId = 2343,
+        LocalPositionMeters = {617.56, -783.65},
         Degree = 1,
         JunctionType = "DeadEnd",
         IsBridge = false,
@@ -11,7 +11,18 @@ return {
         WidthsStuds = {7.8400012544002005},
     },
     [2] = {
-        NodeId = 1021,
+        NodeId = 2344,
+        LocalPositionMeters = {611.11, -825.98},
+        Degree = 1,
+        JunctionType = "DeadEnd",
+        IsBridge = false,
+        IsTunnel = false,
+        Layer = "0",
+        ConnectedRoadIds = {"152358121"},
+        WidthsStuds = {7.8400012544002005},
+    },
+    [3] = {
+        NodeId = 3162,
         LocalPositionMeters = {742.52, -824.11},
         Degree = 1,
         JunctionType = "DeadEnd",
@@ -21,8 +32,8 @@ return {
         ConnectedRoadIds = {"306048272"},
         WidthsStuds = {1.680000268800043},
     },
-    [3] = {
-        NodeId = 1659,
+    [4] = {
+        NodeId = 4183,
         LocalPositionMeters = {671.86, -754.98},
         Degree = 2,
         JunctionType = "Straight/Bend",
@@ -32,8 +43,30 @@ return {
         ConnectedRoadIds = {"1032489816", "1484209144"},
         WidthsStuds = {4.0, 2.0},
     },
-    [4] = {
-        NodeId = 2140,
+    [5] = {
+        NodeId = 4883,
+        LocalPositionMeters = {644.5, -752.16},
+        Degree = 1,
+        JunctionType = "DeadEnd",
+        IsBridge = false,
+        IsTunnel = false,
+        Layer = "0",
+        ConnectedRoadIds = {"1484209119"},
+        WidthsStuds = {7.8400012544002005},
+    },
+    [6] = {
+        NodeId = 4884,
+        LocalPositionMeters = {646.34, -758.59},
+        Degree = 1,
+        JunctionType = "DeadEnd",
+        IsBridge = false,
+        IsTunnel = false,
+        Layer = "0",
+        ConnectedRoadIds = {"1484209119"},
+        WidthsStuds = {7.8400012544002005},
+    },
+    [7] = {
+        NodeId = 4885,
         LocalPositionMeters = {657.77, -763.41},
         Degree = 1,
         JunctionType = "DeadEnd",
@@ -43,8 +76,8 @@ return {
         ConnectedRoadIds = {"1484209119"},
         WidthsStuds = {7.8400012544002005},
     },
-    [5] = {
-        NodeId = 2141,
+    [8] = {
+        NodeId = 4886,
         LocalPositionMeters = {671.64, -758.33},
         Degree = 2,
         JunctionType = "Straight/Bend",
@@ -54,19 +87,30 @@ return {
         ConnectedRoadIds = {"1484209120", "1484209121"},
         WidthsStuds = {2.0, 1.680000268800043},
     },
-    [6] = {
-        NodeId = 2142,
+    [9] = {
+        NodeId = 4887,
         LocalPositionMeters = {672.65, -756.89},
+        Degree = 2,
+        JunctionType = "Straight/Bend",
+        IsBridge = false,
+        IsTunnel = false,
+        Layer = "0",
+        ConnectedRoadIds = {"1484209120", "1484209144"},
+        WidthsStuds = {2.0, 2.0},
+    },
+    [10] = {
+        NodeId = 4888,
+        LocalPositionMeters = {671.01, -759.22},
         Degree = 1,
         JunctionType = "DeadEnd",
         IsBridge = false,
         IsTunnel = false,
         Layer = "0",
-        ConnectedRoadIds = {"1484209120"},
-        WidthsStuds = {2.0},
+        ConnectedRoadIds = {"1484209121"},
+        WidthsStuds = {1.680000268800043},
     },
-    [7] = {
-        NodeId = 2157,
+    [11] = {
+        NodeId = 4903,
         LocalPositionMeters = {736.66, -800.81},
         Degree = 1,
         JunctionType = "DeadEnd",
@@ -76,8 +120,19 @@ return {
         ConnectedRoadIds = {"1484209135"},
         WidthsStuds = {2.0},
     },
-    [8] = {
-        NodeId = 2158,
+    [12] = {
+        NodeId = 4904,
+        LocalPositionMeters = {736.19, -801.49},
+        Degree = 1,
+        JunctionType = "DeadEnd",
+        IsBridge = false,
+        IsTunnel = false,
+        Layer = "0",
+        ConnectedRoadIds = {"1484209135"},
+        WidthsStuds = {2.0},
+    },
+    [13] = {
+        NodeId = 4905,
         LocalPositionMeters = {734.2, -800.1},
         Degree = 2,
         JunctionType = "Straight/Bend",
@@ -87,8 +142,8 @@ return {
         ConnectedRoadIds = {"1484209144", "1484209135"},
         WidthsStuds = {2.0, 2.0},
     },
-    [9] = {
-        NodeId = 2159,
+    [14] = {
+        NodeId = 4906,
         LocalPositionMeters = {701.84, -775.47},
         Degree = 1,
         JunctionType = "DeadEnd",
@@ -98,19 +153,19 @@ return {
         ConnectedRoadIds = {"1484209137"},
         WidthsStuds = {2.0},
     },
-    [10] = {
-        NodeId = 2160,
+    [15] = {
+        NodeId = 4907,
         LocalPositionMeters = {700.94, -776.75},
-        Degree = 1,
-        JunctionType = "DeadEnd",
+        Degree = 2,
+        JunctionType = "Straight/Bend",
         IsBridge = false,
         IsTunnel = false,
         Layer = "0",
-        ConnectedRoadIds = {"1484209137"},
-        WidthsStuds = {2.0},
+        ConnectedRoadIds = {"1484209144", "1484209137"},
+        WidthsStuds = {2.0, 2.0},
     },
-    [11] = {
-        NodeId = 2161,
+    [16] = {
+        NodeId = 4908,
         LocalPositionMeters = {737.23, -792.7},
         Degree = 1,
         JunctionType = "DeadEnd",
@@ -120,19 +175,19 @@ return {
         ConnectedRoadIds = {"1484209140"},
         WidthsStuds = {2.0},
     },
-    [12] = {
-        NodeId = 2162,
+    [17] = {
+        NodeId = 4909,
         LocalPositionMeters = {738.69, -793.73},
-        Degree = 1,
-        JunctionType = "DeadEnd",
+        Degree = 2,
+        JunctionType = "Straight/Bend",
         IsBridge = false,
         IsTunnel = false,
         Layer = "0",
-        ConnectedRoadIds = {"1484209140"},
-        WidthsStuds = {2.0},
+        ConnectedRoadIds = {"1484209144", "1484209140"},
+        WidthsStuds = {2.0, 2.0},
     },
-    [13] = {
-        NodeId = 2165,
+    [18] = {
+        NodeId = 4912,
         LocalPositionMeters = {741.64, -792.56},
         Degree = 1,
         JunctionType = "DeadEnd",
@@ -142,8 +197,8 @@ return {
         ConnectedRoadIds = {"1484209142"},
         WidthsStuds = {2.0},
     },
-    [14] = {
-        NodeId = 2166,
+    [19] = {
+        NodeId = 4913,
         LocalPositionMeters = {742.21, -792.96},
         Degree = 1,
         JunctionType = "DeadEnd",
@@ -153,8 +208,8 @@ return {
         ConnectedRoadIds = {"1484209142"},
         WidthsStuds = {2.0},
     },
-    [15] = {
-        NodeId = 2167,
+    [20] = {
+        NodeId = 4914,
         LocalPositionMeters = {742.21, -792.96},
         Degree = 1,
         JunctionType = "DeadEnd",
@@ -164,8 +219,8 @@ return {
         ConnectedRoadIds = {"1484209143"},
         WidthsStuds = {7.8400012544002005},
     },
-    [16] = {
-        NodeId = 2168,
+    [21] = {
+        NodeId = 4915,
         LocalPositionMeters = {736.66, -800.81},
         Degree = 1,
         JunctionType = "DeadEnd",
@@ -174,5 +229,16 @@ return {
         Layer = "1",
         ConnectedRoadIds = {"1484209143"},
         WidthsStuds = {7.8400012544002005},
+    },
+    [22] = {
+        NodeId = 4916,
+        LocalPositionMeters = {740.68, -795.13},
+        Degree = 1,
+        JunctionType = "DeadEnd",
+        IsBridge = false,
+        IsTunnel = false,
+        Layer = "0",
+        ConnectedRoadIds = {"1484209144"},
+        WidthsStuds = {2.0},
     },
 }

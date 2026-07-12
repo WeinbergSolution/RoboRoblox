@@ -18,12 +18,12 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {45.79, 82.44},
-            SizeMeters = {8.75, 17.52},
-            RotationDegrees = 37.77
+            CenterLocalMeters = {43.28, 87.13},
+            SizeMeters = {12.27, 15.00},
+            RotationDegrees = -97.76
         },
         Geometry = {
-            {36.18, 80.53}, {50.04, 91.26}, {48.35, 78.89}, {36.18, 80.53}
+            {37.88, 92.91}, {38.21, 95.39}, {44.66, 94.51}, {44.33, 92.04}, {50.04, 91.26}, {48.35, 78.89}, {36.18, 80.53}, {37.88, 92.91}
         }
     },
     [2] = {
@@ -45,12 +45,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-44.09, 102.81},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = 21.80
+            CenterLocalMeters = {-45.10, 105.33},
+            SizeMeters = {6.24, 11.02},
+            RotationDegrees = 172.27
         },
         Geometry = {
-            {-50.98, 102.98}, {-39.22, 107.68}, {-40.06, 101.50}, {-50.98, 102.98}
+            {-50.14, 109.17}, {-39.22, 107.68}, {-40.06, 101.50}, {-50.98, 102.98}, {-50.14, 109.17}
         }
     },
     [3] = {
@@ -72,12 +72,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-44.94, 96.62},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = 21.80
+            CenterLocalMeters = {-45.95, 99.14},
+            SizeMeters = {6.24, 11.02},
+            RotationDegrees = 172.27
         },
         Geometry = {
-            {-51.83, 96.79}, {-40.06, 101.50}, {-40.91, 95.31}, {-51.83, 96.79}
+            {-50.98, 102.98}, {-40.06, 101.50}, {-40.91, 95.31}, {-51.83, 96.79}, {-50.98, 102.98}
         }
     },
     [4] = {
@@ -99,12 +99,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-45.78, 90.44},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = 21.80
+            CenterLocalMeters = {-46.79, 92.96},
+            SizeMeters = {6.24, 11.02},
+            RotationDegrees = 172.27
         },
         Geometry = {
-            {-52.67, 90.60}, {-40.91, 95.31}, {-41.75, 89.12}, {-52.67, 90.60}
+            {-51.83, 96.79}, {-40.91, 95.31}, {-41.75, 89.12}, {-52.67, 90.60}, {-51.83, 96.79}
         }
     },
     [5] = {
@@ -126,12 +126,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-47.47, 78.05},
-            SizeMeters = {5.44, 12.68},
-            RotationDegrees = 21.84
+            CenterLocalMeters = {-48.48, 80.58},
+            SizeMeters = {6.26, 11.03},
+            RotationDegrees = 172.27
         },
         Geometry = {
-            {-54.36, 78.22}, {-42.59, 82.93}, {-43.44, 76.74}, {-54.36, 78.22}
+            {-53.51, 84.41}, {-42.59, 82.93}, {-43.44, 76.74}, {-54.36, 78.22}, {-53.51, 84.41}
         }
     },
     [6] = {
@@ -153,12 +153,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-46.62, 84.24},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = 21.85
+            CenterLocalMeters = {-47.63, 86.76},
+            SizeMeters = {6.26, 11.02},
+            RotationDegrees = -7.73
         },
         Geometry = {
-            {-53.51, 84.41}, {-41.75, 89.12}, {-42.59, 82.93}, {-53.51, 84.41}
+            {-52.67, 90.60}, {-41.75, 89.12}, {-42.59, 82.93}, {-53.51, 84.41}, {-52.67, 90.60}
         }
     },
     [7] = {
@@ -180,34 +180,15 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {-83.37, 163.98},
-            SizeMeters = {9.27, 15.42},
-            RotationDegrees = 46.45
+            CenterLocalMeters = {-88.27, 167.38},
+            SizeMeters = {12.50, 16.94},
+            RotationDegrees = 172.30
         },
         Geometry = {
-            {-92.05, 161.59}, {-81.42, 172.76}, {-80.72, 160.05}, {-92.05, 161.59}
+            {-91.10, 168.52}, {-96.56, 169.27}, {-95.81, 174.71}, {-81.42, 172.76}, {-82.57, 164.35}, {-80.18, 164.01}, {-80.72, 160.05}, {-92.05, 161.59}, {-91.10, 168.52}
         }
     },
     [8] = {
-        Id = "339535456",
-        Type = "Polygon",
-        Properties = {
-            ["building"] = "yes",
-            ["osm_id"] = 339535456,
-            ["tile_500"] = "NO_E566000_N5951500_500",
-            ["tile_250"] = "NO_E566000_N5951500_250",
-            ["HeightMeters"] = 8.0,
-        },
-        OBB = {
-            CenterLocalMeters = {43.16, 305.64},
-            SizeMeters = {6.08, 6.93},
-            RotationDegrees = 73.82
-        },
-        Geometry = {
-            {41.20, 309.82}, {45.11, 301.47}, {39.27, 303.16}, {41.20, 309.82}
-        }
-    },
-    [9] = {
         Id = "339551658",
         Type = "Polygon",
         Properties = {
@@ -226,15 +207,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {65.14, 244.73},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = -66.02
+            CenterLocalMeters = {67.62, 245.84},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = 84.33
         },
         Geometry = {
-            {65.05, 251.62}, {70.19, 240.06}, {63.96, 240.67}, {65.05, 251.62}
+            {71.28, 251.00}, {70.19, 240.06}, {63.96, 240.67}, {65.05, 251.62}, {71.28, 251.00}
         }
     },
-    [10] = {
+    [9] = {
         Id = "339551659",
         Type = "Polygon",
         Properties = {
@@ -253,15 +234,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {58.90, 245.35},
-            SizeMeters = {5.44, 12.66},
-            RotationDegrees = -66.01
+            CenterLocalMeters = {61.39, 246.46},
+            SizeMeters = {6.27, 11.00},
+            RotationDegrees = 84.33
         },
         Geometry = {
-            {58.82, 252.24}, {63.96, 240.67}, {57.73, 241.30}, {58.82, 252.24}
+            {65.05, 251.62}, {63.96, 240.67}, {57.73, 241.30}, {58.82, 252.24}, {65.05, 251.62}
         }
     },
-    [11] = {
+    [10] = {
         Id = "339551660",
         Type = "Polygon",
         Properties = {
@@ -280,15 +261,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {36.71, 251.41},
+            CenterLocalMeters = {36.72, 251.41},
             SizeMeters = {6.26, 11.00},
-            RotationDegrees = 84.38
+            RotationDegrees = 84.33
         },
         Geometry = {
-            {34.14, 257.19}, {39.28, 245.63}, {33.06, 246.25}, {34.14, 257.19}
+            {40.38, 256.58}, {39.28, 245.63}, {33.06, 246.25}, {34.14, 257.19}, {40.38, 256.58}
         }
     },
-    [12] = {
+    [11] = {
         Id = "339551661",
         Type = "Polygon",
         Properties = {
@@ -312,10 +293,10 @@ return {
             RotationDegrees = 84.29
         },
         Geometry = {
-            {40.38, 256.58}, {45.52, 245.02}, {39.28, 245.63}, {40.38, 256.58}
+            {46.60, 255.95}, {45.52, 245.02}, {39.28, 245.63}, {40.38, 256.58}, {46.60, 255.95}
         }
     },
-    [13] = {
+    [12] = {
         Id = "339551662",
         Type = "Polygon",
         Properties = {
@@ -334,15 +315,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {55.16, 247.07},
+            CenterLocalMeters = {55.16, 247.08},
             SizeMeters = {6.26, 11.00},
-            RotationDegrees = 84.29
+            RotationDegrees = -95.67
         },
         Geometry = {
-            {52.59, 252.85}, {57.73, 241.30}, {51.50, 241.91}, {52.59, 252.85}
+            {58.82, 252.24}, {57.73, 241.30}, {51.50, 241.91}, {51.74, 244.40}, {52.59, 252.85}, {58.82, 252.24}
         }
     },
-    [14] = {
+    [13] = {
         Id = "339551663",
         Type = "Polygon",
         Properties = {
@@ -361,15 +342,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {46.69, 249.07},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = -66.02
+            CenterLocalMeters = {49.18, 250.18},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = -95.71
         },
         Geometry = {
-            {46.60, 255.95}, {51.74, 244.40}, {45.52, 245.02}, {46.60, 255.95}
+            {52.84, 255.34}, {52.59, 252.85}, {51.74, 244.40}, {45.52, 245.02}, {46.60, 255.95}, {52.84, 255.34}
         }
     },
-    [15] = {
+    [14] = {
         Id = "339731909",
         Type = "Polygon",
         Properties = {
@@ -388,15 +369,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {88.50, 258.07},
-            SizeMeters = {5.44, 12.67},
-            RotationDegrees = -156.13
+            CenterLocalMeters = {89.60, 255.59},
+            SizeMeters = {6.25, 11.02},
+            RotationDegrees = -5.68
         },
         Geometry = {
-            {95.40, 258.15}, {83.81, 253.03}, {84.43, 259.24}, {95.40, 258.15}
+            {94.77, 251.95}, {83.81, 253.03}, {84.43, 259.24}, {95.40, 258.15}, {94.77, 251.95}
         }
     },
-    [16] = {
+    [15] = {
         Id = "339731912",
         Type = "Polygon",
         Properties = {
@@ -415,15 +396,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {127.38, 256.94},
+            CenterLocalMeters = {127.37, 256.94},
             SizeMeters = {6.26, 11.00},
-            RotationDegrees = -95.62
+            RotationDegrees = -95.67
         },
         Geometry = {
-            {129.94, 251.16}, {124.80, 262.72}, {131.03, 262.11}, {129.94, 251.16}
+            {123.71, 251.78}, {124.80, 262.72}, {131.03, 262.11}, {129.94, 251.16}, {123.71, 251.78}
         }
     },
-    [17] = {
+    [16] = {
         Id = "339731918",
         Type = "Polygon",
         Properties = {
@@ -447,10 +428,10 @@ return {
             RotationDegrees = -5.68
         },
         Geometry = {
-            {96.64, 270.59}, {85.05, 265.46}, {85.67, 271.68}, {96.64, 270.59}
+            {96.02, 264.37}, {85.05, 265.46}, {85.67, 271.68}, {96.64, 270.59}, {96.02, 264.37}
         }
     },
-    [18] = {
+    [17] = {
         Id = "339731922",
         Type = "Polygon",
         Properties = {
@@ -469,15 +450,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {86.64, 239.43},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = -156.13
+            CenterLocalMeters = {87.74, 236.95},
+            SizeMeters = {6.25, 11.02},
+            RotationDegrees = 174.32
         },
         Geometry = {
-            {93.54, 239.51}, {81.95, 234.38}, {82.57, 240.59}, {93.54, 239.51}
+            {92.92, 233.29}, {81.95, 234.38}, {82.57, 240.59}, {93.54, 239.51}, {92.92, 233.29}
         }
     },
-    [19] = {
+    [18] = {
         Id = "339731933",
         Type = "Polygon",
         Properties = {
@@ -501,10 +482,10 @@ return {
             RotationDegrees = -5.68
         },
         Geometry = {
-            {92.92, 233.29}, {81.33, 228.17}, {81.95, 234.38}, {92.92, 233.29}
+            {92.30, 227.08}, {81.33, 228.17}, {81.95, 234.38}, {92.92, 233.29}, {92.30, 227.08}
         }
     },
-    [20] = {
+    [19] = {
         Id = "339731934",
         Type = "Polygon",
         Properties = {
@@ -523,15 +504,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {54.43, 279.05},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = 113.98
+            CenterLocalMeters = {51.94, 277.94},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = 84.29
         },
         Geometry = {
-            {54.52, 272.16}, {49.37, 283.72}, {55.60, 283.09}, {54.52, 272.16}
+            {48.28, 272.78}, {49.37, 283.72}, {55.60, 283.09}, {54.52, 272.16}, {48.28, 272.78}
         }
     },
-    [21] = {
+    [20] = {
         Id = "339731948",
         Type = "Polygon",
         Properties = {
@@ -550,15 +531,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {48.20, 279.66},
-            SizeMeters = {5.45, 12.65},
-            RotationDegrees = 113.98
+            CenterLocalMeters = {45.71, 278.55},
+            SizeMeters = {6.26, 11.01},
+            RotationDegrees = -95.71
         },
         Geometry = {
-            {48.28, 272.78}, {43.14, 284.33}, {49.37, 283.72}, {48.28, 272.78}
+            {42.05, 273.39}, {43.14, 284.33}, {49.37, 283.72}, {48.28, 272.78}, {42.05, 273.39}
         }
     },
-    [22] = {
+    [21] = {
         Id = "339731949",
         Type = "Polygon",
         Properties = {
@@ -577,15 +558,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {87.26, 245.64},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = -156.09
+            CenterLocalMeters = {88.36, 243.16},
+            SizeMeters = {6.25, 11.03},
+            RotationDegrees = 174.37
         },
         Geometry = {
-            {94.15, 245.73}, {82.57, 240.59}, {83.19, 246.81}, {94.15, 245.73}
+            {93.54, 239.51}, {82.57, 240.59}, {83.19, 246.81}, {94.15, 245.73}, {93.54, 239.51}
         }
     },
-    [23] = {
+    [22] = {
         Id = "339731951",
         Type = "Polygon",
         Properties = {
@@ -604,15 +585,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {87.88, 251.86},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = -156.09
+            CenterLocalMeters = {88.98, 249.38},
+            SizeMeters = {6.25, 11.03},
+            RotationDegrees = -5.63
         },
         Geometry = {
-            {94.77, 251.95}, {83.19, 246.81}, {83.81, 253.03}, {94.77, 251.95}
+            {94.15, 245.73}, {83.19, 246.81}, {83.81, 253.03}, {94.77, 251.95}, {94.15, 245.73}
         }
     },
-    [24] = {
+    [23] = {
         Id = "339731952",
         Type = "Polygon",
         Properties = {
@@ -631,15 +612,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {114.92, 258.18},
+            CenterLocalMeters = {114.91, 258.18},
             SizeMeters = {6.26, 11.00},
-            RotationDegrees = -95.62
+            RotationDegrees = -95.67
         },
         Geometry = {
-            {117.48, 252.40}, {112.34, 263.96}, {118.57, 263.34}, {117.48, 252.40}
+            {111.25, 253.01}, {112.34, 263.96}, {118.57, 263.34}, {117.48, 252.40}, {111.25, 253.01}
         }
     },
-    [25] = {
+    [24] = {
         Id = "339731956",
         Type = "Polygon",
         Properties = {
@@ -658,15 +639,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {123.63, 258.66},
-            SizeMeters = {5.44, 12.66},
-            RotationDegrees = 113.96
+            CenterLocalMeters = {121.14, 257.56},
+            SizeMeters = {6.27, 11.00},
+            RotationDegrees = -95.71
         },
         Geometry = {
-            {123.71, 251.78}, {118.57, 263.34}, {124.80, 262.72}, {123.71, 251.78}
+            {117.48, 252.40}, {118.57, 263.34}, {124.80, 262.72}, {123.71, 251.78}, {117.48, 252.40}
         }
     },
-    [26] = {
+    [25] = {
         Id = "339731966",
         Type = "Polygon",
         Properties = {
@@ -685,15 +666,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {72.87, 274.70},
-            SizeMeters = {5.45, 12.65},
-            RotationDegrees = 113.98
+            CenterLocalMeters = {70.39, 273.60},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = -95.71
         },
         Geometry = {
-            {72.96, 267.82}, {67.81, 279.37}, {74.05, 278.76}, {72.96, 267.82}
+            {66.73, 268.44}, {67.81, 279.37}, {74.05, 278.76}, {72.96, 267.82}, {66.73, 268.44}
         }
     },
-    [27] = {
+    [26] = {
         Id = "339731970",
         Type = "Polygon",
         Properties = {
@@ -717,10 +698,10 @@ return {
             RotationDegrees = -5.68
         },
         Geometry = {
-            {96.02, 264.37}, {84.43, 259.24}, {85.05, 265.46}, {96.02, 264.37}
+            {95.40, 258.15}, {84.43, 259.24}, {85.05, 265.46}, {96.02, 264.37}, {95.40, 258.15}
         }
     },
-    [28] = {
+    [27] = {
         Id = "339731974",
         Type = "Polygon",
         Properties = {
@@ -736,15 +717,15 @@ return {
             ["HeightMeters"] = 8.0,
         },
         OBB = {
-            CenterLocalMeters = {133.00, 207.40},
-            SizeMeters = {6.22, 15.23},
-            RotationDegrees = 146.97
+            CenterLocalMeters = {131.30, 204.80},
+            SizeMeters = {7.00, 13.53},
+            RotationDegrees = 174.31
         },
         Geometry = {
-            {137.69, 200.64}, {124.92, 208.94}, {138.38, 207.61}, {137.69, 200.64}
+            {127.51, 204.67}, {124.52, 204.96}, {124.92, 208.94}, {138.38, 207.61}, {137.69, 200.64}, {127.22, 201.69}, {127.51, 204.67}
         }
     },
-    [29] = {
+    [28] = {
         Id = "339731976",
         Type = "Polygon",
         Properties = {
@@ -763,15 +744,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {85.41, 227.00},
-            SizeMeters = {5.44, 12.67},
-            RotationDegrees = -156.13
+            CenterLocalMeters = {86.50, 224.51},
+            SizeMeters = {6.25, 11.02},
+            RotationDegrees = -5.68
         },
         Geometry = {
-            {92.30, 227.08}, {80.71, 221.95}, {81.33, 228.17}, {92.30, 227.08}
+            {91.68, 220.86}, {80.71, 221.95}, {81.33, 228.17}, {92.30, 227.08}, {91.68, 220.86}
         }
     },
-    [30] = {
+    [29] = {
         Id = "339731983",
         Type = "Polygon",
         Properties = {
@@ -790,15 +771,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {66.64, 275.32},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = 113.98
+            CenterLocalMeters = {64.16, 274.21},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = 84.29
         },
         Geometry = {
-            {66.73, 268.44}, {61.59, 280.00}, {67.81, 279.37}, {66.73, 268.44}
+            {60.49, 269.05}, {60.74, 271.54}, {61.59, 280.00}, {67.81, 279.37}, {66.73, 268.44}, {60.49, 269.05}
         }
     },
-    [31] = {
+    [30] = {
         Id = "339731985",
         Type = "Polygon",
         Properties = {
@@ -817,15 +798,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {136.09, 257.43},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = 113.98
+            CenterLocalMeters = {133.60, 256.32},
+            SizeMeters = {6.27, 11.00},
+            RotationDegrees = 84.33
         },
         Geometry = {
-            {136.17, 250.55}, {131.03, 262.11}, {137.26, 261.48}, {136.17, 250.55}
+            {129.94, 251.16}, {131.03, 262.11}, {137.26, 261.48}, {137.01, 259.00}, {136.17, 250.55}, {129.94, 251.16}
         }
     },
-    [32] = {
+    [31] = {
         Id = "339731986",
         Type = "Polygon",
         Properties = {
@@ -844,15 +825,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {139.59, 253.22},
-            SizeMeters = {6.26, 11.00},
+            CenterLocalMeters = {139.58, 253.22},
+            SizeMeters = {6.26, 11.01},
             RotationDegrees = -95.70
         },
         Geometry = {
-            {142.16, 247.44}, {137.01, 259.00}, {143.25, 258.38}, {142.16, 247.44}
+            {135.93, 248.05}, {136.17, 250.55}, {137.01, 259.00}, {143.25, 258.38}, {142.16, 247.44}, {135.93, 248.05}
         }
     },
-    [33] = {
+    [32] = {
         Id = "339731987",
         Type = "Polygon",
         Properties = {
@@ -871,15 +852,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {58.18, 277.32},
+            CenterLocalMeters = {58.17, 277.32},
             SizeMeters = {6.26, 11.00},
-            RotationDegrees = -95.62
+            RotationDegrees = -95.71
         },
         Geometry = {
-            {60.74, 271.54}, {55.60, 283.09}, {61.84, 282.48}, {60.74, 271.54}
+            {54.52, 272.16}, {55.60, 283.09}, {61.84, 282.48}, {61.59, 280.00}, {60.74, 271.54}, {54.52, 272.16}
         }
     },
-    [34] = {
+    [33] = {
         Id = "339731994",
         Type = "Polygon",
         Properties = {
@@ -898,15 +879,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {140.29, 220.62},
+            CenterLocalMeters = {140.28, 220.62},
             SizeMeters = {7.02, 13.49},
-            RotationDegrees = -95.66
+            RotationDegrees = 84.31
         },
         Geometry = {
-            {143.10, 213.56}, {137.46, 227.68}, {144.44, 226.99}, {143.10, 213.56}
+            {139.12, 213.96}, {139.42, 216.95}, {136.42, 217.24}, {137.46, 227.68}, {144.44, 226.99}, {143.40, 216.55}, {143.10, 213.56}, {139.12, 213.96}
         }
     },
-    [35] = {
+    [34] = {
         Id = "339731996",
         Type = "Polygon",
         Properties = {
@@ -927,13 +908,13 @@ return {
         OBB = {
             CenterLocalMeters = {126.33, 222.00},
             SizeMeters = {7.01, 13.49},
-            RotationDegrees = -95.66
+            RotationDegrees = -95.68
         },
         Geometry = {
-            {129.15, 214.94}, {123.51, 229.06}, {130.48, 228.37}, {129.15, 214.94}
+            {125.16, 215.34}, {125.46, 218.33}, {122.47, 218.62}, {123.51, 229.06}, {130.48, 228.37}, {129.44, 217.93}, {129.15, 214.94}, {125.16, 215.34}
         }
     },
-    [36] = {
+    [35] = {
         Id = "339732000",
         Type = "Polygon",
         Properties = {
@@ -953,14 +934,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {105.59, 226.07},
-            SizeMeters = {7.02, 13.49},
-            RotationDegrees = -95.66
+            SizeMeters = {7.02, 13.50},
+            RotationDegrees = -95.69
         },
         Geometry = {
-            {108.41, 219.01}, {102.77, 233.13}, {109.75, 232.44}, {108.41, 219.01}
+            {104.42, 219.40}, {104.72, 222.39}, {101.73, 222.69}, {102.77, 233.13}, {109.75, 232.44}, {108.71, 222.00}, {108.41, 219.01}, {104.42, 219.40}
         }
     },
-    [37] = {
+    [36] = {
         Id = "339732001",
         Type = "Polygon",
         Properties = {
@@ -980,14 +961,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {112.57, 225.38},
-            SizeMeters = {7.01, 13.49},
-            RotationDegrees = -95.66
+            SizeMeters = {7.01, 13.50},
+            RotationDegrees = -95.68
         },
         Geometry = {
-            {115.39, 218.32}, {109.75, 232.44}, {116.72, 231.75}, {115.39, 218.32}
+            {111.40, 218.71}, {111.70, 221.70}, {108.71, 222.00}, {109.75, 232.44}, {116.72, 231.75}, {115.68, 221.31}, {115.39, 218.32}, {111.40, 218.71}
         }
     },
-    [38] = {
+    [37] = {
         Id = "339732002",
         Type = "Polygon",
         Properties = {
@@ -1006,15 +987,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {133.31, 221.31},
+            CenterLocalMeters = {133.30, 221.31},
             SizeMeters = {7.02, 13.49},
-            RotationDegrees = -95.66
+            RotationDegrees = -95.68
         },
         Geometry = {
-            {136.13, 214.25}, {130.48, 228.37}, {137.46, 227.68}, {136.13, 214.25}
+            {132.14, 214.65}, {132.44, 217.64}, {129.44, 217.93}, {130.48, 228.37}, {137.46, 227.68}, {136.42, 217.24}, {136.13, 214.25}, {132.14, 214.65}
         }
     },
-    [39] = {
+    [38] = {
         Id = "339732003",
         Type = "Polygon",
         Properties = {
@@ -1034,14 +1015,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {119.55, 224.69},
-            SizeMeters = {7.02, 13.49},
-            RotationDegrees = -95.66
+            SizeMeters = {7.02, 13.50},
+            RotationDegrees = -95.69
         },
         Geometry = {
-            {122.37, 217.63}, {116.72, 231.75}, {123.70, 231.06}, {122.37, 217.63}
+            {118.38, 218.02}, {118.68, 221.00}, {115.68, 221.31}, {116.72, 231.75}, {123.70, 231.06}, {123.51, 229.06}, {122.47, 218.62}, {122.37, 217.63}, {118.38, 218.02}
         }
     },
-    [40] = {
+    [39] = {
         Id = "339737168",
         Type = "Polygon",
         Properties = {
@@ -1060,12 +1041,39 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {8.81, 261.00},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = 20.51
+            CenterLocalMeters = {7.86, 263.54},
+            SizeMeters = {6.24, 11.02},
+            RotationDegrees = 170.98
         },
         Geometry = {
-            {12.81, 259.59}, {1.92, 261.32}, {13.79, 265.76}, {12.81, 259.59}
+            {12.81, 259.59}, {1.92, 261.32}, {2.91, 267.49}, {13.79, 265.76}, {12.81, 259.59}
+        }
+    },
+    [40] = {
+        Id = "339737170",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "23c",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 339737170,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-33.16, 304.10},
+            SizeMeters = {6.26, 11.01},
+            RotationDegrees = -99.08
+        },
+        Geometry = {
+            {-37.12, 299.16}, {-35.38, 310.02}, {-29.20, 309.04}, {-30.94, 298.18}, {-37.12, 299.16}
         }
     },
     [41] = {
@@ -1087,12 +1095,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {10.78, 273.34},
-            SizeMeters = {5.44, 12.67},
-            RotationDegrees = 20.51
+            CenterLocalMeters = {9.83, 275.88},
+            SizeMeters = {6.26, 11.02},
+            RotationDegrees = 170.92
         },
         Geometry = {
-            {14.77, 271.93}, {3.89, 273.66}, {15.76, 278.10}, {14.77, 271.93}
+            {14.77, 271.93}, {3.89, 273.66}, {4.88, 279.83}, {15.76, 278.10}, {14.77, 271.93}
         }
     },
     [42] = {
@@ -1114,12 +1122,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {13.73, 291.84},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = 20.51
+            CenterLocalMeters = {12.78, 294.39},
+            SizeMeters = {6.25, 11.02},
+            RotationDegrees = 170.98
         },
         Geometry = {
-            {17.73, 290.44}, {6.85, 292.17}, {18.71, 296.61}, {17.73, 290.44}
+            {17.73, 290.44}, {6.85, 292.17}, {7.83, 298.33}, {18.71, 296.61}, {17.73, 290.44}
         }
     },
     [43] = {
@@ -1141,12 +1149,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-8.81, 297.70},
-            SizeMeters = {6.26, 11.00},
-            RotationDegrees = -99.01
+            CenterLocalMeters = {-8.82, 297.70},
+            SizeMeters = {6.27, 11.00},
+            RotationDegrees = -99.07
         },
         Geometry = {
-            {-6.59, 291.78}, {-11.04, 303.62}, {-4.86, 302.64}, {-6.59, 291.78}
+            {-12.78, 292.77}, {-11.04, 303.62}, {-4.86, 302.64}, {-6.59, 291.78}, {-12.78, 292.77}
         }
     },
     [44] = {
@@ -1168,12 +1176,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-12.46, 299.64},
-            SizeMeters = {5.44, 12.64},
-            RotationDegrees = 110.59
+            CenterLocalMeters = {-15.00, 298.68},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = -99.09
         },
         Geometry = {
-            {-12.78, 292.77}, {-17.22, 304.60}, {-11.04, 303.62}, {-12.78, 292.77}
+            {-18.96, 293.75}, {-17.22, 304.60}, {-11.04, 303.62}, {-12.78, 292.77}, {-18.96, 293.75}
         }
     },
     [45] = {
@@ -1195,15 +1203,42 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-72.74, 292.47},
-            SizeMeters = {5.43, 12.68},
-            RotationDegrees = 20.50
+            CenterLocalMeters = {-73.69, 295.02},
+            SizeMeters = {6.26, 11.02},
+            RotationDegrees = -9.07
         },
         Geometry = {
-            {-68.74, 291.07}, {-79.63, 292.80}, {-67.75, 297.24}, {-68.74, 291.07}
+            {-68.74, 291.07}, {-79.63, 292.80}, {-78.64, 298.97}, {-67.75, 297.24}, {-68.74, 291.07}
         }
     },
     [46] = {
+        Id = "339737176",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "23b",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 339737176,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-39.34, 305.08},
+            SizeMeters = {6.26, 11.01},
+            RotationDegrees = -99.08
+        },
+        Geometry = {
+            {-43.30, 300.14}, {-41.57, 311.00}, {-35.38, 310.02}, {-37.12, 299.16}, {-43.30, 300.14}
+        }
+    },
+    [47] = {
         Id = "339737177",
         Type = "Polygon",
         Properties = {
@@ -1222,15 +1257,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {9.79, 267.16},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = 20.51
+            CenterLocalMeters = {8.84, 269.71},
+            SizeMeters = {6.26, 11.02},
+            RotationDegrees = -9.08
         },
         Geometry = {
-            {13.79, 265.76}, {2.91, 267.49}, {14.77, 271.93}, {13.79, 265.76}
+            {13.79, 265.76}, {2.91, 267.49}, {3.89, 273.66}, {14.77, 271.93}, {13.79, 265.76}
         }
     },
-    [47] = {
+    [48] = {
         Id = "339737178",
         Type = "Polygon",
         Properties = {
@@ -1249,15 +1284,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {11.76, 279.51},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = 20.51
+            CenterLocalMeters = {10.81, 282.05},
+            SizeMeters = {6.24, 11.02},
+            RotationDegrees = 170.98
         },
         Geometry = {
-            {15.76, 278.10}, {4.88, 279.83}, {16.74, 284.27}, {15.76, 278.10}
+            {15.76, 278.10}, {4.88, 279.83}, {5.86, 286.00}, {16.74, 284.27}, {15.76, 278.10}
         }
     },
-    [48] = {
+    [49] = {
         Id = "339737179",
         Type = "Polygon",
         Properties = {
@@ -1278,13 +1313,13 @@ return {
         OBB = {
             CenterLocalMeters = {-72.70, 301.19},
             SizeMeters = {6.26, 11.02},
-            RotationDegrees = 170.93
+            RotationDegrees = 170.97
         },
         Geometry = {
-            {-67.75, 297.24}, {-78.64, 298.97}, {-66.77, 303.41}, {-67.75, 297.24}
+            {-67.75, 297.24}, {-78.64, 298.97}, {-77.65, 305.14}, {-66.77, 303.41}, {-67.75, 297.24}
         }
     },
-    [49] = {
+    [50] = {
         Id = "339737180",
         Type = "Polygon",
         Properties = {
@@ -1303,15 +1338,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {12.74, 285.68},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = 20.51
+            CenterLocalMeters = {11.79, 288.22},
+            SizeMeters = {6.25, 11.02},
+            RotationDegrees = -9.02
         },
         Geometry = {
-            {16.74, 284.27}, {5.86, 286.00}, {17.73, 290.44}, {16.74, 284.27}
+            {16.74, 284.27}, {5.86, 286.00}, {6.85, 292.17}, {17.73, 290.44}, {16.74, 284.27}
         }
     },
-    [50] = {
+    [51] = {
         Id = "339737181",
         Type = "Polygon",
         Properties = {
@@ -1330,15 +1365,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-24.43, 304.08},
-            SizeMeters = {5.45, 12.65},
-            RotationDegrees = 110.60
+            CenterLocalMeters = {-26.98, 303.12},
+            SizeMeters = {6.26, 11.01},
+            RotationDegrees = 80.93
         },
         Geometry = {
-            {-24.75, 297.20}, {-29.20, 309.04}, {-23.02, 308.06}, {-24.75, 297.20}
+            {-30.94, 298.18}, {-29.20, 309.04}, {-23.02, 308.06}, {-23.41, 305.58}, {-24.75, 297.20}, {-30.94, 298.18}
         }
     },
-    [51] = {
+    [52] = {
         Id = "339737182",
         Type = "Polygon",
         Properties = {
@@ -1357,15 +1392,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-21.18, 299.66},
-            SizeMeters = {6.26, 10.99},
-            RotationDegrees = -99.01
+            CenterLocalMeters = {-21.18, 299.67},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = -99.08
         },
         Geometry = {
-            {-18.96, 293.75}, {-23.41, 305.58}, {-17.22, 304.60}, {-18.96, 293.75}
+            {-25.15, 294.73}, {-24.75, 297.20}, {-23.41, 305.58}, {-17.22, 304.60}, {-18.96, 293.75}, {-25.15, 294.73}
         }
     },
-    [52] = {
+    [53] = {
         Id = "339737183",
         Type = "Polygon",
         Properties = {
@@ -1384,15 +1419,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-75.69, 273.97},
-            SizeMeters = {5.43, 12.68},
-            RotationDegrees = 20.50
+            CenterLocalMeters = {-76.64, 276.51},
+            SizeMeters = {6.25, 11.03},
+            RotationDegrees = 170.98
         },
         Geometry = {
-            {-71.70, 272.57}, {-82.58, 274.29}, {-70.71, 278.73}, {-71.70, 272.57}
+            {-71.70, 272.57}, {-82.58, 274.29}, {-81.59, 280.46}, {-70.71, 278.73}, {-71.70, 272.57}
         }
     },
-    [53] = {
+    [54] = {
         Id = "339737184",
         Type = "Polygon",
         Properties = {
@@ -1411,15 +1446,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-74.71, 280.14},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = 20.51
+            CenterLocalMeters = {-75.66, 282.68},
+            SizeMeters = {6.24, 11.02},
+            RotationDegrees = 170.98
         },
         Geometry = {
-            {-70.71, 278.73}, {-81.59, 280.46}, {-69.72, 284.90}, {-70.71, 278.73}
+            {-70.71, 278.73}, {-81.59, 280.46}, {-80.61, 286.63}, {-69.72, 284.90}, {-70.71, 278.73}
         }
     },
-    [54] = {
+    [55] = {
         Id = "339737185",
         Type = "Polygon",
         Properties = {
@@ -1438,15 +1473,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-73.72, 286.30},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = 20.51
+            CenterLocalMeters = {-74.68, 288.85},
+            SizeMeters = {6.25, 11.02},
+            RotationDegrees = 170.98
         },
         Geometry = {
-            {-69.72, 284.90}, {-80.61, 286.63}, {-68.74, 291.07}, {-69.72, 284.90}
+            {-69.72, 284.90}, {-80.61, 286.63}, {-79.63, 292.80}, {-68.74, 291.07}, {-69.72, 284.90}
         }
     },
-    [55] = {
+    [56] = {
         Id = "339737186",
         Type = "Polygon",
         Properties = {
@@ -1467,13 +1502,13 @@ return {
         OBB = {
             CenterLocalMeters = {-56.28, 278.42},
             SizeMeters = {6.26, 10.99},
-            RotationDegrees = -99.09
+            RotationDegrees = 80.95
         },
         Geometry = {
-            {-54.06, 272.50}, {-58.51, 284.34}, {-52.32, 283.35}, {-54.06, 272.50}
+            {-60.24, 273.48}, {-58.51, 284.34}, {-52.32, 283.35}, {-54.06, 272.50}, {-60.24, 273.48}
         }
     },
-    [56] = {
+    [57] = {
         Id = "339737187",
         Type = "Polygon",
         Properties = {
@@ -1492,15 +1527,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-47.72, 278.33},
-            SizeMeters = {5.07, 12.64},
-            RotationDegrees = 110.61
+            CenterLocalMeters = {-50.10, 277.43},
+            SizeMeters = {6.26, 10.99},
+            RotationDegrees = 80.91
         },
         Geometry = {
-            {-47.87, 271.52}, {-52.32, 283.35}, {-46.46, 282.17}, {-47.87, 271.52}
+            {-54.06, 272.50}, {-52.32, 283.35}, {-46.46, 282.17}, {-47.87, 271.52}, {-54.06, 272.50}
         }
     },
-    [57] = {
+    [58] = {
         Id = "339737188",
         Type = "Polygon",
         Properties = {
@@ -1524,10 +1559,10 @@ return {
             RotationDegrees = -99.04
         },
         Geometry = {
-            {-41.68, 270.53}, {-46.46, 282.17}, {-39.96, 281.39}, {-41.68, 270.53}
+            {-47.87, 271.52}, {-46.46, 282.17}, {-39.96, 281.39}, {-41.68, 270.53}, {-47.87, 271.52}
         }
     },
-    [58] = {
+    [59] = {
         Id = "339737189",
         Type = "Polygon",
         Properties = {
@@ -1546,15 +1581,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-35.20, 276.42},
-            SizeMeters = {5.41, 12.65},
-            RotationDegrees = 110.60
+            CenterLocalMeters = {-37.73, 275.47},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = 80.96
         },
         Geometry = {
-            {-35.50, 269.55}, {-39.96, 281.39}, {-33.80, 280.39}, {-35.50, 269.55}
+            {-41.68, 270.53}, {-39.96, 281.39}, {-33.80, 280.39}, {-34.16, 277.95}, {-35.50, 269.55}, {-41.68, 270.53}
         }
     },
-    [59] = {
+    [60] = {
         Id = "339737190",
         Type = "Polygon",
         Properties = {
@@ -1573,15 +1608,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-31.93, 272.02},
-            SizeMeters = {6.26, 11.00},
-            RotationDegrees = -99.01
+            CenterLocalMeters = {-31.94, 272.02},
+            SizeMeters = {6.26, 11.01},
+            RotationDegrees = -99.08
         },
         Geometry = {
-            {-29.71, 266.10}, {-34.16, 277.95}, {-27.98, 276.97}, {-29.71, 266.10}
+            {-35.90, 267.08}, {-35.50, 269.55}, {-34.16, 277.95}, {-27.98, 276.97}, {-29.71, 266.10}, {-35.90, 267.08}
         }
     },
-    [60] = {
+    [61] = {
         Id = "339737191",
         Type = "Polygon",
         Properties = {
@@ -1600,15 +1635,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-25.75, 271.04},
-            SizeMeters = {6.26, 11.00},
-            RotationDegrees = -99.02
+            CenterLocalMeters = {-25.76, 271.04},
+            SizeMeters = {6.26, 11.01},
+            RotationDegrees = -99.07
         },
         Geometry = {
-            {-23.53, 265.12}, {-27.98, 276.97}, {-21.80, 275.98}, {-23.53, 265.12}
+            {-29.71, 266.10}, {-27.98, 276.97}, {-21.80, 275.98}, {-23.53, 265.12}, {-29.71, 266.10}
         }
     },
-    [61] = {
+    [62] = {
         Id = "339737192",
         Type = "Polygon",
         Properties = {
@@ -1627,15 +1662,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-17.03, 271.02},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = 110.60
+            CenterLocalMeters = {-19.57, 270.06},
+            SizeMeters = {6.27, 11.00},
+            RotationDegrees = 80.93
         },
         Geometry = {
-            {-17.35, 264.14}, {-21.80, 275.98}, {-15.61, 274.99}, {-17.35, 264.14}
+            {-23.53, 265.12}, {-21.80, 275.98}, {-15.61, 274.99}, {-17.35, 264.14}, {-23.53, 265.12}
         }
     },
-    [62] = {
+    [63] = {
         Id = "339737193",
         Type = "Polygon",
         Properties = {
@@ -1654,69 +1689,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-10.84, 270.03},
-            SizeMeters = {5.44, 12.64},
-            RotationDegrees = 110.62
+            CenterLocalMeters = {-13.39, 269.08},
+            SizeMeters = {6.26, 10.99},
+            RotationDegrees = -99.05
         },
         Geometry = {
-            {-11.16, 263.16}, {-15.61, 274.99}, {-9.43, 274.01}, {-11.16, 263.16}
-        }
-    },
-    [63] = {
-        Id = "339934897",
-        Type = "Polygon",
-        Properties = {
-            ["addr:city"] = "Norderstedt",
-            ["addr:country"] = "DE",
-            ["addr:housenumber"] = "105",
-            ["addr:postcode"] = "22844",
-            ["addr:street"] = "Kiebitzreihe",
-            ["building"] = "house",
-            ["building:levels"] = "2",
-            ["roof:levels"] = "0",
-            ["roof:shape"] = "flat",
-            ["osm_id"] = 339934897,
-            ["tile_500"] = "NO_E566000_N5951500_500",
-            ["tile_250"] = "NO_E566000_N5951500_250",
-            ["HeightMeters"] = 6.0,
-        },
-        OBB = {
-            CenterLocalMeters = {-36.34, 53.95},
-            SizeMeters = {6.27, 11.00},
-            RotationDegrees = -97.67
-        },
-        Geometry = {
-            {-33.99, 48.08}, {-38.71, 59.82}, {-32.50, 58.99}, {-33.99, 48.08}
+            {-17.35, 264.14}, {-15.61, 274.99}, {-9.43, 274.01}, {-11.16, 263.16}, {-17.35, 264.14}
         }
     },
     [64] = {
-        Id = "339934898",
-        Type = "Polygon",
-        Properties = {
-            ["addr:city"] = "Norderstedt",
-            ["addr:country"] = "DE",
-            ["addr:housenumber"] = "103",
-            ["addr:postcode"] = "22844",
-            ["addr:street"] = "Kiebitzreihe",
-            ["building"] = "house",
-            ["building:levels"] = "2",
-            ["roof:levels"] = "0",
-            ["roof:shape"] = "flat",
-            ["osm_id"] = 339934898,
-            ["tile_500"] = "NO_E566000_N5951500_500",
-            ["tile_250"] = "NO_E566000_N5951500_250",
-            ["HeightMeters"] = 6.0,
-        },
-        OBB = {
-            CenterLocalMeters = {-40.03, 55.81},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = 111.91
-        },
-        Geometry = {
-            {-40.19, 48.93}, {-44.91, 60.67}, {-38.71, 59.82}, {-40.19, 48.93}
-        }
-    },
-    [65] = {
         Id = "339934901",
         Type = "Polygon",
         Properties = {
@@ -1736,14 +1717,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {-54.40, 61.44},
-            SizeMeters = {6.26, 10.99},
+            SizeMeters = {6.26, 11.00},
             RotationDegrees = -97.79
         },
         Geometry = {
-            {-52.04, 55.57}, {-56.75, 67.31}, {-50.55, 66.47}, {-52.04, 55.57}
+            {-58.24, 56.42}, {-56.75, 67.31}, {-50.55, 66.47}, {-52.04, 55.57}, {-58.24, 56.42}
         }
     },
-    [66] = {
+    [65] = {
         Id = "339934902",
         Type = "Polygon",
         Properties = {
@@ -1762,15 +1743,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-88.76, 69.98},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = 111.90
+            CenterLocalMeters = {-91.29, 68.97},
+            SizeMeters = {6.27, 11.00},
+            RotationDegrees = -97.75
         },
         Geometry = {
-            {-88.92, 63.10}, {-93.64, 74.84}, {-87.44, 74.00}, {-88.92, 63.10}
+            {-95.13, 63.95}, {-93.64, 74.84}, {-87.44, 74.00}, {-88.92, 63.10}, {-95.13, 63.95}
         }
     },
-    [67] = {
+    [66] = {
         Id = "339934904",
         Type = "Polygon",
         Properties = {
@@ -1790,14 +1771,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {-66.80, 63.13},
-            SizeMeters = {6.26, 10.99},
-            RotationDegrees = -97.78
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = -97.79
         },
         Geometry = {
-            {-64.45, 57.26}, {-69.16, 69.00}, {-62.96, 68.15}, {-64.45, 57.26}
+            {-70.65, 58.10}, {-69.16, 69.00}, {-62.96, 68.15}, {-64.45, 57.26}, {-70.65, 58.10}
         }
     },
-    [68] = {
+    [67] = {
         Id = "339934905",
         Type = "Polygon",
         Properties = {
@@ -1816,15 +1797,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-60.60, 62.29},
-            SizeMeters = {6.26, 10.99},
+            CenterLocalMeters = {-60.60, 62.28},
+            SizeMeters = {6.26, 11.01},
             RotationDegrees = -97.79
         },
         Geometry = {
-            {-58.24, 56.42}, {-62.96, 68.15}, {-56.75, 67.31}, {-58.24, 56.42}
+            {-64.45, 57.26}, {-62.96, 68.15}, {-56.75, 67.31}, {-58.24, 56.42}, {-64.45, 57.26}
         }
     },
-    [69] = {
+    [68] = {
         Id = "339934906",
         Type = "Polygon",
         Properties = {
@@ -1843,15 +1824,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-82.56, 69.15},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = 111.90
+            CenterLocalMeters = {-85.08, 68.13},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = 82.25
         },
         Geometry = {
-            {-82.72, 62.26}, {-87.44, 74.00}, {-81.24, 73.16}, {-82.72, 62.26}
+            {-88.92, 63.10}, {-87.44, 74.00}, {-81.24, 73.16}, {-82.72, 62.26}, {-88.92, 63.10}
         }
     },
-    [70] = {
+    [69] = {
         Id = "339934907",
         Type = "Polygon",
         Properties = {
@@ -1870,15 +1851,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-76.35, 68.30},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = 111.90
+            CenterLocalMeters = {-78.87, 67.29},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = 82.24
         },
         Geometry = {
-            {-76.51, 61.42}, {-81.24, 73.16}, {-75.03, 72.32}, {-76.51, 61.42}
+            {-82.72, 62.26}, {-81.24, 73.16}, {-75.03, 72.32}, {-75.37, 69.83}, {-76.51, 61.42}, {-82.72, 62.26}
         }
     },
-    [71] = {
+    [70] = {
         Id = "339934910",
         Type = "Polygon",
         Properties = {
@@ -1897,15 +1878,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-73.00, 63.97},
-            SizeMeters = {6.26, 10.99},
-            RotationDegrees = -97.68
+            CenterLocalMeters = {-73.01, 63.97},
+            SizeMeters = {6.26, 11.01},
+            RotationDegrees = -97.79
         },
         Geometry = {
-            {-70.65, 58.10}, {-75.37, 69.83}, {-69.16, 69.00}, {-70.65, 58.10}
+            {-76.86, 58.94}, {-76.51, 61.42}, {-75.37, 69.83}, {-69.16, 69.00}, {-70.65, 58.10}, {-76.86, 58.94}
         }
     },
-    [72] = {
+    [71] = {
         Id = "339934911",
         Type = "Polygon",
         Properties = {
@@ -1924,15 +1905,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-104.23, 72.24},
-            SizeMeters = {6.26, 10.99},
-            RotationDegrees = -97.68
+            CenterLocalMeters = {-104.24, 72.24},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = -97.76
         },
         Geometry = {
-            {-101.88, 66.38}, {-106.60, 78.11}, {-100.39, 77.27}, {-101.88, 66.38}
+            {-108.08, 67.21}, {-106.60, 78.11}, {-100.39, 77.27}, {-101.88, 66.38}, {-108.08, 67.21}
         }
     },
-    [73] = {
+    [72] = {
         Id = "340023092",
         Type = "Polygon",
         Properties = {
@@ -1951,15 +1932,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-21.44, 74.25},
-            SizeMeters = {5.44, 12.67},
-            RotationDegrees = -158.15
+            CenterLocalMeters = {-20.43, 71.72},
+            SizeMeters = {6.26, 11.02},
+            RotationDegrees = 172.27
         },
         Geometry = {
-            {-14.54, 74.08}, {-26.31, 69.37}, {-25.46, 75.56}, {-14.54, 74.08}
+            {-15.39, 67.88}, {-26.31, 69.37}, {-25.46, 75.56}, {-14.54, 74.08}, {-15.39, 67.88}
         }
     },
-    [74] = {
+    [73] = {
         Id = "340023093",
         Type = "Polygon",
         Properties = {
@@ -1978,15 +1959,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-18.01, 117.92},
-            SizeMeters = {5.44, 12.67},
-            RotationDegrees = -158.15
+            CenterLocalMeters = {-17.00, 115.39},
+            SizeMeters = {6.26, 11.02},
+            RotationDegrees = 172.27
         },
         Geometry = {
-            {-11.12, 117.75}, {-22.88, 113.03}, {-22.04, 119.23}, {-11.12, 117.75}
+            {-11.96, 111.55}, {-22.88, 113.03}, {-22.04, 119.23}, {-11.12, 117.75}, {-11.96, 111.55}
         }
     },
-    [75] = {
+    [74] = {
         Id = "340023098",
         Type = "Polygon",
         Properties = {
@@ -2005,15 +1986,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-19.70, 105.53},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = -158.20
+            CenterLocalMeters = {-18.69, 103.01},
+            SizeMeters = {6.24, 11.02},
+            RotationDegrees = 172.27
         },
         Geometry = {
-            {-12.81, 105.36}, {-24.57, 100.66}, {-23.73, 106.85}, {-12.81, 105.36}
+            {-13.65, 99.18}, {-24.57, 100.66}, {-23.73, 106.85}, {-12.81, 105.36}, {-13.65, 99.18}
         }
     },
-    [76] = {
+    [75] = {
         Id = "340023103",
         Type = "Polygon",
         Properties = {
@@ -2032,15 +2013,15 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {-20.54, 99.34},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = -158.20
+            CenterLocalMeters = {-19.53, 96.82},
+            SizeMeters = {6.24, 11.02},
+            RotationDegrees = 172.27
         },
         Geometry = {
-            {-13.65, 99.18}, {-25.41, 94.47}, {-24.57, 100.66}, {-13.65, 99.18}
+            {-14.49, 92.99}, {-25.41, 94.47}, {-24.57, 100.66}, {-13.65, 99.18}, {-14.49, 92.99}
         }
     },
-    [77] = {
+    [76] = {
         Id = "340023104",
         Type = "Polygon",
         Properties = {
@@ -2059,15 +2040,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-20.59, 80.44},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = -158.20
+            CenterLocalMeters = {-19.58, 77.92},
+            SizeMeters = {6.24, 11.02},
+            RotationDegrees = 172.27
         },
         Geometry = {
-            {-13.70, 80.27}, {-25.46, 75.56}, {-24.62, 81.75}, {-13.70, 80.27}
+            {-14.54, 74.08}, {-25.46, 75.56}, {-24.62, 81.75}, {-13.70, 80.27}, {-14.54, 74.08}
         }
     },
-    [78] = {
+    [77] = {
         Id = "340023106",
         Type = "Polygon",
         Properties = {
@@ -2086,15 +2067,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-18.85, 111.72},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = -158.20
+            CenterLocalMeters = {-17.84, 109.20},
+            SizeMeters = {6.24, 11.02},
+            RotationDegrees = 172.27
         },
         Geometry = {
-            {-11.96, 111.55}, {-23.73, 106.85}, {-22.88, 113.03}, {-11.96, 111.55}
+            {-12.81, 105.36}, {-23.73, 106.85}, {-22.88, 113.03}, {-11.96, 111.55}, {-12.81, 105.36}
         }
     },
-    [79] = {
+    [78] = {
         Id = "340023108",
         Type = "Polygon",
         Properties = {
@@ -2113,15 +2094,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-19.75, 86.63},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = -158.20
+            CenterLocalMeters = {-18.74, 84.11},
+            SizeMeters = {6.25, 11.02},
+            RotationDegrees = 172.27
         },
         Geometry = {
-            {-12.86, 86.46}, {-24.62, 81.75}, {-23.78, 87.94}, {-12.86, 86.46}
+            {-13.70, 80.27}, {-24.62, 81.75}, {-23.78, 87.94}, {-15.34, 86.80}, {-12.86, 86.46}, {-13.70, 80.27}
         }
     },
-    [80] = {
+    [79] = {
         Id = "340023111",
         Type = "Polygon",
         Properties = {
@@ -2140,15 +2121,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-21.38, 93.16},
-            SizeMeters = {5.43, 12.67},
-            RotationDegrees = -158.20
+            CenterLocalMeters = {-20.38, 90.63},
+            SizeMeters = {6.25, 11.02},
+            RotationDegrees = -7.73
         },
         Geometry = {
-            {-14.49, 92.99}, {-26.26, 88.28}, {-25.41, 94.47}, {-14.49, 92.99}
+            {-15.34, 86.80}, {-23.78, 87.94}, {-26.26, 88.28}, {-25.41, 94.47}, {-14.49, 92.99}, {-15.34, 86.80}
         }
     },
-    [81] = {
+    [80] = {
         Id = "340024128",
         Type = "Polygon",
         Properties = {
@@ -2167,15 +2148,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-64.58, 140.96},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = -68.10
+            CenterLocalMeters = {-62.06, 141.98},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = -97.75
         },
         Geometry = {
-            {-64.42, 147.84}, {-59.70, 136.10}, {-65.90, 136.95}, {-64.42, 147.84}
+            {-58.21, 147.01}, {-59.70, 136.10}, {-65.90, 136.95}, {-64.42, 147.84}, {-58.21, 147.01}
         }
     },
-    [82] = {
+    [81] = {
         Id = "340024129",
         Type = "Polygon",
         Properties = {
@@ -2195,14 +2176,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {-36.31, 143.53},
-            SizeMeters = {6.26, 10.99},
-            RotationDegrees = 82.21
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = -97.79
         },
         Geometry = {
-            {-38.67, 149.40}, {-33.96, 137.66}, {-40.16, 138.50}, {-38.67, 149.40}
+            {-32.47, 148.55}, {-33.96, 137.66}, {-40.16, 138.50}, {-38.67, 149.40}, {-32.47, 148.55}
         }
     },
-    [83] = {
+    [82] = {
         Id = "340024130",
         Type = "Polygon",
         Properties = {
@@ -2221,15 +2202,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-76.99, 142.64},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = -68.10
+            CenterLocalMeters = {-74.46, 143.66},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = -97.75
         },
         Geometry = {
-            {-76.82, 149.53}, {-72.10, 137.79}, {-78.31, 138.64}, {-76.82, 149.53}
+            {-70.62, 148.69}, {-72.10, 137.79}, {-78.31, 138.64}, {-76.82, 149.53}, {-70.62, 148.69}
         }
     },
-    [84] = {
+    [83] = {
         Id = "340024133",
         Type = "Polygon",
         Properties = {
@@ -2248,15 +2229,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-89.40, 144.33},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = -68.10
+            CenterLocalMeters = {-86.87, 145.35},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = -97.75
         },
         Geometry = {
-            {-89.23, 151.21}, {-84.51, 139.47}, {-90.72, 140.32}, {-89.23, 151.21}
+            {-83.03, 150.37}, {-84.51, 139.47}, {-90.72, 140.32}, {-89.23, 151.21}, {-83.03, 150.37}
         }
     },
-    [85] = {
+    [84] = {
         Id = "340024135",
         Type = "Polygon",
         Properties = {
@@ -2275,15 +2256,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-30.11, 142.68},
-            SizeMeters = {6.27, 10.99},
-            RotationDegrees = 82.21
+            CenterLocalMeters = {-30.11, 142.69},
+            SizeMeters = {6.27, 11.00},
+            RotationDegrees = -97.76
         },
         Geometry = {
-            {-32.47, 148.55}, {-27.75, 136.82}, {-33.96, 137.66}, {-32.47, 148.55}
+            {-26.26, 147.71}, {-27.75, 136.82}, {-33.96, 137.66}, {-32.47, 148.55}, {-26.26, 147.71}
         }
     },
-    [86] = {
+    [85] = {
         Id = "340024137",
         Type = "Polygon",
         Properties = {
@@ -2302,15 +2283,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-68.27, 142.82},
+            CenterLocalMeters = {-68.26, 142.82},
             SizeMeters = {6.26, 11.00},
-            RotationDegrees = 82.32
+            RotationDegrees = 82.25
         },
         Geometry = {
-            {-70.62, 148.69}, {-65.90, 136.95}, {-72.10, 137.79}, {-70.62, 148.69}
+            {-64.42, 147.84}, {-65.90, 136.95}, {-72.10, 137.79}, {-70.62, 148.69}, {-64.42, 147.84}
         }
     },
-    [87] = {
+    [86] = {
         Id = "340024139",
         Type = "Polygon",
         Properties = {
@@ -2329,15 +2310,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-42.53, 144.37},
-            SizeMeters = {6.26, 10.99},
-            RotationDegrees = 82.32
+            CenterLocalMeters = {-42.52, 144.37},
+            SizeMeters = {6.26, 11.01},
+            RotationDegrees = -97.79
         },
         Geometry = {
-            {-44.88, 150.23}, {-40.16, 138.50}, {-46.37, 139.34}, {-44.88, 150.23}
+            {-38.67, 149.40}, {-40.16, 138.50}, {-46.37, 139.34}, {-44.88, 150.23}, {-38.67, 149.40}
         }
     },
-    [88] = {
+    [87] = {
         Id = "340024141",
         Type = "Polygon",
         Properties = {
@@ -2361,10 +2342,10 @@ return {
             RotationDegrees = 82.25
         },
         Geometry = {
-            {-83.03, 150.37}, {-78.31, 138.64}, {-84.51, 139.47}, {-83.03, 150.37}
+            {-76.82, 149.53}, {-78.31, 138.64}, {-84.51, 139.47}, {-83.03, 150.37}, {-76.82, 149.53}
         }
     },
-    [89] = {
+    [88] = {
         Id = "340205283",
         Type = "Polygon",
         Properties = {
@@ -2384,14 +2365,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {36.91, 64.45},
-            SizeMeters = {6.06, 10.00},
-            RotationDegrees = -97.74
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = -97.77
         },
         Geometry = {
-            {39.23, 59.08}, {34.58, 69.81}, {40.59, 69.00}, {39.23, 59.08}
+            {33.23, 59.90}, {34.58, 69.81}, {40.59, 69.00}, {39.23, 59.08}, {33.23, 59.90}
         }
     },
-    [90] = {
+    [89] = {
         Id = "340205285",
         Type = "Polygon",
         Properties = {
@@ -2410,15 +2391,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {21.27, 67.93},
-            SizeMeters = {5.18, 11.68},
-            RotationDegrees = 113.47
+            CenterLocalMeters = {18.89, 66.89},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {21.22, 61.53}, {16.56, 72.25}, {22.57, 71.43}, {21.22, 61.53}
+            {15.21, 62.35}, {16.56, 72.25}, {22.57, 71.43}, {21.22, 61.53}, {15.21, 62.35}
         }
     },
-    [91] = {
+    [90] = {
         Id = "340205286",
         Type = "Polygon",
         Properties = {
@@ -2437,15 +2418,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {33.28, 66.29},
-            SizeMeters = {5.19, 11.68},
-            RotationDegrees = 113.47
+            CenterLocalMeters = {30.90, 65.27},
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = -97.77
         },
         Geometry = {
-            {33.23, 59.90}, {28.57, 70.62}, {34.58, 69.81}, {33.23, 59.90}
+            {27.22, 60.72}, {28.57, 70.62}, {34.58, 69.81}, {33.23, 59.90}, {27.22, 60.72}
         }
     },
-    [92] = {
+    [91] = {
         Id = "340205288",
         Type = "Polygon",
         Properties = {
@@ -2464,15 +2445,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {24.90, 66.08},
-            SizeMeters = {6.06, 9.99},
+            CenterLocalMeters = {24.89, 66.08},
+            SizeMeters = {6.06, 10.00},
             RotationDegrees = -97.78
         },
         Geometry = {
-            {27.22, 60.72}, {22.57, 71.43}, {28.57, 70.62}, {27.22, 60.72}
+            {21.22, 61.53}, {22.57, 71.43}, {28.57, 70.62}, {27.22, 60.72}, {21.22, 61.53}
         }
     },
-    [93] = {
+    [92] = {
         Id = "340207700",
         Type = "Polygon",
         Properties = {
@@ -2492,14 +2473,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {53.59, 173.40},
-            SizeMeters = {6.06, 9.99},
-            RotationDegrees = -97.74
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = 82.23
         },
         Geometry = {
-            {55.92, 168.04}, {51.26, 178.76}, {57.27, 177.94}, {55.92, 168.04}
+            {49.91, 168.85}, {51.26, 178.76}, {57.27, 177.94}, {55.92, 168.04}, {49.91, 168.85}
         }
     },
-    [94] = {
+    [93] = {
         Id = "340207701",
         Type = "Polygon",
         Properties = {
@@ -2518,15 +2499,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {15.24, 177.69},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = -129.01
+            CenterLocalMeters = {17.25, 176.06},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {20.93, 180.60}, {13.57, 171.52}, {14.92, 181.42}, {20.93, 180.60}
+            {19.58, 170.70}, {13.57, 171.52}, {14.92, 181.42}, {20.93, 180.60}, {19.58, 170.70}
         }
     },
-    [95] = {
+    [94] = {
         Id = "340207702",
         Type = "Polygon",
         Properties = {
@@ -2545,15 +2526,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {31.56, 145.22},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = 113.50
+            CenterLocalMeters = {29.18, 144.18},
+            SizeMeters = {6.06, 9.99},
+            RotationDegrees = 82.26
         },
         Geometry = {
-            {31.51, 138.82}, {26.85, 149.54}, {32.86, 148.72}, {31.51, 138.82}
+            {25.51, 139.64}, {26.85, 149.54}, {32.86, 148.72}, {31.51, 138.82}, {25.51, 139.64}
         }
     },
-    [96] = {
+    [95] = {
         Id = "340207703",
         Type = "Polygon",
         Properties = {
@@ -2572,15 +2553,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {19.55, 146.84},
-            SizeMeters = {5.18, 11.70},
-            RotationDegrees = 113.48
+            CenterLocalMeters = {17.17, 145.81},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = 82.27
         },
         Geometry = {
-            {19.50, 140.45}, {14.84, 151.17}, {20.85, 150.36}, {19.50, 140.45}
+            {13.50, 141.26}, {14.84, 151.17}, {20.85, 150.36}, {19.50, 140.45}, {13.50, 141.26}
         }
     },
-    [97] = {
+    [96] = {
         Id = "340207704",
         Type = "Polygon",
         Properties = {
@@ -2599,15 +2580,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {45.49, 145.59},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = -129.01
+            CenterLocalMeters = {47.50, 143.96},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {51.18, 148.50}, {43.82, 139.42}, {45.18, 149.32}, {51.18, 148.50}
+            {49.83, 138.60}, {43.82, 139.42}, {45.18, 149.32}, {51.18, 148.50}, {49.83, 138.60}
         }
     },
-    [98] = {
+    [97] = {
         Id = "340207705",
         Type = "Polygon",
         Properties = {
@@ -2626,15 +2607,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {52.54, 60.91},
-            SizeMeters = {5.18, 11.70},
-            RotationDegrees = -128.98
+            CenterLocalMeters = {54.55, 59.28},
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = 82.23
         },
         Geometry = {
-            {58.23, 63.83}, {50.87, 54.73}, {52.23, 64.64}, {58.23, 63.83}
+            {56.88, 53.93}, {50.87, 54.73}, {52.23, 64.64}, {58.23, 63.83}, {56.88, 53.93}
         }
     },
-    [99] = {
+    [98] = {
         Id = "340207706",
         Type = "Polygon",
         Properties = {
@@ -2654,14 +2635,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {59.60, 172.59},
-            SizeMeters = {6.06, 9.99},
-            RotationDegrees = -97.74
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {61.92, 167.23}, {57.27, 177.94}, {63.28, 177.13}, {61.92, 167.23}
+            {55.92, 168.04}, {57.27, 177.94}, {63.28, 177.13}, {61.92, 167.23}, {55.92, 168.04}
         }
     },
-    [100] = {
+    [99] = {
         Id = "340207707",
         Type = "Polygon",
         Properties = {
@@ -2680,15 +2661,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {58.55, 60.10},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = -129.01
+            CenterLocalMeters = {60.56, 58.47},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {64.24, 63.01}, {56.88, 53.93}, {58.23, 63.83}, {64.24, 63.01}
+            {62.89, 53.11}, {56.88, 53.93}, {58.23, 63.83}, {64.24, 63.01}, {62.89, 53.11}
         }
     },
-    [101] = {
+    [100] = {
         Id = "340207708",
         Type = "Polygon",
         Properties = {
@@ -2707,15 +2688,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {21.24, 176.87},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = -129.01
+            CenterLocalMeters = {23.26, 175.24},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {26.94, 179.79}, {19.58, 170.70}, {20.93, 180.60}, {26.94, 179.79}
+            {25.58, 169.89}, {19.58, 170.70}, {20.93, 180.60}, {26.94, 179.79}, {25.58, 169.89}
         }
     },
-    [102] = {
+    [101] = {
         Id = "340207709",
         Type = "Polygon",
         Properties = {
@@ -2734,15 +2715,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {51.50, 144.78},
-            SizeMeters = {5.18, 11.70},
-            RotationDegrees = -128.97
+            CenterLocalMeters = {53.51, 143.15},
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = -97.77
         },
         Geometry = {
-            {57.19, 147.70}, {49.83, 138.60}, {51.18, 148.50}, {57.19, 147.70}
+            {55.84, 137.79}, {49.83, 138.60}, {51.18, 148.50}, {57.19, 147.70}, {55.84, 137.79}
         }
     },
-    [103] = {
+    [102] = {
         Id = "340207710",
         Type = "Polygon",
         Properties = {
@@ -2761,15 +2742,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {43.96, 176.06},
-            SizeMeters = {5.19, 11.68},
-            RotationDegrees = 113.47
+            CenterLocalMeters = {41.58, 175.03},
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = -97.77
         },
         Geometry = {
-            {43.91, 169.67}, {39.25, 180.38}, {45.26, 179.58}, {43.91, 169.67}
+            {37.90, 170.48}, {39.25, 180.38}, {45.26, 179.58}, {43.91, 169.67}, {37.90, 170.48}
         }
     },
-    [104] = {
+    [103] = {
         Id = "340207711",
         Type = "Polygon",
         Properties = {
@@ -2788,15 +2769,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {25.55, 146.03},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = 113.50
+            CenterLocalMeters = {23.18, 144.99},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = 82.27
         },
         Geometry = {
-            {25.51, 139.64}, {20.85, 150.36}, {26.85, 149.54}, {25.51, 139.64}
+            {19.50, 140.45}, {20.85, 150.36}, {26.85, 149.54}, {25.51, 139.64}, {19.50, 140.45}
         }
     },
-    [105] = {
+    [104] = {
         Id = "340207712",
         Type = "Polygon",
         Properties = {
@@ -2815,15 +2796,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {49.96, 175.25},
-            SizeMeters = {5.19, 11.69},
-            RotationDegrees = 113.45
+            CenterLocalMeters = {47.59, 174.21},
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = -97.77
         },
         Geometry = {
-            {49.91, 168.85}, {45.26, 179.58}, {51.26, 178.76}, {49.91, 168.85}
+            {43.91, 169.67}, {45.26, 179.58}, {51.26, 178.76}, {49.91, 168.85}, {43.91, 169.67}
         }
     },
-    [106] = {
+    [105] = {
         Id = "340207713",
         Type = "Polygon",
         Properties = {
@@ -2842,15 +2823,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {39.48, 146.41},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = -129.01
+            CenterLocalMeters = {41.50, 144.78},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = 82.23
         },
         Geometry = {
-            {45.18, 149.32}, {37.82, 140.24}, {39.17, 150.14}, {45.18, 149.32}
+            {43.82, 139.42}, {37.82, 140.24}, {38.87, 147.91}, {39.17, 150.14}, {45.18, 149.32}, {43.82, 139.42}
         }
     },
-    [107] = {
+    [106] = {
         Id = "340207714",
         Type = "Polygon",
         Properties = {
@@ -2869,15 +2850,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {37.57, 144.40},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = 113.50
+            CenterLocalMeters = {35.19, 143.37},
+            SizeMeters = {6.06, 9.99},
+            RotationDegrees = 82.26
         },
         Geometry = {
-            {37.52, 138.01}, {32.86, 148.72}, {38.87, 147.91}, {37.52, 138.01}
+            {31.51, 138.82}, {32.86, 148.72}, {38.87, 147.91}, {37.82, 140.24}, {37.52, 138.01}, {31.51, 138.82}
         }
     },
-    [108] = {
+    [107] = {
         Id = "340207715",
         Type = "Polygon",
         Properties = {
@@ -2896,15 +2877,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {35.58, 175.84},
-            SizeMeters = {6.06, 9.99},
-            RotationDegrees = -97.74
+            CenterLocalMeters = {35.57, 175.84},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = 82.23
         },
         Geometry = {
-            {37.90, 170.48}, {33.25, 181.20}, {39.25, 180.38}, {37.90, 170.48}
+            {31.89, 171.30}, {32.94, 178.97}, {33.25, 181.20}, {39.25, 180.38}, {37.90, 170.48}, {31.89, 171.30}
         }
     },
-    [109] = {
+    [108] = {
         Id = "340207716",
         Type = "Polygon",
         Properties = {
@@ -2923,15 +2904,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {46.53, 61.72},
-            SizeMeters = {5.18, 11.70},
-            RotationDegrees = -128.98
+            CenterLocalMeters = {48.55, 60.10},
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = -97.77
         },
         Geometry = {
-            {52.23, 64.64}, {44.87, 55.55}, {46.22, 65.46}, {52.23, 64.64}
+            {50.87, 54.73}, {44.87, 55.55}, {45.24, 58.27}, {46.22, 65.46}, {52.23, 64.64}, {50.87, 54.73}
         }
     },
-    [110] = {
+    [109] = {
         Id = "340207717",
         Type = "Polygon",
         Properties = {
@@ -2950,15 +2931,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {27.25, 176.06},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = -129.01
+            CenterLocalMeters = {29.26, 174.43},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.77
         },
         Geometry = {
-            {32.94, 178.97}, {25.58, 169.89}, {26.94, 179.79}, {32.94, 178.97}
+            {31.89, 171.30}, {31.59, 169.07}, {25.58, 169.89}, {26.94, 179.79}, {32.94, 178.97}, {31.89, 171.30}
         }
     },
-    [111] = {
+    [110] = {
         Id = "340207718",
         Type = "Polygon",
         Properties = {
@@ -2977,15 +2958,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {45.29, 64.66},
-            SizeMeters = {5.19, 11.69},
-            RotationDegrees = 113.45
+            CenterLocalMeters = {42.91, 63.63},
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = 82.23
         },
         Geometry = {
-            {45.24, 58.27}, {40.59, 69.00}, {46.59, 68.18}, {45.24, 58.27}
+            {39.23, 59.08}, {40.59, 69.00}, {46.59, 68.18}, {46.22, 65.46}, {45.24, 58.27}, {39.23, 59.08}
         }
     },
-    [112] = {
+    [111] = {
         Id = "340207719",
         Type = "Polygon",
         Properties = {
@@ -3006,13 +2987,13 @@ return {
         OBB = {
             CenterLocalMeters = {18.96, 90.43},
             SizeMeters = {12.28, 14.99},
-            RotationDegrees = 82.22
+            RotationDegrees = -97.76
         },
         Geometry = {
-            {13.89, 98.69}, {25.71, 94.56}, {24.03, 82.18}, {11.86, 83.84}, {13.89, 98.69}
+            {13.89, 98.69}, {20.34, 97.81}, {20.01, 95.33}, {25.71, 94.56}, {24.03, 82.18}, {11.86, 83.84}, {13.89, 98.69}
         }
     },
-    [113] = {
+    [112] = {
         Id = "340207720",
         Type = "Polygon",
         Properties = {
@@ -3031,15 +3012,15 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {19.41, 114.07},
-            SizeMeters = {12.28, 14.99},
-            RotationDegrees = 82.22
+            CenterLocalMeters = {19.40, 114.08},
+            SizeMeters = {12.28, 15.00},
+            RotationDegrees = -97.76
         },
         Geometry = {
-            {14.34, 122.33}, {26.16, 118.21}, {24.47, 105.82}, {12.31, 107.48}, {14.34, 122.33}
+            {14.34, 122.33}, {20.79, 121.46}, {20.45, 118.97}, {26.16, 118.21}, {24.47, 105.82}, {12.31, 107.48}, {14.34, 122.33}
         }
     },
-    [114] = {
+    [113] = {
         Id = "340207721",
         Type = "Polygon",
         Properties = {
@@ -3058,15 +3039,15 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {34.08, 107.73},
-            SizeMeters = {8.75, 17.52},
-            RotationDegrees = 37.78
+            CenterLocalMeters = {31.56, 112.43},
+            SizeMeters = {12.27, 15.00},
+            RotationDegrees = 82.25
         },
         Geometry = {
-            {24.47, 105.82}, {38.32, 116.55}, {36.63, 104.18}, {24.47, 105.82}
+            {26.16, 118.21}, {26.50, 120.68}, {32.95, 119.81}, {32.61, 117.33}, {38.32, 116.55}, {36.63, 104.18}, {24.47, 105.82}, {26.16, 118.21}
         }
     },
-    [115] = {
+    [114] = {
         Id = "340207722",
         Type = "Polygon",
         Properties = {
@@ -3085,15 +3066,15 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {33.63, 84.09},
-            SizeMeters = {8.75, 17.52},
-            RotationDegrees = 37.77
+            CenterLocalMeters = {31.12, 88.78},
+            SizeMeters = {12.28, 15.00},
+            RotationDegrees = 82.25
         },
         Geometry = {
-            {24.03, 82.18}, {37.88, 92.91}, {36.18, 80.53}, {24.03, 82.18}
+            {25.71, 94.56}, {26.05, 97.03}, {32.51, 96.17}, {32.17, 93.68}, {37.88, 92.91}, {36.18, 80.53}, {24.03, 82.18}, {25.71, 94.56}
         }
     },
-    [116] = {
+    [115] = {
         Id = "340207723",
         Type = "Polygon",
         Properties = {
@@ -3112,15 +3093,15 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {46.23, 106.08},
-            SizeMeters = {8.75, 17.52},
-            RotationDegrees = 37.74
+            CenterLocalMeters = {43.72, 110.78},
+            SizeMeters = {12.28, 14.99},
+            RotationDegrees = -97.76
         },
         Geometry = {
-            {36.63, 104.18}, {50.48, 114.90}, {48.79, 102.53}, {36.63, 104.18}
+            {38.32, 116.55}, {38.66, 119.03}, {45.11, 118.15}, {44.77, 115.68}, {50.48, 114.90}, {48.79, 102.53}, {36.63, 104.18}, {38.32, 116.55}
         }
     },
-    [117] = {
+    [116] = {
         Id = "344122916",
         Type = "Polygon",
         Properties = {
@@ -3139,15 +3120,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {78.06, 105.37},
-            SizeMeters = {5.17, 11.70},
-            RotationDegrees = 23.39
+            CenterLocalMeters = {77.03, 107.75},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = -7.72
         },
         Geometry = {
-            {71.66, 105.42}, {82.40, 110.07}, {81.58, 104.08}, {71.66, 105.42}
+            {72.47, 111.42}, {82.40, 110.07}, {81.58, 104.08}, {71.66, 105.42}, {72.47, 111.42}
         }
     },
-    [118] = {
+    [117] = {
         Id = "344122917",
         Type = "Polygon",
         Properties = {
@@ -3167,14 +3148,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {85.75, 163.49},
-            SizeMeters = {6.06, 9.99},
-            RotationDegrees = 82.26
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {83.42, 168.84}, {88.08, 158.13}, {82.07, 158.94}, {83.42, 168.84}
+            {89.43, 168.03}, {88.08, 158.13}, {82.07, 158.94}, {83.42, 168.84}, {89.43, 168.03}
         }
     },
-    [119] = {
+    [118] = {
         Id = "344122919",
         Type = "Polygon",
         Properties = {
@@ -3193,15 +3174,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {113.84, 127.71},
-            SizeMeters = {5.18, 11.70},
-            RotationDegrees = 23.39
+            CenterLocalMeters = {112.81, 130.09},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = 172.25
         },
         Geometry = {
-            {107.44, 127.77}, {118.18, 132.41}, {117.36, 126.42}, {107.44, 127.77}
+            {108.25, 133.75}, {118.18, 132.41}, {117.36, 126.42}, {107.44, 127.77}, {108.25, 133.75}
         }
     },
-    [120] = {
+    [119] = {
         Id = "344122920",
         Type = "Polygon",
         Properties = {
@@ -3220,15 +3201,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {69.32, 86.41},
-            SizeMeters = {5.18, 11.68},
-            RotationDegrees = -66.53
+            CenterLocalMeters = {71.70, 87.44},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {69.37, 92.80}, {74.02, 82.09}, {68.02, 82.90}, {69.37, 92.80}
+            {75.38, 91.99}, {74.02, 82.09}, {68.02, 82.90}, {69.37, 92.80}, {75.38, 91.99}
         }
     },
-    [121] = {
+    [120] = {
         Id = "344122921",
         Type = "Polygon",
         Properties = {
@@ -3247,15 +3228,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {119.75, 160.04},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = -66.50
+            CenterLocalMeters = {122.12, 161.08},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.73
         },
         Geometry = {
-            {119.79, 166.43}, {124.45, 155.71}, {118.45, 156.53}, {119.79, 166.43}
+            {125.80, 165.63}, {124.45, 155.71}, {118.45, 156.53}, {119.79, 166.43}, {125.80, 165.63}
         }
     },
-    [122] = {
+    [121] = {
         Id = "344122922",
         Type = "Polygon",
         Properties = {
@@ -3274,15 +3255,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {108.08, 104.08},
-            SizeMeters = {5.17, 11.70},
-            RotationDegrees = 23.34
+            CenterLocalMeters = {107.06, 106.46},
+            SizeMeters = {6.04, 10.02},
+            RotationDegrees = 172.25
         },
         Geometry = {
-            {101.68, 104.14}, {112.43, 108.78}, {111.61, 102.79}, {101.68, 104.14}
+            {102.50, 110.13}, {112.43, 108.78}, {111.61, 102.79}, {101.68, 104.14}, {102.50, 110.13}
         }
     },
-    [123] = {
+    [122] = {
         Id = "344122924",
         Type = "Polygon",
         Properties = {
@@ -3301,15 +3282,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {95.38, 81.70},
-            SizeMeters = {6.06, 9.99},
-            RotationDegrees = 82.22
+            CenterLocalMeters = {95.38, 81.71},
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = -97.77
         },
         Geometry = {
-            {93.05, 87.06}, {97.71, 76.34}, {91.70, 77.16}, {93.05, 87.06}
+            {99.06, 86.26}, {97.71, 76.34}, {91.70, 77.16}, {93.05, 87.06}, {99.06, 86.26}
         }
     },
-    [124] = {
+    [123] = {
         Id = "344122926",
         Type = "Polygon",
         Properties = {
@@ -3328,15 +3309,15 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {84.63, 134.99},
-            SizeMeters = {5.17, 11.70},
-            RotationDegrees = 23.39
+            CenterLocalMeters = {83.60, 137.37},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = -7.72
         },
         Geometry = {
-            {78.23, 135.04}, {88.97, 139.69}, {88.16, 133.70}, {78.23, 135.04}
+            {79.04, 141.04}, {88.97, 139.69}, {88.16, 133.70}, {78.23, 135.04}, {79.04, 141.04}
         }
     },
-    [125] = {
+    [124] = {
         Id = "344122927",
         Type = "Polygon",
         Properties = {
@@ -3355,15 +3336,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {107.73, 161.67},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = -66.50
+            CenterLocalMeters = {110.11, 162.71},
+            SizeMeters = {6.06, 9.99},
+            RotationDegrees = 82.26
         },
         Geometry = {
-            {107.78, 168.06}, {112.44, 157.35}, {106.43, 158.16}, {107.78, 168.06}
+            {113.79, 167.25}, {112.44, 157.35}, {106.43, 158.16}, {107.78, 168.06}, {113.79, 167.25}
         }
     },
-    [126] = {
+    [125] = {
         Id = "344122928",
         Type = "Polygon",
         Properties = {
@@ -3383,14 +3364,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {79.74, 164.30},
-            SizeMeters = {6.06, 9.99},
-            RotationDegrees = 82.26
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {77.42, 169.66}, {82.07, 158.94}, {76.06, 159.76}, {77.42, 169.66}
+            {83.42, 168.84}, {82.07, 158.94}, {76.06, 159.76}, {77.42, 169.66}, {83.42, 168.84}
         }
     },
-    [127] = {
+    [126] = {
         Id = "344122930",
         Type = "Polygon",
         Properties = {
@@ -3409,15 +3390,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {114.65, 133.70},
-            SizeMeters = {5.17, 11.71},
-            RotationDegrees = 23.38
+            CenterLocalMeters = {113.62, 136.08},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = -7.75
         },
         Geometry = {
-            {108.25, 133.75}, {119.00, 138.40}, {118.18, 132.41}, {108.25, 133.75}
+            {109.07, 139.75}, {119.00, 138.40}, {118.18, 132.41}, {108.25, 133.75}, {109.07, 139.75}
         }
     },
-    [128] = {
+    [127] = {
         Id = "344122931",
         Type = "Polygon",
         Properties = {
@@ -3436,15 +3417,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {113.74, 160.86},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = -66.50
+            CenterLocalMeters = {116.12, 161.89},
+            SizeMeters = {6.06, 9.99},
+            RotationDegrees = 82.26
         },
         Geometry = {
-            {113.79, 167.25}, {118.45, 156.53}, {112.44, 157.35}, {113.79, 167.25}
+            {119.79, 166.43}, {118.45, 156.53}, {112.44, 157.35}, {113.79, 167.25}, {119.79, 166.43}
         }
     },
-    [129] = {
+    [128] = {
         Id = "344122932",
         Type = "Polygon",
         Properties = {
@@ -3463,15 +3444,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {78.88, 111.36},
-            SizeMeters = {5.18, 11.71},
-            RotationDegrees = 23.38
+            CenterLocalMeters = {77.85, 113.74},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = 172.25
         },
         Geometry = {
-            {72.47, 111.42}, {83.22, 116.06}, {82.40, 110.07}, {72.47, 111.42}
+            {73.29, 117.40}, {83.22, 116.06}, {82.40, 110.07}, {72.47, 111.42}, {73.29, 117.40}
         }
     },
-    [130] = {
+    [129] = {
         Id = "344122933",
         Type = "Polygon",
         Properties = {
@@ -3491,14 +3472,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {101.38, 80.89},
-            SizeMeters = {6.06, 10.00},
-            RotationDegrees = 82.26
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = -97.77
         },
         Geometry = {
-            {99.06, 86.26}, {103.71, 75.53}, {97.71, 76.34}, {99.06, 86.26}
+            {105.06, 85.44}, {103.71, 75.53}, {97.71, 76.34}, {99.06, 86.26}, {105.06, 85.44}
         }
     },
-    [131] = {
+    [130] = {
         Id = "344122934",
         Type = "Polygon",
         Properties = {
@@ -3517,15 +3498,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {65.68, 88.26},
-            SizeMeters = {6.06, 10.00},
-            RotationDegrees = 82.36
+            CenterLocalMeters = {65.69, 88.25},
+            SizeMeters = {6.06, 10.01},
+            RotationDegrees = 82.23
         },
         Geometry = {
-            {63.36, 93.62}, {68.02, 82.90}, {62.01, 83.71}, {63.36, 93.62}
+            {69.37, 92.80}, {68.02, 82.90}, {62.01, 83.71}, {63.36, 93.62}, {69.37, 92.80}
         }
     },
-    [132] = {
+    [131] = {
         Id = "344122935",
         Type = "Polygon",
         Properties = {
@@ -3544,15 +3525,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {107.27, 98.09},
-            SizeMeters = {5.18, 11.71},
-            RotationDegrees = 23.38
+            CenterLocalMeters = {106.24, 100.47},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = 172.25
         },
         Geometry = {
-            {100.86, 98.14}, {111.61, 102.79}, {110.79, 96.79}, {100.86, 98.14}
+            {101.68, 104.14}, {111.61, 102.79}, {110.79, 96.79}, {100.86, 98.14}, {101.68, 104.14}
         }
     },
-    [133] = {
+    [132] = {
         Id = "344122936",
         Type = "Polygon",
         Properties = {
@@ -3571,15 +3552,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {113.01, 121.72},
-            SizeMeters = {5.17, 11.70},
-            RotationDegrees = 23.39
+            CenterLocalMeters = {111.99, 124.09},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = -7.75
         },
         Geometry = {
-            {106.62, 121.77}, {117.36, 126.42}, {116.55, 120.43}, {106.62, 121.77}
+            {107.44, 127.77}, {117.36, 126.42}, {116.55, 120.43}, {106.62, 121.77}, {107.44, 127.77}
         }
     },
-    [134] = {
+    [133] = {
         Id = "344122938",
         Type = "Polygon",
         Properties = {
@@ -3598,15 +3579,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {87.00, 81.49},
-            SizeMeters = {5.18, 11.68},
-            RotationDegrees = -66.53
+            CenterLocalMeters = {89.37, 82.52},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {87.05, 87.88}, {91.70, 77.16}, {85.69, 77.98}, {87.05, 87.88}
+            {93.05, 87.06}, {91.70, 77.16}, {85.69, 77.98}, {87.05, 87.88}, {93.05, 87.06}
         }
     },
-    [135] = {
+    [134] = {
         Id = "344122939",
         Type = "Polygon",
         Properties = {
@@ -3625,15 +3606,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {101.73, 162.49},
-            SizeMeters = {5.18, 11.69},
-            RotationDegrees = -66.50
+            CenterLocalMeters = {104.10, 163.52},
+            SizeMeters = {6.06, 9.99},
+            RotationDegrees = 82.26
         },
         Geometry = {
-            {101.77, 168.88}, {106.43, 158.16}, {100.43, 158.98}, {101.77, 168.88}
+            {107.78, 168.06}, {106.43, 158.16}, {100.43, 158.98}, {101.77, 168.88}, {107.78, 168.06}
         }
     },
-    [136] = {
+    [135] = {
         Id = "344122940",
         Type = "Polygon",
         Properties = {
@@ -3652,15 +3633,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {107.39, 80.07},
-            SizeMeters = {6.06, 10.00},
+            CenterLocalMeters = {107.39, 80.08},
+            SizeMeters = {6.06, 10.01},
             RotationDegrees = 82.23
         },
         Geometry = {
-            {105.06, 85.44}, {109.72, 74.72}, {103.71, 75.53}, {105.06, 85.44}
+            {111.07, 84.62}, {109.72, 74.72}, {103.71, 75.53}, {105.06, 85.44}, {111.07, 84.62}
         }
     },
-    [137] = {
+    [136] = {
         Id = "344122942",
         Type = "Polygon",
         Properties = {
@@ -3679,15 +3660,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {83.81, 129.00},
-            SizeMeters = {5.18, 11.71},
-            RotationDegrees = 23.38
+            CenterLocalMeters = {82.78, 131.38},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = 172.25
         },
         Geometry = {
-            {77.41, 129.06}, {88.16, 133.70}, {87.34, 127.71}, {77.41, 129.06}
+            {78.23, 135.04}, {88.16, 133.70}, {87.34, 127.71}, {77.41, 129.06}, {78.23, 135.04}
         }
     },
-    [138] = {
+    [137] = {
         Id = "344122943",
         Type = "Polygon",
         Properties = {
@@ -3706,15 +3687,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {112.20, 115.73},
-            SizeMeters = {5.18, 11.71},
-            RotationDegrees = 23.38
+            CenterLocalMeters = {111.17, 118.11},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = 172.25
         },
         Geometry = {
-            {105.80, 115.78}, {116.55, 120.43}, {115.73, 114.43}, {105.80, 115.78}
+            {106.62, 121.77}, {116.55, 120.43}, {115.73, 114.43}, {113.25, 114.77}, {105.80, 115.78}, {106.62, 121.77}
         }
     },
-    [139] = {
+    [138] = {
         Id = "344122944",
         Type = "Polygon",
         Properties = {
@@ -3733,15 +3714,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {79.69, 117.35},
-            SizeMeters = {5.17, 11.70},
-            RotationDegrees = 23.39
+            CenterLocalMeters = {78.67, 119.73},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = -7.72
         },
         Geometry = {
-            {73.29, 117.40}, {84.04, 122.05}, {83.22, 116.06}, {73.29, 117.40}
+            {74.11, 123.40}, {76.59, 123.06}, {84.04, 122.05}, {83.22, 116.06}, {73.29, 117.40}, {74.11, 123.40}
         }
     },
-    [140] = {
+    [139] = {
         Id = "344122946",
         Type = "Polygon",
         Properties = {
@@ -3761,14 +3742,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {91.75, 162.67},
-            SizeMeters = {6.06, 9.99},
-            RotationDegrees = 82.22
+            SizeMeters = {6.07, 10.00},
+            RotationDegrees = 82.26
         },
         Geometry = {
-            {89.43, 168.03}, {94.08, 157.31}, {88.08, 158.13}, {89.43, 168.03}
+            {95.43, 167.22}, {94.42, 159.79}, {94.08, 157.31}, {88.08, 158.13}, {89.43, 168.03}, {95.43, 167.22}
         }
     },
-    [141] = {
+    [140] = {
         Id = "344122947",
         Type = "Polygon",
         Properties = {
@@ -3787,15 +3768,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {80.99, 82.30},
-            SizeMeters = {5.18, 11.68},
-            RotationDegrees = -66.53
+            CenterLocalMeters = {83.37, 83.34},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {81.04, 88.69}, {85.69, 77.98}, {79.69, 78.79}, {81.04, 88.69}
+            {87.05, 87.88}, {85.69, 77.98}, {79.69, 78.79}, {80.03, 81.27}, {81.04, 88.69}, {87.05, 87.88}
         }
     },
-    [142] = {
+    [141] = {
         Id = "344122948",
         Type = "Polygon",
         Properties = {
@@ -3814,15 +3795,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {82.99, 123.01},
-            SizeMeters = {5.17, 11.70},
-            RotationDegrees = 23.39
+            CenterLocalMeters = {81.97, 125.38},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = -7.72
         },
         Geometry = {
-            {76.59, 123.06}, {87.34, 127.71}, {86.52, 121.72}, {76.59, 123.06}
+            {77.41, 129.06}, {87.34, 127.71}, {86.52, 121.72}, {84.04, 122.05}, {76.59, 123.06}, {77.41, 129.06}
         }
     },
-    [143] = {
+    [142] = {
         Id = "344122949",
         Type = "Polygon",
         Properties = {
@@ -3842,14 +3823,14 @@ return {
         },
         OBB = {
             CenterLocalMeters = {77.70, 86.63},
-            SizeMeters = {6.06, 9.99},
-            RotationDegrees = 82.26
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {75.38, 91.99}, {80.03, 81.27}, {74.02, 82.09}, {75.38, 91.99}
+            {81.38, 91.17}, {81.04, 88.69}, {80.03, 81.27}, {74.02, 82.09}, {75.38, 91.99}, {81.38, 91.17}
         }
     },
-    [144] = {
+    [143] = {
         Id = "344122950",
         Type = "Polygon",
         Properties = {
@@ -3868,15 +3849,15 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {108.90, 110.07},
-            SizeMeters = {5.18, 11.70},
-            RotationDegrees = 23.39
+            CenterLocalMeters = {107.87, 112.45},
+            SizeMeters = {6.05, 10.02},
+            RotationDegrees = 172.25
         },
         Geometry = {
-            {102.50, 110.13}, {113.25, 114.77}, {112.43, 108.78}, {102.50, 110.13}
+            {103.32, 116.11}, {105.80, 115.78}, {113.25, 114.77}, {112.43, 108.78}, {102.50, 110.13}, {103.32, 116.11}
         }
     },
-    [145] = {
+    [144] = {
         Id = "344127558",
         Type = "Polygon",
         Properties = {
@@ -3895,12 +3876,39 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {136.32, 72.81},
-            SizeMeters = {5.75, 12.21},
-            RotationDegrees = -68.31
+            CenterLocalMeters = {138.99, 73.87},
+            SizeMeters = {7.02, 10.00},
+            RotationDegrees = -103.38
         },
         Geometry = {
-            {136.74, 79.54}, {141.25, 68.20}, {134.42, 69.82}, {136.74, 79.54}
+            {143.56, 77.93}, {141.59, 69.66}, {141.25, 68.20}, {134.42, 69.82}, {136.74, 79.54}, {143.56, 77.93}
+        }
+    },
+    [145] = {
+        Id = "350187465",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "28",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Langenharmer Weg",
+            ["building"] = "detached",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 350187465,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-105.80, 172.28},
+            SizeMeters = {12.49, 16.94},
+            RotationDegrees = -7.74
+        },
+        Geometry = {
+            {-98.95, 177.66}, {-100.10, 169.24}, {-97.71, 168.92}, {-98.25, 164.96}, {-109.58, 166.49}, {-108.63, 173.43}, {-114.09, 174.16}, {-113.34, 179.61}, {-98.95, 177.66}
         }
     },
     [146] = {
@@ -3922,12 +3930,12 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {-93.13, 187.07},
-            SizeMeters = {13.27, 13.68},
-            RotationDegrees = 148.55
+            CenterLocalMeters = {-95.82, 187.06},
+            SizeMeters = {12.52, 16.90},
+            RotationDegrees = 82.22
         },
         Geometry = {
-            {-102.43, 184.97}, {-88.81, 192.20}, {-90.76, 177.84}, {-102.43, 184.97}
+            {-100.88, 196.28}, {-96.92, 195.73}, {-97.24, 193.35}, {-88.81, 192.20}, {-90.02, 183.29}, {-90.76, 177.84}, {-96.23, 178.59}, {-95.48, 184.03}, {-102.43, 184.97}, {-100.88, 196.28}
         }
     },
     [147] = {
@@ -3949,12 +3957,12 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {-80.72, 185.38},
-            SizeMeters = {13.27, 13.68},
-            RotationDegrees = 148.55
+            CenterLocalMeters = {-83.42, 185.38},
+            SizeMeters = {12.52, 16.90},
+            RotationDegrees = 82.23
         },
         Geometry = {
-            {-90.02, 183.29}, {-76.40, 190.51}, {-78.35, 176.16}, {-90.02, 183.29}
+            {-88.81, 192.20}, {-88.48, 194.60}, {-84.51, 194.05}, {-84.83, 191.66}, {-76.40, 190.51}, {-78.35, 176.16}, {-83.81, 176.90}, {-83.07, 182.34}, {-90.02, 183.29}, {-88.81, 192.20}
         }
     },
     [148] = {
@@ -3976,12 +3984,12 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {-61.73, 181.66},
-            SizeMeters = {11.77, 15.42},
-            RotationDegrees = 27.94
+            CenterLocalMeters = {-64.70, 185.33},
+            SizeMeters = {12.52, 16.90},
+            RotationDegrees = -97.76
         },
         Geometry = {
-            {-71.30, 183.24}, {-57.67, 190.47}, {-59.63, 176.11}, {-71.30, 183.24}
+            {-69.76, 194.54}, {-65.78, 194.00}, {-66.11, 191.62}, {-57.67, 190.47}, {-58.89, 181.56}, {-59.63, 176.11}, {-65.09, 176.85}, {-64.35, 182.29}, {-71.30, 183.24}, {-69.76, 194.54}
         }
     },
     [149] = {
@@ -4003,12 +4011,12 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {-49.32, 179.97},
-            SizeMeters = {11.77, 15.42},
-            RotationDegrees = 27.94
+            CenterLocalMeters = {-52.29, 183.64},
+            SizeMeters = {12.53, 16.90},
+            RotationDegrees = 82.25
         },
         Geometry = {
-            {-58.89, 181.56}, {-45.27, 188.78}, {-47.22, 174.42}, {-58.89, 181.56}
+            {-57.67, 190.47}, {-57.35, 192.85}, {-53.38, 192.32}, {-53.71, 189.93}, {-45.27, 188.78}, {-46.07, 182.84}, {-47.22, 174.42}, {-52.69, 175.17}, {-51.94, 180.61}, {-58.89, 181.56}, {-57.67, 190.47}
         }
     },
     [150] = {
@@ -4030,12 +4038,12 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {-36.78, 184.94},
-            SizeMeters = {13.28, 13.66},
-            RotationDegrees = 148.57
+            CenterLocalMeters = {-39.47, 184.93},
+            SizeMeters = {12.52, 16.90},
+            RotationDegrees = -97.75
         },
         Geometry = {
-            {-46.07, 182.84}, {-32.45, 190.08}, {-34.41, 175.72}, {-46.07, 182.84}
+            {-45.27, 188.78}, {-44.54, 194.15}, {-40.57, 193.60}, {-40.89, 191.22}, {-32.45, 190.08}, {-33.67, 181.16}, {-34.41, 175.72}, {-39.87, 176.45}, {-39.13, 181.90}, {-46.07, 182.84}, {-45.27, 188.78}
         }
     },
     [151] = {
@@ -4057,12 +4065,12 @@ return {
             ["HeightMeters"] = 3.0,
         },
         OBB = {
-            CenterLocalMeters = {-24.09, 179.58},
-            SizeMeters = {11.77, 15.42},
-            RotationDegrees = 27.97
+            CenterLocalMeters = {-27.06, 183.24},
+            SizeMeters = {12.52, 16.90},
+            RotationDegrees = -97.75
         },
         Geometry = {
-            {-33.67, 181.16}, {-20.04, 188.39}, {-22.00, 174.02}, {-33.67, 181.16}
+            {-32.45, 190.08}, {-32.13, 192.46}, {-28.15, 191.92}, {-28.48, 189.53}, {-20.04, 188.39}, {-22.00, 174.02}, {-27.46, 174.77}, {-26.72, 180.22}, {-33.67, 181.16}, {-32.45, 190.08}
         }
     },
     [152] = {
@@ -4081,12 +4089,12 @@ return {
             ["HeightMeters"] = 8.0,
         },
         OBB = {
-            CenterLocalMeters = {-30.13, 224.14},
-            SizeMeters = {20.93, 27.85},
-            RotationDegrees = -35.34
+            CenterLocalMeters = {-29.99, 230.37},
+            SizeMeters = {18.76, 32.57},
+            RotationDegrees = -9.01
         },
         Geometry = {
-            {-35.44, 240.73}, {-14.91, 221.54}, {-47.54, 223.66}, {-35.44, 240.73}
+            {-13.67, 229.34}, {-14.91, 221.54}, {-32.51, 224.33}, {-32.99, 221.35}, {-47.54, 223.66}, {-45.10, 238.96}, {-35.95, 237.51}, {-35.44, 240.73}, {-12.43, 237.08}, {-13.67, 229.34}
         }
     },
     [153] = {
@@ -4108,12 +4116,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {28.00, 250.92},
-            SizeMeters = {5.44, 12.66},
-            RotationDegrees = -66.04
+            CenterLocalMeters = {30.49, 252.03},
+            SizeMeters = {6.27, 11.00},
+            RotationDegrees = 84.29
         },
         Geometry = {
-            {27.92, 257.81}, {33.06, 246.25}, {26.82, 246.87}, {27.92, 257.81}
+            {34.14, 257.19}, {33.06, 246.25}, {26.82, 246.87}, {27.92, 257.81}, {34.14, 257.19}
         }
     },
     [154] = {
@@ -4132,12 +4140,12 @@ return {
             ["HeightMeters"] = 8.0,
         },
         OBB = {
-            CenterLocalMeters = {0.76, 239.45},
-            SizeMeters = {19.96, 29.03},
-            RotationDegrees = -179.49
+            CenterLocalMeters = {0.72, 239.20},
+            SizeMeters = {25.01, 25.30},
+            RotationDegrees = 170.93
         },
         Geometry = {
-            {-10.71, 247.84}, {15.18, 249.55}, {11.99, 229.57}, {-13.67, 229.34}, {-10.71, 247.84}
+            {5.12, 245.33}, {6.03, 251.01}, {15.18, 249.55}, {11.99, 229.57}, {4.30, 230.79}, {3.08, 231.97}, {3.12, 232.29}, {0.81, 232.66}, {-0.06, 227.17}, {-4.39, 227.87}, {-4.47, 227.37}, {-9.41, 228.16}, {-9.33, 228.65}, {-13.67, 229.34}, {-12.43, 237.08}, {-10.71, 247.84}, {5.12, 245.33}
         }
     },
     [155] = {
@@ -4183,12 +4191,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-51.25, 144.20},
-            SizeMeters = {5.44, 12.65},
-            RotationDegrees = -68.12
+            CenterLocalMeters = {-48.72, 145.21},
+            SizeMeters = {6.26, 11.00},
+            RotationDegrees = -97.79
         },
         Geometry = {
-            {-51.08, 151.08}, {-46.37, 139.34}, {-52.57, 140.19}, {-51.08, 151.08}
+            {-44.88, 150.23}, {-46.37, 139.34}, {-52.57, 140.19}, {-51.08, 151.08}, {-44.88, 150.23}
         }
     },
     [157] = {
@@ -4210,12 +4218,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {-93.09, 146.19},
+            CenterLocalMeters = {-93.08, 146.18},
             SizeMeters = {6.27, 11.00},
-            RotationDegrees = 82.33
+            RotationDegrees = -97.78
         },
         Geometry = {
-            {-95.44, 152.06}, {-90.72, 140.32}, {-96.93, 141.16}, {-95.44, 152.06}
+            {-89.23, 151.21}, {-90.72, 140.32}, {-96.93, 141.16}, {-95.44, 152.06}, {-89.23, 151.21}
         }
     },
     [158] = {
@@ -4234,12 +4242,12 @@ return {
             ["HeightMeters"] = 8.0,
         },
         OBB = {
-            CenterLocalMeters = {111.70, 208.75},
+            CenterLocalMeters = {111.69, 208.75},
             SizeMeters = {6.99, 13.53},
             RotationDegrees = -5.66
         },
         Geometry = {
-            {118.08, 204.61}, {105.31, 212.89}, {118.77, 211.56}, {118.08, 204.61}
+            {107.91, 208.62}, {104.91, 208.92}, {105.31, 212.89}, {118.77, 211.56}, {118.08, 204.61}, {107.61, 205.64}, {107.91, 208.62}
         }
     },
     [159] = {
@@ -4258,12 +4266,12 @@ return {
             ["HeightMeters"] = 8.0,
         },
         OBB = {
-            CenterLocalMeters = {91.20, 304.45},
-            SizeMeters = {7.31, 15.41},
-            RotationDegrees = -142.03
+            CenterLocalMeters = {93.45, 301.57},
+            SizeMeters = {9.02, 12.50},
+            RotationDegrees = 73.79
         },
         Geometry = {
-            {99.52, 306.31}, {87.37, 296.83}, {90.86, 308.83}, {99.52, 306.31}
+            {96.03, 294.33}, {87.37, 296.83}, {90.86, 308.83}, {99.52, 306.31}, {96.03, 294.33}
         }
     },
     [160] = {
@@ -4282,12 +4290,12 @@ return {
             ["HeightMeters"] = 8.0,
         },
         OBB = {
-            CenterLocalMeters = {119.47, 297.43},
-            SizeMeters = {5.62, 17.36},
-            RotationDegrees = -163.00
+            CenterLocalMeters = {119.94, 293.55},
+            SizeMeters = {11.99, 14.53},
+            RotationDegrees = -16.21
         },
         Geometry = {
-            {111.99, 292.20}, {118.74, 300.14}, {128.59, 297.28}, {111.99, 292.20}
+            {118.38, 298.94}, {118.74, 300.14}, {128.59, 297.28}, {126.65, 290.62}, {125.69, 290.89}, {124.28, 286.04}, {117.55, 288.00}, {118.25, 290.39}, {111.99, 292.20}, {114.29, 300.12}, {118.38, 298.94}
         }
     },
     [161] = {
@@ -4309,12 +4317,12 @@ return {
             ["HeightMeters"] = 6.0,
         },
         OBB = {
-            CenterLocalMeters = {95.72, 163.30},
-            SizeMeters = {5.19, 11.69},
-            RotationDegrees = -66.50
+            CenterLocalMeters = {98.10, 164.33},
+            SizeMeters = {6.06, 10.00},
+            RotationDegrees = 82.27
         },
         Geometry = {
-            {95.77, 169.70}, {100.43, 158.98}, {94.42, 159.79}, {95.77, 169.70}
+            {101.77, 168.88}, {100.43, 158.98}, {94.42, 159.79}, {95.43, 167.22}, {95.77, 169.70}, {101.77, 168.88}
         }
     },
 }

@@ -197,8 +197,6 @@ class PilotHandler(osmium.SimpleHandler):
             if clipped_geom.is_empty:
                 return
 
-            clipped_geom = clipped_geom.simplify(0.0001, preserve_topology=True)
-
             if clipped_geom.geom_type == 'GeometryCollection':
                 self.skipped += 1
                 return
