@@ -7,7 +7,12 @@ return {
             ["osm_id"] = 1280125574,
             ["tile_500"] = "NO_E566500_N5950500_500",
             ["tile_250"] = "NO_E566750_N5950750_250",
-            ["WidthMeters"] = 4.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
         },
         Geometry = {
             {664.03, -548.44}, {654.02, -502.67}, {641.40, -494.68}
@@ -21,7 +26,12 @@ return {
             ["osm_id"] = 1280125575,
             ["tile_500"] = "NO_E566500_N5950500_500",
             ["tile_250"] = "NO_E566750_N5950750_250",
-            ["WidthMeters"] = 4.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
         },
         Geometry = {
             {694.91, -524.13}, {686.58, -467.26}
@@ -36,7 +46,12 @@ return {
             ["osm_id"] = 130883341,
             ["tile_500"] = "NO_E566500_N5950500_500",
             ["tile_250"] = "NO_E566750_N5950750_250",
-            ["WidthMeters"] = 3.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 1.5,
+            ["ScaledOSMWidthStuds"] = 5.357142,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 6.0,
         },
         Geometry = {
             {886.52, -695.45}, {823.36, -626.13}, {788.68, -564.19}
@@ -50,7 +65,12 @@ return {
             ["osm_id"] = 1351535632,
             ["tile_500"] = "NO_E566500_N5950500_500",
             ["tile_250"] = "NO_E566750_N5950750_250",
-            ["WidthMeters"] = 4.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 7.0,
+            ["FinalWidthStuds"] = 7.142856,
         },
         Geometry = {
             {727.96, -505.05}, {725.98, -485.52}
@@ -70,7 +90,12 @@ return {
             ["osm_id"] = 149262243,
             ["tile_500"] = "NO_E566500_N5950500_500",
             ["tile_250"] = "NO_E566750_N5950750_250",
-            ["WidthMeters"] = 10.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
         },
         Geometry = {
             {652.15, -287.45}, {738.04, -435.82}, {618.49, -511.65}, {540.50, -590.65}
@@ -88,7 +113,12 @@ return {
             ["osm_id"] = 170989299,
             ["tile_500"] = "NO_E566500_N5950500_500",
             ["tile_250"] = "NO_E566750_N5950750_250",
-            ["WidthMeters"] = 2.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 2.0,
+            ["ScaledOSMWidthStuds"] = 7.142856,
+            ["GameplayMinimumStuds"] = 6.0,
+            ["FinalWidthStuds"] = 7.142856,
         },
         Geometry = {
             {716.83, -450.31}, {774.74, -566.63}
@@ -105,7 +135,12 @@ return {
             ["osm_id"] = 29208261,
             ["tile_500"] = "NO_E566500_N5950500_500",
             ["tile_250"] = "NO_E566750_N5950750_250",
-            ["WidthMeters"] = 10.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
         },
         Geometry = {
             {643.33, -670.47}, {774.74, -566.63}
@@ -121,7 +156,12 @@ return {
             ["osm_id"] = 29208264,
             ["tile_500"] = "NO_E566500_N5950500_500",
             ["tile_250"] = "NO_E566750_N5950750_250",
-            ["WidthMeters"] = 10.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
         },
         Geometry = {
             {774.74, -566.63}, {898.55, -500.22}
@@ -137,7 +177,12 @@ return {
             ["osm_id"] = 29208270,
             ["tile_500"] = "NO_E566500_N5950500_500",
             ["tile_250"] = "NO_E566750_N5950750_250",
-            ["WidthMeters"] = 10.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
         },
         Geometry = {
             {774.74, -566.63}, {898.42, -490.80}
@@ -153,7 +198,12 @@ return {
             ["osm_id"] = 29208457,
             ["tile_500"] = "NO_E566500_N5950500_500",
             ["tile_250"] = "NO_E566750_N5950750_250",
-            ["WidthMeters"] = 6.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
         },
         Geometry = {
             {716.83, -450.31}, {749.45, -446.44}
@@ -168,7 +218,12 @@ return {
             ["osm_id"] = 795152659,
             ["tile_500"] = "NO_E566500_N5950500_500",
             ["tile_250"] = "NO_E566750_N5950750_250",
-            ["WidthMeters"] = 6.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
         },
         Geometry = {
             {674.04, -638.46}, {658.92, -622.15}, {665.04, -616.43}

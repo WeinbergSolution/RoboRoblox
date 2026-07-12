@@ -1,9 +1,12 @@
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local ContextActionService = game:GetService("ContextActionService")
-local Workspace = game:GetService("Workspace")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Workspace = game:GetService("Workspace")
 
+print("[RoboRoblox QA] LocalScript parsed and started")
+
+-- Studio Check
 if not RunService:IsStudio() then
     warn("[RoboRoblox QA] DebugOverlay is Studio-only. Aborting.")
     return
@@ -12,15 +15,26 @@ end
 local player = Players.LocalPlayer
 local camera = Workspace.CurrentCamera
 
--- 1. Setup UI INSTANTLY
+-- Variables
+local isFlying = false
+local flySpeed = 100
+local flyKeys = { W = false, A = false, S = false, D = false, Q = false, E = false, Shift = false }
+local noclipOriginals = {} -- Stores original CanCollide state of parts
+local oldAutoRotate = true
+
+-- Setup UI Immediately
+local playerGui = player:WaitForChild("PlayerGui")
+print("[RoboRoblox QA] PlayerGui ready")
+
 local gui = Instance.new("ScreenGui")
 gui.Name = "DebugOverlay"
 gui.ResetOnSpawn = false
-gui.Parent = player:WaitForChild("PlayerGui")
+gui.DisplayOrder = 1000
+gui.Parent = playerGui
 
 local frame = Instance.new("Frame")
-frame.Size = UDim2.new(0, 320, 0, 420)
-frame.Position = UDim2.new(0, 10, 0, 10)
+frame.Size = UDim2.new(0, 320, 0, 480)
+frame.Position = UDim2.new(1, -330, 0, 10) -- Panel oben rechts
 frame.BackgroundColor3 = Color3.new(0, 0, 0)
 frame.BackgroundTransparency = 0.5
 frame.Parent = gui
@@ -55,74 +69,50 @@ local function createButton(text, callback)
     return btn
 end
 
-local headerLabel = createLabel("RoboRoblox QA - Loading...")
+local headerLabel = createLabel("RoboRoblox QA")
+local statusLabel = createLabel("Overlay: RUNNING")
+local logLabel = createLabel("Log: Initializing...")
 local coverageLabel = createLabel("Coverage: ...")
 local scaleLabel = createLabel("Scale: ...")
-createLabel("F or button = Toggle Fly")
-createLabel("O or button = Overview")
+createLabel("F = Toggle Fly | O = Overview")
 local flyStatusLabel = createLabel("Fly: OFF")
 local posLabel = createLabel("Position: ...")
 local fpsLabel = createLabel("FPS: ...")
 local importStatusLabel = createLabel("Import: ...")
 local importStatsLabel = createLabel("Roads/Bldgs: ...")
+local qaCoverageLabel = createLabel("Ground Check: ...")
 
-print("[RoboRoblox QA] DebugOverlay LocalScript started")
+print("[RoboRoblox QA] UI mounted")
+logLabel.Text = "Log: UI mounted"
 
--- Yielding for data asynchronously
-task.spawn(function()
-    local cityData = ReplicatedStorage:WaitForChild("CityData")
-    local manifest = require(cityData:WaitForChild("Manifest"))
-    print("[RoboRoblox QA] Manifest loaded")
-    
-    headerLabel.Text = " RoboRoblox QA"
-    coverageLabel.Text = " Coverage: " .. (manifest.Coverage or "Unknown")
-    scaleLabel.Text = " Scale: 1 m = " .. string.format("%.3f", manifest.MetersToStuds or 3.571) .. " studs"
-    
-    local importStatusFolder = ReplicatedStorage:WaitForChild("CityImportStatus", 10)
-    
-    local frames = 0
-    local lastUpdate = os.clock()
-    
-    RunService.RenderStepped:Connect(function(dt)
-        frames += 1
-        local now = os.clock()
-        if now - lastUpdate >= 1 then
-            fpsLabel.Text = " FPS: " .. tostring(frames)
-            frames = 0
-            lastUpdate = now
-            
-            if importStatusFolder then
-                local stateObj = importStatusFolder:FindFirstChild("State")
-                if stateObj then
-                    importStatusLabel.Text = " Import: " .. stateObj.Value
-                end
-                local rObj = importStatusFolder:FindFirstChild("RoadsCreated")
-                local bObj = importStatusFolder:FindFirstChild("BuildingsCreated")
-                if rObj and bObj then
-                    importStatsLabel.Text = string.format(" Roads: %d / Bldgs: %d", rObj.Value, bObj.Value)
-                end
-            end
-        end
-    end)
-end)
+-- Forward declarations
+local flyButton: TextButton
+local toggleFly
 
--- 2. Fly Logic
-local isFlying = false
-local flySpeed = 100
-local flyKeys = { W = false, A = false, S = false, D = false, Q = false, E = false, Shift = false }
-local oldAutoRotate = true
-
-local function applyNoclip(enable)
+-- Noclip state management
+local function setNoclip(enabled)
     local char = player.Character
     if not char then return end
-    for _, part in ipairs(char:GetDescendants()) do
-        if part:IsA("BasePart") and part.Name ~= "HumanoidRootPart" then
-            part.CanCollide = not enable
+    
+    if enabled then
+        for _, part in ipairs(char:GetDescendants()) do
+            if part:IsA("BasePart") and part.Name ~= "HumanoidRootPart" then
+                noclipOriginals[part] = part.CanCollide
+                part.CanCollide = false
+            end
         end
+    else
+        for part, state in pairs(noclipOriginals) do
+            if part and part.Parent then
+                part.CanCollide = state
+            end
+        end
+        table.clear(noclipOriginals)
     end
 end
 
-local function toggleFly()
+-- Fly logic
+toggleFly = function()
     local char = player.Character
     if not char then return end
     local hrp = char:FindFirstChild("HumanoidRootPart")
@@ -136,18 +126,32 @@ local function toggleFly()
         oldAutoRotate = hum.AutoRotate
         hum.AutoRotate = false
         hum:ChangeState(Enum.HumanoidStateType.Physics)
-        Workspace.Gravity = 0
-        applyNoclip(true)
+        setNoclip(true)
         hrp.Velocity = Vector3.new(0, 0, 0)
         flyStatusLabel.Text = "Fly: ON (Speed: 100)"
+        if flyButton then
+            flyButton.Text = "[FLY: ON]"
+        end
     else
         print("[RoboRoblox QA] Fly disabled")
         hum.AutoRotate = oldAutoRotate
         hum:ChangeState(Enum.HumanoidStateType.GettingUp)
-        Workspace.Gravity = 196.2
-        applyNoclip(false)
+        setNoclip(false)
         hrp.Velocity = Vector3.new(0, 0, 0)
         flyStatusLabel.Text = "Fly: OFF"
+        if flyButton then
+            flyButton.Text = "[FLY: OFF]"
+        end
+    end
+end
+
+-- Teleports
+local function teleportToAbsolute(x, y, z)
+    local char = player.Character
+    if char and char:FindFirstChild("HumanoidRootPart") then
+        local hrp = char.HumanoidRootPart
+        hrp.CFrame = CFrame.new(x, y, z)
+        hrp.Velocity = Vector3.new(0, 0, 0)
     end
 end
 
@@ -160,45 +164,46 @@ local function overview()
     end
 end
 
-local function tpTo(offset)
+local function tpToDirection(offset)
     local char = player.Character
-    if char and char:FindFirstChild("HumanoidRootPart") then
-        local hrp = char.HumanoidRootPart
-        local cityData = ReplicatedStorage:FindFirstChild("CityData")
-        if not cityData then return end
-        local manifestMod = require(cityData:FindFirstChild("Manifest"))
-        local bounds = manifestMod.LocalBoundsStuds
-        if not bounds then return end
-        
-        local cx = (bounds.MinX + bounds.MaxX) / 2
-        local cz = (bounds.MinZ + bounds.MaxZ) / 2
-        local w = bounds.MaxX - bounds.MinX
-        local d = bounds.MaxZ - bounds.MinZ
-        
-        local tx = cx + offset.X * (w / 2 * 0.8)
-        local tz = cz + offset.Z * (d / 2 * 0.8)
-        
-        hrp.CFrame = CFrame.new(tx, 50, tz)
-    end
+    if not char or not char:FindFirstChild("HumanoidRootPart") then return end
+    
+    local cityData = ReplicatedStorage:FindFirstChild("CityData")
+    if not cityData then return end
+    local manifestMod = cityData:FindFirstChild("Manifest")
+    if not manifestMod then return end
+    
+    local success, manifestData = pcall(require, manifestMod)
+    if not success or not manifestData.LocalBoundsStuds then return end
+    
+    local bounds = manifestData.LocalBoundsStuds
+    local cx = (bounds.MinX + bounds.MaxX) / 2
+    local cz = (bounds.MinZ + bounds.MaxZ) / 2
+    local w = bounds.MaxX - bounds.MinX
+    local d = bounds.MaxZ - bounds.MinZ
+    
+    local tx = cx + offset.X * (w / 2 * 0.8)
+    local tz = cz + offset.Z * (d / 2 * 0.8)
+    teleportToAbsolute(tx, 50, tz)
 end
 
-local flyBtn = createButton("[FLY: OFF]", function()
+-- Buttons
+flyButton = createButton("[FLY: OFF]", function()
     toggleFly()
-    flyBtn.Text = isFlying and "[FLY: ON]" or "[FLY: OFF]"
 end)
-createButton("[OVERVIEW]", overview)
-createButton("[CENTER]", function() tpTo(Vector3.new(0, 0, 0)) end)
-createButton("[NORTH]", function() tpTo(Vector3.new(0, 0, -1)) end)
-createButton("[SOUTH]", function() tpTo(Vector3.new(0, 0, 1)) end)
-createButton("[EAST]", function() tpTo(Vector3.new(1, 0, 0)) end)
-createButton("[WEST]", function() tpTo(Vector3.new(-1, 0, 0)) end)
 
--- ContextAction Bindings
+createButton("[OVERVIEW]", overview)
+createButton("[CENTER]", function() tpToDirection(Vector3.new(0, 0, 0)) end)
+createButton("[NORTH]", function() tpToDirection(Vector3.new(0, 0, -1)) end)
+createButton("[SOUTH]", function() tpToDirection(Vector3.new(0, 0, 1)) end)
+createButton("[EAST]", function() tpToDirection(Vector3.new(1, 0, 0)) end)
+createButton("[WEST]", function() tpToDirection(Vector3.new(-1, 0, 0)) end)
+
+-- Input Bindings
 local function onFlyAction(actionName, state, input)
     if state == Enum.UserInputState.Begin then
         if actionName == "QA_ToggleFly" then
             toggleFly()
-            flyBtn.Text = isFlying and "[FLY: ON]" or "[FLY: OFF]"
         elseif actionName == "QA_Overview" then
             overview()
         end
@@ -221,7 +226,9 @@ local function onMoveAction(actionName, state, input)
     elseif actionName == "QA_Down" then flyKeys.Q = isDown
     elseif actionName == "QA_Fast" then 
         flyKeys.Shift = isDown
-        if isFlying then flyStatusLabel.Text = isDown and "Fly: ON (Speed: 350)" or "Fly: ON (Speed: 100)" end
+        if isFlying then 
+            flyStatusLabel.Text = isDown and "Fly: ON (Speed: 350)" or "Fly: ON (Speed: 100)" 
+        end
     end
     return Enum.ContextActionResult.Pass
 end
@@ -234,12 +241,36 @@ ContextActionService:BindActionAtPriority("QA_Up", onMoveAction, false, Enum.Con
 ContextActionService:BindActionAtPriority("QA_Down", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Q)
 ContextActionService:BindActionAtPriority("QA_Fast", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.LeftShift)
 
+print("[RoboRoblox QA] Input actions bound")
+logLabel.Text = "Log: Input actions bound"
+
+-- Player / Character State
+player.CharacterAdded:Connect(function(char)
+    isFlying = false
+    table.clear(noclipOriginals)
+    if flyButton then flyButton.Text = "[FLY: OFF]" end
+    flyStatusLabel.Text = "Fly: OFF"
+end)
+
+local frames = 0
+local lastUpdate = os.clock()
+
 RunService.RenderStepped:Connect(function(dt)
+    -- FPS
+    frames += 1
+    local now = os.clock()
+    if now - lastUpdate >= 1 then
+        fpsLabel.Text = " FPS: " .. tostring(frames)
+        frames = 0
+        lastUpdate = now
+    end
+    
     local char = player.Character
     if char and char:FindFirstChild("HumanoidRootPart") then
         local hrp = char.HumanoidRootPart
         posLabel.Text = string.format(" Position: %.1f, %.1f, %.1f", hrp.Position.X, hrp.Position.Y, hrp.Position.Z)
         
+        -- Fly logic override
         if isFlying then
             local camCFrame = camera.CFrame
             local speed = flyKeys.Shift and 350 or 100
@@ -256,8 +287,61 @@ RunService.RenderStepped:Connect(function(dt)
                 moveDir = moveDir.Unit
             end
             
+            -- Keep against gravity if physics are running by setting velocity to counteract gravity
+            -- User requested: "kein globales Workspace.Gravity = 0. HumanoidRootPart direkt bewegen."
             hrp.CFrame = CFrame.new(hrp.Position + moveDir * speed * dt)
             hrp.Velocity = Vector3.new(0, 0, 0)
         end
+        
+        -- Safe Respawn Floor (Y < -100)
+        if hrp.Position.Y < -100 then
+            warn("[RoboRoblox QA] Character fell below -100. Teleporting to center.")
+            tpToDirection(Vector3.new(0, 0, 0))
+        end
+    end
+end)
+
+-- Async Data Loading
+task.spawn(function()
+    logLabel.Text = "Log: Waiting for CityData..."
+    local cityData = ReplicatedStorage:WaitForChild("CityData")
+    local manifestMod = cityData:WaitForChild("Manifest")
+    local success, manifest = pcall(require, manifestMod)
+    
+    if not success then
+        warn("[RoboRoblox QA] Failed to load Manifest")
+        logLabel.Text = "Log: ERROR Manifest"
+        return
+    end
+    
+    print("[RoboRoblox QA] Manifest loaded")
+    logLabel.Text = "Log: Manifest loaded"
+    coverageLabel.Text = " Coverage: " .. (manifest.Coverage or "Unknown")
+    scaleLabel.Text = " Scale: 1 m = " .. string.format("%.3f", manifest.MetersToStuds or 3.571) .. " studs"
+    
+    local importStatusFolder = ReplicatedStorage:WaitForChild("CityImportStatus", 10)
+    if importStatusFolder then
+        task.spawn(function()
+            while task.wait(0.5) do
+                local stateObj = importStatusFolder:FindFirstChild("State")
+                if stateObj then
+                    importStatusLabel.Text = " Import: " .. stateObj.Value
+                end
+                local rObj = importStatusFolder:FindFirstChild("RoadsCreated")
+                local bObj = importStatusFolder:FindFirstChild("BuildingsCreated")
+                if rObj and bObj then
+                    importStatsLabel.Text = string.format(" Roads: %d / Bldgs: %d", rObj.Value, bObj.Value)
+                end
+                
+                local gSamples = importStatusFolder:FindFirstChild("GroundSamples")
+                local gHits = importStatusFolder:FindFirstChild("GroundHits")
+                if gSamples and gHits then
+                    qaCoverageLabel.Text = string.format(" Ground: %d/%d Hits", gHits.Value, gSamples.Value)
+                end
+            end
+        end)
+    else
+        warn("[RoboRoblox QA] CityImportStatus not found within timeout")
+        logLabel.Text = "Log: No ImportStatus"
     end
 end)

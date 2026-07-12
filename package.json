@@ -8,7 +8,10 @@
   "scripts": {
     "dev:control-center": "pnpm --filter control-center run dev",
     "build:control-center": "pnpm --filter control-center run build",
-    "roblox:build": "rojo build roblox/default.project.json -o roblox/Norderstedt_MVP.rbxlx",
-    "geodata:build": "cd tools/geodata && python -m uv run python src/pipeline.py && python -m uv run python src/export_roblox.py"
+    "roblox:build": "pnpm run roblox:build:versioned",
+    "roblox:build:versioned": "node scripts/build-roblox-versioned.mjs",
+    "geodata:build": "cd tools/geodata && python -m uv run python src/pipeline.py && python -m uv run python src/export_roblox.py",
+    "lint:luau": "node scripts/lint-luau.mjs",
+    "format:luau:check": "node scripts/lint-luau.mjs"
   }
 }

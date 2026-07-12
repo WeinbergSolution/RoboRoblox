@@ -18,7 +18,12 @@ return {
             ["osm_id"] = 302812997,
             ["tile_500"] = "NO_E567000_N5950500_500",
             ["tile_250"] = "NO_E567000_N5950500_250",
-            ["WidthMeters"] = 18.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 18.0,
+            ["ScaledOSMWidthStuds"] = 64.285704,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 64.285704,
         },
         Geometry = {
             {898.52, -696.08}, {901.31, -693.73}

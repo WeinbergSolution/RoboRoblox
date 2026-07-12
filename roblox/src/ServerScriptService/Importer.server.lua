@@ -89,6 +89,32 @@ else
             ground.Parent = cityGeometry
         end
     end
+    
+    -- Safety Floor
+    for tx = 0, math.ceil(sizeX / TILE_SIZE) - 1 do
+        for tz = 0, math.ceil(sizeZ / TILE_SIZE) - 1 do
+            local safety = Instance.new("Part")
+            safety.Name = "PilotSafetyFloor_" .. tx .. "_" .. tz
+            safety.Anchored = true
+            safety.CanCollide = true
+            safety.CanQuery = true
+            safety.Transparency = 1
+            
+            local w = math.min(TILE_SIZE, sizeX - tx * TILE_SIZE)
+            local d = math.min(TILE_SIZE, sizeZ - tz * TILE_SIZE)
+            local posX = startX + tx * TILE_SIZE + w/2
+            local posZ = startZ + tz * TILE_SIZE + d/2
+            
+            if tx == 0 then w += 500 posX -= 250 end
+            if tx == math.ceil(sizeX / TILE_SIZE) - 1 then w += 500 posX += 250 end
+            if tz == 0 then d += 500 posZ -= 250 end
+            if tz == math.ceil(sizeZ / TILE_SIZE) - 1 then d += 500 posZ += 250 end
+            
+            safety.Size = Vector3.new(w, 16, d)
+            safety.CFrame = CFrame.new(posX, -8, posZ) -- Oberkante -8, Dicke 16 -> Center Y = -16
+            safety.Parent = cityGeometry
+        end
+    end
 end
 
 local function createPart(name, parent, color, material, canCollide)
@@ -110,13 +136,12 @@ local function processLineString(feature, folder, color, material, layerY, heigh
     
     local featureId = tostring(feature.Id)
     local featureType = feature.Properties.highway or feature.Properties.railway or feature.Properties.water or "Unknown"
-    local widthMeters = feature.Properties.WidthMeters or 4.0
-    local widthStuds = widthMeters * scale
+    local widthMeters = feature.Properties.OSMWidthMeters or feature.Properties.WidthMeters or 4.0
+    local widthStuds = feature.Properties.FinalWidthStuds or (widthMeters * scale)
     
-    -- Ensure widths are sane (e.g. 1m to 30m)
-    if widthMeters < 1.0 or widthMeters > 30.0 then
-        -- print("Warning: Road width out of typical bounds: " .. widthMeters)
-        widthStuds = math.clamp(widthMeters, 1.0, 30.0) * scale
+    -- Ensure widths are sane (e.g. 1m to 60m)
+    if not feature.Properties.FinalWidthStuds and (widthMeters < 1.0 or widthMeters > 60.0) then
+        widthStuds = math.clamp(widthMeters, 1.0, 60.0) * scale
     end
     
     for i = 1, #coords - 1 do
@@ -285,7 +310,66 @@ spawnLoc.CFrame = CFrame.new(bestSpawn)
 
 local duration = os.clock() - startTime
 setStatus("DurationSeconds", duration)
-setStatus("State", "COMPLETE")
+
+-- QA Raycasts
+setStatus("GroundSamples", 100)
+local hits = 0
+local misses = 0
+local rng = Random.new(12345)
+for i = 1, 100 do
+    local rx = centerX + (rng:NextNumber() - 0.5) * (bounds.MaxX - bounds.MinX)
+    local rz = centerZ + (rng:NextNumber() - 0.5) * (bounds.MaxZ - bounds.MinZ)
+    local startPos = Vector3.new(rx, 1000, rz)
+    local result = Workspace:Raycast(startPos, Vector3.new(0, -2000, 0))
+    if result and result.Instance and result.Instance.Name:match("PilotGround") then
+        hits += 1
+    else
+        misses += 1
+    end
+end
+setStatus("GroundHits", hits)
+setStatus("GroundMisses", misses)
+
+-- Road Width Gauge
+local qaFolder = Workspace:FindFirstChild("QA")
+if not qaFolder then
+    qaFolder = Instance.new("Folder")
+    qaFolder.Name = "QA"
+    qaFolder.Parent = Workspace
+end
+local gauge = qaFolder:FindFirstChild("RoadWidthGauge")
+if gauge then gauge:Destroy() end
+
+gauge = Instance.new("Model")
+gauge.Name = "RoadWidthGauge"
+local b1 = Instance.new("Part")
+b1.Size = Vector3.new(8, 4, 16)
+b1.CFrame = CFrame.new(bestSpawn + Vector3.new(4, 2, 0))
+b1.Color = Color3.fromRGB(200, 50, 50)
+b1.Anchored = true
+b1.Parent = gauge
+
+local b2 = Instance.new("Part")
+b2.Size = Vector3.new(8, 4, 16)
+b2.CFrame = CFrame.new(bestSpawn + Vector3.new(-4, 2, 0))
+b2.Color = Color3.fromRGB(50, 50, 200)
+b2.Anchored = true
+b2.Parent = gauge
+
+local line = Instance.new("Part")
+line.Size = Vector3.new(0.5, 4.1, 16)
+line.CFrame = CFrame.new(bestSpawn + Vector3.new(0, 2, 0))
+line.Color = Color3.fromRGB(255, 255, 255)
+line.Anchored = true
+line.Parent = gauge
+gauge.Parent = qaFolder
+
+if hits == 100 and misses == 0 then
+    setStatus("State", "COMPLETE")
+else
+    setStatus("State", "FAILED")
+    warn("Ground QA Check failed! Misses: " .. misses)
+end
 
 print(string.format("Import Complete in %.2fs", duration))
 print("Import Stats:")

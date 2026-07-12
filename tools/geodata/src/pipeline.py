@@ -76,43 +76,95 @@ def parse_height(w):
     return max(2.5, min(60.0, val))
 
 def parse_road_width(w):
+    hw_type = w.tags.get("highway", "default")
+    
+    # 1. Determine LaneCount and DirectionMode
+    lane_count = 2
+    dir_mode = "two-way"
+    
+    if w.tags.get("oneway") == "yes":
+        lane_count = 1
+        dir_mode = "one-way"
+        
+    lanes_tag = w.tags.get("lanes")
+    lanes_fwd = w.tags.get("lanes:forward")
+    lanes_bwd = w.tags.get("lanes:backward")
+    
+    if lanes_tag:
+        try:
+            lane_count = int(lanes_tag.split(';')[0])
+        except ValueError:
+            pass
+    elif lanes_fwd and lanes_bwd:
+        try:
+            lane_count = int(lanes_fwd) + int(lanes_bwd)
+        except ValueError:
+            pass
+            
+    if lane_count < 1:
+        lane_count = 1
+        
+    # 2. Gameplay Minimums
+    gameplay_min = 28.0 # default 2 lanes
+    if hw_type == "footway":
+        gameplay_min = 7.0
+    elif hw_type == "path":
+        gameplay_min = 6.0
+    elif hw_type == "cycleway":
+        gameplay_min = 9.0
+    else:
+        if lane_count == 1:
+            gameplay_min = 14.0
+        elif lane_count == 2:
+            gameplay_min = 28.0
+        elif lane_count >= 4:
+            gameplay_min = 52.0
+        else:
+            # 3 lanes -> ~ 40 studs
+            gameplay_min = 14.0 * lane_count
+            
+    # 3. Read OSM Width if available
+    osm_width = 0.0
     width_tag = w.tags.get("width")
     if width_tag:
         w_str = width_tag.replace('m', '').replace(',', '.').strip()
         try:
-            return float(w_str)
-        except ValueError:
-            pass
-    
-    hw_type = w.tags.get("highway", "default")
-    defaults = {
-        "motorway": 24.0, "motorway_link": 14.0,
-        "trunk": 20.0, "trunk_link": 12.0,
-        "primary": 18.0, "primary_link": 10.0,
-        "secondary": 14.0, "secondary_link": 10.0,
-        "tertiary": 12.0, "tertiary_link": 10.0,
-        "residential": 10.0,
-        "unclassified": 10.0,
-        "living_street": 8.0,
-        "service": 6.0,
-        "track": 5.0,
-        "cycleway": 4.0,
-        "footway": 4.0,
-        "path": 3.0,
-        "pedestrian": 8.0,
-        "steps": 4.0
-    }
-    class_default = defaults.get(hw_type, 4.0)
-    
-    lanes_tag = w.tags.get("lanes")
-    if lanes_tag:
-        try:
-            lanes = float(lanes_tag.split(';')[0]) # take first if multiple
-            return max(class_default, lanes * 3.2)
+            osm_width = float(w_str)
         except ValueError:
             pass
             
-    return class_default
+    # If no OSM width, use some geographic default
+    if osm_width <= 0:
+        defaults = {
+            "motorway": 24.0, "motorway_link": 14.0,
+            "trunk": 20.0, "trunk_link": 12.0,
+            "primary": 18.0, "primary_link": 10.0,
+            "secondary": 14.0, "secondary_link": 10.0,
+            "tertiary": 12.0, "tertiary_link": 10.0,
+            "residential": 6.0,
+            "unclassified": 6.0,
+            "living_street": 5.0,
+            "service": 4.0,
+            "track": 3.0,
+            "cycleway": 2.5,
+            "footway": 2.0,
+            "path": 1.5,
+            "pedestrian": 5.0,
+            "steps": 2.0
+        }
+        osm_width = defaults.get(hw_type, 4.0)
+        
+    scaled_width = osm_width * METERS_TO_STUDS
+    final_width = max(scaled_width, gameplay_min)
+    
+    return {
+        "LaneCount": lane_count,
+        "DirectionMode": dir_mode,
+        "OSMWidthMeters": osm_width,
+        "ScaledOSMWidthStuds": scaled_width,
+        "GameplayMinimumStuds": gameplay_min,
+        "FinalWidthStuds": final_width
+    }
 
 class PilotHandler(osmium.SimpleHandler):
     def __init__(self, bbox_bounds):
@@ -192,7 +244,9 @@ class PilotHandler(osmium.SimpleHandler):
                     feature["properties"]["OBB_Rotation"] = rot
                     feature["properties"]["HeightMeters"] = parse_height(w)
                 elif category == "roads":
-                    feature["properties"]["WidthMeters"] = parse_road_width(w)
+                    road_data = parse_road_width(w)
+                    for k, v in road_data.items():
+                        feature["properties"][k] = v
                 
                 feature_list.append(feature)
 

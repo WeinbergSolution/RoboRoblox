@@ -9,7 +9,12 @@ return {
             ["osm_id"] = 1321769224,
             ["tile_500"] = "NO_E565500_N5952000_500",
             ["tile_250"] = "NO_E565750_N5952000_250",
-            ["WidthMeters"] = 6.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
         },
         Geometry = {
             {-244.08, 660.91}, {-187.78, 660.88}
@@ -28,7 +33,12 @@ return {
             ["osm_id"] = 28723143,
             ["tile_500"] = "NO_E565500_N5952000_500",
             ["tile_250"] = "NO_E565750_N5952000_250",
-            ["WidthMeters"] = 10.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 6.0,
+            ["ScaledOSMWidthStuds"] = 21.428568,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
         },
         Geometry = {
             {-245.52, 534.95}, {-244.89, 831.01}
@@ -51,7 +61,12 @@ return {
             ["osm_id"] = 374096729,
             ["tile_500"] = "NO_E565500_N5952000_500",
             ["tile_250"] = "NO_E565750_N5952000_250",
-            ["WidthMeters"] = 14.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 14.0,
+            ["ScaledOSMWidthStuds"] = 49.999992,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 49.999992,
         },
         Geometry = {
             {-118.13, 579.24}, {-118.43, 809.10}
@@ -65,7 +80,12 @@ return {
             ["osm_id"] = 822141613,
             ["tile_500"] = "NO_E565500_N5952000_500",
             ["tile_250"] = "NO_E565750_N5952000_250",
-            ["WidthMeters"] = 6.0,
+            ["LaneCount"] = 2,
+            ["DirectionMode"] = "two-way",
+            ["OSMWidthMeters"] = 4.0,
+            ["ScaledOSMWidthStuds"] = 14.285712,
+            ["GameplayMinimumStuds"] = 28.0,
+            ["FinalWidthStuds"] = 28.0,
         },
         Geometry = {
             {-114.97, 659.90}, {-172.22, 659.01}, {-175.82, 640.39}

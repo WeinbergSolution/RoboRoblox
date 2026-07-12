@@ -5,6 +5,8 @@ dist/
 build/
 roblox/Norderstedt_MVP.rbxlx
 roblox/Norderstedt_MVP.rbxlx.lock
+roblox/builds/*.rbxlx
+roblox/builds/LATEST.txt
 rojo.exe
 rojo.zip
 .venv/
