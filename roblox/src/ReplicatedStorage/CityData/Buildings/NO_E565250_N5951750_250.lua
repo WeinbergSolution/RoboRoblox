@@ -1,0 +1,894 @@
+return {
+    [1] = {
+        Id = "1062718405",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "apartments",
+            ["osm_id"] = 1062718405,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 12.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-747.97, 387.77},
+            SizeMeters = {9.92, 27.37},
+            RotationDegrees = -20.22
+        },
+        Geometry = {
+            {-759.10, 397.16}, {-736.83, 378.43}, {-762.53, 387.85}, {-759.10, 397.16}
+        }
+    },
+    [2] = {
+        Id = "1116542167",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "apartments",
+            ["osm_id"] = 1116542167,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 12.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-747.23, 426.94},
+            SizeMeters = {9.33, 29.10},
+            RotationDegrees = -40.06
+        },
+        Geometry = {
+            {-755.37, 439.87}, {-733.10, 421.14}, {-758.80, 430.56}, {-755.37, 439.87}
+        }
+    },
+    [3] = {
+        Id = "166379446",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "5",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Drosselstieg",
+            ["building"] = "house",
+            ["osm_id"] = 166379446,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-849.75, 329.16},
+            SizeMeters = {7.16, 9.00},
+            RotationDegrees = 54.62
+        },
+        Geometry = {
+            {-850.06, 334.90}, {-849.42, 323.43}, {-855.27, 327.56}, {-850.06, 334.90}
+        }
+    },
+    [4] = {
+        Id = "166379451",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "3",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Drosselstieg",
+            ["building"] = "house",
+            ["osm_id"] = 166379451,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-831.76, 315.49},
+            SizeMeters = {8.78, 11.14},
+            RotationDegrees = 146.04
+        },
+        Geometry = {
+            {-833.91, 322.23}, {-829.59, 308.74}, {-838.84, 314.96}, {-833.91, 322.23}
+        }
+    },
+    [5] = {
+        Id = "166379459",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "1a",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Drosselstieg",
+            ["building"] = "house",
+            ["osm_id"] = 166379459,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-818.38, 305.83},
+            SizeMeters = {11.06, 11.72},
+            RotationDegrees = -125.44
+        },
+        Geometry = {
+            {-810.48, 307.40}, {-817.28, 297.85}, {-823.45, 308.26}, {-819.51, 313.80}, {-810.48, 307.40}
+        }
+    },
+    [6] = {
+        Id = "166379469",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166379469,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-769.86, 314.72},
+            SizeMeters = {8.23, 8.80},
+            RotationDegrees = -20.67
+        },
+        Geometry = {
+            {-772.53, 320.13}, {-767.19, 309.34}, {-775.43, 312.43}, {-772.53, 320.13}
+        }
+    },
+    [7] = {
+        Id = "166379470",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "50",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166379470,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-756.31, 327.28},
+            SizeMeters = {12.59, 15.40},
+            RotationDegrees = -19.88
+        },
+        Geometry = {
+            {-746.93, 330.59}, {-751.22, 318.75}, {-765.69, 323.98}, {-761.40, 335.81}, {-746.93, 330.59}
+        }
+    },
+    [8] = {
+        Id = "166379471",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "52",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166379471,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-767.14, 346.86},
+            SizeMeters = {6.62, 10.29},
+            RotationDegrees = -23.03
+        },
+        Geometry = {
+            {-770.58, 351.92}, {-763.69, 341.82}, {-773.17, 345.83}, {-770.58, 351.92}
+        }
+    },
+    [9] = {
+        Id = "166379472",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "56",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166379472,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-758.02, 371.86},
+            SizeMeters = {22.22, 33.84},
+            RotationDegrees = -164.85
+        },
+        Geometry = {
+            {-771.44, 356.72}, {-764.73, 381.56}, {-738.78, 365.56}, {-771.44, 356.72}
+        }
+    },
+    [10] = {
+        Id = "166379474",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "62",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166379474,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-745.82, 408.59},
+            SizeMeters = {13.12, 26.70},
+            RotationDegrees = 160.52
+        },
+        Geometry = {
+            {-735.42, 397.95}, {-756.23, 419.18}, {-731.05, 410.32}, {-735.42, 397.95}
+        }
+    },
+    [11] = {
+        Id = "166379476",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166379476,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-746.00, 448.30},
+            SizeMeters = {8.87, 15.53},
+            RotationDegrees = 169.77
+        },
+        Geometry = {
+            {-752.66, 454.01}, {-739.15, 442.56}, {-754.43, 445.31}, {-752.66, 454.01}
+        }
+    },
+    [12] = {
+        Id = "166379477",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "68",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166379477,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-747.68, 462.53},
+            SizeMeters = {6.25, 12.56},
+            RotationDegrees = -56.94
+        },
+        Geometry = {
+            {-748.49, 469.50}, {-741.64, 458.97}, {-751.01, 461.92}, {-748.49, 469.50}
+        }
+    },
+    [13] = {
+        Id = "166379482",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "70",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166379482,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-734.09, 483.85},
+            SizeMeters = {11.90, 24.51},
+            RotationDegrees = 3.71
+        },
+        Geometry = {
+            {-746.70, 489.00}, {-722.24, 490.58}, {-723.61, 478.57}, {-746.70, 489.00}
+        }
+    },
+    [14] = {
+        Id = "166379483",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "72",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166379483,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-737.71, 511.44},
+            SizeMeters = {8.06, 16.35},
+            RotationDegrees = -51.86
+        },
+        Geometry = {
+            {-739.59, 520.35}, {-729.50, 507.49}, {-741.06, 509.18}, {-739.59, 520.35}
+        }
+    },
+    [15] = {
+        Id = "166379485",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166379485,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-716.40, 538.30},
+            SizeMeters = {16.60, 27.86},
+            RotationDegrees = -54.81
+        },
+        Geometry = {
+            {-717.65, 554.46}, {-701.59, 531.70}, {-721.65, 531.34}, {-717.65, 554.46}
+        }
+    },
+    [16] = {
+        Id = "166379486",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166379486,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-702.35, 530.28},
+            SizeMeters = {9.73, 19.60},
+            RotationDegrees = -100.84
+        },
+        Geometry = {
+            {-695.73, 538.99}, {-699.41, 519.74}, {-708.91, 521.70}, {-706.84, 532.71}, {-695.73, 538.99}
+        }
+    },
+    [17] = {
+        Id = "166967505",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "33",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "house",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967505,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-804.26, 331.33},
+            SizeMeters = {15.29, 15.83},
+            RotationDegrees = -34.93
+        },
+        Geometry = {
+            {-793.54, 333.17}, {-802.15, 320.54}, {-811.87, 333.61}, {-806.37, 342.13}, {-793.54, 333.17}
+        }
+    },
+    [18] = {
+        Id = "166967506",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967506,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-800.80, 318.12},
+            SizeMeters = {5.03, 10.42},
+            RotationDegrees = -83.68
+        },
+        Geometry = {
+            {-798.87, 323.58}, {-797.73, 313.22}, {-803.25, 317.37}, {-798.87, 323.58}
+        }
+    },
+    [19] = {
+        Id = "166967507",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "35",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "house",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967507,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-797.06, 346.91},
+            SizeMeters = {9.92, 9.94},
+            RotationDegrees = 143.78
+        },
+        Geometry = {
+            {-790.13, 347.97}, {-795.87, 340.13}, {-803.80, 345.71}, {-798.14, 353.85}, {-790.13, 347.97}
+        }
+    },
+    [20] = {
+        Id = "166967508",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "house",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967508,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-820.70, 359.36},
+            SizeMeters = {14.22, 14.48},
+            RotationDegrees = -35.17
+        },
+        Geometry = {
+            {-811.17, 361.34}, {-818.88, 349.38}, {-830.57, 357.92}, {-822.63, 369.19}, {-811.17, 361.34}
+        }
+    },
+    [21] = {
+        Id = "166967509",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "6a",
+            ["addr:street"] = "Drosselstieg",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967509,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-835.45, 373.17},
+            SizeMeters = {8.04, 16.69},
+            RotationDegrees = 53.81
+        },
+        Geometry = {
+            {-827.53, 377.44}, {-837.14, 364.06}, {-843.61, 368.82}, {-833.77, 382.28}, {-827.53, 377.44}
+        }
+    },
+    [22] = {
+        Id = "166967510",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "8a",
+            ["addr:street"] = "Drosselstieg",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967510,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-845.31, 384.13},
+            SizeMeters = {11.08, 11.17},
+            RotationDegrees = 54.04
+        },
+        Geometry = {
+            {-837.74, 385.38}, {-844.10, 376.36}, {-853.07, 382.86}, {-846.48, 391.88}, {-837.74, 385.38}
+        }
+    },
+    [23] = {
+        Id = "166967516",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967516,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-842.41, 443.58},
+            SizeMeters = {8.13, 26.83},
+            RotationDegrees = 163.05
+        },
+        Geometry = {
+            {-850.52, 450.31}, {-830.76, 435.78}, {-856.42, 443.60}, {-850.52, 450.31}
+        }
+    },
+    [24] = {
+        Id = "166967517",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967517,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-834.25, 456.80},
+            SizeMeters = {8.83, 16.17},
+            RotationDegrees = -43.22
+        },
+        Geometry = {
+            {-825.66, 454.78}, {-831.38, 448.05}, {-842.77, 459.34}, {-837.12, 465.55}, {-825.66, 454.78}
+        }
+    },
+    [25] = {
+        Id = "166967518",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "38",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Birkhahnkamp",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967518,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-821.77, 470.55},
+            SizeMeters = {14.45, 15.92},
+            RotationDegrees = -42.54
+        },
+        Geometry = {
+            {-811.02, 470.50}, {-820.80, 459.86}, {-828.13, 475.10}, {-822.75, 481.26}, {-811.02, 470.50}
+        }
+    },
+    [26] = {
+        Id = "166967521",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "35a",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "house",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967521,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-797.49, 366.06},
+            SizeMeters = {7.48, 14.86},
+            RotationDegrees = -77.20
+        },
+        Geometry = {
+            {-795.49, 374.13}, {-792.20, 359.64}, {-801.30, 365.94}, {-795.49, 374.13}
+        }
+    },
+    [27] = {
+        Id = "166967522",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "37",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "house",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967522,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-791.99, 393.75},
+            SizeMeters = {8.03, 8.72},
+            RotationDegrees = 66.06
+        },
+        Geometry = {
+            {-793.89, 399.37}, {-790.08, 388.16}, {-797.43, 391.39}, {-793.89, 399.37}
+        }
+    },
+    [28] = {
+        Id = "166967523",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967523,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-802.87, 399.87},
+            SizeMeters = {3.23, 6.48},
+            RotationDegrees = -71.11
+        },
+        Geometry = {
+            {-802.39, 403.46}, {-800.29, 397.33}, {-804.35, 399.22}, {-802.39, 403.46}
+        }
+    },
+    [29] = {
+        Id = "166967524",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967524,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-788.55, 372.65},
+            SizeMeters = {5.59, 6.86},
+            RotationDegrees = -35.30
+        },
+        Geometry = {
+            {-789.73, 376.91}, {-787.34, 368.42}, {-792.96, 372.35}, {-789.73, 376.91}
+        }
+    },
+    [30] = {
+        Id = "166967525",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "39a",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967525,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-807.54, 424.50},
+            SizeMeters = {12.20, 15.67},
+            RotationDegrees = -24.86
+        },
+        Geometry = {
+            {-798.12, 426.86}, {-802.99, 415.67}, {-816.90, 422.14}, {-812.09, 433.33}, {-798.12, 426.86}
+        }
+    },
+    [31] = {
+        Id = "166967526",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967526,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-792.31, 408.42},
+            SizeMeters = {6.28, 12.70},
+            RotationDegrees = -63.35
+        },
+        Geometry = {
+            {-792.36, 415.50}, {-786.66, 404.15}, {-795.69, 408.15}, {-792.36, 415.50}
+        }
+    },
+    [32] = {
+        Id = "166967528",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "39",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967528,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-788.15, 417.64},
+            SizeMeters = {2.32, 15.14},
+            RotationDegrees = 12.80
+        },
+        Geometry = {
+            {-781.03, 420.45}, {-792.36, 415.50}, {-795.79, 417.10}, {-781.03, 420.45}
+        }
+    },
+    [33] = {
+        Id = "166967541",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["source"] = "Bing",
+            ["osm_id"] = 166967541,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-782.85, 476.02},
+            SizeMeters = {15.83, 67.78},
+            RotationDegrees = -103.39
+        },
+        Geometry = {
+            {-791.91, 447.60}, {-780.92, 481.11}, {-787.84, 489.26}, {-767.31, 507.16}, {-783.00, 441.22}, {-791.91, 447.60}
+        }
+    },
+    [34] = {
+        Id = "306932791",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "detached",
+            ["osm_id"] = 306932791,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-603.21, 533.10},
+            SizeMeters = {10.88, 20.38},
+            RotationDegrees = 4.52
+        },
+        Geometry = {
+            {-613.79, 537.72}, {-592.83, 531.17}, {-612.93, 526.87}, {-613.79, 537.72}
+        }
+    },
+    [35] = {
+        Id = "326331467",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "49",
+            ["addr:street"] = "Birkhahnkamp",
+            ["building"] = "yes",
+            ["osm_id"] = 326331467,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-829.22, 521.48},
+            SizeMeters = {9.54, 16.39},
+            RotationDegrees = 139.54
+        },
+        Geometry = {
+            {-819.89, 519.79}, {-826.10, 512.55}, {-838.55, 523.17}, {-832.34, 530.41}, {-819.89, 519.79}
+        }
+    },
+    [36] = {
+        Id = "326331528",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 326331528,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-842.27, 537.44},
+            SizeMeters = {7.67, 20.06},
+            RotationDegrees = -132.98
+        },
+        Geometry = {
+            {-846.34, 527.52}, {-838.24, 547.40}, {-832.63, 542.17}, {-846.34, 527.52}
+        }
+    },
+    [37] = {
+        Id = "326331549",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 326331549,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-804.13, 546.05},
+            SizeMeters = {11.48, 14.24},
+            RotationDegrees = -20.44
+        },
+        Geometry = {
+            {-795.46, 548.94}, {-799.48, 538.19}, {-812.81, 543.15}, {-808.78, 553.90}, {-795.46, 548.94}
+        }
+    },
+    [38] = {
+        Id = "326331568",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "47",
+            ["addr:street"] = "Birkhahnkamp",
+            ["building"] = "yes",
+            ["osm_id"] = 326331568,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-836.47, 504.15},
+            SizeMeters = {9.85, 13.51},
+            RotationDegrees = -131.70
+        },
+        Geometry = {
+            {-828.30, 505.92}, {-838.53, 496.95}, {-843.90, 501.73}, {-835.65, 512.47}, {-828.30, 505.92}
+        }
+    },
+    [39] = {
+        Id = "326331570",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "51",
+            ["addr:street"] = "Waldstraße",
+            ["building"] = "yes",
+            ["osm_id"] = 326331570,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-815.77, 554.31},
+            SizeMeters = {13.37, 14.60},
+            RotationDegrees = -110.52
+        },
+        Geometry = {
+            {-806.95, 558.80}, {-812.06, 545.13}, {-822.64, 555.03}, {-819.48, 563.47}, {-806.95, 558.80}
+        }
+    },
+    [40] = {
+        Id = "671229514",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "74",
+            ["addr:street"] = "Norderstraße",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 671229514,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-731.36, 545.44},
+            SizeMeters = {12.77, 15.76},
+            RotationDegrees = 175.07
+        },
+        Geometry = {
+            {-724.06, 538.40}, {-738.66, 552.48}, {-722.96, 551.13}, {-724.06, 538.40}
+        }
+    },
+    [41] = {
+        Id = "834335525",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "6",
+            ["addr:street"] = "Taubenstieg",
+            ["building"] = "house",
+            ["osm_id"] = 834335525,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-844.17, 353.28},
+            SizeMeters = {10.90, 12.33},
+            RotationDegrees = 55.36
+        },
+        Geometry = {
+            {-836.18, 355.26}, {-843.18, 345.14}, {-852.16, 351.31}, {-845.16, 361.44}, {-836.18, 355.26}
+        }
+    },
+    [42] = {
+        Id = "917616415",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 917616415,
+            ["tile_500"] = "NO_E565000_N5951500_500",
+            ["tile_250"] = "NO_E565250_N5951750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-710.92, 316.01},
+            SizeMeters = {4.82, 10.29},
+            RotationDegrees = -166.45
+        },
+        Geometry = {
+            {-713.20, 317.95}, {-705.36, 314.87}, {-715.36, 312.47}, {-713.20, 317.95}
+        }
+    },
+}

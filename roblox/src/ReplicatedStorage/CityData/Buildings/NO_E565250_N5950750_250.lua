@@ -1,0 +1,1937 @@
+return {
+    [1] = {
+        Id = "317783813",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "24",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 317783813,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-719.22, -579.09},
+            SizeMeters = {5.07, 10.96},
+            RotationDegrees = -68.36
+        },
+        Geometry = {
+            {-718.89, -573.06}, {-714.84, -583.25}, {-720.81, -581.97}, {-718.89, -573.06}
+        }
+    },
+    [2] = {
+        Id = "317783814",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "22",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 317783814,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-712.48, -577.23},
+            SizeMeters = {5.41, 11.60},
+            RotationDegrees = -67.87
+        },
+        Geometry = {
+            {-712.16, -570.84}, {-707.79, -581.59}, {-714.19, -580.22}, {-712.16, -570.84}
+        }
+    },
+    [3] = {
+        Id = "317783815",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "20",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 317783815,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-701.89, -579.41},
+            SizeMeters = {5.23, 11.45},
+            RotationDegrees = 44.75
+        },
+        Geometry = {
+            {-707.79, -581.59}, {-699.67, -573.53}, {-701.70, -582.90}, {-707.79, -581.59}
+        }
+    },
+    [4] = {
+        Id = "317783816",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "18",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 317783816,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-696.13, -583.66},
+            SizeMeters = {5.49, 11.77},
+            RotationDegrees = 43.24
+        },
+        Geometry = {
+            {-702.30, -585.69}, {-693.72, -577.63}, {-695.77, -587.09}, {-702.30, -585.69}
+        }
+    },
+    [5] = {
+        Id = "318066090",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "26 - 36",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["osm_id"] = 318066090,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-737.15, -554.73},
+            SizeMeters = {14.92, 58.82},
+            RotationDegrees = -99.90
+        },
+        Geometry = {
+            {-724.74, -527.04}, {-734.60, -583.49}, {-749.56, -582.42}, {-738.94, -526.61}, {-724.74, -527.04}
+        }
+    },
+    [6] = {
+        Id = "318198650",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "16",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198650,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-682.06, -584.14},
+            SizeMeters = {5.62, 12.24},
+            RotationDegrees = 110.66
+        },
+        Geometry = {
+            {-682.53, -590.86}, {-686.85, -579.40}, {-680.29, -580.86}, {-682.53, -590.86}
+        }
+    },
+    [7] = {
+        Id = "318198651",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "10",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198651,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-667.91, -590.97},
+            SizeMeters = {5.83, 12.55},
+            RotationDegrees = -68.52
+        },
+        Geometry = {
+            {-667.50, -584.06}, {-662.90, -595.74}, {-669.77, -594.21}, {-667.50, -584.06}
+        }
+    },
+    [8] = {
+        Id = "318198652",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "12",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198652,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-669.42, -587.63},
+            SizeMeters = {5.67, 12.18},
+            RotationDegrees = 43.06
+        },
+        Geometry = {
+            {-675.80, -589.72}, {-666.91, -581.41}, {-669.10, -591.22}, {-675.80, -589.72}
+        }
+    },
+    [9] = {
+        Id = "318198653",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "8",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198653,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-653.01, -592.93},
+            SizeMeters = {6.50, 10.52},
+            RotationDegrees = -102.81
+        },
+        Geometry = {
+            {-651.00, -598.78}, {-655.01, -587.08}, {-648.67, -588.52}, {-651.00, -598.78}
+        }
+    },
+    [10] = {
+        Id = "318198654",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "14",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198654,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-679.69, -582.24},
+            SizeMeters = {5.35, 11.88},
+            RotationDegrees = -134.75
+        },
+        Geometry = {
+            {-673.60, -579.91}, {-681.97, -588.35}, {-679.78, -578.54}, {-673.60, -579.91}
+        }
+    },
+    [11] = {
+        Id = "318198655",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "2",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198655,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-635.96, -598.17},
+            SizeMeters = {5.87, 12.67},
+            RotationDegrees = -69.13
+        },
+        Geometry = {
+            {-635.48, -591.20}, {-630.96, -603.05}, {-637.85, -601.46}, {-635.48, -591.20}
+        }
+    },
+    [12] = {
+        Id = "318198656",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "4",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198656,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-639.57, -593.73},
+            SizeMeters = {7.01, 11.46},
+            RotationDegrees = 76.08
+        },
+        Geometry = {
+            {-641.60, -587.33}, {-637.41, -599.58}, {-644.35, -598.45}, {-641.60, -587.33}
+        }
+    },
+    [13] = {
+        Id = "318198657",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "6",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198657,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-648.08, -590.47},
+            SizeMeters = {5.31, 13.40},
+            RotationDegrees = -132.52
+        },
+        Geometry = {
+            {-641.60, -587.33}, {-650.65, -597.20}, {-647.67, -586.09}, {-641.60, -587.33}
+        }
+    },
+    [14] = {
+        Id = "318198659",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "42",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318198659,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-609.09, -599.16},
+            SizeMeters = {5.83, 12.83},
+            RotationDegrees = 18.05
+        },
+        Geometry = {
+            {-605.64, -601.10}, {-616.09, -598.38}, {-603.90, -594.40}, {-605.64, -601.10}
+        }
+    },
+    [15] = {
+        Id = "318198660",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "40",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318198660,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-610.63, -591.50},
+            SizeMeters = {5.68, 12.52},
+            RotationDegrees = 19.95
+        },
+        Geometry = {
+            {-607.21, -593.28}, {-617.48, -590.96}, {-605.71, -586.69}, {-607.21, -593.28}
+        }
+    },
+    [16] = {
+        Id = "318198661",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "22-26",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318198661,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-613.45, -534.00},
+            SizeMeters = {11.81, 18.64},
+            RotationDegrees = 77.84
+        },
+        Geometry = {
+            {-609.65, -544.35}, {-621.19, -541.87}, {-616.84, -523.97}, {-605.83, -526.11}, {-609.65, -544.35}
+        }
+    },
+    [17] = {
+        Id = "318198662",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "32-38",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318198662,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-611.54, -572.08},
+            SizeMeters = {11.14, 25.96},
+            RotationDegrees = -102.77
+        },
+        Geometry = {
+            {-608.97, -585.96}, {-619.84, -583.51}, {-614.10, -558.20}, {-603.24, -560.65}, {-608.97, -585.96}
+        }
+    },
+    [18] = {
+        Id = "318198663",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "28",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318198663,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-613.29, -544.48},
+            SizeMeters = {5.79, 13.24},
+            RotationDegrees = -162.20
+        },
+        Geometry = {
+            {-617.22, -542.70}, {-606.10, -545.22}, {-618.71, -549.27}, {-617.22, -542.70}
+        }
+    },
+    [19] = {
+        Id = "318198664",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "30",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318198664,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-610.48, -555.83},
+            SizeMeters = {1.79, 13.78},
+            RotationDegrees = 21.31
+        },
+        Geometry = {
+            {-604.38, -552.49}, {-614.10, -558.20}, {-617.22, -557.50}, {-604.38, -552.49}
+        }
+    },
+    [20] = {
+        Id = "318198665",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "2",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198665,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-708.50, -536.77},
+            SizeMeters = {7.85, 11.79},
+            RotationDegrees = 78.61
+        },
+        Geometry = {
+            {-711.18, -530.21}, {-705.81, -543.31}, {-713.51, -541.77}, {-711.18, -530.21}
+        }
+    },
+    [21] = {
+        Id = "318198666",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "10",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198666,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-677.44, -541.34},
+            SizeMeters = {6.40, 13.68},
+            RotationDegrees = 113.27
+        },
+        Geometry = {
+            {-677.67, -548.89}, {-683.08, -536.32}, {-675.45, -537.85}, {-677.67, -548.89}
+        }
+    },
+    [22] = {
+        Id = "318198667",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "4",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198667,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-701.49, -540.24},
+            SizeMeters = {7.25, 10.99},
+            RotationDegrees = -101.33
+        },
+        Geometry = {
+            {-699.02, -546.35}, {-703.97, -534.14}, {-696.86, -535.57}, {-699.02, -546.35}
+        }
+    },
+    [23] = {
+        Id = "318198668",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "8",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198668,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-685.11, -542.06},
+            SizeMeters = {5.62, 12.80},
+            RotationDegrees = 109.39
+        },
+        Geometry = {
+            {-685.63, -549.03}, {-689.88, -536.96}, {-683.47, -538.25}, {-685.63, -549.03}
+        }
+    },
+    [24] = {
+        Id = "318198669",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "6",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198669,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-697.23, -542.75},
+            SizeMeters = {5.97, 13.09},
+            RotationDegrees = -68.46
+        },
+        Geometry = {
+            {-696.86, -535.57}, {-692.05, -547.74}, {-699.02, -546.35}, {-696.86, -535.57}
+        }
+    },
+    [25] = {
+        Id = "318198670",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "12",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198670,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-664.27, -544.07},
+            SizeMeters = {5.83, 12.57},
+            RotationDegrees = 112.86
+        },
+        Geometry = {
+            {-664.51, -550.99}, {-669.39, -539.41}, {-662.49, -540.77}, {-664.51, -550.99}
+        }
+    },
+    [26] = {
+        Id = "318198671",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "14",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198671,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-660.26, -548.73},
+            SizeMeters = {7.47, 10.51},
+            RotationDegrees = -101.20
+        },
+        Geometry = {
+            {-657.61, -554.62}, {-662.90, -542.86}, {-655.57, -544.31}, {-657.61, -554.62}
+        }
+    },
+    [27] = {
+        Id = "318198672",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "20",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198672,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-638.14, -551.04},
+            SizeMeters = {7.92, 10.52},
+            RotationDegrees = 78.81
+        },
+        Geometry = {
+            {-641.00, -545.11}, {-635.27, -556.96}, {-643.04, -555.44}, {-641.00, -545.11}
+        }
+    },
+    [28] = {
+        Id = "318198673",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "18",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198673,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-645.83, -551.57},
+            SizeMeters = {6.98, 10.51},
+            RotationDegrees = -101.15
+        },
+        Geometry = {
+            {-643.43, -557.40}, {-648.24, -545.74}, {-641.39, -547.09}, {-643.43, -557.40}
+        }
+    },
+    [29] = {
+        Id = "318198674",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "16",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 318198674,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-655.70, -551.44},
+            SizeMeters = {6.10, 12.89},
+            RotationDegrees = -65.73
+        },
+        Geometry = {
+            {-655.57, -544.31}, {-650.27, -556.06}, {-657.61, -554.62}, {-655.57, -544.31}
+        }
+    },
+    [30] = {
+        Id = "318199038",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "21",
+            ["addr:street"] = "Platanenweg",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318199038,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-667.21, -638.90},
+            SizeMeters = {8.31, 18.39},
+            RotationDegrees = 20.67
+        },
+        Geometry = {
+            {-662.07, -641.40}, {-677.28, -638.27}, {-660.07, -631.77}, {-662.07, -641.40}
+        }
+    },
+    [31] = {
+        Id = "318199039",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "1-7",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Rüsternweg",
+            ["addr:suburb"] = "Garstedt",
+            ["building"] = "residential",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["osm_id"] = 318199039,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-624.69, -647.41},
+            SizeMeters = {11.87, 31.10},
+            RotationDegrees = 167.26
+        },
+        Geometry = {
+            {-641.17, -649.77}, {-638.54, -638.19}, {-608.22, -645.05}, {-610.84, -656.62}, {-641.17, -649.77}
+        }
+    },
+    [32] = {
+        Id = "318199042",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "7a",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318199042,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-696.00, -626.05},
+            SizeMeters = {8.56, 9.45},
+            RotationDegrees = -12.82
+        },
+        Geometry = {
+            {-692.35, -631.28}, {-699.66, -620.83}, {-690.45, -622.93}, {-692.35, -631.28}
+        }
+    },
+    [33] = {
+        Id = "318199043",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "18",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Kastanienweg",
+            ["addr:suburb"] = "Garstedt",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318199043,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-727.98, -638.83},
+            SizeMeters = {8.58, 17.65},
+            RotationDegrees = 21.66
+        },
+        Geometry = {
+            {-724.56, -642.08}, {-737.77, -638.10}, {-721.37, -631.58}, {-724.56, -642.08}
+        }
+    },
+    [34] = {
+        Id = "318199044",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "9",
+            ["addr:street"] = "Rüsternweg",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318199044,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-710.58, -621.64},
+            SizeMeters = {7.03, 10.14},
+            RotationDegrees = -13.61
+        },
+        Geometry = {
+            {-714.68, -617.03}, {-704.84, -619.48}, {-716.33, -623.87}, {-714.68, -617.03}
+        }
+    },
+    [35] = {
+        Id = "318199045",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "11",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Rüsternweg",
+            ["addr:suburb"] = "Garstedt",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318199045,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-719.64, -621.96},
+            SizeMeters = {5.85, 12.70},
+            RotationDegrees = 20.03
+        },
+        Geometry = {
+            {-716.33, -623.87}, {-726.61, -621.38}, {-714.68, -617.03}, {-716.33, -623.87}
+        }
+    },
+    [36] = {
+        Id = "318199046",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "13",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Rüsternweg",
+            ["addr:suburb"] = "Garstedt",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318199046,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-755.55, -611.12},
+            SizeMeters = {6.70, 10.35},
+            RotationDegrees = -12.51
+        },
+        Geometry = {
+            {-759.87, -606.72}, {-749.77, -608.96}, {-751.38, -615.47}, {-759.87, -606.72}
+        }
+    },
+    [37] = {
+        Id = "318199047",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "15",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Rüsternweg",
+            ["addr:suburb"] = "Garstedt",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318199047,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-765.38, -608.69},
+            SizeMeters = {6.30, 9.86},
+            RotationDegrees = -12.98
+        },
+        Geometry = {
+            {-761.29, -612.86}, {-769.47, -604.51}, {-759.87, -606.72}, {-761.29, -612.86}
+        }
+    },
+    [38] = {
+        Id = "318199048",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "residential",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 318199048,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 10.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-803.58, -563.32},
+            SizeMeters = {12.40, 46.55},
+            RotationDegrees = -133.42
+        },
+        Geometry = {
+            {-824.08, -575.97}, {-792.10, -542.18}, {-783.08, -550.68}, {-815.05, -584.47}, {-824.08, -575.97}
+        }
+    },
+    [39] = {
+        Id = "318200822",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "41",
+            ["addr:street"] = "Heidbergstraße",
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["osm_id"] = 318200822,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-796.32, -478.98},
+            SizeMeters = {9.48, 23.23},
+            RotationDegrees = 15.65
+        },
+        Geometry = {
+            {-808.78, -477.55}, {-786.41, -471.29}, {-788.60, -481.74}, {-808.78, -477.55}
+        }
+    },
+    [40] = {
+        Id = "318200824",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "43",
+            ["addr:street"] = "Heidbergstraße",
+            ["building"] = "apartments",
+            ["osm_id"] = 318200824,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 12.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-774.79, -466.56},
+            SizeMeters = {12.61, 14.61},
+            RotationDegrees = 77.92
+        },
+        Geometry = {
+            {-782.49, -472.38}, {-779.43, -458.10}, {-767.10, -460.74}, {-770.15, -475.00}, {-782.49, -472.38}
+        }
+    },
+    [41] = {
+        Id = "318200828",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "19",
+            ["addr:street"] = "Platanenweg",
+            ["building"] = "residential",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "0",
+            ["osm_id"] = 318200828,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-673.27, -658.20},
+            SizeMeters = {7.86, 18.37},
+            RotationDegrees = 139.35
+        },
+        Geometry = {
+            {-668.86, -667.17}, {-682.80, -655.20}, {-667.09, -658.33}, {-668.86, -667.17}
+        }
+    },
+    [42] = {
+        Id = "318200829",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "15",
+            ["addr:street"] = "Platanenweg",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318200829,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-682.53, -693.02},
+            SizeMeters = {10.29, 14.17},
+            RotationDegrees = 166.65
+        },
+        Geometry = {
+            {-676.83, -699.66}, {-688.24, -686.39}, {-674.45, -689.64}, {-676.83, -699.66}
+        }
+    },
+    [43] = {
+        Id = "318200831",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "17",
+            ["addr:street"] = "Platanenweg",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318200831,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-678.90, -676.65},
+            SizeMeters = {12.28, 14.63},
+            RotationDegrees = 167.51
+        },
+        Geometry = {
+            {-687.37, -681.07}, {-684.71, -669.08}, {-670.43, -672.24}, {-673.10, -684.23}, {-687.37, -681.07}
+        }
+    },
+    [44] = {
+        Id = "318200835",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "16",
+            ["addr:street"] = "Kastanienweg",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318200835,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-738.47, -663.97},
+            SizeMeters = {5.47, 11.13},
+            RotationDegrees = 108.58
+        },
+        Geometry = {
+            {-739.29, -670.12}, {-742.84, -659.56}, {-736.12, -662.39}, {-739.29, -670.12}
+        }
+    },
+    [45] = {
+        Id = "318200836",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "14",
+            ["addr:street"] = "Kastanienweg",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318200836,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-746.18, -670.85},
+            SizeMeters = {5.92, 12.54},
+            RotationDegrees = -148.64
+        },
+        Geometry = {
+            {-739.29, -670.12}, {-750.00, -676.64}, {-746.00, -667.27}, {-739.29, -670.12}
+        }
+    },
+    [46] = {
+        Id = "318200837",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "16",
+            ["addr:street"] = "Kastanienweg",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318200837,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-735.57, -656.41},
+            SizeMeters = {5.25, 10.80},
+            RotationDegrees = 110.63
+        },
+        Geometry = {
+            {-736.12, -662.39}, {-739.93, -652.28}, {-733.16, -655.37}, {-736.12, -662.39}
+        }
+    },
+    [47] = {
+        Id = "318386462",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "19",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Kastanienweg",
+            ["addr:suburb"] = "Garstedt",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["osm_id"] = 318386462,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-752.03, -628.27},
+            SizeMeters = {8.99, 12.07},
+            RotationDegrees = -112.28
+        },
+        Geometry = {
+            {-758.47, -632.15}, {-753.91, -621.01}, {-745.58, -624.40}, {-750.15, -635.54}, {-758.47, -632.15}
+        }
+    },
+    [48] = {
+        Id = "318386463",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "11",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Kastanienweg",
+            ["addr:suburb"] = "Garstedt",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["osm_id"] = 318386463,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-782.06, -681.72},
+            SizeMeters = {11.34, 16.05},
+            RotationDegrees = 76.15
+        },
+        Geometry = {
+            {-775.42, -678.49}, {-789.48, -688.15}, {-785.64, -672.57}, {-775.42, -678.49}
+        }
+    },
+    [49] = {
+        Id = "318386470",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "17",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Kastanienweg",
+            ["addr:suburb"] = "Garstedt",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 318386470,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-760.51, -645.15},
+            SizeMeters = {6.46, 12.95},
+            RotationDegrees = 18.82
+        },
+        Geometry = {
+            {-759.39, -648.18}, {-767.68, -644.18}, {-755.42, -640.00}, {-759.39, -648.18}
+        }
+    },
+    [50] = {
+        Id = "318386471",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "31",
+            ["addr:street"] = "Heidbergstraße",
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 318386471,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-801.03, -535.49},
+            SizeMeters = {9.35, 19.31},
+            RotationDegrees = -5.42
+        },
+        Geometry = {
+            {-799.13, -540.36}, {-810.19, -529.92}, {-790.97, -531.75}, {-799.13, -540.36}
+        }
+    },
+    [51] = {
+        Id = "318386472",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "residential",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 318386472,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 10.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-851.43, -554.85},
+            SizeMeters = {10.29, 58.31},
+            RotationDegrees = -43.62
+        },
+        Geometry = {
+            {-833.88, -578.67}, {-876.08, -538.46}, {-868.97, -531.03}, {-826.77, -571.25}, {-833.88, -578.67}
+        }
+    },
+    [52] = {
+        Id = "318386474",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "residential",
+            ["osm_id"] = 318386474,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 10.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-852.85, -628.23},
+            SizeMeters = {11.12, 24.26},
+            RotationDegrees = -132.94
+        },
+        Geometry = {
+            {-863.16, -635.19}, {-848.66, -615.56}, {-840.52, -623.14}, {-857.09, -640.85}, {-863.16, -635.19}
+        }
+    },
+    [53] = {
+        Id = "318491814",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "residential",
+            ["osm_id"] = 318491814,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 10.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-820.41, -662.66},
+            SizeMeters = {9.44, 20.05},
+            RotationDegrees = 12.45
+        },
+        Geometry = {
+            {-822.65, -667.99}, {-831.22, -660.22}, {-811.64, -655.89}, {-822.65, -667.99}
+        }
+    },
+    [54] = {
+        Id = "318491815",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "residential",
+            ["osm_id"] = 318491815,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 10.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-803.94, -642.98},
+            SizeMeters = {8.86, 21.45},
+            RotationDegrees = 17.65
+        },
+        Geometry = {
+            {-808.32, -649.03}, {-815.51, -642.02}, {-795.06, -635.51}, {-808.32, -649.03}
+        }
+    },
+    [55] = {
+        Id = "318491817",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "residential",
+            ["osm_id"] = 318491817,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 10.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-836.08, -670.76},
+            SizeMeters = {13.48, 15.63},
+            RotationDegrees = -43.89
+        },
+        Geometry = {
+            {-825.77, -671.32}, {-839.79, -676.54}, {-846.38, -670.21}, {-837.01, -660.51}, {-825.77, -671.32}
+        }
+    },
+    [56] = {
+        Id = "318635033",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "industrial",
+            ["osm_id"] = 318635033,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-776.00, -596.12},
+            SizeMeters = {2.68, 5.48},
+            RotationDegrees = -50.19
+        },
+        Geometry = {
+            {-776.73, -593.15}, {-773.22, -597.36}, {-777.39, -596.55}, {-776.73, -593.15}
+        }
+    },
+    [57] = {
+        Id = "340027097",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "1",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027097,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-732.17, -483.78},
+            SizeMeters = {6.59, 24.92},
+            RotationDegrees = -107.13
+        },
+        Geometry = {
+            {-737.19, -488.89}, {-725.35, -472.84}, {-732.69, -496.65}, {-737.19, -488.89}
+        }
+    },
+    [58] = {
+        Id = "340027098",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "11",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027098,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-688.86, -496.17},
+            SizeMeters = {7.48, 18.99},
+            RotationDegrees = -101.34
+        },
+        Geometry = {
+            {-683.34, -487.64}, {-687.06, -506.21}, {-689.51, -505.66}, {-690.66, -486.12}, {-683.34, -487.64}
+        }
+    },
+    [59] = {
+        Id = "340027099",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "13",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027099,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-681.54, -497.69},
+            SizeMeters = {7.49, 19.00},
+            RotationDegrees = -101.34
+        },
+        Geometry = {
+            {-676.01, -489.18}, {-679.73, -507.74}, {-682.19, -507.19}, {-683.34, -487.64}, {-676.01, -489.18}
+        }
+    },
+    [60] = {
+        Id = "340027100",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "15",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027100,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-673.63, -496.35},
+            SizeMeters = {7.48, 24.86},
+            RotationDegrees = -101.34
+        },
+        Geometry = {
+            {-672.41, -509.27}, {-678.41, -501.14}, {-667.52, -484.90}, {-672.41, -509.27}
+        }
+    },
+    [61] = {
+        Id = "340027101",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "17",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027101,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-657.69, -487.91},
+            SizeMeters = {6.60, 24.92},
+            RotationDegrees = -107.12
+        },
+        Geometry = {
+            {-662.71, -493.03}, {-650.87, -476.98}, {-658.20, -500.79}, {-662.71, -493.03}
+        }
+    },
+    [62] = {
+        Id = "340027102",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "19",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027102,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-650.23, -492.82},
+            SizeMeters = {7.48, 18.99},
+            RotationDegrees = -101.34
+        },
+        Geometry = {
+            {-644.70, -484.30}, {-648.43, -502.87}, {-650.88, -502.31}, {-652.03, -482.78}, {-644.70, -484.30}
+        }
+    },
+    [63] = {
+        Id = "340027103",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "21",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027103,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-642.90, -494.35},
+            SizeMeters = {7.49, 19.00},
+            RotationDegrees = -101.34
+        },
+        Geometry = {
+            {-637.37, -485.83}, {-641.10, -504.40}, {-643.55, -503.83}, {-644.70, -484.30}, {-637.37, -485.83}
+        }
+    },
+    [64] = {
+        Id = "340027104",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "23",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027104,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-635.57, -495.88},
+            SizeMeters = {7.48, 18.99},
+            RotationDegrees = -101.31
+        },
+        Geometry = {
+            {-630.04, -487.30}, {-633.77, -505.92}, {-636.22, -505.37}, {-637.37, -485.83}, {-630.04, -487.30}
+        }
+    },
+    [65] = {
+        Id = "340027105",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "25",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027105,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-628.23, -497.35},
+            SizeMeters = {7.49, 18.99},
+            RotationDegrees = -101.33
+        },
+        Geometry = {
+            {-622.71, -488.82}, {-626.43, -507.39}, {-628.89, -506.83}, {-630.04, -487.30}, {-622.71, -488.82}
+        }
+    },
+    [66] = {
+        Id = "340027106",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "27",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027106,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-620.91, -498.87},
+            SizeMeters = {7.48, 18.99},
+            RotationDegrees = -101.34
+        },
+        Geometry = {
+            {-615.38, -490.36}, {-619.11, -508.91}, {-621.56, -508.36}, {-622.71, -488.82}, {-615.38, -490.36}
+        }
+    },
+    [67] = {
+        Id = "340027107",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "29",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027107,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-613.58, -500.40},
+            SizeMeters = {7.49, 18.99},
+            RotationDegrees = -101.34
+        },
+        Geometry = {
+            {-608.04, -491.82}, {-611.78, -510.45}, {-614.23, -509.89}, {-615.38, -490.36}, {-608.04, -491.82}
+        }
+    },
+    [68] = {
+        Id = "340027108",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "3",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027108,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-724.71, -488.69},
+            SizeMeters = {7.48, 19.00},
+            RotationDegrees = -101.34
+        },
+        Geometry = {
+            {-719.18, -480.18}, {-722.91, -498.74}, {-725.36, -498.18}, {-726.51, -478.64}, {-719.18, -480.18}
+        }
+    },
+    [69] = {
+        Id = "340027109",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "5",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027109,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-717.38, -490.22},
+            SizeMeters = {7.49, 18.99},
+            RotationDegrees = -101.34
+        },
+        Geometry = {
+            {-711.85, -481.70}, {-715.58, -500.27}, {-718.03, -499.71}, {-719.18, -480.18}, {-711.85, -481.70}
+        }
+    },
+    [70] = {
+        Id = "340027110",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "7",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027110,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-709.48, -488.87},
+            SizeMeters = {7.48, 24.86},
+            RotationDegrees = -101.35
+        },
+        Geometry = {
+            {-708.25, -501.79}, {-714.26, -493.66}, {-703.36, -477.42}, {-708.25, -501.79}
+        }
+    },
+    [71] = {
+        Id = "340027111",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "9",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Möllner Weg",
+            ["building"] = "house",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 340027111,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-696.32, -491.26},
+            SizeMeters = {6.59, 24.92},
+            RotationDegrees = -107.13
+        },
+        Geometry = {
+            {-701.35, -496.37}, {-689.50, -480.32}, {-696.84, -504.13}, {-701.35, -496.37}
+        }
+    },
+    [72] = {
+        Id = "574828810",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "35",
+            ["addr:street"] = "Heidbergstraße",
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 574828810,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-823.16, -514.62},
+            SizeMeters = {9.35, 19.31},
+            RotationDegrees = -5.42
+        },
+        Geometry = {
+            {-821.26, -519.50}, {-832.33, -509.06}, {-813.11, -510.88}, {-821.26, -519.50}
+        }
+    },
+    [73] = {
+        Id = "574828811",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "33",
+            ["addr:street"] = "Heidbergstraße",
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 574828811,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-812.09, -525.06},
+            SizeMeters = {9.34, 19.31},
+            RotationDegrees = -5.42
+        },
+        Geometry = {
+            {-810.19, -529.92}, {-821.26, -519.50}, {-802.04, -521.32}, {-810.19, -529.92}
+        }
+    },
+    [74] = {
+        Id = "574828812",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "37",
+            ["addr:street"] = "Heidbergstraße",
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["osm_id"] = 574828812,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-837.51, -465.27},
+            SizeMeters = {12.33, 18.05},
+            RotationDegrees = -11.79
+        },
+        Geometry = {
+            {-847.60, -469.47}, {-845.08, -457.39}, {-827.93, -462.63}, {-829.93, -473.14}, {-847.60, -469.47}
+        }
+    },
+    [75] = {
+        Id = "574828813",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "39",
+            ["addr:street"] = "Heidbergstraße",
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["osm_id"] = 574828813,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-818.34, -470.09},
+            SizeMeters = {11.00, 21.68},
+            RotationDegrees = -10.99
+        },
+        Geometry = {
+            {-808.78, -477.55}, {-827.93, -462.63}, {-806.65, -466.76}, {-808.78, -477.55}
+        }
+    },
+    [76] = {
+        Id = "574828815",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "45",
+            ["addr:street"] = "Heidbergstraße",
+            ["building"] = "apartments",
+            ["osm_id"] = 574828815,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 12.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-771.74, -452.28},
+            SizeMeters = {12.61, 14.61},
+            RotationDegrees = -102.09
+        },
+        Geometry = {
+            {-779.43, -458.10}, {-776.37, -443.84}, {-764.04, -446.46}, {-767.10, -460.74}, {-779.43, -458.10}
+        }
+    },
+    [77] = {
+        Id = "822917543",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 822917543,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-781.01, -616.42},
+            SizeMeters = {8.45, 11.35},
+            RotationDegrees = -37.00
+        },
+        Geometry = {
+            {-779.04, -623.19}, {-783.00, -609.63}, {-773.94, -616.46}, {-779.04, -623.19}
+        }
+    },
+    [78] = {
+        Id = "822917545",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "13",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Kastanienweg",
+            ["addr:suburb"] = "Garstedt",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 822917545,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-772.41, -669.68},
+            SizeMeters = {6.46, 12.95},
+            RotationDegrees = 18.81
+        },
+        Geometry = {
+            {-771.28, -672.71}, {-779.58, -668.71}, {-767.32, -664.53}, {-771.28, -672.71}
+        }
+    },
+    [79] = {
+        Id = "822917546",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "13a",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Kastanienweg",
+            ["addr:suburb"] = "Garstedt",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 822917546,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-768.44, -661.50},
+            SizeMeters = {6.46, 12.95},
+            RotationDegrees = 18.81
+        },
+        Geometry = {
+            {-767.32, -664.53}, {-775.61, -660.53}, {-763.35, -656.36}, {-767.32, -664.53}
+        }
+    },
+    [80] = {
+        Id = "822917547",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "15",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Kastanienweg",
+            ["addr:suburb"] = "Garstedt",
+            ["building"] = "residential",
+            ["building:levels"] = "1",
+            ["roof:levels"] = "1",
+            ["osm_id"] = 822917547,
+            ["tile_500"] = "NO_E565000_N5950500_500",
+            ["tile_250"] = "NO_E565250_N5950750_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-764.48, -653.32},
+            SizeMeters = {6.46, 12.95},
+            RotationDegrees = 18.82
+        },
+        Geometry = {
+            {-763.35, -656.36}, {-771.65, -652.35}, {-759.39, -648.18}, {-763.35, -656.36}
+        }
+    },
+}

@@ -1,0 +1,316 @@
+return {
+    [1] = {
+        Id = "179049089",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:housenumber"] = "401",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Ulzburger Straße",
+            ["building"] = "yes",
+            ["osm_id"] = 179049089,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-152.47, 821.02},
+            SizeMeters = {10.24, 34.07},
+            RotationDegrees = -178.17
+        },
+        Geometry = {
+            {-169.65, 825.59}, {-135.27, 816.45}, {-169.33, 815.36}, {-169.65, 825.59}
+        }
+    },
+    [2] = {
+        Id = "320230196",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "45",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Apmannsweg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["house"] = "terraced",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 320230196,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-320.37, 820.94},
+            SizeMeters = {4.63, 14.71},
+            RotationDegrees = 71.05
+        },
+        Geometry = {
+            {-324.95, 814.74}, {-320.17, 828.65}, {-320.03, 814.80}, {-324.95, 814.74}
+        }
+    },
+    [3] = {
+        Id = "320230206",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "32",
+            ["addr:street"] = "Apmannsweg",
+            ["building"] = "detached",
+            ["osm_id"] = 320230206,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-212.26, 820.49},
+            SizeMeters = {12.10, 14.57},
+            RotationDegrees = -89.69
+        },
+        Geometry = {
+            {-206.17, 813.24}, {-218.28, 813.17}, {-218.35, 827.73}, {-206.25, 827.80}, {-206.17, 813.24}
+        }
+    },
+    [4] = {
+        Id = "320230234",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "37",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Apmannsweg",
+            ["building"] = "apartments",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 320230234,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-289.26, 822.05},
+            SizeMeters = {13.81, 14.10},
+            RotationDegrees = -179.33
+        },
+        Geometry = {
+            {-296.16, 815.07}, {-296.39, 828.87}, {-282.45, 828.99}, {-282.13, 815.23}, {-296.16, 815.07}
+        }
+    },
+    [5] = {
+        Id = "320230254",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "36",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Moorbekstraße",
+            ["building"] = "house",
+            ["osm_id"] = 320230254,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-338.48, 823.15},
+            SizeMeters = {9.97, 13.08},
+            RotationDegrees = 90.80
+        },
+        Geometry = {
+            {-343.37, 816.54}, {-333.59, 829.76}, {-333.41, 816.68}, {-343.37, 816.54}
+        }
+    },
+    [6] = {
+        Id = "320230261",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "34",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Moorbekstraße",
+            ["building"] = "house",
+            ["osm_id"] = 320230261,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-350.16, 820.36},
+            SizeMeters = {8.18, 16.84},
+            RotationDegrees = 53.43
+        },
+        Geometry = {
+            {-358.46, 816.03}, {-348.43, 829.56}, {-348.05, 816.33}, {-358.46, 816.03}
+        }
+    },
+    [7] = {
+        Id = "506233918",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "41",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Apmannsweg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["house"] = "terraced",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 506233918,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-310.54, 821.05},
+            SizeMeters = {4.63, 14.71},
+            RotationDegrees = 71.05
+        },
+        Geometry = {
+            {-315.11, 814.85}, {-310.34, 828.76}, {-310.20, 814.90}, {-315.11, 814.85}
+        }
+    },
+    [8] = {
+        Id = "506233919",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "43",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Apmannsweg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["house"] = "terraced",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 506233919,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-315.45, 821.00},
+            SizeMeters = {4.64, 14.71},
+            RotationDegrees = 71.05
+        },
+        Geometry = {
+            {-320.03, 814.80}, {-315.25, 828.71}, {-315.11, 814.85}, {-320.03, 814.80}
+        }
+    },
+    [9] = {
+        Id = "506233920",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "31",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Apmannsweg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["house"] = "terraced",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 506233920,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-272.02, 821.43},
+            SizeMeters = {4.67, 14.52},
+            RotationDegrees = -68.15
+        },
+        Geometry = {
+            {-272.56, 829.04}, {-267.16, 815.56}, {-272.14, 815.46}, {-272.56, 829.04}
+        }
+    },
+    [10] = {
+        Id = "506233921",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "33",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Apmannsweg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["house"] = "terraced",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 506233921,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-277.00, 821.38},
+            SizeMeters = {4.69, 14.58},
+            RotationDegrees = -68.43
+        },
+        Geometry = {
+            {-277.50, 829.02}, {-272.14, 815.46}, {-277.14, 815.35}, {-277.50, 829.02}
+        }
+    },
+    [11] = {
+        Id = "506233922",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "35",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Apmannsweg",
+            ["building"] = "house",
+            ["building:levels"] = "1",
+            ["house"] = "terraced",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 506233922,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-281.98, 821.32},
+            SizeMeters = {4.69, 14.64},
+            RotationDegrees = -68.72
+        },
+        Geometry = {
+            {-282.45, 828.99}, {-277.14, 815.35}, {-282.13, 815.23}, {-282.45, 828.99}
+        }
+    },
+    [12] = {
+        Id = "506233923",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "39",
+            ["addr:postcode"] = "22846",
+            ["addr:street"] = "Apmannsweg",
+            ["building"] = "apartments",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "2",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 506233923,
+            ["tile_500"] = "NO_E565500_N5952000_500",
+            ["tile_250"] = "NO_E565750_N5952250_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {-303.25, 821.90},
+            SizeMeters = {13.85, 14.04},
+            RotationDegrees = 0.59
+        },
+        Geometry = {
+            {-310.20, 814.90}, {-310.34, 828.76}, {-296.39, 828.87}, {-296.16, 815.07}, {-310.20, 814.90}
+        }
+    },
+}

@@ -1,0 +1,730 @@
+return {
+    [1] = {
+        Id = "1071303435",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:left"] = "no",
+            ["cycleway:right"] = "separate",
+            ["highway"] = "secondary",
+            ["lanes"] = "1",
+            ["lit"] = "yes",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Langenharmer Weg",
+            ["oneway"] = "yes",
+            ["sidewalk:left"] = "no",
+            ["sidewalk:right"] = "separate",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1071303435,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {-46.29, 207.26}, {1.06, 199.85}
+        }
+    },
+    [2] = {
+        Id = "1071303436",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "separate",
+            ["highway"] = "secondary",
+            ["lanes"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Langenharmer Weg",
+            ["sidewalk"] = "separate",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1071303436,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {-90.94, 218.85}, {-46.29, 207.26}
+        }
+    },
+    [3] = {
+        Id = "1071303437",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:left"] = "no",
+            ["cycleway:right"] = "separate",
+            ["highway"] = "secondary",
+            ["lanes"] = "1",
+            ["lit"] = "yes",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Langenharmer Weg",
+            ["oneway"] = "yes",
+            ["sidewalk:left"] = "no",
+            ["sidewalk:right"] = "separate",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1071303437,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {1.06, 199.85}, {-46.29, 207.26}
+        }
+    },
+    [4] = {
+        Id = "1071303439",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1071303439,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-17.60, 211.04}, {-19.34, 193.40}
+        }
+    },
+    [5] = {
+        Id = "1208289443",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "cycleway",
+            ["lit"] = "yes",
+            ["oneway"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 1208289443,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-126.77, 219.43}, {-63.56, 202.68}
+        }
+    },
+    [6] = {
+        Id = "1320472924",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["osm_id"] = 1320472924,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-108.85, 109.14}, {-62.94, 102.91}
+        }
+    },
+    [7] = {
+        Id = "1320472925",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["osm_id"] = 1320472925,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-110.89, 94.18}, {-64.98, 87.95}
+        }
+    },
+    [8] = {
+        Id = "1320472926",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["osm_id"] = 1320472926,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-96.94, 124.90}, {-60.41, 114.81}
+        }
+    },
+    [9] = {
+        Id = "1349703792",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["osm_id"] = 1349703792,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-91.58, 91.57}, {-93.28, 79.15}
+        }
+    },
+    [10] = {
+        Id = "1349703793",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motor_vehicle"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1349703793,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-66.67, 75.54}, {-61.30, 114.93}
+        }
+    },
+    [11] = {
+        Id = "1349703794",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motor_vehicle"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1349703794,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-97.59, 40.31}, {-95.43, 79.44}
+        }
+    },
+    [12] = {
+        Id = "1349703796",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 1349703796,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-76.18, 171.46}, {-20.94, 157.11}
+        }
+    },
+    [13] = {
+        Id = "1349703798",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["osm_id"] = 1349703798,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-96.94, 124.90}, {-101.30, 92.88}
+        }
+    },
+    [14] = {
+        Id = "1349703799",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["osm_id"] = 1349703799,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-107.36, 120.03}, {-97.77, 118.73}
+        }
+    },
+    [15] = {
+        Id = "1349703800",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 1349703800,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-97.72, 176.09}, {-75.94, 173.14}
+        }
+    },
+    [16] = {
+        Id = "148998673",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "private",
+            ["highway"] = "footway",
+            ["osm_id"] = 148998673,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-66.21, 265.83}, {20.06, 249.77}
+        }
+    },
+    [17] = {
+        Id = "149070307",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["incline"] = "down",
+            ["service"] = "driveway",
+            ["osm_id"] = 149070307,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {41.87, 219.35}, {15.57, 221.61}
+        }
+    },
+    [18] = {
+        Id = "152357060",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["name"] = "Langenharmer Ring",
+            ["osm_id"] = 152357060,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 10.0,
+        },
+        Geometry = {
+            {92.74, -12.02}, {8.10, 11.41}, {1.06, 199.85}
+        }
+    },
+    [19] = {
+        Id = "220574636",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motor_vehicle"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 220574636,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-131.87, 78.15}, {6.33, 58.59}
+        }
+    },
+    [20] = {
+        Id = "275377340",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "separate",
+            ["highway"] = "secondary",
+            ["lanes"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Langenharmer Weg",
+            ["sidewalk"] = "separate",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 275377340,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {1.06, 199.85}, {267.82, 167.57}
+        }
+    },
+    [21] = {
+        Id = "31880270",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Langenharmer Weg",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 31880270,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 10.0,
+        },
+        Geometry = {
+            {11.99, 199.18}, {29.98, 280.79}
+        }
+    },
+    [22] = {
+        Id = "31925892",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["osm_id"] = 31925892,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {23.83, 298.33}, {29.98, 280.79}
+        }
+    },
+    [23] = {
+        Id = "32601022",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "private",
+            ["highway"] = "footway",
+            ["osm_id"] = 32601022,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-66.21, 265.83}, {-57.24, 322.03}
+        }
+    },
+    [24] = {
+        Id = "32601497",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["osm_id"] = 32601497,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {102.22, 275.40}, {93.84, 191.23}
+        }
+    },
+    [25] = {
+        Id = "32614006",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["osm_id"] = 32614006,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {34.03, 295.34}, {35.05, 298.83}
+        }
+    },
+    [26] = {
+        Id = "340023122",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["incline"] = "down",
+            ["service"] = "driveway",
+            ["osm_id"] = 340023122,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {3.62, 131.17}, {-51.62, 119.15}
+        }
+    },
+    [27] = {
+        Id = "344122952",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motor_vehicle"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 344122952,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-34.15, 118.52}, {-40.50, 71.98}
+        }
+    },
+    [28] = {
+        Id = "344122953",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["foot"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motor_vehicle"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 344122953,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-61.30, 114.93}, {3.88, 124.17}
+        }
+    },
+    [29] = {
+        Id = "350372875",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 350372875,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {55.27, 95.99}, {4.68, 102.85}
+        }
+    },
+    [30] = {
+        Id = "350372876",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 350372876,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {5.63, 77.39}, {117.67, 55.46}
+        }
+    },
+    [31] = {
+        Id = "350372877",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 350372877,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-78.23, 156.35}, {-72.32, 199.70}
+        }
+    },
+    [32] = {
+        Id = "350372878",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 350372878,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {58.45, 119.31}, {3.79, 126.73}
+        }
+    },
+    [33] = {
+        Id = "350372881",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 350372881,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {63.31, 150.69}, {2.68, 156.43}
+        }
+    },
+    [34] = {
+        Id = "350372882",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 350372882,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {62.40, 148.23}, {137.88, 140.47}
+        }
+    },
+    [35] = {
+        Id = "350372883",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 350372883,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {94.25, 146.40}, {84.81, 95.13}
+        }
+    },
+    [36] = {
+        Id = "350372885",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 350372885,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-115.51, 161.41}, {2.78, 153.90}
+        }
+    },
+    [37] = {
+        Id = "350372886",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 350372886,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {125.78, 89.57}, {56.14, 102.40}
+        }
+    },
+    [38] = {
+        Id = "350372887",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "yes",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["motorcycle"] = "no",
+            ["osm_id"] = 350372887,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {51.59, 69.04}, {69.72, 193.59}
+        }
+    },
+    [39] = {
+        Id = "44631143",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "private",
+            ["highway"] = "footway",
+            ["osm_id"] = 44631143,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-98.88, 271.03}, {-66.21, 265.83}
+        }
+    },
+    [40] = {
+        Id = "720561919",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "cycleway",
+            ["lit"] = "yes",
+            ["oneway"] = "yes",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 720561919,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-77.73, 221.56}, {-90.94, 218.85}
+        }
+    },
+    [41] = {
+        Id = "73855862",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "private",
+            ["highway"] = "footway",
+            ["osm_id"] = 73855862,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-62.76, 287.47}, {-8.34, 276.77}
+        }
+    },
+    [42] = {
+        Id = "74007872",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["osm_id"] = 74007872,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {98.53, 238.27}, {153.45, 230.70}
+        }
+    },
+    [43] = {
+        Id = "74007890",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["osm_id"] = 74007890,
+            ["tile_500"] = "NO_E566000_N5951500_500",
+            ["tile_250"] = "NO_E566000_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {22.00, 261.90}, {71.71, 254.91}
+        }
+    },
+}

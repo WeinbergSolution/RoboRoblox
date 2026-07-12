@@ -1,0 +1,2312 @@
+return {
+    [1] = {
+        Id = "1349648776",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 1349648776,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {892.85, -234.18},
+            SizeMeters = {3.80, 6.35},
+            RotationDegrees = -89.18
+        },
+        Geometry = {
+            {894.80, -237.32}, {890.94, -233.17}, {894.71, -230.98}, {894.80, -237.32}
+        }
+    },
+    [2] = {
+        Id = "1349648777",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "shed",
+            ["osm_id"] = 1349648777,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 2.8,
+        },
+        OBB = {
+            CenterLocalMeters = {872.52, -222.90},
+            SizeMeters = {5.13, 10.85},
+            RotationDegrees = 30.98
+        },
+        Geometry = {
+            {875.85, -217.91}, {869.34, -227.80}, {866.55, -223.49}, {875.85, -217.91}
+        }
+    },
+    [3] = {
+        Id = "1351523100",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523100,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {832.41, -418.32},
+            SizeMeters = {5.15, 12.05},
+            RotationDegrees = 68.94
+        },
+        Geometry = {
+            {827.84, -423.01}, {832.17, -411.77}, {833.69, -422.15}, {827.84, -423.01}
+        }
+    },
+    [4] = {
+        Id = "1351523101",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523101,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {807.25, -409.02},
+            SizeMeters = {5.14, 12.05},
+            RotationDegrees = -111.06
+        },
+        Geometry = {
+            {811.81, -404.32}, {807.48, -415.57}, {805.97, -405.19}, {811.81, -404.32}
+        }
+    },
+    [5] = {
+        Id = "1351523102",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523102,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {795.55, -410.73},
+            SizeMeters = {5.15, 12.04},
+            RotationDegrees = -111.08
+        },
+        Geometry = {
+            {800.12, -406.04}, {795.79, -417.27}, {794.27, -406.89}, {800.12, -406.04}
+        }
+    },
+    [6] = {
+        Id = "1351523103",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523103,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {803.80, -410.80},
+            SizeMeters = {5.91, 10.49},
+            RotationDegrees = 98.34
+        },
+        Geometry = {
+            {805.97, -405.19}, {801.64, -416.42}, {800.12, -406.04}, {805.97, -405.19}
+        }
+    },
+    [7] = {
+        Id = "1351523105",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523105,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {878.91, -396.84},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {883.10, -392.99}, {874.72, -400.69}, {873.71, -394.53}, {883.10, -392.99}
+        }
+    },
+    [8] = {
+        Id = "1351523106",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523106,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {877.90, -390.68},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {882.09, -386.83}, {873.71, -394.53}, {872.70, -388.37}, {882.09, -386.83}
+        }
+    },
+    [9] = {
+        Id = "1351523107",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523107,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {847.55, -414.83},
+            SizeMeters = {5.91, 10.49},
+            RotationDegrees = -81.66
+        },
+        Geometry = {
+            {845.38, -420.45}, {849.71, -409.21}, {851.24, -419.60}, {845.38, -420.45}
+        }
+    },
+    [10] = {
+        Id = "1351523108",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523108,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {841.71, -415.68},
+            SizeMeters = {5.91, 10.49},
+            RotationDegrees = 98.28
+        },
+        Geometry = {
+            {839.54, -421.30}, {843.87, -410.07}, {845.38, -420.45}, {839.54, -421.30}
+        }
+    },
+    [11] = {
+        Id = "1351523109",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523109,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {878.16, -401.08},
+            SizeMeters = {5.22, 11.38},
+            RotationDegrees = -137.43
+        },
+        Geometry = {
+            {884.11, -399.15}, {875.73, -406.85}, {874.72, -400.69}, {884.11, -399.15}
+        }
+    },
+    [12] = {
+        Id = "1351523110",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523110,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {854.09, -416.81},
+            SizeMeters = {7.80, 15.70},
+            RotationDegrees = -33.63
+        },
+        Geometry = {
+            {849.71, -409.21}, {862.79, -417.91}, {851.24, -419.60}, {849.71, -409.21}
+        }
+    },
+    [13] = {
+        Id = "1351523113",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523113,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {891.63, -317.90},
+            SizeMeters = {6.01, 10.00},
+            RotationDegrees = 99.33
+        },
+        Geometry = {
+            {887.86, -313.45}, {895.41, -322.35}, {889.48, -323.32}, {887.86, -313.45}
+        }
+    },
+    [14] = {
+        Id = "1351523114",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523114,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {883.74, -320.54},
+            SizeMeters = {5.14, 11.67},
+            RotationDegrees = -49.66
+        },
+        Geometry = {
+            {881.92, -314.43}, {889.48, -323.32}, {883.55, -324.29}, {881.92, -314.43}
+        }
+    },
+    [15] = {
+        Id = "1351523115",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523115,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {871.63, -321.00},
+            SizeMeters = {5.14, 11.67},
+            RotationDegrees = -49.68
+        },
+        Geometry = {
+            {869.82, -314.89}, {877.37, -323.79}, {871.44, -324.75}, {869.82, -314.89}
+        }
+    },
+    [16] = {
+        Id = "1351523116",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523116,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {865.70, -321.97},
+            SizeMeters = {5.15, 11.67},
+            RotationDegrees = -49.66
+        },
+        Geometry = {
+            {863.88, -315.85}, {871.44, -324.75}, {865.50, -325.72}, {863.88, -315.85}
+        }
+    },
+    [17] = {
+        Id = "1351523117",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523117,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {853.84, -323.92},
+            SizeMeters = {5.15, 11.67},
+            RotationDegrees = -49.66
+        },
+        Geometry = {
+            {852.02, -317.80}, {859.58, -326.70}, {853.64, -327.66}, {852.02, -317.80}
+        }
+    },
+    [18] = {
+        Id = "1351523118",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523118,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {861.73, -321.28},
+            SizeMeters = {6.01, 10.00},
+            RotationDegrees = 99.34
+        },
+        Geometry = {
+            {857.96, -316.83}, {865.50, -325.72}, {859.58, -326.70}, {857.96, -316.83}
+        }
+    },
+    [19] = {
+        Id = "1351523120",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523120,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {879.77, -319.84},
+            SizeMeters = {6.01, 10.00},
+            RotationDegrees = 99.33
+        },
+        Geometry = {
+            {875.99, -315.39}, {883.55, -324.29}, {877.61, -325.26}, {875.99, -315.39}
+        }
+    },
+    [20] = {
+        Id = "1351523124",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523124,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {889.89, -347.67},
+            SizeMeters = {5.15, 11.67},
+            RotationDegrees = -49.66
+        },
+        Geometry = {
+            {888.08, -341.56}, {895.63, -350.45}, {889.70, -351.42}, {888.08, -341.56}
+        }
+    },
+    [21] = {
+        Id = "1351523125",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523125,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {885.92, -346.97},
+            SizeMeters = {6.01, 9.99},
+            RotationDegrees = 99.33
+        },
+        Geometry = {
+            {882.15, -342.53}, {889.70, -351.42}, {883.77, -352.39}, {882.15, -342.53}
+        }
+    },
+    [22] = {
+        Id = "1351523126",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523126,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {879.99, -347.94},
+            SizeMeters = {6.01, 10.00},
+            RotationDegrees = 99.33
+        },
+        Geometry = {
+            {876.22, -343.50}, {883.77, -352.39}, {877.84, -353.37}, {876.22, -343.50}
+        }
+    },
+    [23] = {
+        Id = "1351523127",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523127,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {866.17, -351.56},
+            SizeMeters = {5.15, 11.66},
+            RotationDegrees = -49.62
+        },
+        Geometry = {
+            {864.35, -345.45}, {871.91, -354.33}, {865.97, -355.30}, {864.35, -345.45}
+        }
+    },
+    [24] = {
+        Id = "1351523128",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523128,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {875.87, -378.35},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {880.06, -374.50}, {871.68, -382.20}, {870.67, -376.03}, {880.06, -374.50}
+        }
+    },
+    [25] = {
+        Id = "1351523129",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523129,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {872.10, -350.58},
+            SizeMeters = {5.14, 11.67},
+            RotationDegrees = -49.68
+        },
+        Geometry = {
+            {870.29, -344.47}, {877.84, -353.37}, {871.91, -354.33}, {870.29, -344.47}
+        }
+    },
+    [26] = {
+        Id = "1351523130",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5b",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523130,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {847.22, -296.60},
+            SizeMeters = {5.14, 11.67},
+            RotationDegrees = -49.66
+        },
+        Geometry = {
+            {845.41, -290.49}, {852.96, -299.39}, {847.03, -300.35}, {845.41, -290.49}
+        }
+    },
+    [27] = {
+        Id = "1351523131",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5d",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523131,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {859.08, -294.66},
+            SizeMeters = {5.15, 11.66},
+            RotationDegrees = -49.62
+        },
+        Geometry = {
+            {857.27, -288.55}, {864.82, -297.44}, {858.89, -298.41}, {857.27, -288.55}
+        }
+    },
+    [28] = {
+        Id = "1351523132",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5e",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523132,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {865.26, -295.17},
+            SizeMeters = {5.15, 11.67},
+            RotationDegrees = -49.66
+        },
+        Geometry = {
+            {863.44, -289.06}, {871.00, -297.95}, {865.07, -298.92}, {863.44, -289.06}
+        }
+    },
+    [29] = {
+        Id = "1351523133",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5f",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523133,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {871.19, -294.20},
+            SizeMeters = {5.15, 11.66},
+            RotationDegrees = -49.62
+        },
+        Geometry = {
+            {869.38, -288.09}, {876.93, -296.97}, {871.00, -297.95}, {869.38, -288.09}
+        }
+    },
+    [30] = {
+        Id = "1351523134",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "3b",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523134,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {847.15, -272.04},
+            SizeMeters = {6.26, 9.52},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {851.34, -268.19}, {842.97, -275.89}, {841.95, -269.72}, {851.34, -268.19}
+        }
+    },
+    [31] = {
+        Id = "1351523135",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "3c",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523135,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {846.14, -265.87},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.33
+        },
+        Geometry = {
+            {850.33, -262.03}, {841.95, -269.72}, {840.93, -263.56}, {850.33, -262.03}
+        }
+    },
+    [32] = {
+        Id = "1351523136",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "3d",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523136,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {845.12, -259.71},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {849.32, -255.86}, {840.93, -263.56}, {839.92, -257.40}, {849.32, -255.86}
+        }
+    },
+    [33] = {
+        Id = "1351523137",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "3e",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523137,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {844.11, -253.55},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {848.30, -249.70}, {839.92, -257.40}, {838.91, -251.24}, {848.30, -249.70}
+        }
+    },
+    [34] = {
+        Id = "1351523138",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "3a",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523138,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {846.40, -276.29},
+            SizeMeters = {5.22, 11.37},
+            RotationDegrees = -137.41
+        },
+        Geometry = {
+            {852.35, -274.36}, {843.98, -282.06}, {842.97, -275.89}, {852.35, -274.36}
+        }
+    },
+    [35] = {
+        Id = "1351523139",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5c",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523139,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {855.12, -293.96},
+            SizeMeters = {6.01, 10.00},
+            RotationDegrees = 99.33
+        },
+        Geometry = {
+            {851.34, -289.52}, {858.89, -298.41}, {852.96, -299.39}, {851.34, -289.52}
+        }
+    },
+    [36] = {
+        Id = "1351523140",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "18e",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523140,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {857.40, -212.59},
+            SizeMeters = {6.26, 9.52},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {861.59, -208.73}, {853.22, -216.44}, {852.20, -210.27}, {861.59, -208.73}
+        }
+    },
+    [37] = {
+        Id = "1351523141",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "18f",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523141,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {858.41, -218.75},
+            SizeMeters = {6.24, 9.51},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {862.60, -214.90}, {854.23, -222.60}, {853.22, -216.44}, {862.60, -214.90}
+        }
+    },
+    [38] = {
+        Id = "1351523142",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "18d",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523142,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {856.38, -206.42},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {860.58, -202.57}, {852.20, -210.27}, {851.18, -204.11}, {860.58, -202.57}
+        }
+    },
+    [39] = {
+        Id = "1351523143",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "18c",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523143,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {853.61, -198.34},
+            SizeMeters = {5.22, 11.38},
+            RotationDegrees = -137.43
+        },
+        Geometry = {
+            {859.56, -196.41}, {851.18, -204.11}, {850.17, -197.95}, {859.56, -196.41}
+        }
+    },
+    [40] = {
+        Id = "1351523146",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "18",
+            ["addr:street"] = "Romintener Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523146,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {880.26, -202.76},
+            SizeMeters = {7.43, 15.22},
+            RotationDegrees = -119.35
+        },
+        Geometry = {
+            {887.23, -197.95}, {879.77, -211.22}, {877.84, -199.49}, {887.23, -197.95}
+        }
+    },
+    [41] = {
+        Id = "1351523149",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "16",
+            ["addr:street"] = "Romintener Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523149,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {882.03, -195.64},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = -170.71
+        },
+        Geometry = {
+            {877.84, -199.49}, {886.22, -191.79}, {887.23, -197.95}, {877.84, -199.49}
+        }
+    },
+    [42] = {
+        Id = "1351523150",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523150,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {823.83, -371.52},
+            SizeMeters = {4.63, 10.27},
+            RotationDegrees = -111.79
+        },
+        Geometry = {
+            {827.88, -367.61}, {824.07, -377.14}, {822.51, -368.59}, {827.88, -367.61}
+        }
+    },
+    [43] = {
+        Id = "1351523151",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523151,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {818.46, -372.50},
+            SizeMeters = {4.62, 10.27},
+            RotationDegrees = -111.79
+        },
+        Geometry = {
+            {822.51, -368.59}, {818.69, -378.12}, {817.14, -369.57}, {822.51, -368.59}
+        }
+    },
+    [44] = {
+        Id = "1351523152",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523152,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {815.23, -374.33},
+            SizeMeters = {5.46, 8.70},
+            RotationDegrees = 100.34
+        },
+        Geometry = {
+            {817.14, -369.57}, {813.33, -379.10}, {811.77, -370.54}, {817.14, -369.57}
+        }
+    },
+    [45] = {
+        Id = "1351523153",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523153,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {802.34, -375.42},
+            SizeMeters = {4.63, 10.26},
+            RotationDegrees = -111.82
+        },
+        Geometry = {
+            {806.39, -371.52}, {802.58, -381.04}, {801.02, -372.49}, {806.39, -371.52}
+        }
+    },
+    [46] = {
+        Id = "1351523154",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523154,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {797.41, -378.81},
+            SizeMeters = {4.62, 10.27},
+            RotationDegrees = -47.57
+        },
+        Geometry = {
+            {795.65, -373.47}, {802.58, -381.04}, {797.21, -382.02}, {795.65, -373.47}
+        }
+    },
+    [47] = {
+        Id = "1351523155",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523155,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {782.49, -348.53},
+            SizeMeters = {5.66, 11.46},
+            RotationDegrees = -120.29
+        },
+        Geometry = {
+            {787.83, -345.01}, {782.04, -354.91}, {780.48, -346.35}, {787.83, -345.01}
+        }
+    },
+    [48] = {
+        Id = "1351523156",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523156,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {791.28, -348.81},
+            SizeMeters = {5.45, 8.70},
+            RotationDegrees = -79.79
+        },
+        Geometry = {
+            {793.19, -344.05}, {789.39, -353.57}, {787.83, -345.01}, {793.19, -344.05}
+        }
+    },
+    [49] = {
+        Id = "1351523157",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523157,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {796.66, -347.83},
+            SizeMeters = {5.46, 8.69},
+            RotationDegrees = -79.69
+        },
+        Geometry = {
+            {798.57, -343.07}, {794.75, -352.59}, {793.19, -344.05}, {798.57, -343.07}
+        }
+    },
+    [50] = {
+        Id = "1351523158",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523158,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {802.03, -346.86},
+            SizeMeters = {5.46, 8.70},
+            RotationDegrees = -79.68
+        },
+        Geometry = {
+            {803.94, -342.09}, {800.13, -351.63}, {798.57, -343.07}, {803.94, -342.09}
+        }
+    },
+    [51] = {
+        Id = "1351523159",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523159,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {805.26, -345.02},
+            SizeMeters = {4.63, 10.27},
+            RotationDegrees = -111.79
+        },
+        Geometry = {
+            {809.31, -341.11}, {805.50, -350.65}, {803.94, -342.09}, {809.31, -341.11}
+        }
+    },
+    [52] = {
+        Id = "1351523160",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523160,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {800.34, -318.21},
+            SizeMeters = {5.46, 8.70},
+            RotationDegrees = 100.34
+        },
+        Geometry = {
+            {802.24, -313.45}, {798.43, -322.98}, {796.87, -314.42}, {802.24, -313.45}
+        }
+    },
+    [53] = {
+        Id = "1351523161",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523161,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {789.59, -320.16},
+            SizeMeters = {5.46, 8.70},
+            RotationDegrees = -79.67
+        },
+        Geometry = {
+            {791.50, -315.40}, {787.69, -324.93}, {786.13, -316.37}, {791.50, -315.40}
+        }
+    },
+    [54] = {
+        Id = "1351523162",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523162,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {784.22, -321.14},
+            SizeMeters = {5.46, 8.70},
+            RotationDegrees = -79.68
+        },
+        Geometry = {
+            {786.13, -316.37}, {782.32, -325.91}, {780.76, -317.35}, {786.13, -316.37}
+        }
+    },
+    [55] = {
+        Id = "1351523163",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523163,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {774.56, -320.80},
+            SizeMeters = {5.30, 13.15},
+            RotationDegrees = -128.93
+        },
+        Geometry = {
+            {780.76, -317.35}, {772.49, -327.58}, {771.24, -320.70}, {780.76, -317.35}
+        }
+    },
+    [56] = {
+        Id = "1351523164",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523164,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {794.96, -319.18},
+            SizeMeters = {5.46, 8.70},
+            RotationDegrees = 100.34
+        },
+        Geometry = {
+            {796.87, -314.42}, {793.06, -323.95}, {791.50, -315.40}, {796.87, -314.42}
+        }
+    },
+    [57] = {
+        Id = "1351523165",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523165,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {810.63, -344.05},
+            SizeMeters = {4.62, 10.27},
+            RotationDegrees = -111.79
+        },
+        Geometry = {
+            {814.68, -340.14}, {810.87, -349.67}, {809.31, -341.11}, {814.68, -340.14}
+        }
+    },
+    [58] = {
+        Id = "1351523166",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523166,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {790.32, -376.99},
+            SizeMeters = {5.66, 11.46},
+            RotationDegrees = -120.29
+        },
+        Geometry = {
+            {795.65, -373.47}, {789.87, -383.36}, {788.31, -374.81}, {795.65, -373.47}
+        }
+    },
+    [59] = {
+        Id = "1351523167",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523167,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {809.86, -375.31},
+            SizeMeters = {5.46, 8.70},
+            RotationDegrees = -79.68
+        },
+        Geometry = {
+            {811.77, -370.54}, {807.95, -380.08}, {806.39, -371.52}, {811.77, -370.54}
+        }
+    },
+    [60] = {
+        Id = "1351523169",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "2g",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523169,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {758.61, -295.07},
+            SizeMeters = {4.63, 10.26},
+            RotationDegrees = -111.82
+        },
+        Geometry = {
+            {762.66, -291.17}, {758.85, -300.70}, {757.29, -292.14}, {762.66, -291.17}
+        }
+    },
+    [61] = {
+        Id = "1351523170",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "2e",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523170,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {769.35, -293.13},
+            SizeMeters = {4.62, 10.27},
+            RotationDegrees = -111.79
+        },
+        Geometry = {
+            {773.40, -289.22}, {769.59, -298.75}, {768.04, -290.19}, {773.40, -289.22}
+        }
+    },
+    [62] = {
+        Id = "1351523171",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "2d",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523171,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {774.72, -292.15},
+            SizeMeters = {4.63, 10.27},
+            RotationDegrees = -111.79
+        },
+        Geometry = {
+            {778.78, -288.24}, {774.96, -297.77}, {773.40, -289.22}, {778.78, -288.24}
+        }
+    },
+    [63] = {
+        Id = "1351523172",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "2c",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523172,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {782.24, -292.03},
+            SizeMeters = {5.46, 8.70},
+            RotationDegrees = -79.69
+        },
+        Geometry = {
+            {784.15, -287.26}, {780.34, -296.79}, {778.78, -288.24}, {784.15, -287.26}
+        }
+    },
+    [64] = {
+        Id = "1351523173",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "2b",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523173,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {785.47, -290.20},
+            SizeMeters = {4.62, 10.26},
+            RotationDegrees = -111.78
+        },
+        Geometry = {
+            {789.52, -286.29}, {785.71, -295.82}, {784.15, -287.26}, {789.52, -286.29}
+        }
+    },
+    [65] = {
+        Id = "1351523174",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "2f",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523174,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {766.13, -294.96},
+            SizeMeters = {5.46, 8.69},
+            RotationDegrees = -79.68
+        },
+        Geometry = {
+            {768.04, -290.19}, {764.22, -299.72}, {762.66, -291.17}, {768.04, -290.19}
+        }
+    },
+    [66] = {
+        Id = "1351523175",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "1c",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523175,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {816.94, -266.92},
+            SizeMeters = {5.22, 11.38},
+            RotationDegrees = -137.43
+        },
+        Geometry = {
+            {822.90, -265.00}, {814.52, -272.70}, {813.50, -266.53}, {822.90, -265.00}
+        }
+    },
+    [67] = {
+        Id = "1351523176",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "1d",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523176,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {817.69, -262.69},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {821.89, -258.84}, {813.50, -266.53}, {812.49, -260.37}, {821.89, -258.84}
+        }
+    },
+    [68] = {
+        Id = "1351523177",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "14e",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 1351523177,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {806.14, -243.51},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.33
+        },
+        Geometry = {
+            {810.34, -239.66}, {801.95, -247.36}, {800.94, -241.20}, {810.34, -239.66}
+        }
+    },
+    [69] = {
+        Id = "1351523178",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "1b",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523178,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {817.95, -273.09},
+            SizeMeters = {5.23, 11.38},
+            RotationDegrees = -137.37
+        },
+        Geometry = {
+            {823.91, -271.16}, {815.54, -278.87}, {814.52, -272.70}, {823.91, -271.16}
+        }
+    },
+    [70] = {
+        Id = "1351523179",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "1e",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523179,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {814.92, -254.60},
+            SizeMeters = {5.22, 11.39},
+            RotationDegrees = -137.39
+        },
+        Geometry = {
+            {820.87, -252.66}, {812.49, -260.37}, {811.48, -254.21}, {820.87, -252.66}
+        }
+    },
+    [71] = {
+        Id = "1351523180",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "2h",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523180,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {754.15, -297.13},
+            SizeMeters = {7.96, 8.70},
+            RotationDegrees = -79.69
+        },
+        Geometry = {
+            {757.29, -292.14}, {751.01, -302.12}, {749.45, -293.56}, {757.29, -292.14}
+        }
+    },
+    [72] = {
+        Id = "1351523181",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "14b",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 1351523181,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {803.10, -225.02},
+            SizeMeters = {6.25, 9.52},
+            RotationDegrees = 9.31
+        },
+        Geometry = {
+            {807.29, -221.17}, {798.91, -228.88}, {797.90, -222.70}, {807.29, -221.17}
+        }
+    },
+    [73] = {
+        Id = "1351523182",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "14d",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 1351523182,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {803.36, -235.43},
+            SizeMeters = {5.22, 11.37},
+            RotationDegrees = -137.41
+        },
+        Geometry = {
+            {809.32, -233.50}, {800.94, -241.20}, {799.93, -235.04}, {809.32, -233.50}
+        }
+    },
+    [74] = {
+        Id = "1351523183",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "14c",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 1351523183,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {804.12, -231.18},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.35
+        },
+        Geometry = {
+            {808.30, -227.33}, {799.93, -235.04}, {798.91, -228.88}, {808.30, -227.33}
+        }
+    },
+    [75] = {
+        Id = "1351523185",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523185,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {875.11, -382.59},
+            SizeMeters = {5.23, 11.38},
+            RotationDegrees = -137.37
+        },
+        Geometry = {
+            {881.07, -380.66}, {872.70, -388.37}, {871.68, -382.20}, {881.07, -380.66}
+        }
+    },
+    [76] = {
+        Id = "1351523186",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523186,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {838.26, -417.46},
+            SizeMeters = {5.15, 12.04},
+            RotationDegrees = 68.92
+        },
+        Geometry = {
+            {833.69, -422.15}, {838.02, -410.92}, {839.54, -421.30}, {833.69, -422.15}
+        }
+    },
+    [77] = {
+        Id = "1351523187",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "16b",
+            ["building"] = "terrace",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 1351523187,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {830.27, -211.64},
+            SizeMeters = {5.22, 11.38},
+            RotationDegrees = 42.57
+        },
+        Geometry = {
+            {824.32, -213.57}, {832.70, -205.87}, {833.71, -212.03}, {824.32, -213.57}
+        }
+    },
+    [78] = {
+        Id = "1351523188",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "16c",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 1351523188,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {829.52, -215.89},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = -170.67
+        },
+        Geometry = {
+            {825.33, -219.73}, {833.71, -212.03}, {834.72, -218.20}, {825.33, -219.73}
+        }
+    },
+    [79] = {
+        Id = "1351523189",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "16d",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 1351523189,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {830.53, -222.05},
+            SizeMeters = {6.25, 9.52},
+            RotationDegrees = -170.69
+        },
+        Geometry = {
+            {826.34, -225.90}, {834.72, -218.20}, {835.73, -224.37}, {826.34, -225.90}
+        }
+    },
+    [80] = {
+        Id = "1351523190",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "16f",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 1351523190,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {832.56, -234.38},
+            SizeMeters = {6.24, 9.51},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {836.75, -230.53}, {828.37, -238.23}, {827.36, -232.06}, {836.75, -230.53}
+        }
+    },
+    [81] = {
+        Id = "1351523194",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "16e",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 1351523194,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {831.55, -228.22},
+            SizeMeters = {6.24, 9.51},
+            RotationDegrees = -170.71
+        },
+        Geometry = {
+            {827.36, -232.06}, {835.73, -224.37}, {836.75, -230.53}, {827.36, -232.06}
+        }
+    },
+    [82] = {
+        Id = "1351523195",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 1351523195,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {829.20, -370.54},
+            SizeMeters = {4.63, 10.26},
+            RotationDegrees = -111.82
+        },
+        Geometry = {
+            {833.25, -366.64}, {829.44, -376.17}, {827.88, -367.61}, {833.25, -366.64}
+        }
+    },
+    [83] = {
+        Id = "1351799194",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "3",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Waldschneise",
+            ["building"] = "terrace",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 1351799194,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {742.65, -201.20},
+            SizeMeters = {9.15, 10.52},
+            RotationDegrees = -0.64
+        },
+        Geometry = {
+            {747.35, -205.83}, {737.44, -196.57}, {747.96, -196.69}, {747.35, -205.83}
+        }
+    },
+    [84] = {
+        Id = "1353650275",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["source"] = "Bing",
+            ["osm_id"] = 1353650275,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {770.32, -427.51},
+            SizeMeters = {5.31, 27.00},
+            RotationDegrees = -73.16
+        },
+        Geometry = {
+            {771.69, -441.19}, {768.95, -413.83}, {776.77, -439.66}, {771.69, -441.19}
+        }
+    },
+    [85] = {
+        Id = "149262234",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "10",
+            ["addr:street"] = "Greifswalder Kehre",
+            ["building"] = "apartments",
+            ["building:levels"] = "4",
+            ["roof:shape"] = "flat",
+            ["osm_id"] = 149262234,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 12.0,
+        },
+        OBB = {
+            CenterLocalMeters = {697.66, -408.34},
+            SizeMeters = {17.20, 33.73},
+            RotationDegrees = 44.28
+        },
+        Geometry = {
+            {679.58, -413.95}, {703.73, -390.41}, {699.70, -418.36}, {679.58, -413.95}
+        }
+    },
+    [86] = {
+        Id = "170989306",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["source"] = "Bing",
+            ["osm_id"] = 170989306,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {755.90, -433.47},
+            SizeMeters = {5.22, 30.17},
+            RotationDegrees = 119.98
+        },
+        Geometry = {
+            {751.09, -419.91}, {761.18, -447.84}, {746.10, -421.71}, {751.09, -419.91}
+        }
+    },
+    [87] = {
+        Id = "170989307",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["source"] = "Bing",
+            ["osm_id"] = 170989307,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {765.83, -430.23},
+            SizeMeters = {0.48, 30.16},
+            RotationDegrees = 117.00
+        },
+        Geometry = {
+            {758.78, -416.90}, {771.69, -441.19}, {772.47, -443.78}, {758.78, -416.90}
+        }
+    },
+    [88] = {
+        Id = "170989308",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["source"] = "Bing",
+            ["osm_id"] = 170989308,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {758.84, -403.79},
+            SizeMeters = {5.23, 32.90},
+            RotationDegrees = -171.00
+        },
+        Geometry = {
+            {773.83, -398.77}, {775.50, -403.80}, {743.01, -408.94}, {773.83, -398.77}
+        }
+    },
+    [89] = {
+        Id = "170989309",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "garages",
+            ["source"] = "Bing",
+            ["osm_id"] = 170989309,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 3.0,
+        },
+        OBB = {
+            CenterLocalMeters = {784.29, -419.43},
+            SizeMeters = {5.25, 35.49},
+            RotationDegrees = 110.95
+        },
+        Geometry = {
+            {780.68, -402.67}, {788.19, -436.94}, {775.50, -403.80}, {780.68, -402.67}
+        }
+    },
+    [90] = {
+        Id = "319270912",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 319270912,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {874.85, -372.19},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.29
+        },
+        Geometry = {
+            {879.05, -368.34}, {870.67, -376.03}, {869.65, -369.87}, {879.05, -368.34}
+        }
+    },
+    [91] = {
+        Id = "319270913",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "1a",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 319270913,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {818.97, -279.26},
+            SizeMeters = {5.22, 11.38},
+            RotationDegrees = -137.37
+        },
+        Geometry = {
+            {824.92, -277.32}, {816.55, -285.03}, {815.54, -278.87}, {824.92, -277.32}
+        }
+    },
+    [92] = {
+        Id = "319270914",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 319270914,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {810.63, -321.84},
+            SizeMeters = {7.47, 11.42},
+            RotationDegrees = 34.54
+        },
+        Geometry = {
+            {803.80, -322.00}, {813.21, -315.52}, {814.68, -323.58}, {803.80, -322.00}
+        }
+    },
+    [93] = {
+        Id = "319270915",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "16a",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 319270915,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {825.72, -201.64},
+            SizeMeters = {5.22, 11.38},
+            RotationDegrees = -137.37
+        },
+        Geometry = {
+            {831.68, -199.70}, {823.30, -207.41}, {822.29, -201.25}, {831.68, -199.70}
+        }
+    },
+    [94] = {
+        Id = "319270918",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "5a",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 319270918,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {841.29, -297.58},
+            SizeMeters = {5.15, 11.66},
+            RotationDegrees = -49.62
+        },
+        Geometry = {
+            {839.48, -291.47}, {847.03, -300.35}, {841.10, -301.33}, {839.48, -291.47}
+        }
+    },
+    [95] = {
+        Id = "319270919",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "3f",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 319270919,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {843.10, -247.38},
+            SizeMeters = {6.25, 9.51},
+            RotationDegrees = 9.32
+        },
+        Geometry = {
+            {847.28, -243.53}, {838.91, -251.24}, {837.90, -245.07}, {847.28, -243.53}
+        }
+    },
+    [96] = {
+        Id = "319270922",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 319270922,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {820.29, -344.79},
+            SizeMeters = {4.63, 10.26},
+            RotationDegrees = 68.18
+        },
+        Geometry = {
+            {816.24, -348.69}, {820.05, -339.17}, {821.62, -347.71}, {816.24, -348.69}
+        }
+    },
+    [97] = {
+        Id = "319270923",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "2a",
+            ["addr:street"] = "Tucheler Weg",
+            ["building"] = "terrace",
+            ["osm_id"] = 319270923,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {791.28, -291.64},
+            SizeMeters = {4.62, 10.27},
+            RotationDegrees = -47.54
+        },
+        Geometry = {
+            {789.52, -286.29}, {796.45, -293.87}, {791.08, -294.84}, {789.52, -286.29}
+        }
+    },
+    [98] = {
+        Id = "319270925",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 319270925,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {838.87, -371.28},
+            SizeMeters = {4.62, 10.26},
+            RotationDegrees = 68.22
+        },
+        Geometry = {
+            {834.82, -375.19}, {838.62, -365.66}, {840.18, -374.22}, {834.82, -375.19}
+        }
+    },
+    [99] = {
+        Id = "319270926",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 319270926,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {824.16, -418.24},
+            SizeMeters = {5.91, 10.50},
+            RotationDegrees = -81.67
+        },
+        Geometry = {
+            {821.99, -423.86}, {826.32, -412.62}, {827.84, -423.01}, {821.99, -423.86}
+        }
+    },
+    [100] = {
+        Id = "319270928",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "12a - 12b",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 319270928,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {756.91, -250.87},
+            SizeMeters = {10.00, 32.06},
+            RotationDegrees = -149.04
+        },
+        Geometry = {
+            {740.59, -254.83}, {768.06, -238.35}, {773.22, -246.91}, {745.75, -263.39}, {740.59, -254.83}
+        }
+    },
+    [101] = {
+        Id = "319270929",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "terrace",
+            ["osm_id"] = 319270929,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {794.51, -413.43},
+            SizeMeters = {5.15, 12.04},
+            RotationDegrees = 68.92
+        },
+        Geometry = {
+            {789.94, -418.12}, {794.27, -406.89}, {795.79, -417.27}, {789.94, -418.12}
+        }
+    },
+    [102] = {
+        Id = "319270930",
+        Type = "Polygon",
+        Properties = {
+            ["addr:housenumber"] = "14a",
+            ["addr:street"] = "Stonsdorfer Weg",
+            ["building"] = "terrace",
+            ["building:levels"] = "2",
+            ["roof:levels"] = "1",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 319270930,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 6.0,
+        },
+        OBB = {
+            CenterLocalMeters = {802.09, -218.85},
+            SizeMeters = {6.24, 9.52},
+            RotationDegrees = 9.33
+        },
+        Geometry = {
+            {806.28, -215.01}, {797.90, -222.70}, {796.89, -216.54}, {806.28, -215.01}
+        }
+    },
+    [103] = {
+        Id = "319270933",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 319270933,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {698.82, -322.41},
+            SizeMeters = {10.01, 67.31},
+            RotationDegrees = 122.87
+        },
+        Geometry = {
+            {684.91, -291.66}, {721.30, -347.95}, {712.73, -353.15}, {676.35, -296.85}, {684.91, -291.66}
+        }
+    },
+    [104] = {
+        Id = "319270935",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 319270935,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {735.91, -380.15},
+            SizeMeters = {11.96, 47.58},
+            RotationDegrees = -66.43
+        },
+        Geometry = {
+            {750.90, -399.56}, {739.42, -403.13}, {720.92, -360.73}, {732.40, -357.15}, {750.90, -399.56}
+        }
+    },
+    [105] = {
+        Id = "319270938",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "apartments",
+            ["osm_id"] = 319270938,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 12.0,
+        },
+        OBB = {
+            CenterLocalMeters = {765.92, -366.23},
+            SizeMeters = {12.01, 53.11},
+            RotationDegrees = 108.99
+        },
+        Geometry = {
+            {780.24, -389.39}, {768.77, -392.95}, {751.60, -343.07}, {763.08, -339.50}, {780.24, -389.39}
+        }
+    },
+    [106] = {
+        Id = "319270939",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 319270939,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {730.07, -303.44},
+            SizeMeters = {10.00, 67.32},
+            RotationDegrees = -57.13
+        },
+        Geometry = {
+            {716.15, -272.68}, {752.54, -328.99}, {743.98, -334.18}, {707.59, -277.88}, {716.15, -272.68}
+        }
+    },
+    [107] = {
+        Id = "319270941",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 319270941,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {669.47, -335.12},
+            SizeMeters = {9.86, 68.05},
+            RotationDegrees = 131.33
+        },
+        Geometry = {
+            {688.23, -363.92}, {643.29, -312.82}, {651.85, -307.63}, {688.23, -363.92}
+        }
+    },
+    [108] = {
+        Id = "319686283",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 319686283,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {696.04, -202.97},
+            SizeMeters = {8.52, 84.21},
+            RotationDegrees = 90.85
+        },
+        Geometry = {
+            {699.67, -161.03}, {700.92, -245.01}, {692.40, -244.90}, {691.15, -160.93}, {699.67, -161.03}
+        }
+    },
+    [109] = {
+        Id = "319686285",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "apartments",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 319686285,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {656.84, -243.19},
+            SizeMeters = {8.52, 50.97},
+            RotationDegrees = 88.05
+        },
+        Geometry = {
+            {661.71, -225.00}, {660.23, -268.81}, {651.71, -268.52}, {653.44, -217.57}, {661.71, -225.00}
+        }
+    },
+    [110] = {
+        Id = "319686299",
+        Type = "Polygon",
+        Properties = {
+            ["addr:city"] = "Norderstedt",
+            ["addr:country"] = "DE",
+            ["addr:housenumber"] = "1",
+            ["addr:postcode"] = "22844",
+            ["addr:street"] = "Waldschneise",
+            ["building"] = "terrace",
+            ["building:levels"] = "3",
+            ["roof:levels"] = "0",
+            ["roof:shape"] = "gabled",
+            ["osm_id"] = 319686299,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 9.0,
+        },
+        OBB = {
+            CenterLocalMeters = {740.21, -212.57},
+            SizeMeters = {6.09, 13.57},
+            RotationDegrees = -43.10
+        },
+        Geometry = {
+            {737.33, -205.71}, {747.24, -214.98}, {738.22, -214.88}, {737.33, -205.71}
+        }
+    },
+    [111] = {
+        Id = "319689552",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 319689552,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {885.03, -218.32},
+            SizeMeters = {6.93, 10.32},
+            RotationDegrees = 29.62
+        },
+        Geometry = {
+            {887.81, -212.78}, {882.26, -223.88}, {878.83, -217.86}, {887.81, -212.78}
+        }
+    },
+    [112] = {
+        Id = "319689554",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 319689554,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {895.32, -435.84},
+            SizeMeters = {7.50, 10.58},
+            RotationDegrees = 34.60
+        },
+        Geometry = {
+            {888.84, -435.76}, {897.55, -429.75}, {893.11, -441.92}, {888.84, -435.76}
+        }
+    },
+    [113] = {
+        Id = "319689560",
+        Type = "Polygon",
+        Properties = {
+            ["building"] = "yes",
+            ["osm_id"] = 319689560,
+            ["tile_500"] = "NO_E566500_N5951000_500",
+            ["tile_250"] = "NO_E566750_N5951000_250",
+            ["HeightMeters"] = 8.0,
+        },
+        OBB = {
+            CenterLocalMeters = {894.48, -214.91},
+            SizeMeters = {3.83, 6.02},
+            RotationDegrees = 123.31
+        },
+        Geometry = {
+            {891.22, -213.45}, {894.43, -211.35}, {894.53, -218.48}, {891.22, -213.45}
+        }
+    },
+}

@@ -1,0 +1,803 @@
+return {
+    [1] = {
+        Id = "1071303430",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "lane",
+            ["cycleway:both:lane"] = "exclusive",
+            ["highway"] = "secondary",
+            ["lanes"] = "3",
+            ["lanes:backward"] = "1",
+            ["lanes:forward"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "50",
+            ["name"] = "Ulzburger Straße",
+            ["sidewalk"] = "separate",
+            ["smoothness"] = "good",
+            ["surface"] = "asphalt",
+            ["turn:lanes:forward"] = "left|through;right",
+            ["osm_id"] = 1071303430,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {-141.62, 340.10}, {-152.28, 261.10}
+        }
+    },
+    [2] = {
+        Id = "1071303431",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["layer"] = "-1",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 1071303431,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {-139.20, 258.36}, {-152.28, 261.10}
+        }
+    },
+    [3] = {
+        Id = "1071303433",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "lane",
+            ["cycleway:both:lane"] = "exclusive",
+            ["highway"] = "secondary",
+            ["lanes"] = "3",
+            ["lanes:backward"] = "1",
+            ["lanes:forward"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "50",
+            ["name"] = "Ulzburger Straße",
+            ["sidewalk"] = "separate",
+            ["surface"] = "asphalt",
+            ["turn:lanes:forward"] = "left|through;right",
+            ["osm_id"] = 1071303433,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {-152.28, 261.10}, {-154.56, 247.70}
+        }
+    },
+    [4] = {
+        Id = "1108043544",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "lane",
+            ["cycleway:both:lane"] = "exclusive",
+            ["highway"] = "residential",
+            ["lanes"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["name"] = "Langenharmer Weg",
+            ["sidewalk"] = "separate",
+            ["smoothness"] = "good",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1108043544,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 10.0,
+        },
+        Geometry = {
+            {-167.68, 234.15}, {-157.13, 233.15}
+        }
+    },
+    [5] = {
+        Id = "1118127369",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "customers",
+            ["highway"] = "service",
+            ["service"] = "parking_aisle",
+            ["tunnel"] = "yes",
+            ["osm_id"] = 1118127369,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {-119.84, 298.43}, {-131.11, 300.13}
+        }
+    },
+    [6] = {
+        Id = "1118127370",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "customers",
+            ["highway"] = "service",
+            ["service"] = "parking_aisle",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 1118127370,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {-131.11, 300.13}, {-134.04, 297.04}
+        }
+    },
+    [7] = {
+        Id = "1208289435",
+        Type = "LineString",
+        Properties = {
+            ["footway"] = "sidewalk",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 1208289435,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-149.28, 215.15}, {-147.79, 222.18}
+        }
+    },
+    [8] = {
+        Id = "1208289436",
+        Type = "LineString",
+        Properties = {
+            ["footway"] = "sidewalk",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 1208289436,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-143.44, 242.78}, {-142.46, 247.45}
+        }
+    },
+    [9] = {
+        Id = "1208289437",
+        Type = "LineString",
+        Properties = {
+            ["footway"] = "sidewalk",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 1208289437,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-161.10, 250.82}, {-165.25, 251.58}
+        }
+    },
+    [10] = {
+        Id = "1208289438",
+        Type = "LineString",
+        Properties = {
+            ["footway"] = "sidewalk",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 1208289438,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-142.46, 247.45}, {-146.03, 248.10}
+        }
+    },
+    [11] = {
+        Id = "1208289439",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "designated",
+            ["footway"] = "crossing",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1208289439,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-166.43, 242.80}, {-168.46, 227.62}
+        }
+    },
+    [12] = {
+        Id = "1208289440",
+        Type = "LineString",
+        Properties = {
+            ["footway"] = "sidewalk",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 1208289440,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-165.25, 251.58}, {-166.43, 242.80}
+        }
+    },
+    [13] = {
+        Id = "1208289441",
+        Type = "LineString",
+        Properties = {
+            ["footway"] = "sidewalk",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 1208289441,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-152.84, 215.83}, {-149.28, 215.15}
+        }
+    },
+    [14] = {
+        Id = "1208289442",
+        Type = "LineString",
+        Properties = {
+            ["footway"] = "sidewalk",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 1208289442,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-168.72, 218.89}, {-167.29, 218.61}
+        }
+    },
+    [15] = {
+        Id = "1208289444",
+        Type = "LineString",
+        Properties = {
+            ["footway"] = "sidewalk",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 1208289444,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-149.28, 215.15}, {-63.56, 202.68}
+        }
+    },
+    [16] = {
+        Id = "1208289445",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "cycleway",
+            ["lit"] = "yes",
+            ["oneway"] = "yes",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1208289445,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-145.86, 231.32}, {-126.77, 219.43}
+        }
+    },
+    [17] = {
+        Id = "1208289446",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "lane",
+            ["cycleway:both:lane"] = "exclusive",
+            ["highway"] = "secondary",
+            ["lanes"] = "3",
+            ["lit"] = "yes",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Langenharmer Weg",
+            ["oneway"] = "no",
+            ["sidewalk:left"] = "separate",
+            ["sidewalk:right"] = "no",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 1208289446,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {-145.86, 231.32}, {-157.13, 233.15}
+        }
+    },
+    [18] = {
+        Id = "1208289447",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "designated",
+            ["cycleway:both"] = "lane",
+            ["cycleway:both:lane"] = "exclusive",
+            ["highway"] = "secondary",
+            ["lanes"] = "3",
+            ["lanes:backward"] = "1",
+            ["lanes:forward"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "50",
+            ["name"] = "Ulzburger Straße",
+            ["sidewalk"] = "separate",
+            ["surface"] = "asphalt",
+            ["turn:lanes:forward"] = "left|through;right",
+            ["osm_id"] = 1208289447,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {-165.04, 188.69}, {-157.13, 233.15}
+        }
+    },
+    [19] = {
+        Id = "1320429617",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "living_street",
+            ["osm_id"] = 1320429617,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 8.0,
+        },
+        Geometry = {
+            {-201.29, 240.95}, {-211.33, 188.21}
+        }
+    },
+    [20] = {
+        Id = "1320472921",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["osm_id"] = 1320472921,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-172.72, 107.73}, {-132.79, 104.91}
+        }
+    },
+    [21] = {
+        Id = "1320472923",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["osm_id"] = 1320472923,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-135.76, 212.55}, {-138.61, 191.71}, {-112.60, 157.59}, {-110.89, 94.18}
+        }
+    },
+    [22] = {
+        Id = "1349703791",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["osm_id"] = 1349703791,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-160.47, 165.24}, {-119.90, 159.74}, {-109.53, 130.21}
+        }
+    },
+    [23] = {
+        Id = "26926847",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "residential",
+            ["lanes"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["name"] = "Langenharmer Weg",
+            ["sidewalk:left"] = "separate",
+            ["sidewalk:right"] = "yes",
+            ["sidewalk:right:surface"] = "paving_stones",
+            ["smoothness"] = "good",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 26926847,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 10.0,
+        },
+        Geometry = {
+            {-259.24, 261.80}, {-167.68, 234.15}
+        }
+    },
+    [24] = {
+        Id = "26926852",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "residential",
+            ["name"] = "Sanddornweg",
+            ["osm_id"] = 26926852,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 10.0,
+        },
+        Geometry = {
+            {-359.55, 9.19}, {-311.57, 161.75}, {-244.55, 144.94}, {-238.21, 110.03}
+        }
+    },
+    [25] = {
+        Id = "275377341",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:left"] = "no",
+            ["cycleway:right"] = "shared_lane",
+            ["cycleway:right:lane"] = "pictogram",
+            ["highway"] = "secondary",
+            ["lanes"] = "1",
+            ["lit"] = "yes",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Langenharmer Weg",
+            ["oneway"] = "yes",
+            ["sidewalk:left"] = "no",
+            ["sidewalk:right"] = "separate",
+            ["surface"] = "asphalt",
+            ["turn:lanes"] = "right",
+            ["osm_id"] = 275377341,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {-90.94, 218.85}, {-154.56, 247.70}
+        }
+    },
+    [26] = {
+        Id = "30331701",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "lane",
+            ["cycleway:both:lane"] = "exclusive",
+            ["highway"] = "secondary",
+            ["lanes"] = "3",
+            ["lanes:backward"] = "1",
+            ["lanes:forward"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed"] = "50",
+            ["name"] = "Ulzburger Straße",
+            ["sidewalk"] = "separate",
+            ["surface"] = "asphalt",
+            ["turn:lanes:forward"] = "left|through;right",
+            ["osm_id"] = 30331701,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {-154.56, 247.70}, {-157.13, 233.15}
+        }
+    },
+    [27] = {
+        Id = "31860411",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "living_street",
+            ["lit"] = "yes",
+            ["name"] = "Hermelinweg",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 31860411,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 8.0,
+        },
+        Geometry = {
+            {-251.49, 328.53}, {-248.26, 290.12}, {-259.24, 261.80}
+        }
+    },
+    [28] = {
+        Id = "31981871",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:left"] = "separate",
+            ["cycleway:right"] = "lane",
+            ["cycleway:right:lane"] = "exclusive",
+            ["highway"] = "secondary",
+            ["lanes"] = "3",
+            ["lanes:backward"] = "1",
+            ["lanes:forward"] = "2",
+            ["lit"] = "yes",
+            ["maxspeed:type"] = "DE:urban",
+            ["name"] = "Langenharmer Weg",
+            ["oneway"] = "no",
+            ["sidewalk:left"] = "separate",
+            ["sidewalk:right"] = "no",
+            ["surface"] = "asphalt",
+            ["turn:lanes:forward"] = "left|through",
+            ["osm_id"] = 31981871,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {-90.94, 218.85}, {-145.86, 231.32}
+        }
+    },
+    [29] = {
+        Id = "375546477",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "designated",
+            ["footway"] = "crossing",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 375546477,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-147.79, 222.18}, {-143.44, 242.78}
+        }
+    },
+    [30] = {
+        Id = "375905414",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "designated",
+            ["footway"] = "sidewalk",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["smoothness"] = "good",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 375905414,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-219.44, -38.62}, {-189.53, 19.49}, {-149.28, 215.15}
+        }
+    },
+    [31] = {
+        Id = "720561917",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 720561917,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-116.15, 236.18}, {-111.88, 262.93}, {-98.88, 271.03}
+        }
+    },
+    [32] = {
+        Id = "720561918",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 720561918,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-107.12, 203.08}, {-105.05, 212.46}
+        }
+    },
+    [33] = {
+        Id = "775721734",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "designated",
+            ["cycleway:both"] = "lane",
+            ["cycleway:both:lane"] = "exclusive",
+            ["highway"] = "secondary",
+            ["lanes"] = "3",
+            ["lit"] = "yes",
+            ["maxspeed"] = "50",
+            ["name"] = "Ulzburger Straße",
+            ["sidewalk"] = "separate",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 775721734,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 14.0,
+        },
+        Geometry = {
+            {-246.19, -71.74}, {-194.24, 40.23}, {-165.04, 188.69}
+        }
+    },
+    [34] = {
+        Id = "832302738",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "designated",
+            ["footway"] = "crossing",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 832302738,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-146.03, 248.10}, {-161.10, 250.82}
+        }
+    },
+    [35] = {
+        Id = "832302739",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "designated",
+            ["footway"] = "sidewalk",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 832302739,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-77.73, 221.56}, {-142.46, 247.45}
+        }
+    },
+    [36] = {
+        Id = "832302745",
+        Type = "LineString",
+        Properties = {
+            ["cycleway:both"] = "no",
+            ["highway"] = "residential",
+            ["lit"] = "yes",
+            ["maxspeed"] = "30",
+            ["name"] = "Langenharmer Weg",
+            ["sidewalk"] = "both",
+            ["sidewalk:both:surface"] = "paving_stones",
+            ["smoothness"] = "good",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 832302745,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 10.0,
+        },
+        Geometry = {
+            {-400.87, 302.88}, {-259.24, 261.80}
+        }
+    },
+    [37] = {
+        Id = "832302746",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "no",
+            ["footway"] = "sidewalk",
+            ["highway"] = "footway",
+            ["lit"] = "no",
+            ["smoothness"] = "intermediate",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 832302746,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-165.25, 251.58}, {-257.74, 265.56}
+        }
+    },
+    [38] = {
+        Id = "832302747",
+        Type = "LineString",
+        Properties = {
+            ["foot"] = "designated",
+            ["footway"] = "crossing",
+            ["highway"] = "footway",
+            ["lit"] = "yes",
+            ["surface"] = "asphalt",
+            ["osm_id"] = 832302747,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 4.0,
+        },
+        Geometry = {
+            {-167.29, 218.61}, {-152.84, 215.83}
+        }
+    },
+    [39] = {
+        Id = "885844462",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["service"] = "driveway",
+            ["osm_id"] = 885844462,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {-271.24, 153.00}, {-262.74, 189.30}
+        }
+    },
+    [40] = {
+        Id = "912766476",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "private",
+            ["highway"] = "service",
+            ["osm_id"] = 912766476,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {-307.35, 163.93}, {-333.44, 178.34}
+        }
+    },
+    [41] = {
+        Id = "915091550",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["layer"] = "-1",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 915091550,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {-145.57, 303.11}, {-134.04, 297.04}, {-139.20, 258.36}
+        }
+    },
+    [42] = {
+        Id = "915091551",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 915091551,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {-124.72, 233.49}, {-139.20, 258.36}
+        }
+    },
+    [43] = {
+        Id = "915443016",
+        Type = "LineString",
+        Properties = {
+            ["access"] = "customers",
+            ["highway"] = "service",
+            ["service"] = "parking_aisle",
+            ["surface"] = "paving_stones",
+            ["osm_id"] = 915443016,
+            ["tile_500"] = "NO_E565500_N5951500_500",
+            ["tile_250"] = "NO_E565750_N5951500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {-134.42, 294.63}, {-114.28, 291.80}, {-119.84, 298.43}
+        }
+    },
+}

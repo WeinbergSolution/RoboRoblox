@@ -1,0 +1,52 @@
+return {
+    [1] = {
+        Id = "233297238",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["service"] = "parking_aisle",
+            ["source"] = "gps",
+            ["osm_id"] = 233297238,
+            ["tile_500"] = "NO_E565500_N5950500_500",
+            ["tile_250"] = "NO_E565750_N5950500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {-358.15, -712.11}, {-336.98, -708.77}, {-340.85, -688.61}
+        }
+    },
+    [2] = {
+        Id = "339918639",
+        Type = "LineString",
+        Properties = {
+            ["bicycle"] = "designated",
+            ["foot"] = "designated",
+            ["highway"] = "path",
+            ["lit"] = "no",
+            ["segregated"] = "no",
+            ["surface"] = "compacted",
+            ["osm_id"] = 339918639,
+            ["tile_500"] = "NO_E565500_N5950500_500",
+            ["tile_250"] = "NO_E565750_N5950500_250",
+            ["WidthMeters"] = 3.0,
+        },
+        Geometry = {
+            {-125.49, -836.39}, {-124.60, -634.64}
+        }
+    },
+    [3] = {
+        Id = "886140287",
+        Type = "LineString",
+        Properties = {
+            ["highway"] = "service",
+            ["service"] = "parking_aisle",
+            ["osm_id"] = 886140287,
+            ["tile_500"] = "NO_E565500_N5950500_500",
+            ["tile_250"] = "NO_E565750_N5950500_250",
+            ["WidthMeters"] = 6.0,
+        },
+        Geometry = {
+            {-338.50, -700.86}, {-318.73, -697.29}
+        }
+    },
+}

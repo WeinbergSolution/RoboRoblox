@@ -1,0 +1,36 @@
+{
+  "name": "Norderstedt_MVP",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "CityData": {
+        "$path": "src/ReplicatedStorage/CityData"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Importer": {
+        "$path": "src/ServerScriptService/Importer.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "DebugOverlay": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/DebugOverlay.local.lua"
+        }
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "StreamingEnabled": true
+      },
+      "CityGeometry": {
+        "$className": "Folder"
+      }
+    }
+  }
+}
