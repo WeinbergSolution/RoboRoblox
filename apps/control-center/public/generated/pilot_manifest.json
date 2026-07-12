@@ -1,6 +1,6 @@
 {
   "source": "Geofabrik Schleswig-Holstein",
-  "fetch_time": "2026-07-12T14:08:15.426245Z",
+  "fetch_time": "2026-07-12T14:22:35.822931Z",
   "pbf_size_bytes": 156865792,
   "pilot_bbox_wgs84": [
     9.988,
@@ -8,29 +8,29 @@
     10.015,
     53.715
   ],
-  "pilot_bbox_epsg25832": [
-    565226.7294248777,
-    5950597.613850405,
-    566985.3567270794,
-    5952291.473428086
-  ],
-  "roblox_origin": [
-    566106.0430759785,
-    5951444.543639246
-  ],
   "crs": "EPSG:25832",
-  "MetersToStuds": 3.571428,
-  "PilotBoundsMeters": {
-    "MinX": 565226.7294248777,
-    "MinZ": 5950597.613850405,
-    "MaxX": 566985.3567270794,
-    "MaxZ": 5952291.473428086
+  "OriginEPSG25832": {
+    "Easting": 566106.0430759785,
+    "Northing": 5951444.543639246
   },
-  "PilotBoundsStuds": {
-    "MinX": 2018666.567816432,
-    "MinZ": 21252130.934838526,
-    "MaxX": 2024947.3786050796,
-    "MaxZ": 21258180.432362325
+  "MetersToStuds": 3.571428,
+  "LocalBoundsMeters": {
+    "MinX": -879.3136511008488,
+    "MinZ": -846.9297888409346,
+    "MaxX": 879.3136511008488,
+    "MaxZ": 846.9297888400033
+  },
+  "LocalBoundsStuds": {
+    "MinX": -3140.4053943238023,
+    "MinZ": -3024.7487619006015,
+    "MaxX": 3140.4053943238023,
+    "MaxZ": 3024.7487618972755
+  },
+  "AbsoluteBoundsEPSG25832": {
+    "MinEasting": 565226.7294248777,
+    "MinNorthing": 5950597.613850405,
+    "MaxEasting": 566985.3567270794,
+    "MaxNorthing": 5952291.473428086
   },
   "Coverage": "Norderstedt-Mitte Pilot",
   "IsFullNorderstedt": false,

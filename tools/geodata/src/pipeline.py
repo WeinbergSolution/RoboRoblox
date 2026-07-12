@@ -285,26 +285,39 @@ def run_pipeline():
     origin_x = (minx + maxx) / 2
     origin_y = (miny + maxy) / 2
     
+    local_min_x = minx - origin_x
+    local_max_x = maxx - origin_x
+    local_min_z = miny - origin_y
+    local_max_z = maxy - origin_y
+    
     manifest = {
         "source": "Geofabrik Schleswig-Holstein",
         "fetch_time": datetime.utcnow().isoformat() + "Z",
         "pbf_size_bytes": file_size,
         "pilot_bbox_wgs84": PILOT_BBOX,
-        "pilot_bbox_epsg25832": proj_bbox,
-        "roblox_origin": [origin_x, origin_y],
         "crs": WORKING_CRS,
-        "MetersToStuds": METERS_TO_STUDS,
-        "PilotBoundsMeters": {
-            "MinX": minx,
-            "MinZ": miny,
-            "MaxX": maxx,
-            "MaxZ": maxy
+        "OriginEPSG25832": {
+            "Easting": origin_x,
+            "Northing": origin_y
         },
-        "PilotBoundsStuds": {
-            "MinX": minx * METERS_TO_STUDS,
-            "MinZ": miny * METERS_TO_STUDS,
-            "MaxX": maxx * METERS_TO_STUDS,
-            "MaxZ": maxy * METERS_TO_STUDS
+        "MetersToStuds": METERS_TO_STUDS,
+        "LocalBoundsMeters": {
+            "MinX": local_min_x,
+            "MinZ": local_min_z,
+            "MaxX": local_max_x,
+            "MaxZ": local_max_z
+        },
+        "LocalBoundsStuds": {
+            "MinX": local_min_x * METERS_TO_STUDS,
+            "MinZ": local_min_z * METERS_TO_STUDS,
+            "MaxX": local_max_x * METERS_TO_STUDS,
+            "MaxZ": local_max_z * METERS_TO_STUDS
+        },
+        "AbsoluteBoundsEPSG25832": {
+            "MinEasting": minx,
+            "MinNorthing": miny,
+            "MaxEasting": maxx,
+            "MaxNorthing": maxy
         },
         "Coverage": "Norderstedt-Mitte Pilot",
         "IsFullNorderstedt": False,

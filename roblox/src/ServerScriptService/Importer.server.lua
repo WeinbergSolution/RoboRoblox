@@ -6,6 +6,34 @@ local manifest = require(cityData:WaitForChild("Manifest"))
 
 local scale = manifest.MetersToStuds or 3.571428
 
+-- Setup Status
+local statusFolder = ReplicatedStorage:FindFirstChild("CityImportStatus")
+if not statusFolder then
+    statusFolder = Instance.new("Folder")
+    statusFolder.Name = "CityImportStatus"
+    statusFolder.Parent = ReplicatedStorage
+end
+
+local function setStatus(name, value)
+    local valObj = statusFolder:FindFirstChild(name)
+    if not valObj then
+        if type(value) == "number" then
+            valObj = Instance.new("NumberValue")
+        else
+            valObj = Instance.new("StringValue")
+        end
+        valObj.Name = name
+        valObj.Parent = statusFolder
+    end
+    valObj.Value = value
+end
+
+setStatus("State", "RUNNING")
+setStatus("RoadsCreated", 0)
+setStatus("BuildingsCreated", 0)
+setStatus("Failed", 0)
+setStatus("DurationSeconds", 0)
+
 local cityGeometry = Workspace:FindFirstChild("CityGeometry")
 if cityGeometry then
     cityGeometry:Destroy()
@@ -14,7 +42,7 @@ cityGeometry = Instance.new("Folder")
 cityGeometry.Name = "CityGeometry"
 cityGeometry.Parent = Workspace
 
-print("Starting City Import Phase 1B from Source:", manifest.Source)
+print("Starting City Import Phase 1C from Source:", manifest.Source)
 local startTime = os.clock()
 
 local stats = {
@@ -29,22 +57,28 @@ local stats = {
 local spawnCandidates = {}
 
 -- 1. Create Ground
-local ground = Instance.new("Part")
-ground.Name = "PilotGround"
-ground.Anchored = true
-ground.CanCollide = true
-ground.Material = Enum.Material.Grass
-ground.Color = Color3.fromRGB(100, 150, 100)
-
-local bounds = manifest.PilotBoundsStuds
-local sizeX = bounds.MaxX - bounds.MinX + 100
-local sizeZ = bounds.MaxZ - bounds.MinZ + 100
+local bounds = manifest.LocalBoundsStuds
 local centerX = (bounds.MinX + bounds.MaxX) / 2
 local centerZ = (bounds.MinZ + bounds.MaxZ) / 2
 
-ground.Size = Vector3.new(sizeX, 1, sizeZ)
-ground.CFrame = CFrame.new(centerX, -0.5, centerZ) -- Top at Y=0
-ground.Parent = cityGeometry
+if math.abs(centerX) > 10000 or math.abs(centerZ) > 10000 then
+    warn("Ground center coordinates too large, aborting ground creation to prevent floating point issues!")
+else
+    local ground = Instance.new("Part")
+    ground.Name = "PilotGround"
+    ground.Anchored = true
+    ground.CanCollide = true
+    ground.Material = Enum.Material.Grass
+    ground.Color = Color3.fromRGB(100, 150, 100)
+
+    local sizeX = bounds.MaxX - bounds.MinX + 100
+    local sizeZ = bounds.MaxZ - bounds.MinZ + 100
+
+    ground.Size = Vector3.new(sizeX, 1, sizeZ)
+    ground.CFrame = CFrame.new(centerX, -0.5, centerZ) -- Top at Y=0
+    ground:SetAttribute("CoordinateSpace", "LocalStuds")
+    ground.Parent = cityGeometry
+end
 
 local function createPart(name, parent, color, material, canCollide)
     local part = Instance.new("Part")
@@ -68,6 +102,12 @@ local function processLineString(feature, folder, color, material, layerY, heigh
     local widthMeters = feature.Properties.WidthMeters or 4.0
     local widthStuds = widthMeters * scale
     
+    -- Ensure widths are sane (e.g. 1m to 30m)
+    if widthMeters < 1.0 or widthMeters > 30.0 then
+        -- print("Warning: Road width out of typical bounds: " .. widthMeters)
+        widthStuds = math.clamp(widthMeters, 1.0, 30.0) * scale
+    end
+    
     for i = 1, #coords - 1 do
         local p1 = coords[i]
         local p2 = coords[i+1]
@@ -88,6 +128,9 @@ local function processLineString(feature, folder, color, material, layerY, heigh
             part:SetAttribute("WidthStuds", widthStuds)
             
             stats[statKey] += 1
+            if statKey == "roads" then
+                setStatus("RoadsCreated", stats.roads)
+            end
             
             if statKey == "roads" and featureType ~= "motorway" and featureType ~= "motorway_link" then
                 table.insert(spawnCandidates, pos1 + Vector3.new(0, 3, 0))
@@ -97,14 +140,19 @@ local function processLineString(feature, folder, color, material, layerY, heigh
 end
 
 local function processOBB(feature, folder, color, material, statKey)
-    local cx = feature.Properties.OBB_CenterX
-    local cz = feature.Properties.OBB_CenterZ
-    local w = feature.Properties.OBB_Width
-    local d = feature.Properties.OBB_Depth
-    local rot = feature.Properties.OBB_Rotation
+    if not feature.OBB then return end
+    
+    local cx = feature.OBB.CenterLocalMeters[1]
+    local cz = feature.OBB.CenterLocalMeters[2]
+    local w = feature.OBB.SizeMeters[1]
+    local d = feature.OBB.SizeMeters[2]
+    local rot = feature.OBB.RotationDegrees
     local hMeters = feature.Properties.HeightMeters or 8.0
     
-    if not cx then return end -- Fallback if old data
+    if math.abs(cx) > 10000 or math.abs(cz) > 10000 then
+        -- Skip buildings too far from origin
+        return
+    end
     
     local wStuds = w * scale
     local dStuds = d * scale
@@ -125,6 +173,9 @@ local function processOBB(feature, folder, color, material, statKey)
     part:SetAttribute("Representation", "MinimumRotatedRectangle")
     
     stats[statKey] += 1
+    if statKey == "buildings" then
+        setStatus("BuildingsCreated", stats.buildings)
+    end
 end
 
 local function processGreen(feature, folder, color, material, statKey)
@@ -175,6 +226,7 @@ local function importCategory(categoryName, processor, color, material, layerY, 
                 end)
                 if not success then
                     stats.failed += 1
+                    setStatus("Failed", stats.failed)
                     warn("Failed to import feature " .. tostring(feature.Id) .. ": " .. tostring(err))
                 end
             end
@@ -221,8 +273,19 @@ end
 spawnLoc.CFrame = CFrame.new(bestSpawn)
 
 local duration = os.clock() - startTime
+setStatus("DurationSeconds", duration)
+setStatus("State", "COMPLETE")
+
 print(string.format("Import Complete in %.2fs", duration))
 print("Import Stats:")
 for k, v in pairs(stats) do
     print(" - " .. k .. ": " .. v)
+end
+if manifest.Counts and manifest.Counts.Buildings then
+    local expected = manifest.Counts.Buildings
+    local created = stats.buildings
+    local rejected = expected - created
+    print("Expected Buildings: " .. expected)
+    print("Created Buildings: " .. created)
+    print("Rejected Buildings: " .. rejected)
 end

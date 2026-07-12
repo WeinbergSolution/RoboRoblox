@@ -1,10 +1,13 @@
+print("[RoboRoblox QA] DebugOverlay LocalScript started")
+
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
-local UserInputService = game:GetService("UserInputService")
+local ContextActionService = game:GetService("ContextActionService")
 local Workspace = game:GetService("Workspace")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 if not RunService:IsStudio() then
+    warn("[RoboRoblox QA] DebugOverlay is Studio-only. Aborting.")
     return
 end
 
@@ -13,6 +16,9 @@ local camera = Workspace.CurrentCamera
 
 local cityData = ReplicatedStorage:WaitForChild("CityData")
 local manifest = require(cityData:WaitForChild("Manifest"))
+print("[RoboRoblox QA] Manifest loaded")
+
+local importStatusFolder = ReplicatedStorage:WaitForChild("CityImportStatus", 10)
 
 -- 1. Setup UI
 local gui = Instance.new("ScreenGui")
@@ -21,7 +27,7 @@ gui.ResetOnSpawn = false
 gui.Parent = player:WaitForChild("PlayerGui")
 
 local frame = Instance.new("Frame")
-frame.Size = UDim2.new(0, 300, 0, 250)
+frame.Size = UDim2.new(0, 320, 0, 420)
 frame.Position = UDim2.new(0, 10, 0, 10)
 frame.BackgroundColor3 = Color3.new(0, 0, 0)
 frame.BackgroundTransparency = 0.5
@@ -44,18 +50,45 @@ local function createLabel(text)
     return lbl
 end
 
+local function createButton(text, callback)
+    local btn = Instance.new("TextButton")
+    btn.Size = UDim2.new(0, 150, 0, 25)
+    btn.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    btn.TextColor3 = Color3.new(1, 1, 1)
+    btn.Font = Enum.Font.Code
+    btn.TextSize = 14
+    btn.Text = text
+    btn.Parent = frame
+    btn.MouseButton1Click:Connect(callback)
+    return btn
+end
+
+createLabel("RoboRoblox QA")
 createLabel("Coverage: " .. (manifest.Coverage or "Unknown"))
-createLabel(manifest.IsFullNorderstedt and "Full Norderstedt: IMPORTED" or "Full Norderstedt: NOT YET IMPORTED")
 createLabel("Scale: 1 m = " .. string.format("%.3f", manifest.MetersToStuds or 3.571) .. " studs")
-createLabel("Controls: F=Fly, WASD=Move, Q/E=Down/Up, Shift=Fast, O=Overview")
+createLabel("F or button = Toggle Fly")
+createLabel("O or button = Overview")
+local flyStatusLabel = createLabel("Fly: OFF")
 local posLabel = createLabel("Position: ...")
 local fpsLabel = createLabel("FPS: ...")
-createLabel("Imported Roads: " .. tostring(manifest.Counts and manifest.Counts.Roads or 0))
-createLabel("Imported Buildings: " .. tostring(manifest.Counts and manifest.Counts.Buildings or 0))
+local importStatusLabel = createLabel("Import: ...")
+local importStatsLabel = createLabel("Roads/Bldgs: ...")
 
+-- 2. Fly Logic
 local isFlying = false
 local flySpeed = 100
-local bg, bv
+local flyKeys = { W = false, A = false, S = false, D = false, Q = false, E = false, Shift = false }
+local oldAutoRotate = true
+
+local function applyNoclip(enable)
+    local char = player.Character
+    if not char then return end
+    for _, part in ipairs(char:GetDescendants()) do
+        if part:IsA("BasePart") and part.Name ~= "HumanoidRootPart" then
+            part.CanCollide = not enable
+        end
+    end
+end
 
 local function toggleFly()
     local char = player.Character
@@ -67,21 +100,22 @@ local function toggleFly()
     isFlying = not isFlying
     
     if isFlying then
-        hum.PlatformStand = true
-        bg = Instance.new("BodyGyro")
-        bg.P = 9e4
-        bg.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
-        bg.CFrame = hrp.CFrame
-        bg.Parent = hrp
-        
-        bv = Instance.new("BodyVelocity")
-        bv.Velocity = Vector3.new(0, 0, 0)
-        bv.MaxForce = Vector3.new(9e9, 9e9, 9e9)
-        bv.Parent = hrp
+        print("[RoboRoblox QA] Fly enabled")
+        oldAutoRotate = hum.AutoRotate
+        hum.AutoRotate = false
+        hum:ChangeState(Enum.HumanoidStateType.Physics)
+        Workspace.Gravity = 0
+        applyNoclip(true)
+        hrp.Velocity = Vector3.new(0, 0, 0)
+        flyStatusLabel.Text = "Fly: ON (Speed: 100)"
     else
-        hum.PlatformStand = false
-        if bg then bg:Destroy() end
-        if bv then bv:Destroy() end
+        print("[RoboRoblox QA] Fly disabled")
+        hum.AutoRotate = oldAutoRotate
+        hum:ChangeState(Enum.HumanoidStateType.GettingUp)
+        Workspace.Gravity = 196.2
+        applyNoclip(false)
+        hrp.Velocity = Vector3.new(0, 0, 0)
+        flyStatusLabel.Text = "Fly: OFF"
     end
 end
 
@@ -89,18 +123,78 @@ local function overview()
     local char = player.Character
     if char and char:FindFirstChild("HumanoidRootPart") then
         local hrp = char.HumanoidRootPart
-        hrp.CFrame = CFrame.new(0, 1000, 0) * CFrame.Angles(math.rad(-90), 0, 0)
+        hrp.CFrame = CFrame.new(0, 1500, 0)
+        camera.CFrame = CFrame.lookAt(Vector3.new(0, 1500, 0), Vector3.new(0, 0, 0))
     end
 end
 
-UserInputService.InputBegan:Connect(function(input, gameProcessed)
-    if gameProcessed then return end
-    if input.KeyCode == Enum.KeyCode.F then
-        toggleFly()
-    elseif input.KeyCode == Enum.KeyCode.O then
-        overview()
+local function tpTo(offset)
+    local char = player.Character
+    if char and char:FindFirstChild("HumanoidRootPart") then
+        local hrp = char.HumanoidRootPart
+        local cx = (manifest.LocalBoundsStuds.MinX + manifest.LocalBoundsStuds.MaxX) / 2
+        local cz = (manifest.LocalBoundsStuds.MinZ + manifest.LocalBoundsStuds.MaxZ) / 2
+        local w = manifest.LocalBoundsStuds.MaxX - manifest.LocalBoundsStuds.MinX
+        local d = manifest.LocalBoundsStuds.MaxZ - manifest.LocalBoundsStuds.MinZ
+        
+        local tx = cx + offset.X * (w / 2 * 0.8)
+        local tz = cz + offset.Z * (d / 2 * 0.8)
+        
+        hrp.CFrame = CFrame.new(tx, 50, tz)
     end
+end
+
+local flyBtn = createButton("[FLY: OFF]", function()
+    toggleFly()
+    flyBtn.Text = isFlying and "[FLY: ON]" or "[FLY: OFF]"
 end)
+createButton("[OVERVIEW]", overview)
+createButton("[CENTER]", function() tpTo(Vector3.new(0, 0, 0)) end)
+createButton("[NORTH]", function() tpTo(Vector3.new(0, 0, -1)) end)
+createButton("[SOUTH]", function() tpTo(Vector3.new(0, 0, 1)) end)
+createButton("[EAST]", function() tpTo(Vector3.new(1, 0, 0)) end)
+createButton("[WEST]", function() tpTo(Vector3.new(-1, 0, 0)) end)
+
+-- ContextAction Bindings
+local function onFlyAction(actionName, state, input)
+    if state == Enum.UserInputState.Begin then
+        if actionName == "QA_ToggleFly" then
+            toggleFly()
+            flyBtn.Text = isFlying and "[FLY: ON]" or "[FLY: OFF]"
+        elseif actionName == "QA_Overview" then
+            overview()
+        end
+    end
+    return Enum.ContextActionResult.Pass
+end
+
+ContextActionService:BindActionAtPriority("QA_ToggleFly", onFlyAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.F)
+ContextActionService:BindActionAtPriority("QA_Overview", onFlyAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.O)
+
+local function onMoveAction(actionName, state, input)
+    local isDown = (state == Enum.UserInputState.Begin or state == Enum.UserInputState.Change)
+    if state == Enum.UserInputState.End then isDown = false end
+    
+    if actionName == "QA_Forward" then flyKeys.W = isDown
+    elseif actionName == "QA_Backward" then flyKeys.S = isDown
+    elseif actionName == "QA_Left" then flyKeys.A = isDown
+    elseif actionName == "QA_Right" then flyKeys.D = isDown
+    elseif actionName == "QA_Up" then flyKeys.E = isDown
+    elseif actionName == "QA_Down" then flyKeys.Q = isDown
+    elseif actionName == "QA_Fast" then 
+        flyKeys.Shift = isDown
+        if isFlying then flyStatusLabel.Text = isDown and "Fly: ON (Speed: 350)" or "Fly: ON (Speed: 100)" end
+    end
+    return Enum.ContextActionResult.Pass
+end
+
+ContextActionService:BindActionAtPriority("QA_Forward", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.W)
+ContextActionService:BindActionAtPriority("QA_Backward", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.S)
+ContextActionService:BindActionAtPriority("QA_Left", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.A)
+ContextActionService:BindActionAtPriority("QA_Right", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.D)
+ContextActionService:BindActionAtPriority("QA_Up", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.E)
+ContextActionService:BindActionAtPriority("QA_Down", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Q)
+ContextActionService:BindActionAtPriority("QA_Fast", onMoveAction, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.LeftShift)
 
 local frames = 0
 local lastUpdate = os.clock()
@@ -112,33 +206,43 @@ RunService.RenderStepped:Connect(function(dt)
         fpsLabel.Text = " FPS: " .. tostring(frames)
         frames = 0
         lastUpdate = now
+        
+        if importStatusFolder then
+            local stateObj = importStatusFolder:FindFirstChild("State")
+            if stateObj then
+                importStatusLabel.Text = "Import: " .. stateObj.Value
+            end
+            local rObj = importStatusFolder:FindFirstChild("RoadsCreated")
+            local bObj = importStatusFolder:FindFirstChild("BuildingsCreated")
+            if rObj and bObj then
+                importStatsLabel.Text = string.format("Roads: %d / Bldgs: %d", rObj.Value, bObj.Value)
+            end
+        end
     end
     
     local char = player.Character
     if char and char:FindFirstChild("HumanoidRootPart") then
-        local pos = char.HumanoidRootPart.Position
-        posLabel.Text = string.format(" Position: %.1f, %.1f, %.1f", pos.X, pos.Y, pos.Z)
-    end
-    
-    if isFlying and char and char:FindFirstChild("HumanoidRootPart") then
         local hrp = char.HumanoidRootPart
-        local camCFrame = camera.CFrame
+        posLabel.Text = string.format(" Position: %.1f, %.1f, %.1f", hrp.Position.X, hrp.Position.Y, hrp.Position.Z)
         
-        local speed = UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) and 350 or 100
-        local vel = Vector3.new()
-        
-        if UserInputService:IsKeyDown(Enum.KeyCode.W) then vel += camCFrame.LookVector end
-        if UserInputService:IsKeyDown(Enum.KeyCode.S) then vel -= camCFrame.LookVector end
-        if UserInputService:IsKeyDown(Enum.KeyCode.A) then vel -= camCFrame.RightVector end
-        if UserInputService:IsKeyDown(Enum.KeyCode.D) then vel += camCFrame.RightVector end
-        if UserInputService:IsKeyDown(Enum.KeyCode.E) then vel += Vector3.new(0, 1, 0) end
-        if UserInputService:IsKeyDown(Enum.KeyCode.Q) then vel -= Vector3.new(0, 1, 0) end
-        
-        if vel.Magnitude > 0 then
-            vel = vel.Unit * speed
+        if isFlying then
+            local camCFrame = camera.CFrame
+            local speed = flyKeys.Shift and 350 or 100
+            local moveDir = Vector3.new()
+            
+            if flyKeys.W then moveDir += camCFrame.LookVector end
+            if flyKeys.S then moveDir -= camCFrame.LookVector end
+            if flyKeys.D then moveDir += camCFrame.RightVector end
+            if flyKeys.A then moveDir -= camCFrame.RightVector end
+            if flyKeys.E then moveDir += Vector3.new(0, 1, 0) end
+            if flyKeys.Q then moveDir -= Vector3.new(0, 1, 0) end
+            
+            if moveDir.Magnitude > 0 then
+                moveDir = moveDir.Unit
+            end
+            
+            hrp.CFrame = CFrame.new(hrp.Position + moveDir * speed * dt)
+            hrp.Velocity = Vector3.new(0, 0, 0)
         end
-        
-        if bv then bv.Velocity = vel end
-        if bg then bg.CFrame = camCFrame end
     end
 end)
