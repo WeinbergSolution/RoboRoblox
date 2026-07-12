@@ -297,26 +297,15 @@ local function importRoadsAndRailAndWater(junctionMap)
 	importSimpleLines("Water", "Water", Color3.fromRGB(50, 150, 255), Enum.Material.Glass, -0.5, 0.5, "WaterParts")
 end
 
-local function buildOBB(feature, tileFolders)
-	local obb = feature.OBB
-	local x = obb.CenterLocalMeters[1] * scale
-	local z = obb.CenterLocalMeters[2] * scale
-	local w = obb.SizeMeters[1] * scale * (BuildingRenderConfig.ScaleFactor or 1.0)
-	local d = obb.SizeMeters[2] * scale * (BuildingRenderConfig.ScaleFactor or 1.0)
-	local h = BuildingRenderConfig.DefaultHeightStuds
-	local rot = math.rad(obb.RotationDegrees)
+local ProceduralBuildingBuilder = require(ServerScriptService:WaitForChild("ProceduralBuildingBuilder"))
 
-	local part = Instance.new("Part")
-	part.Name = "Bldg_" .. feature.Id
-	part.Anchored = true
-	part.CanCollide = true
-	part.Color = BuildingRenderConfig.DefaultColor
-	part.Material = Enum.Material.SmoothPlastic
-	part.Size = Vector3.new(w, h, d)
-	part.CFrame = CFrame.new(x, h / 2, z) * CFrame.Angles(0, -rot, 0)
-	part.Parent = tileFolders.Buildings
-	trackPart("BuildingParts", 1)
-	return true
+local function buildOBB(feature, tileFolders)
+	local model = ProceduralBuildingBuilder.buildOBB(feature, tileFolders.Buildings, scale, BuildingRenderConfig.ScaleFactor or 1.0)
+	if model then
+		trackPart("BuildingParts", #model:GetChildren())
+		return true
+	end
+	return false
 end
 
 local function buildPolygon(feature, tileFolders)
