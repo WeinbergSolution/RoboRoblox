@@ -31,7 +31,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		if n1 and n1.Degree > 2 and not n1.IsBridge and not n1.IsTunnel then
 			local maxW = width
 			for _, w in ipairs(n1.WidthsStuds) do
-				if w > maxW then maxW = w end
+				if w * scale > maxW then maxW = w * scale end
 			end
 			cutback1 = (maxW/2) + Config.Sidewalks.DefaultWidth
 		end
@@ -41,7 +41,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		if n2 and n2.Degree > 2 and not n2.IsBridge and not n2.IsTunnel then
 			local maxW = width
 			for _, w in ipairs(n2.WidthsStuds) do
-				if w > maxW then maxW = w end
+				if w * scale > maxW then maxW = w * scale end
 			end
 			cutback2 = (maxW/2) + Config.Sidewalks.DefaultWidth
 		end

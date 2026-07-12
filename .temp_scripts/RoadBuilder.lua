@@ -26,32 +26,28 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 	local cutback2 = 0
 
 	if junctionMap then
-		local p1_mx = p1.X / scale
-		local p1_mz = p1.Z / scale
-		local k1 = math.floor(p1_mx * 10) / 10 .. "_" .. math.floor(p1_mz * 10) / 10
+		local k1 = math.floor(p1.X * 10) / 10 .. "_" .. math.floor(p1.Z * 10) / 10
 		local n1 = junctionMap[k1]
 		if n1 and n1.Degree > 2 and not n1.IsBridge and not n1.IsTunnel then
 			local maxW = width
 			for _, w in ipairs(n1.WidthsStuds) do
-				if w * scale > maxW then
-					maxW = w * scale
+				if w > maxW then
+					maxW = w
 				end
 			end
-			cutback1 = math.max(width / 2, maxW / 2) + 0.5
+			cutback1 = (maxW / 2) + Config.Sidewalks.DefaultWidth
 		end
 
-		local p2_mx = p2.X / scale
-		local p2_mz = p2.Z / scale
-		local k2 = math.floor(p2_mx * 10) / 10 .. "_" .. math.floor(p2_mz * 10) / 10
+		local k2 = math.floor(p2.X * 10) / 10 .. "_" .. math.floor(p2.Z * 10) / 10
 		local n2 = junctionMap[k2]
 		if n2 and n2.Degree > 2 and not n2.IsBridge and not n2.IsTunnel then
 			local maxW = width
 			for _, w in ipairs(n2.WidthsStuds) do
-				if w * scale > maxW then
-					maxW = w * scale
+				if w > maxW then
+					maxW = w
 				end
 			end
-			cutback2 = math.max(width / 2, maxW / 2) + 0.5
+			cutback2 = (maxW / 2) + Config.Sidewalks.DefaultWidth
 		end
 	end
 
