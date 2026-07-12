@@ -6,5 +6,6 @@ BuildingRenderConfig.FallbackToOBB = true
 
 BuildingRenderConfig.DefaultHeightStuds = 30
 BuildingRenderConfig.DefaultColor = Color3.fromRGB(200, 200, 200)
+BuildingRenderConfig.ScaleFactor = 0.90
 
 return BuildingRenderConfig

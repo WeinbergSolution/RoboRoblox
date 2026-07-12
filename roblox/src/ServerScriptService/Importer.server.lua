@@ -301,8 +301,8 @@ local function buildOBB(feature, tileFolders)
 	local obb = feature.OBB
 	local x = obb.CenterLocalMeters[1] * scale
 	local z = obb.CenterLocalMeters[2] * scale
-	local w = obb.SizeMeters[1] * scale
-	local d = obb.SizeMeters[2] * scale
+	local w = obb.SizeMeters[1] * scale * (BuildingRenderConfig.ScaleFactor or 1.0)
+	local d = obb.SizeMeters[2] * scale * (BuildingRenderConfig.ScaleFactor or 1.0)
 	local h = BuildingRenderConfig.DefaultHeightStuds
 	local rot = math.rad(obb.RotationDegrees)
 
@@ -335,6 +335,10 @@ local function buildPolygon(feature, tileFolders)
 	local model = PolygonExtruder.extrude(points, h, col, mat, tileFolders.Buildings)
 	if model then
 		model.Name = "BldgPoly_" .. feature.Id
+		local scaleFactor = BuildingRenderConfig.ScaleFactor or 1.0
+		if scaleFactor ~= 1.0 then
+			pcall(function() model:ScaleTo(scaleFactor) end)
+		end
 		trackPart("BuildingParts", #model:GetChildren())
 		return true
 	end
