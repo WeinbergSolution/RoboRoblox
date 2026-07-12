@@ -8,7 +8,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"28723143"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [2] = {
         NodeId = 1119,
@@ -19,7 +19,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"374096729", "550716599"},
-        WidthsStuds = {5.0, 5.0},
+        WidthsStuds = {14.0, 14.0},
     },
     [3] = {
         NodeId = 1228,
@@ -30,7 +30,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"458274133"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [4] = {
         NodeId = 1270,
@@ -41,7 +41,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"550716599"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {14.0},
     },
     [5] = {
         NodeId = 1499,
@@ -52,7 +52,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"817501200"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [6] = {
         NodeId = 1500,
@@ -63,7 +63,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"817501200"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [7] = {
         NodeId = 1593,
@@ -74,7 +74,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"915091539"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [8] = {
         NodeId = 1594,
@@ -85,7 +85,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"915091539"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [9] = {
         NodeId = 1637,
@@ -96,6 +96,6 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"997796586"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
 }

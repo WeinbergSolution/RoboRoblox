@@ -8,7 +8,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"27847331"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [2] = {
         NodeId = 150,
@@ -19,7 +19,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"27847360"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [3] = {
         NodeId = 151,
@@ -30,6 +30,6 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"27847360"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
 }

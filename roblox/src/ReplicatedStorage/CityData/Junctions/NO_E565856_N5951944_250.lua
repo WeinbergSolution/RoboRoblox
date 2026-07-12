@@ -8,7 +8,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"28723143"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [2] = {
         NodeId = 259,
@@ -19,7 +19,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"29343656", "32260106"},
-        WidthsStuds = {5.0, 5.0},
+        WidthsStuds = {7.8400012544002005, 2.0},
     },
     [3] = {
         NodeId = 385,
@@ -30,7 +30,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"32260106"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {2.0},
     },
     [4] = {
         NodeId = 405,
@@ -41,7 +41,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"32601423"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {2.0},
     },
     [5] = {
         NodeId = 406,
@@ -52,7 +52,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"448557492", "32601423"},
-        WidthsStuds = {5.0, 5.0},
+        WidthsStuds = {2.0, 2.0},
     },
     [6] = {
         NodeId = 407,
@@ -63,7 +63,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"47298415", "32601423"},
-        WidthsStuds = {5.0, 5.0},
+        WidthsStuds = {2.0, 2.0},
     },
     [7] = {
         NodeId = 474,
@@ -74,7 +74,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"47188879"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {2.0},
     },
     [8] = {
         NodeId = 475,
@@ -85,7 +85,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"374096729", "1208289452", "47298415"},
-        WidthsStuds = {5.0, 5.0, 5.0},
+        WidthsStuds = {2.0, 14.0, 14.0},
     },
     [9] = {
         NodeId = 999,
@@ -96,7 +96,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"1208289452", "246993517", "1117672093"},
-        WidthsStuds = {5.0, 5.0, 5.0},
+        WidthsStuds = {11.999999999999998, 14.0, 14.0},
     },
     [10] = {
         NodeId = 1022,
@@ -107,7 +107,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"306932797"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [11] = {
         NodeId = 1023,
@@ -118,7 +118,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"306932797"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [12] = {
         NodeId = 1113,
@@ -129,7 +129,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"1208289449", "366943010"},
-        WidthsStuds = {5.0, 5.0},
+        WidthsStuds = {2.0, 2.0},
     },
     [13] = {
         NodeId = 1225,
@@ -140,7 +140,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"448557492"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {2.0},
     },
     [14] = {
         NodeId = 1266,
@@ -151,7 +151,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"550716595"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [15] = {
         NodeId = 1267,
@@ -162,7 +162,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"550716595"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [16] = {
         NodeId = 1466,
@@ -173,7 +173,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"1117672093", "782649415"},
-        WidthsStuds = {5.0, 5.0},
+        WidthsStuds = {14.0, 14.0},
     },
     [17] = {
         NodeId = 1501,
@@ -184,7 +184,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"822141613"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [18] = {
         NodeId = 1502,
@@ -195,7 +195,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"822141613"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [19] = {
         NodeId = 1503,
@@ -206,7 +206,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"822141613"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [20] = {
         NodeId = 1506,
@@ -217,7 +217,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"832130633"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [21] = {
         NodeId = 1507,
@@ -228,7 +228,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"832130633"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [22] = {
         NodeId = 1585,
@@ -239,7 +239,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"912825682"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [23] = {
         NodeId = 1586,
@@ -250,7 +250,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"912825682"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [24] = {
         NodeId = 1587,
@@ -261,7 +261,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"912825683"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [25] = {
         NodeId = 1588,
@@ -272,7 +272,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"912825683"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [26] = {
         NodeId = 1590,
@@ -283,7 +283,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"913559030"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [27] = {
         NodeId = 1591,
@@ -294,7 +294,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"913559030"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [28] = {
         NodeId = 1675,
@@ -305,7 +305,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"1071303440"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {2.0},
     },
     [29] = {
         NodeId = 1787,
@@ -316,7 +316,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"1208289448", "1208289451"},
-        WidthsStuds = {5.0, 5.0},
+        WidthsStuds = {2.0, 2.0},
     },
     [30] = {
         NodeId = 1788,
@@ -327,7 +327,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"1208289448", "1208289450"},
-        WidthsStuds = {5.0, 5.0},
+        WidthsStuds = {2.0, 2.0},
     },
     [31] = {
         NodeId = 1789,
@@ -338,7 +338,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"1208289449"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {2.0},
     },
     [32] = {
         NodeId = 1790,
@@ -349,7 +349,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"1208289450"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {2.0},
     },
     [33] = {
         NodeId = 1791,
@@ -360,7 +360,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"1208289451"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {2.0},
     },
     [34] = {
         NodeId = 1889,
@@ -371,7 +371,7 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"1321769224"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
     [35] = {
         NodeId = 1890,
@@ -382,6 +382,6 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"1321769224"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
 }

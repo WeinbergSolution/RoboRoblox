@@ -8,6 +8,6 @@ return {
         IsTunnel = false,
         Layer = "0",
         ConnectedRoadIds = {"339918618"},
-        WidthsStuds = {5.0},
+        WidthsStuds = {7.8400012544002005},
     },
 }

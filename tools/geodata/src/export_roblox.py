@@ -190,7 +190,9 @@ def export_junctions(origin):
         layer = feature["properties"].get("layer", "0")
         is_bridge = feature["properties"].get("bridge", "no") == "yes"
         is_tunnel = feature["properties"].get("tunnel", "no") == "yes"
-        width = float(feature["properties"].get("RoadWidthMeters", 5.0))
+        width = float(feature["properties"].get("OSMWidthMeters", 4.0))
+        if "FinalWidthStuds" in feature["properties"]:
+            width = float(feature["properties"]["FinalWidthStuds"]) / 3.571428
         geom_type = feature["geometry"]["type"]
         coords = feature["geometry"]["coordinates"]
         
