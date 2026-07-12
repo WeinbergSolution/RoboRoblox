@@ -10,12 +10,8 @@ local RoadBuilder = require(ServerScriptService:WaitForChild("RoadBuilder"))
 local PolygonExtruder = require(ServerScriptService:WaitForChild("PolygonExtruder"))
 local BuildingRenderConfig = require(ServerScriptService:WaitForChild("BuildingRenderConfig"))
 local Config = require(ServerScriptService:WaitForChild("RoadStyleConfig"))
-local ModularAssetBuilder = require(ServerScriptService:WaitForChild("ModularAssetBuilder"))
 
 local startTime = os.clock()
-
--- Generate Modular Prefabs
-ModularAssetBuilder.buildAll()
 
 local statusFolder = ReplicatedStorage:FindFirstChild("ImportStatus")
 if not statusFolder then
@@ -197,41 +193,19 @@ local function loadJunctions()
 				
 				local rad = (maxW / 2) + Config.Sidewalks.DefaultWidth
 				
-				-- Modular Asset Selection
-				local assetName = "CrossJunction_90_28"
-				if maxW > 40 then assetName = "CrossJunction_90_60" end
-				if node.JunctionType == "TJunction" then
-					assetName = string.gsub(assetName, "Cross", "T")
-				end
+				local part = Instance.new("Part")
+				part.Name = "Junction_" .. node.NodeId
+				part.Shape = Enum.PartType.Cylinder
+				-- A cylinder's X axis is its height in Roblox.
+				-- We want an asphalt height of 0.4.
+				part.Size = Vector3.new(0.4, rad * 2, rad * 2)
+				part.CFrame = CFrame.new(node.LocalPositionMeters[1] * scale, Config.Layers.Road, node.LocalPositionMeters[2] * scale) * CFrame.Angles(0, 0, math.pi/2)
+				part.Color = Config.Colors.Asphalt
+				part.Material = Config.Materials.Asphalt
+				part.Anchored = true
+				part.Parent = tileFolders.Intersections
 				
-				local assets = ReplicatedStorage:FindFirstChild("RoadAssets")
-				local prefab = assets and assets:FindFirstChild(assetName)
-				local pos = Vector3.new(node.LocalPositionMeters[1] * scale, Config.Layers.Road, node.LocalPositionMeters[2] * scale)
-				
-				if prefab then
-					local clone = prefab:Clone()
-					-- Determine orientation from first connected road vector
-					local angleY = 0
-					if node.Vectors and #node.Vectors > 0 then
-						local v = node.Vectors[1]
-						-- Lua atan2 is (y, x). Here Z is y.
-						angleY = -math.atan2(v[2], v[1])
-					end
-					clone:PivotTo(CFrame.new(pos) * CFrame.Angles(0, angleY, 0))
-					clone.Parent = tileFolders.Intersections
-				else
-					-- Fallback to cylinder if prefab missing or it's a ComplexJunction
-					local part = Instance.new("Part")
-					part.Name = "Junction_" .. node.NodeId
-					part.Shape = Enum.PartType.Cylinder
-					part.Size = Vector3.new(0.4, rad * 2, rad * 2)
-					part.CFrame = CFrame.new(pos) * CFrame.Angles(0, 0, math.pi/2)
-					part.Color = Config.Colors.Asphalt
-					part.Material = Config.Materials.Asphalt
-					part.Anchored = true
-					part.Parent = tileFolders.Intersections
-				end
-				
+				local pos = part.Position
 				trackPart("IntersectionParts", 1)
 				
 				if node.JunctionType == "TJunction" then addCameraPoint("TJunction", pos + Vector3.new(0, 15, 0))

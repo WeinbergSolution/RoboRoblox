@@ -22,8 +22,10 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		return
 	end
 
-	local cutback1 = 0
-	local cutback2 = 0
+	local cutbackSW1 = 0
+	local cutbackSW2 = 0
+	local cutbackAsphalt1 = 0
+	local cutbackAsphalt2 = 0
 	
 	if junctionMap then
 		local k1 = math.floor(p1.X * 10) / 10 .. "_" .. math.floor(p1.Z * 10) / 10
@@ -33,7 +35,8 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 			for _, w in ipairs(n1.WidthsStuds) do
 				if w * scale > maxW then maxW = w * scale end
 			end
-			cutback1 = (maxW/2) + Config.Sidewalks.DefaultWidth
+			cutbackSW1 = (maxW/2) + Config.Sidewalks.DefaultWidth
+			cutbackAsphalt1 = 0 -- Asphalt runs all the way to the center of the junction!
 		end
 		
 		local k2 = math.floor(p2.X * 10) / 10 .. "_" .. math.floor(p2.Z * 10) / 10
@@ -43,20 +46,27 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 			for _, w in ipairs(n2.WidthsStuds) do
 				if w * scale > maxW then maxW = w * scale end
 			end
-			cutback2 = (maxW/2) + Config.Sidewalks.DefaultWidth
+			cutbackSW2 = (maxW/2) + Config.Sidewalks.DefaultWidth
+			cutbackAsphalt2 = 0 -- Asphalt runs all the way to the center of the junction!
 		end
 	end
 
-	local actualDist = distance - cutback1 - cutback2
-	if actualDist <= 0.1 then
-		return
-	end
+	local actualDistAsphalt = distance - cutbackAsphalt1 - cutbackAsphalt2
+	local actualDistSW = distance - cutbackSW1 - cutbackSW2
+	
+	if actualDistAsphalt <= 0.1 then return end
 
 	local dir = (p2 - p1).Unit
-	local actualP1 = p1 + dir * cutback1
-	local actualP2 = p2 - dir * cutback2
+	
+	-- Calculate centers for Asphalt and Sidewalks
+	local actualP1Asphalt = p1 + dir * cutbackAsphalt1
+	local actualP2Asphalt = p2 - dir * cutbackAsphalt2
+	local cframeAsphalt = CFrame.lookAt(actualP1Asphalt, actualP2Asphalt) * CFrame.new(0, 0, -actualDistAsphalt / 2)
+	
+	local actualP1SW = p1 + dir * cutbackSW1
+	local actualP2SW = p2 - dir * cutbackSW2
+	local cframeSW = CFrame.lookAt(actualP1SW, actualP2SW) * CFrame.new(0, 0, -actualDistSW / 2)
 
-	local cframe = CFrame.lookAt(actualP1, actualP2) * CFrame.new(0, 0, -actualDist / 2)
 	local hwType = feature.Properties.highway or "unknown"
 	local oneway = feature.Properties.DirectionMode == "one-way"
 	local lanes = feature.Properties.LaneCount or 2
@@ -73,8 +83,15 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 	local col = isPavement and Config.Colors.Pavement or Config.Colors.Asphalt
 	local roadLayerY = Config.Layers.Road
 
-	local roadCFrame = CFrame.new(cframe.Position.X, roadLayerY, cframe.Position.Z) * cframe.Rotation
-	local roadPart = createPart("Road_" .. feature.Id, tileFolder.Roads, col, mat, true, Vector3.new(width, 0.4, actualDist), roadCFrame)
+	local roadCFrameAsphalt = CFrame.new(cframeAsphalt.Position.X, roadLayerY, cframeAsphalt.Position.Z) * cframeAsphalt.Rotation
+	local roadCFrameSW = CFrame.new(cframeSW.Position.X, roadLayerY, cframeSW.Position.Z) * cframeSW.Rotation
+	
+	-- For true pedestrian paths, we use actualDistSW so they don't clip into the center of road intersections
+	local finalRoadDist = isPavement and actualDistSW or actualDistAsphalt
+	local finalRoadCFrame = isPavement and roadCFrameSW or roadCFrameAsphalt
+	if finalRoadDist <= 0.1 then return end
+
+	local roadPart = createPart("Road_" .. feature.Id, tileFolder.Roads, col, mat, true, Vector3.new(width, 0.4, finalRoadDist), finalRoadCFrame)
 
 	if feature.Properties and feature.Properties.name then
 		local namePart = Instance.new("Part")
@@ -83,7 +100,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		namePart.Transparency = 1
 		namePart.Anchored = true
 		namePart.CanCollide = false
-		namePart.CFrame = roadCFrame * CFrame.new(0, 0.21, 0) -- slightly above the 0.4 height road
+		namePart.CFrame = finalRoadCFrame * CFrame.new(0, 0.21, 0) -- slightly above the 0.4 height road
 		namePart.Parent = roadPart
 
 		local surfaceGui = Instance.new("SurfaceGui")
@@ -103,57 +120,60 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		label.Font = Enum.Font.GothamBold
 		surfaceGui.Parent = namePart
 	end
+	
 	if not isPavement and hwType ~= "motorway" and hwType ~= "motorway_link" then
-		local sidewalkW = Config.Sidewalks.DefaultWidth
-		local sidewalkH = Config.Sidewalks.Height
-		local curbW = Config.Sidewalks.CurbWidth
+		if actualDistSW > 0.1 then
+			local sidewalkW = Config.Sidewalks.DefaultWidth
+			local sidewalkH = Config.Sidewalks.Height
+			local curbW = Config.Sidewalks.CurbWidth
 
-		local rsCF = roadCFrame * CFrame.new(width / 2 + sidewalkW / 2, sidewalkH / 2, 0)
-		createPart(
-			"Sidewalk_R_" .. feature.Id,
-			tileFolder.Sidewalks,
-			Config.Colors.Pavement,
-			Config.Materials.Pavement,
-			true,
-			Vector3.new(sidewalkW - curbW, 0.4 + sidewalkH, actualDist),
-			rsCF
-		)
-		local rcCF = roadCFrame * CFrame.new(width / 2 + curbW / 2, sidewalkH / 2, 0)
-		createPart(
-			"Curb_R_" .. feature.Id,
-			tileFolder.Sidewalks,
-			Config.Colors.Curb,
-			Config.Materials.Curb,
-			true,
-			Vector3.new(curbW, 0.4 + sidewalkH, actualDist),
-			rcCF
-		)
+			local rsCF = roadCFrameSW * CFrame.new(width / 2 + sidewalkW / 2, sidewalkH / 2, 0)
+			createPart(
+				"Sidewalk_R_" .. feature.Id,
+				tileFolder.Sidewalks,
+				Config.Colors.Pavement,
+				Config.Materials.Pavement,
+				true,
+				Vector3.new(sidewalkW - curbW, 0.4 + sidewalkH, actualDistSW),
+				rsCF
+			)
+			local rcCF = roadCFrameSW * CFrame.new(width / 2 + curbW / 2, sidewalkH / 2, 0)
+			createPart(
+				"Curb_R_" .. feature.Id,
+				tileFolder.Sidewalks,
+				Config.Colors.Curb,
+				Config.Materials.Curb,
+				true,
+				Vector3.new(curbW, 0.4 + sidewalkH, actualDistSW),
+				rcCF
+			)
 
-		local lsCF = roadCFrame * CFrame.new(-width / 2 - sidewalkW / 2, sidewalkH / 2, 0)
-		createPart(
-			"Sidewalk_L_" .. feature.Id,
-			tileFolder.Sidewalks,
-			Config.Colors.Pavement,
-			Config.Materials.Pavement,
-			true,
-			Vector3.new(sidewalkW - curbW, 0.4 + sidewalkH, actualDist),
-			lsCF
-		)
-		local lcCF = roadCFrame * CFrame.new(-width / 2 - curbW / 2, sidewalkH / 2, 0)
-		createPart(
-			"Curb_L_" .. feature.Id,
-			tileFolder.Sidewalks,
-			Config.Colors.Curb,
-			Config.Materials.Curb,
-			true,
-			Vector3.new(curbW, 0.4 + sidewalkH, actualDist),
-			lcCF
-		)
+			local lsCF = roadCFrameSW * CFrame.new(-width / 2 - sidewalkW / 2, sidewalkH / 2, 0)
+			createPart(
+				"Sidewalk_L_" .. feature.Id,
+				tileFolder.Sidewalks,
+				Config.Colors.Pavement,
+				Config.Materials.Pavement,
+				true,
+				Vector3.new(sidewalkW - curbW, 0.4 + sidewalkH, actualDistSW),
+				lsCF
+			)
+			local lcCF = roadCFrameSW * CFrame.new(-width / 2 - curbW / 2, sidewalkH / 2, 0)
+			createPart(
+				"Curb_L_" .. feature.Id,
+				tileFolder.Sidewalks,
+				Config.Colors.Curb,
+				Config.Materials.Curb,
+				true,
+				Vector3.new(curbW, 0.4 + sidewalkH, actualDistSW),
+				lcCF
+			)
+		end
 	end
 
-	if not noMarkings then
+	if not noMarkings and actualDistSW > 0.1 then
 		local markY = Config.Layers.Marking
-		local markCF = CFrame.new(cframe.Position.X, markY, cframe.Position.Z) * cframe.Rotation
+		local markCF = CFrame.new(cframeSW.Position.X, markY, cframeSW.Position.Z) * cframeSW.Rotation
 
 		local mColor = Config.Colors.MarkingWhite
 		local mMat = Config.Materials.Marking
@@ -166,7 +186,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 			mColor,
 			mMat,
 			false,
-			Vector3.new(mW, mT, actualDist),
+			Vector3.new(mW, mT, actualDistSW),
 			markCF * CFrame.new(width / 2 - mW, 0, 0)
 		)
 		createPart(
@@ -175,7 +195,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 			mColor,
 			mMat,
 			false,
-			Vector3.new(mW, mT, actualDist),
+			Vector3.new(mW, mT, actualDistSW),
 			markCF * CFrame.new(-width / 2 + mW, 0, 0)
 		)
 
@@ -185,8 +205,8 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		local cycleLen = dLen + dSpc
 
 		if not oneway and lanes >= 2 then
-			local tDist = -(cumulativeDist + cutback1) % cycleLen
-			while tDist + dLen < actualDist do
+			local tDist = -(cumulativeDist + cutbackSW1) % cycleLen
+			while tDist + dLen < actualDistSW do
 				if tDist >= 0 then
 					createPart(
 						"CenterDash",
@@ -195,7 +215,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 						mMat,
 						false,
 						Vector3.new(mW, mT, dLen),
-						markCF * CFrame.new(0, 0, actualDist / 2 - tDist - dLen / 2)
+						markCF * CFrame.new(0, 0, actualDistSW / 2 - tDist - dLen / 2)
 					)
 				end
 				tDist = tDist + cycleLen
@@ -205,9 +225,9 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 		if oneway and lanes > 1 then
 			local laneWidth = width / lanes
 			for l = 1, lanes - 1 do
-				local offset = -width / 2 + l * laneWidth
-				local tDist = -(cumulativeDist + cutback1) % cycleLen
-				while tDist + dLen < actualDist do
+				local xOffset = -width / 2 + (l * laneWidth)
+				local tDist = -(cumulativeDist + cutbackSW1) % cycleLen
+				while tDist + dLen < actualDistSW do
 					if tDist >= 0 then
 						createPart(
 							"LaneDash",
@@ -216,7 +236,7 @@ function RoadBuilder.buildRoadSegment(p1, p2, width, feature, tileFolder, scale,
 							mMat,
 							false,
 							Vector3.new(mW, mT, dLen),
-							markCF * CFrame.new(offset, 0, actualDist / 2 - tDist - dLen / 2)
+							markCF * CFrame.new(xOffset, 0, actualDistSW / 2 - tDist - dLen / 2)
 						)
 					end
 					tDist = tDist + cycleLen
