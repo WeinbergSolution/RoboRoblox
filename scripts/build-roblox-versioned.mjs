@@ -50,11 +50,11 @@ if (fs.existsSync(buildPath)) {
 console.log(`Building ${baseName}...`);
 try {
     // Falls rokit installiert ist, wird rojo build funktionieren.
-    execSync(`.\\rokit.exe run rojo build roblox/default.project.json -o "${buildPath}"`, { cwd: ROOT_DIR, stdio: 'inherit' });
+    execSync(`"%USERPROFILE%\\.rokit\\bin\\rojo.exe" build roblox/default.project.json -o "${buildPath}"`, { cwd: ROOT_DIR, stdio: 'inherit' });
 } catch (e) {
     try {
         // Fallback
-        execSync(`rojo build roblox/default.project.json -o "${buildPath}"`, { cwd: ROOT_DIR, stdio: 'inherit' });
+        execSync(`.\\rojo.exe build roblox/default.project.json -o "${buildPath}"`, { cwd: ROOT_DIR, stdio: 'inherit' });
     } catch(e2) {
         console.error("Failed to build with Rojo.");
         process.exit(1);

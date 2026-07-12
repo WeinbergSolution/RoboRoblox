@@ -10,17 +10,13 @@
     },
     "ServerScriptService": {
       "$className": "ServerScriptService",
-      "Importer": {
-        "$path": "src/ServerScriptService/Importer.server.lua"
-      }
+      "$path": "src/ServerScriptService"
     },
     "StarterPlayer": {
       "$className": "StarterPlayer",
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
-        "DebugOverlay": {
-          "$path": "src/StarterPlayer/StarterPlayerScripts/DebugOverlay.local.lua"
-        }
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
       }
     },
     "Workspace": {

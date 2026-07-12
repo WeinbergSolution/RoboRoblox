@@ -1,44 +1,50 @@
 return {
-    [1] = {
-        Id = "1124247293",
-        Type = "LineString",
-        Properties = {
-            ["addr:city"] = "Norderstedt",
-            ["addr:housenumber"] = "30",
-            ["addr:postcode"] = "22844",
-            ["addr:street"] = "Fadens Tannen",
-            ["amenity"] = "school",
-            ["name"] = "Gemeinschaftsschule Harksheide",
-            ["school:de"] = "Gemeinschaftsschule",
-            ["website"] = "https://www.gemsharksheide.de/",
-            ["wheelchair"] = "limited",
-            ["osm_id"] = 1124247293,
-            ["tile_500"] = "NO_E566000_N5950500_500",
-            ["tile_250"] = "NO_E566250_N5950750_250",
-            ["shop"] = "",
-            ["public_transport"] = "",
-            ["railway"] = "",
-        },
-        Geometry = {
-            {267.80, -661.40}, {376.36, -719.76}, {405.30, -626.03}, {397.15, -512.42}, {373.70, -471.95}, {348.72, -488.72}, {267.80, -661.40}
-        }
-    },
-    [2] = {
-        Id = "8497170858",
-        Type = "Point",
-        Properties = {
-            ["bus"] = "yes",
-            ["name"] = "Harksheide, Fadens Tannen",
-            ["public_transport"] = "stop_position",
-            ["osm_id"] = 8497170858,
-            ["tile_500"] = "NO_E566000_N5950500_500",
-            ["tile_250"] = "NO_E566250_N5950750_250",
-            ["amenity"] = "",
-            ["shop"] = "",
-            ["railway"] = "",
-        },
-        Geometry = {
-            {389.40, -451.52}
-        }
-    },
+	[1] = {
+		Id = "1124247293",
+		Type = "LineString",
+		Properties = {
+			["addr:city"] = "Norderstedt",
+			["addr:housenumber"] = "30",
+			["addr:postcode"] = "22844",
+			["addr:street"] = "Fadens Tannen",
+			["amenity"] = "school",
+			["name"] = "Gemeinschaftsschule Harksheide",
+			["school:de"] = "Gemeinschaftsschule",
+			["website"] = "https://www.gemsharksheide.de/",
+			["wheelchair"] = "limited",
+			["osm_id"] = 1124247293,
+			["tile_500"] = "NO_E566000_N5950500_500",
+			["tile_250"] = "NO_E566250_N5950750_250",
+			["shop"] = "",
+			["public_transport"] = "",
+			["railway"] = "",
+		},
+		Geometry = {
+			{ 267.80, -661.40 },
+			{ 376.36, -719.76 },
+			{ 405.30, -626.03 },
+			{ 397.15, -512.42 },
+			{ 373.70, -471.95 },
+			{ 348.72, -488.72 },
+			{ 267.80, -661.40 },
+		},
+	},
+	[2] = {
+		Id = "8497170858",
+		Type = "Point",
+		Properties = {
+			["bus"] = "yes",
+			["name"] = "Harksheide, Fadens Tannen",
+			["public_transport"] = "stop_position",
+			["osm_id"] = 8497170858,
+			["tile_500"] = "NO_E566000_N5950500_500",
+			["tile_250"] = "NO_E566250_N5950750_250",
+			["amenity"] = "",
+			["shop"] = "",
+			["railway"] = "",
+		},
+		Geometry = {
+			{ 389.40, -451.52 },
+		},
+	},
 }

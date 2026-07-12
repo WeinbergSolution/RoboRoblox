@@ -11,7 +11,10 @@
     "roblox:build": "pnpm run roblox:build:versioned",
     "roblox:build:versioned": "node scripts/build-roblox-versioned.mjs",
     "geodata:build": "cd tools/geodata && python -m uv run python src/pipeline.py && python -m uv run python src/export_roblox.py",
-    "lint:luau": "node scripts/lint-luau.mjs",
-    "format:luau:check": "node scripts/lint-luau.mjs"
+    "format:luau": "\"%USERPROFILE%\\.rokit\\bin\\stylua.exe\" roblox/src",
+    "format:luau:check": "\"%USERPROFILE%\\.rokit\\bin\\stylua.exe\" --check roblox/src",
+    "lint:luau": "\"%USERPROFILE%\\.rokit\\bin\\selene.exe\" roblox/src",
+    "analyze:luau": "\"%USERPROFILE%\\.rokit\\bin\\luau-lsp.exe\" analyze --sourcemap=roblox/sourcemap.json roblox/src",
+    "test": "node scripts/test-integrity.mjs"
   }
 }

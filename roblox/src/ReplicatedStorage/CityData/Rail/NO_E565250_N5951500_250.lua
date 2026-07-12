@@ -1,68 +1,71 @@
 return {
-    [1] = {
-        Id = "332582157",
-        Type = "LineString",
-        Properties = {
-            ["electrified"] = "no",
-            ["gauge"] = "1435",
-            ["layer"] = "-1",
-            ["level"] = "-1",
-            ["network"] = "HVV",
-            ["operator"] = "AKN Eisenbahn GmbH",
-            ["passenger_lines"] = "1",
-            ["railway"] = "rail",
-            ["railway:pzb"] = "yes",
-            ["ref"] = "9122",
-            ["usage"] = "branch",
-            ["osm_id"] = 332582157,
-            ["tile_500"] = "NO_E565000_N5951500_500",
-            ["tile_250"] = "NO_E565250_N5951500_250",
-        },
-        Geometry = {
-            {-611.42, 167.03}, {-603.16, 34.25}
-        }
-    },
-    [2] = {
-        Id = "454292955",
-        Type = "LineString",
-        Properties = {
-            ["electrified"] = "no",
-            ["gauge"] = "1435",
-            ["layer"] = "-1",
-            ["network"] = "HVV",
-            ["operator"] = "AKN Eisenbahn GmbH",
-            ["passenger_lines"] = "1",
-            ["railway"] = "rail",
-            ["railway:pzb"] = "yes",
-            ["ref"] = "9122",
-            ["usage"] = "branch",
-            ["osm_id"] = 454292955,
-            ["tile_500"] = "NO_E565000_N5951500_500",
-            ["tile_250"] = "NO_E565250_N5951500_250",
-        },
-        Geometry = {
-            {-622.61, 333.04}, {-611.42, 167.03}
-        }
-    },
-    [3] = {
-        Id = "653547645",
-        Type = "LineString",
-        Properties = {
-            ["electrified"] = "rail",
-            ["frequency"] = "0",
-            ["gauge"] = "1435",
-            ["layer"] = "-1",
-            ["level"] = "-1",
-            ["network"] = "HVV",
-            ["railway"] = "subway",
-            ["railway:track_ref"] = "1",
-            ["voltage"] = "750",
-            ["osm_id"] = 653547645,
-            ["tile_500"] = "NO_E565000_N5951500_500",
-            ["tile_250"] = "NO_E565250_N5951500_250",
-        },
-        Geometry = {
-            {-618.70, 163.81}, {-610.85, 34.01}
-        }
-    },
+	[1] = {
+		Id = "332582157",
+		Type = "LineString",
+		Properties = {
+			["electrified"] = "no",
+			["gauge"] = "1435",
+			["layer"] = "-1",
+			["level"] = "-1",
+			["network"] = "HVV",
+			["operator"] = "AKN Eisenbahn GmbH",
+			["passenger_lines"] = "1",
+			["railway"] = "rail",
+			["railway:pzb"] = "yes",
+			["ref"] = "9122",
+			["usage"] = "branch",
+			["osm_id"] = 332582157,
+			["tile_500"] = "NO_E565000_N5951500_500",
+			["tile_250"] = "NO_E565250_N5951500_250",
+		},
+		Geometry = {
+			{ -611.42, 167.03 },
+			{ -603.16, 34.25 },
+		},
+	},
+	[2] = {
+		Id = "454292955",
+		Type = "LineString",
+		Properties = {
+			["electrified"] = "no",
+			["gauge"] = "1435",
+			["layer"] = "-1",
+			["network"] = "HVV",
+			["operator"] = "AKN Eisenbahn GmbH",
+			["passenger_lines"] = "1",
+			["railway"] = "rail",
+			["railway:pzb"] = "yes",
+			["ref"] = "9122",
+			["usage"] = "branch",
+			["osm_id"] = 454292955,
+			["tile_500"] = "NO_E565000_N5951500_500",
+			["tile_250"] = "NO_E565250_N5951500_250",
+		},
+		Geometry = {
+			{ -622.61, 333.04 },
+			{ -611.42, 167.03 },
+		},
+	},
+	[3] = {
+		Id = "653547645",
+		Type = "LineString",
+		Properties = {
+			["electrified"] = "rail",
+			["frequency"] = "0",
+			["gauge"] = "1435",
+			["layer"] = "-1",
+			["level"] = "-1",
+			["network"] = "HVV",
+			["railway"] = "subway",
+			["railway:track_ref"] = "1",
+			["voltage"] = "750",
+			["osm_id"] = 653547645,
+			["tile_500"] = "NO_E565000_N5951500_500",
+			["tile_250"] = "NO_E565250_N5951500_250",
+		},
+		Geometry = {
+			{ -618.70, 163.81 },
+			{ -610.85, 34.01 },
+		},
+	},
 }
